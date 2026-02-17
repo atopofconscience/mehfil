@@ -2,8 +2,8 @@ name: Scrape Events
 
 on:
   schedule:
-    # Run daily at 8am UTC (3am EST)
-    - cron: '0 8 * * *'
+    # Run daily at 1am UTC (8pm EST / 9pm EDT)
+    - cron: '0 1 * * *'
   workflow_dispatch:  # Allow manual trigger
 
 jobs:
