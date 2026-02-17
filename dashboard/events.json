@@ -3530,6 +3530,41 @@
       "longitude": -71.1221412
     },
     {
+      "id": "30ad508d-cacd-816c-916d-e466c19d09ad",
+      "name": "Allergen Free Cookie Creations - Cooking Class in Boston | Cozymeal\u2122",
+      "date": "2026-02-22",
+      "time": "9:00 AM",
+      "location": "Location provided after booking",
+      "address": "Brighton, MA",
+      "price": "",
+      "description": "",
+      "url": "https://www.eventbrite.com/e/allergen-free-cookie-creations-cooking-class-in-boston-cozymealtm-tickets-1975339608945",
+      "source": "Eventbrite",
+      "categories": [
+        "Food & Markets"
+      ],
+      "latitude": 42.3389629,
+      "longitude": -71.1564379
+    },
+    {
+      "id": "30ad508d-cacd-8168-a217-de90411ad45c",
+      "name": "Handcrafted Sweet and Savory Pies - Cooking Class in Boston | Cozymeal\u2122",
+      "date": "2026-02-22",
+      "time": "9:00 AM",
+      "location": "Location provided after booking",
+      "address": "Brighton, MA",
+      "price": "",
+      "description": "",
+      "url": "https://www.eventbrite.com/e/handcrafted-sweet-and-savory-pies-cooking-class-in-boston-cozymealtm-tickets-1975339606939",
+      "source": "Eventbrite",
+      "categories": [
+        "Arts & Crafts",
+        "Food & Markets"
+      ],
+      "latitude": 42.3389629,
+      "longitude": -71.1564379
+    },
+    {
       "id": "30ad508d-cacd-8191-8ed2-f5eef4a82358",
       "name": "Sunday morning meditation: more connection, less judgement",
       "date": "2026-02-22",
@@ -4256,6 +4291,23 @@
       ],
       "latitude": 42.3896283,
       "longitude": -71.1060766
+    },
+    {
+      "id": "30ad508d-cacd-8127-8aca-c12d2ba573b5",
+      "name": "Instructed Slow Flow Yoga",
+      "date": "2026-02-23",
+      "time": "12:30 PM",
+      "location": "Fenway Community Center",
+      "address": "1282 Boylston Street, Boston, MA",
+      "price": "",
+      "description": "Join us for slow flow hour long yoga class led by an instructor here at the Center with neighbors and friends! No experience required!",
+      "url": "https://www.eventbrite.com/e/instructed-slow-flow-yoga-tickets-1980748972497",
+      "source": "Eventbrite",
+      "categories": [
+        "Sports & Outdoors"
+      ],
+      "latitude": 42.3444486,
+      "longitude": -71.0975411
     },
     {
       "id": "30ad508d-cacd-8128-87c3-d88872541e79",
@@ -5524,6 +5576,25 @@
       ],
       "latitude": 42.36196389999999,
       "longitude": -71.05703609999999
+    },
+    {
+      "id": "30ad508d-cacd-81cd-b4cd-fa9b9ee065b1",
+      "name": "Hatha Yoga with Live Music",
+      "date": "2026-02-28",
+      "time": "12:00 PM",
+      "location": "The Lilypad",
+      "address": "1353 Cambridge Street, Cambridge, MA",
+      "price": "",
+      "description": "Relax and rejuvenate your mind, body, and spirit in this meditative Yoga class at the Lilypad, complete with live musical accompaniment.",
+      "url": "https://www.eventbrite.com/e/hatha-yoga-with-live-music-registration-1982979977493",
+      "source": "Eventbrite",
+      "categories": [
+        "South Asian",
+        "Sports & Outdoors",
+        "Music & Dance"
+      ],
+      "latitude": 42.3738079,
+      "longitude": -71.100088
     },
     {
       "id": "30ad508d-cacd-8133-9af5-fffe3a42c585",
@@ -17113,5 +17184,5 @@
       "longitude": null
     }
   ],
-  "updated": "2026-02-17T23:00:33.057013"
+  "updated": "2026-02-17T23:20:37.766487"
 }
