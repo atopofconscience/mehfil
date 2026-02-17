@@ -4,7 +4,16 @@ on:
   schedule:
     # Run daily at 1am UTC (8pm EST / 9pm EDT)
     - cron: '0 1 * * *'
-  workflow_dispatch:  # Allow manual trigger
+  workflow_dispatch:
+    inputs:
+      clear_database:
+        description: 'Clear all events before scraping (fresh start)'
+        required: false
+        default: 'false'
+        type: choice
+        options:
+          - 'false'
+          - 'true'
 
 permissions:
   contents: write
@@ -24,6 +33,13 @@ jobs:
 
       - name: Install dependencies
         run: pip install -r requirements.txt
+
+      - name: Clear database (if requested)
+        if: ${{ github.event.inputs.clear_database == 'true' }}
+        env:
+          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+          NOTION_DATABASE_ID: ${{ secrets.NOTION_DATABASE_ID }}
+        run: python clear_notion_db.py
 
       - name: Run scraper
         env:

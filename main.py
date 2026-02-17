@@ -64,6 +64,14 @@ def main():
     print("\nPushing events to Notion...")
     try:
         notion = NotionEventClient()
+
+        # First, clean up past events
+        print("\nCleaning up past events...")
+        cleanup = notion.cleanup_past_events()
+        print(f"  Removed: {cleanup['deleted']} past events")
+        print(f"  Kept: {cleanup['kept_ongoing']} ongoing multi-day events")
+
+        # Then add new events
         results = notion.add_events(all_events, skip_duplicates=True)
         print(f"\nResults:")
         print(f"  Added: {results['added']}")

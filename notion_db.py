@@ -1,6 +1,7 @@
 """Notion client for pushing events to the database."""
 
 import os
+from datetime import datetime, timedelta
 from notion_client import Client
 from scrapers.base import Event
 
@@ -115,3 +116,57 @@ class NotionEventClient:
                 print(f"Error adding '{event.name[:30]}': {e}")
 
         return {"added": added, "skipped": skipped, "errors": errors}
+
+    def cleanup_past_events(self) -> dict:
+        """Remove events that have already passed.
+
+        For single-day events: remove if date is before today.
+        For multi-day events: remove if end date is before today.
+        """
+        today = datetime.now().date()
+        deleted = 0
+        kept = 0
+        errors = 0
+
+        has_more = True
+        start_cursor = None
+
+        while has_more:
+            # Query for events with dates before today
+            response = self.client.databases.query(
+                database_id=self.database_id,
+                start_cursor=start_cursor,
+                filter={
+                    "property": "Date",
+                    "date": {
+                        "before": today.isoformat()
+                    }
+                }
+            )
+
+            for page in response["results"]:
+                page_id = page["id"]
+                date_prop = page.get("properties", {}).get("Date", {}).get("date", {})
+
+                # Check if it's a multi-day event (has end date)
+                end_date_str = date_prop.get("end")
+
+                if end_date_str:
+                    # Multi-day event - only delete if end date is also past
+                    end_date = datetime.strptime(end_date_str[:10], "%Y-%m-%d").date()
+                    if end_date >= today:
+                        kept += 1
+                        continue  # Event is still ongoing
+
+                # Delete the past event
+                try:
+                    self.client.pages.update(page_id=page_id, archived=True)
+                    deleted += 1
+                except Exception as e:
+                    errors += 1
+                    print(f"  Error deleting past event: {e}")
+
+            has_more = response.get("has_more", False)
+            start_cursor = response.get("next_cursor")
+
+        return {"deleted": deleted, "kept_ongoing": kept, "errors": errors}
