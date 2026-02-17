@@ -100,6 +100,8 @@ class EventbriteScraper(BaseScraper):
                         if event_data.get("@type") == "Event":
                             event = self._parse_json_ld(event_data, term)
                             if event:
+                                # Fetch individual event page to get accurate time
+                                event = self._enrich_with_time(event)
                                 events.append(event)
 
                 # Handle single event
@@ -112,6 +114,39 @@ class EventbriteScraper(BaseScraper):
                 continue
 
         return events
+
+    def _enrich_with_time(self, event: Event) -> Event:
+        """Fetch individual event page to get accurate time."""
+        if event.time:  # Already has time
+            return event
+
+        try:
+            response = requests.get(event.url, headers=self.headers, timeout=10)
+            if response.status_code != 200:
+                return event
+
+            soup = BeautifulSoup(response.text, "html.parser")
+
+            # Look for JSON-LD with full datetime
+            # Eventbrite uses various @type values: Event, EducationEvent, MusicEvent, etc.
+            event_types = ["Event", "EducationEvent", "MusicEvent", "SocialEvent", "BusinessEvent", "SportsEvent"]
+
+            for script in soup.find_all("script", {"type": "application/ld+json"}):
+                try:
+                    data = json.loads(script.string)
+                    if isinstance(data, dict) and data.get("@type") in event_types:
+                        start_date_str = data.get("startDate", "")
+                        if "T" in start_date_str:
+                            dt = datetime.fromisoformat(start_date_str.replace("Z", "+00:00"))
+                            event.time = dt.strftime("%I:%M %p").lstrip("0")
+                            break
+                except (json.JSONDecodeError, ValueError):
+                    continue
+
+        except Exception:
+            pass  # Keep event without time
+
+        return event
 
     def _parse_json_ld(self, data: dict, search_term: str) -> Event:
         """Parse JSON-LD event data into Event object."""

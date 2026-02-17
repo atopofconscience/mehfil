@@ -152,12 +152,16 @@ class BostonCalendarScraper(BaseScraper):
         )
 
     def _enrich_event_details(self, event: Event) -> Event:
-        """Fetch detail page to get actual event URL and admission price."""
-        event_url, price, description = self._get_event_details(event.url)
+        """Fetch detail page to get actual event URL, admission price, and time."""
+        boston_calendar_url = event.url  # Keep original for fallback
+        event_url, price, description, time_str = self._get_event_details(event.url)
 
         # Update event with enriched data
         if event_url:
             event.url = event_url
+        # If no external URL found, keep the Boston Calendar URL
+        # (it's better than nothing)
+
         if price:
             event.price = price
         if description:
@@ -165,20 +169,49 @@ class BostonCalendarScraper(BaseScraper):
             # Re-categorize with description
             event.category = self._categorize(event.name, description)
 
+        # Update time if we found it on the detail page and didn't have it before
+        if time_str and not event.time:
+            event.time = time_str
+
         return event
 
     def _get_event_details(self, detail_url: str) -> tuple:
-        """Fetch event detail page to get actual event website and admission price."""
+        """Fetch event detail page to get actual event website, admission price, and time."""
         event_url = None
         price = None
         description = None
+        time_str = None
 
         try:
             response = requests.get(detail_url, headers=self.headers, timeout=10)
             if response.status_code != 200:
-                return event_url, price, description
+                return event_url, price, description, time_str
 
             soup = BeautifulSoup(response.text, "html.parser")
+
+            # Extract time from <span id="starting_time"> or itemprop="startDate"
+            starting_time = soup.find("span", id="starting_time")
+            if starting_time:
+                time_text = starting_time.get_text(strip=True)
+                if time_text:
+                    # Convert "11:00a" to "11:00 AM"
+                    time_match = re.search(r'(\d{1,2}:\d{2})([ap])', time_text, re.IGNORECASE)
+                    if time_match:
+                        hour_min = time_match.group(1)
+                        ampm = time_match.group(2).lower()
+                        time_str = f"{hour_min} {'PM' if ampm == 'p' else 'AM'}"
+
+            # Fallback to itemprop startDate
+            if not time_str:
+                start_date_elem = soup.find("span", {"itemprop": "startDate"})
+                if start_date_elem:
+                    content = start_date_elem.get("content", "")
+                    # Format: "2026-02-21 11:00am EST"
+                    time_match = re.search(r'(\d{1,2}:\d{2})(am|pm)', content, re.IGNORECASE)
+                    if time_match:
+                        hour_min = time_match.group(1)
+                        ampm = time_match.group(2).upper()
+                        time_str = f"{hour_min} {ampm}"
 
             # Boston Calendar structure: <p><b>Event website:</b><br/> followed by <a href>
             # Find all <b> tags and look for the labels
@@ -213,7 +246,7 @@ class BostonCalendarScraper(BaseScraper):
             if not event_url:
                 for a_tag in soup.find_all("a", href=True):
                     href = a_tag.get("href", "")
-                    if any(site in href.lower() for site in ["eventbrite", "tickets.", "ticketmaster", "register", "signup"]):
+                    if any(site in href.lower() for site in ["eventbrite", "tickets.", "ticketmaster", "register", "signup", "simpletix", "dice.fm", "ticketleap"]):
                         if "thebostoncalendar.com" not in href:
                             event_url = href
                             break
@@ -234,7 +267,7 @@ class BostonCalendarScraper(BaseScraper):
         except Exception as e:
             pass  # Silent fail, return what we have
 
-        return event_url, price, description
+        return event_url, price, description, time_str
 
     def _parse_date_time(self, date_text: str) -> tuple:
         """Parse date and time from text like 'Sunday, Feb 01, 2026 7:00a'."""
