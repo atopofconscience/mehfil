@@ -1,0 +1,15 @@
+# Environment variables (KEEP PRIVATE)
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
