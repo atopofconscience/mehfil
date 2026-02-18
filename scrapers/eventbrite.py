@@ -1,6 +1,7 @@
 """Scraper for Eventbrite events using JSON-LD structured data."""
 
 import json
+import time
 import requests
 from bs4 import BeautifulSoup
 from datetime import datetime
@@ -123,7 +124,10 @@ class EventbriteScraper(BaseScraper):
             return event
 
         try:
-            response = requests.get(event.url, headers=self.headers, timeout=10)
+            # Small delay to avoid rate limiting
+            time.sleep(0.3)
+
+            response = requests.get(event.url, headers=self.headers, timeout=15)
             if response.status_code != 200:
                 return event
 
@@ -146,7 +150,7 @@ class EventbriteScraper(BaseScraper):
                     continue
 
         except Exception:
-            pass  # Keep event without time
+            pass  # Silent fail, event will be without time
 
         return event
 
