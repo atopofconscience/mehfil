@@ -96,7 +96,8 @@ class EventbriteScraper(BaseScraper):
                     Object.defineProperty(navigator, 'webdriver', {get: () => undefined});
                 """)
 
-                for term in self.SEARCH_TERMS:
+                print(f"  Searching {len(self.SEARCH_TERMS)} terms...")
+                for i, term in enumerate(self.SEARCH_TERMS):
                     try:
                         events = self._search_term_playwright(page, term)
                         for event in events:
@@ -106,12 +107,18 @@ class EventbriteScraper(BaseScraper):
                     except Exception as e:
                         print(f"    Error scraping '{term}': {e}")
                         continue
+                print(f"  Total unique events: {len(all_events)}")
 
                 browser.close()
         except Exception as e:
             print(f"  Playwright error: {e}")
 
         return all_events
+
+    # Event types that Eventbrite uses in JSON-LD
+    EVENT_TYPES = {"Event", "EducationEvent", "MusicEvent", "SocialEvent",
+                   "BusinessEvent", "SportsEvent", "DanceEvent", "Festival",
+                   "FoodEvent", "TheaterEvent", "ExhibitionEvent"}
 
     def _search_term_playwright(self, page, term: str) -> List[Event]:
         """Search for a specific term using Playwright."""
@@ -128,15 +135,23 @@ class EventbriteScraper(BaseScraper):
         soup = BeautifulSoup(html, "html.parser")
         events = []
 
+        # Check page title for blocking
+        title = soup.find("title")
+        title_text = title.get_text() if title else "No title"
+
+        # Detect various blocking scenarios
+        if "just a moment" in title_text.lower() or "blocked" in title_text.lower():
+            print(f"    Blocked by Cloudflare for '{term}'")
+            return []
+        if "access denied" in title_text.lower() or "403" in title_text:
+            print(f"    Access denied for '{term}'")
+            return []
+
         # Extract JSON-LD structured data
         scripts = soup.find_all("script", {"type": "application/ld+json"})
 
         if not scripts:
-            # Debug: check page title to see if we got blocked
-            title = soup.find("title")
-            title_text = title.get_text() if title else "No title"
-            if "just a moment" in title_text.lower() or "blocked" in title_text.lower():
-                print(f"    Blocked by Cloudflare for '{term}'")
+            print(f"    No JSON-LD found for '{term}' (title: {title_text[:50]})")
             return []
 
         for script in scripts:
@@ -151,21 +166,28 @@ class EventbriteScraper(BaseScraper):
                 if isinstance(data, dict) and "itemListElement" in data:
                     for item in data["itemListElement"]:
                         event_data = item.get("item", {})
-                        if event_data.get("@type") == "Event":
+                        event_type = event_data.get("@type", "")
+                        # Accept any event type, not just "Event"
+                        if event_type in self.EVENT_TYPES or "Event" in event_type:
                             event = self._parse_json_ld(event_data, term)
                             if event:
                                 events.append(event)
 
-                # Handle single event
-                elif isinstance(data, dict) and data.get("@type") == "Event":
-                    event = self._parse_json_ld(data, term)
-                    if event:
-                        events.append(event)
+                # Handle single event - accept any event type
+                elif isinstance(data, dict):
+                    event_type = data.get("@type", "")
+                    if event_type in self.EVENT_TYPES or "Event" in event_type:
+                        event = self._parse_json_ld(data, term)
+                        if event:
+                            events.append(event)
 
             except json.JSONDecodeError as e:
                 continue
             except Exception as e:
                 continue
+
+        if events:
+            print(f"    '{term}': found {len(events)} events")
 
         return events
 
