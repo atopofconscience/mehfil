@@ -1,11 +1,17 @@
-"""Scraper for Eventbrite events using JSON-LD structured data."""
+"""Scraper for Eventbrite events using Playwright for browser automation."""
 
 import json
-import time
-import requests
+import re
 from bs4 import BeautifulSoup
 from datetime import datetime
 from typing import List
+
+try:
+    from playwright.sync_api import sync_playwright
+    PLAYWRIGHT_AVAILABLE = True
+except ImportError:
+    PLAYWRIGHT_AVAILABLE = False
+
 from .base import BaseScraper, Event, SOUTH_ASIAN_KEYWORDS, MIDDLE_EASTERN_KEYWORDS, CATEGORY_KEYWORDS
 
 
@@ -57,52 +63,50 @@ class EventbriteScraper(BaseScraper):
 
     def __init__(self):
         self.base_url = "https://www.eventbrite.com/d/ma--boston"
-        self.session = requests.Session()
-        self.session.headers.update({
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
-            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
-            "Accept-Language": "en-US,en;q=0.9",
-            "Accept-Encoding": "gzip, deflate, br",
-            "Sec-Fetch-Dest": "document",
-            "Sec-Fetch-Mode": "navigate",
-            "Sec-Fetch-Site": "none",
-            "Sec-Fetch-User": "?1",
-            "Upgrade-Insecure-Requests": "1",
-        })
-        self.headers = dict(self.session.headers)
 
     def scrape(self) -> List[Event]:
-        """Scrape Eventbrite using JSON-LD structured data."""
+        """Scrape Eventbrite using Playwright browser automation."""
+        if not PLAYWRIGHT_AVAILABLE:
+            print("  Playwright not available, skipping Eventbrite")
+            return []
+
         all_events = []
         seen_urls = set()
 
-        for term in self.SEARCH_TERMS:
-            try:
-                events = self._search_term(term)
-                for event in events:
-                    if event.url not in seen_urls:
-                        seen_urls.add(event.url)
-                        all_events.append(event)
-            except Exception as e:
-                print(f"  Error scraping Eventbrite for '{term}': {e}")
+        try:
+            with sync_playwright() as p:
+                browser = p.chromium.launch(headless=True)
+                context = browser.new_context(
+                    user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"
+                )
+                page = context.new_page()
+
+                for term in self.SEARCH_TERMS:
+                    try:
+                        events = self._search_term_playwright(page, term)
+                        for event in events:
+                            if event.url not in seen_urls:
+                                seen_urls.add(event.url)
+                                all_events.append(event)
+                    except Exception as e:
+                        print(f"    Error scraping '{term}': {e}")
+                        continue
+
+                browser.close()
+        except Exception as e:
+            print(f"  Playwright error: {e}")
 
         return all_events
 
-    def _search_term(self, term: str) -> List[Event]:
-        """Search for a specific term on Eventbrite."""
+    def _search_term_playwright(self, page, term: str) -> List[Event]:
+        """Search for a specific term using Playwright."""
         search_url = f"{self.base_url}/{term}/"
-        try:
-            time.sleep(0.2)  # Small delay between searches
-            response = self.session.get(search_url, timeout=15)
 
-            if response.status_code != 200:
-                print(f"    Eventbrite returned {response.status_code} for '{term}'")
-                return []
-        except Exception as e:
-            print(f"    Eventbrite request failed for '{term}': {e}")
-            return []
+        page.goto(search_url, wait_until="domcontentloaded", timeout=30000)
+        page.wait_for_timeout(2000)  # Wait for dynamic content
 
-        soup = BeautifulSoup(response.text, "html.parser")
+        html = page.content()
+        soup = BeautifulSoup(html, "html.parser")
         events = []
 
         # Extract JSON-LD structured data
@@ -117,8 +121,6 @@ class EventbriteScraper(BaseScraper):
                         if event_data.get("@type") == "Event":
                             event = self._parse_json_ld(event_data, term)
                             if event:
-                                # Fetch individual event page to get accurate time
-                                event = self._enrich_with_time(event)
                                 events.append(event)
 
                 # Handle single event
@@ -132,42 +134,6 @@ class EventbriteScraper(BaseScraper):
 
         return events
 
-    def _enrich_with_time(self, event: Event) -> Event:
-        """Fetch individual event page to get accurate time."""
-        if event.time:  # Already has time
-            return event
-
-        try:
-            # Small delay to avoid rate limiting
-            time.sleep(0.3)
-
-            response = self.session.get(event.url, timeout=15)
-            if response.status_code != 200:
-                return event
-
-            soup = BeautifulSoup(response.text, "html.parser")
-
-            # Look for JSON-LD with full datetime
-            # Eventbrite uses various @type values: Event, EducationEvent, MusicEvent, etc.
-            event_types = ["Event", "EducationEvent", "MusicEvent", "SocialEvent", "BusinessEvent", "SportsEvent"]
-
-            for script in soup.find_all("script", {"type": "application/ld+json"}):
-                try:
-                    data = json.loads(script.string)
-                    if isinstance(data, dict) and data.get("@type") in event_types:
-                        start_date_str = data.get("startDate", "")
-                        if "T" in start_date_str:
-                            dt = datetime.fromisoformat(start_date_str.replace("Z", "+00:00"))
-                            event.time = dt.strftime("%I:%M %p").lstrip("0")
-                            break
-                except (json.JSONDecodeError, ValueError):
-                    continue
-
-        except Exception:
-            pass  # Silent fail, event will be without time
-
-        return event
-
     def _parse_json_ld(self, data: dict, search_term: str) -> Event:
         """Parse JSON-LD event data into Event object."""
         name = data.get("name", "")
@@ -176,7 +142,7 @@ class EventbriteScraper(BaseScraper):
 
         url = data.get("url", "")
 
-        # Parse date
+        # Parse date and time
         start_date_str = data.get("startDate", "")
         date = datetime.now()
         time_str = None
