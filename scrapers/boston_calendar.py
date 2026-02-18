@@ -1,6 +1,7 @@
 """Scraper for The Boston Calendar."""
 
 import re
+import time
 import requests
 from bs4 import BeautifulSoup
 from datetime import datetime
@@ -17,12 +18,23 @@ class BostonCalendarScraper(BaseScraper):
 
     def __init__(self):
         self.base_url = "https://www.thebostoncalendar.com"
-        self.headers = {
-            "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
-            "Accept-Language": "en-US,en;q=0.5",
+        # Use a session to maintain cookies
+        self.session = requests.Session()
+        self.session.headers.update({
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
+            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+            "Accept-Language": "en-US,en;q=0.9",
+            "Accept-Encoding": "gzip, deflate, br",
             "Connection": "keep-alive",
-        }
+            "Upgrade-Insecure-Requests": "1",
+            "Sec-Fetch-Dest": "document",
+            "Sec-Fetch-Mode": "navigate",
+            "Sec-Fetch-Site": "none",
+            "Sec-Fetch-User": "?1",
+            "Cache-Control": "max-age=0",
+        })
+        # Keep headers for backward compatibility
+        self.headers = dict(self.session.headers)
 
     def scrape(self) -> list[Event]:
         """Scrape The Boston Calendar for relevant events."""
@@ -58,7 +70,14 @@ class BostonCalendarScraper(BaseScraper):
 
     def _scrape_main_page(self) -> list[Event]:
         """Scrape the main events listing page."""
-        response = requests.get(f"{self.base_url}/events", headers=self.headers, timeout=10)
+        # First visit homepage to get cookies
+        try:
+            self.session.get(self.base_url, timeout=10)
+            time.sleep(0.5)
+        except Exception:
+            pass
+
+        response = self.session.get(f"{self.base_url}/events", timeout=15)
         response.raise_for_status()
 
         soup = BeautifulSoup(response.text, "html.parser")
@@ -66,8 +85,10 @@ class BostonCalendarScraper(BaseScraper):
 
     def _search(self, query: str) -> list[Event]:
         """Search for events with a specific query."""
+        time.sleep(0.3)  # Small delay between searches
         search_url = f"{self.base_url}/events?search={query}"
-        response = requests.get(search_url, headers=self.headers, timeout=10)
+        self.session.headers["Referer"] = f"{self.base_url}/events"
+        response = self.session.get(search_url, timeout=15)
         response.raise_for_status()
 
         soup = BeautifulSoup(response.text, "html.parser")
@@ -186,7 +207,9 @@ class BostonCalendarScraper(BaseScraper):
         time_str = None
 
         try:
-            response = requests.get(detail_url, headers=self.headers, timeout=10)
+            time.sleep(0.2)  # Small delay
+            self.session.headers["Referer"] = f"{self.base_url}/events"
+            response = self.session.get(detail_url, timeout=15)
             if response.status_code != 200:
                 return event_url, price, description, time_str
 
