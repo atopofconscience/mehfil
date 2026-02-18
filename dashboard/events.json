@@ -1,6 +1,23 @@
 {
   "events": [
     {
+      "id": "30bd508d-cacd-812a-87b7-d75b47853990",
+      "name": "EFoS: South Asian Studies Open House: Concentration Info Session",
+      "date": "2026-02-18",
+      "time": "",
+      "location": "Harvard University, Cambridge, MA",
+      "address": "",
+      "price": "",
+      "description": "",
+      "url": "https://calendar.college.harvard.edu/event/efos-south-asian-studies-open-house-concentration-info-session",
+      "source": "Harvard Events",
+      "categories": [
+        "South Asian"
+      ],
+      "latitude": 42.377,
+      "longitude": -71.1167
+    },
+    {
       "id": "30bd508d-cacd-81f3-90f2-fd6593b40320",
       "name": "Arabic, Persian, and Turkish Language Table",
       "date": "2026-02-18",
@@ -8010,5 +8027,5 @@
       "longitude": -71.0995466
     }
   ],
-  "updated": "2026-02-18T15:43:58.093659"
+  "updated": "2026-02-18T15:50:31.829904"
 }
