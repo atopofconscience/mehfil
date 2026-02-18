@@ -57,11 +57,19 @@ class EventbriteScraper(BaseScraper):
 
     def __init__(self):
         self.base_url = "https://www.eventbrite.com/d/ma--boston"
-        self.headers = {
-            "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
-            "Accept-Language": "en-US,en;q=0.5",
-        }
+        self.session = requests.Session()
+        self.session.headers.update({
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
+            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+            "Accept-Language": "en-US,en;q=0.9",
+            "Accept-Encoding": "gzip, deflate, br",
+            "Sec-Fetch-Dest": "document",
+            "Sec-Fetch-Mode": "navigate",
+            "Sec-Fetch-Site": "none",
+            "Sec-Fetch-User": "?1",
+            "Upgrade-Insecure-Requests": "1",
+        })
+        self.headers = dict(self.session.headers)
 
     def scrape(self) -> List[Event]:
         """Scrape Eventbrite using JSON-LD structured data."""
@@ -83,9 +91,15 @@ class EventbriteScraper(BaseScraper):
     def _search_term(self, term: str) -> List[Event]:
         """Search for a specific term on Eventbrite."""
         search_url = f"{self.base_url}/{term}/"
-        response = requests.get(search_url, headers=self.headers, timeout=15)
+        try:
+            time.sleep(0.2)  # Small delay between searches
+            response = self.session.get(search_url, timeout=15)
 
-        if response.status_code != 200:
+            if response.status_code != 200:
+                print(f"    Eventbrite returned {response.status_code} for '{term}'")
+                return []
+        except Exception as e:
+            print(f"    Eventbrite request failed for '{term}': {e}")
             return []
 
         soup = BeautifulSoup(response.text, "html.parser")
@@ -127,7 +141,7 @@ class EventbriteScraper(BaseScraper):
             # Small delay to avoid rate limiting
             time.sleep(0.3)
 
-            response = requests.get(event.url, headers=self.headers, timeout=15)
+            response = self.session.get(event.url, timeout=15)
             if response.status_code != 200:
                 return event
 
