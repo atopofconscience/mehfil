@@ -1,6 +1,553 @@
 {
   "events": [
     {
+      "id": "30bd508d-cacd-8178-9012-f4d38c3e68bc",
+      "name": "Pottery Wheel Class | One Time",
+      "date": "2026-02-18",
+      "time": "6:30 PM",
+      "location": "Clay Lounge",
+      "address": "",
+      "price": "$90.00",
+      "description": "Pottery Class Sign UpCheck out any of our one-time workshops! Great for first time potters - or those looking for a fun refresher. Studios in Boston and Somerville.We will take you through make up to two pieces out of clay, you will choose your glaze colors, and stop back in in 3-4 weeks to pick up your finished creations!Come in, relax, and play with clay!This is a Weekly Recurring EventRuns from Jan 9, 2026 to Dec 31, 2026 and happens every:Fridays:6:30pm - 9:00pm Timezone: Eastern Time (US & ",
+      "url": "https://eventvesta.com/events/126871/t/tickets",
+      "source": "Boston Calendar",
+      "categories": [
+        "Arts & Crafts",
+        "Theater & Film",
+        "Sports & Outdoors"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "30bd508d-cacd-8158-9c3f-fc10e1248d1e",
+      "name": "The American Revolution: A Story of the War in 28 Paintings",
+      "date": "2026-02-18",
+      "time": "9:00 AM",
+      "location": "Cabot House",
+      "address": "",
+      "price": "Free",
+      "description": "1776 was more than a turning point; it marked the birth of a new world order. A bold line was drawn as ordinary people made extraordinary decisions, declaring independence from the most powerful empire on earth. Driven by youthful fire, they believed in the promise of liberty more than they feared the cost of pursuing it.Historic Beverly proudly presents The American Revolution: A Story of the War in 28 Paintings, a once-in-a-lifetime exhibition of artworks commissioned to illustrate Senator Hen",
+      "url": "https://historicbeverly.net/event/the-american-revolution-a-story-of-the-war-in-28-paintings/",
+      "source": "Boston Calendar",
+      "categories": [
+        "Middle Eastern",
+        "Arts & Crafts"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "30bd508d-cacd-8112-b27c-d4ef40747067",
+      "name": "Sarma: Turkish & Mediterranean Small Plates | Somerville",
+      "date": "2026-02-18",
+      "time": "",
+      "location": "Sarma",
+      "address": "",
+      "price": "$Varies",
+      "description": "Sarma is restaurant and bar where food, drink and music come together in a vibrant celebration of the good things in life. Modeled after the traditional meyhanes of Turkey, the menu is a large selection of small plates ( meze ) that are designed to be shared alongside food-friendly cocktails, craft beers or a glass of wine from a small but carefully selected list.Chef Cassie mostly stays true to Mediterranean flavors but she draws inspiration from places she visits and people she meets and then ",
+      "url": "https://www.sarmarestaurant.com/",
+      "source": "Boston Calendar",
+      "categories": [
+        "South Asian",
+        "Middle Eastern",
+        "Arts & Crafts",
+        "Food & Markets",
+        "Music & Dance",
+        "Cultural Festival"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "30bd508d-cacd-818f-966c-f5c9450885bd",
+      "name": "The Paint Bar: Painting Classes for Work Events | Newton",
+      "date": "2026-02-18",
+      "time": "",
+      "location": "The Paint Bar",
+      "address": "",
+      "price": "$Varies",
+      "description": "Paint with the best at The Paint Bar.Whether in-person, online, or hybrid, we offer a variety of painting options that everyone on your team will love. Our painting classes are designed to accommodate groups of all sizes for a creative and fun team-building experience.",
+      "url": "https://thepaintbar.com/",
+      "source": "Boston Calendar",
+      "categories": [
+        "South Asian",
+        "Arts & Crafts",
+        "Coffee & Chai"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "30bd508d-cacd-81ab-855d-d8c9f8d18da5",
+      "name": "Castanet Designer Consignment",
+      "date": "2026-02-18",
+      "time": "",
+      "location": "Castanet Designer Consignment",
+      "address": "",
+      "price": "$Pay as you go",
+      "description": "Boston's original designer consignment! Visit us upstairs at 175 Newbury Street. Winter \u201824 Hours: Tues-Sat 12-5, Sun + Mon closed.Castanet Designer Consignment is a bit of a hidden gem, located in a bright parlor space on the 2nd floor of 175 Newbury Street (between Dartmouth & Exeter) in Boston\u2019s Back Bay neighborhood. The second hand shop stocks high end clothing from the wardrobes of the best dressed women in the city. You\u2019ll find a mix of labels that satisfy a variety of price points.Castan",
+      "url": "https://shopcastanet.com/",
+      "source": "Boston Calendar",
+      "categories": [
+        "South Asian",
+        "Arts & Crafts"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "30bd508d-cacd-8122-9876-f125654ceb25",
+      "name": "SWETSTUDIO | Aerial Yoga and Fitness in the South End",
+      "date": "2026-02-18",
+      "time": "",
+      "location": "SWETSTUDIO\u00ae",
+      "address": "",
+      "price": "$25+",
+      "description": "Experience the thrill of defying gravity and exploring new dimensions in your yoga practice. Our certified instructors will guide you through fun and challenging sequences designed to increase strength, flexibility, and mindfulness. Join us at Swet Studio's South End location for a unique aerial yoga experience that will leave you feeling invigorated and inspired.",
+      "url": "http://www.swetstudio.com",
+      "source": "Boston Calendar",
+      "categories": [
+        "South Asian",
+        "Sports & Outdoors"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "30bd508d-cacd-81a6-929e-dac768b3ac37",
+      "name": "Comm Ave Mall Holiday Lights: 2025-2026 Season",
+      "date": "2026-02-18",
+      "time": "8:00 PM",
+      "location": "Commonwealth Avenue Mall",
+      "address": "",
+      "price": "Free",
+      "description": "Please join us as we hit the switch and celebrate the lighting of\u00a0trees up and down Commonwealth Avenue.The City of Boston and the Friends of the Public Garden to light the trees on the Mall on December 4th at 8 p.m., immediately following theBoston Common Tree Lighting.TheFriends of the Public Gardenare proud to take on this special holiday display and excited to work with our community to increase support for the Mall.For decades, the iconic holiday light display along the Commonwealth Avenue ",
+      "url": "https://www.boston.gov/calendar/2021-lighting-commonwealth-avenue-mall",
+      "source": "Boston Calendar",
+      "categories": [
+        "South Asian",
+        "Middle Eastern",
+        "Theater & Film",
+        "Cultural Festival",
+        "Community"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "30bd508d-cacd-818a-9da7-d8f5731b3a30",
+      "name": "Karen Aqua Gallery Exhibit, \"When Dreams Take Shape\"",
+      "date": "2026-02-18",
+      "time": "5:30 PM",
+      "location": "Cambridge Community Television",
+      "address": "",
+      "price": "Free",
+      "description": "Join us for our newest group show \u201cWhen Dreams Take Shape,\u201d at the Karen Aqua Gallery! The exhibit will be open Mon-Thurs from 1-8pm at CCTV, 438 Mass Ave, Central Square, Cambridge. Explore the vibrant multi-media works of local artists and immerse yourself in a world of creativity. Don\u2019t miss this opportunity to engage in the local art scene and connect with community media. Bring a friend, explore the exhibit and then drop by one of our great local restaurants to discuss!  See you all there!",
+      "url": "https://www.cctvcambridge.org/",
+      "source": "Boston Calendar",
+      "categories": [
+        "Arts & Crafts",
+        "Food & Markets",
+        "Community"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "30bd508d-cacd-817c-b25c-df269b4aec20",
+      "name": "The Immortal Magu: A Sixteenth-Century Chinese Painting Up Close",
+      "date": "2026-02-18",
+      "time": "11:00 AM",
+      "location": "Davis Museum at Wellesley College",
+      "address": "",
+      "price": "Free",
+      "description": "The Davis Museum presents \"The Immortal Magu: A Sixteenth-Century Chinese Painting Up Close\" beginning February 6, showcasing a rare Ming dynasty silk scroll painting of the Taoist deity Magu following extensive conservation work. Once hidden due to severe damage, the large-scale work has been meticulously restored by world-renowned conservator Jing Gao using traditional and innovative techniques. The exhibition invites visitors to appreciate this preserved immortal deity associated with longevi",
+      "url": "https://www1.wellesley.edu/davismuseum/visit/directions",
+      "source": "Boston Calendar",
+      "categories": [
+        "Arts & Crafts"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "30bd508d-cacd-81f0-86fb-d7224506f50f",
+      "name": "Open Now \u2014'Material Dialogues: Artist Unresidency, 2025-2026 at UMB Archives' Exhibition",
+      "date": "2026-02-18",
+      "time": "9:00 AM",
+      "location": "Healey Library at UMass Boston",
+      "address": "",
+      "price": "Free",
+      "description": "On view fromJanuary 26 through May 15, 2026, during theHealey Library\u2019s open hours. An opening reception is scheduled forFriday, February, 20, 2026, from 3:00 pm-5:30 pm in the Grossmann Gallery on the 5th floor of the Healey Library.Material Dialogues: Artist Unresidency, 2025-2026 at UMB Archivesis now openJanuary 26 -\u00a0May 15, 2026, during theHealey Library\u2019s open hours. An opening reception is scheduled\u00a0forFebruary 20, 2026, from 3:00 pm-6:00 pm in the Grossmann Gallery, 5th\u00a0floor of the Heal",
+      "url": "https://bit.ly/3NLUNgP",
+      "source": "Boston Calendar",
+      "categories": [
+        "Arts & Crafts"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "30bd508d-cacd-813b-b84c-d93289b88f7f",
+      "name": "New Exhibition + Artist Talk: Lynne Kortenhaus at Paul Dietrich Gallery",
+      "date": "2026-02-18",
+      "time": "9:00 AM",
+      "location": "The Paul Dietrich Gallery at CambridgeSeven",
+      "address": "",
+      "price": "Free",
+      "description": "ThePaul Dietrich Galleryat CambridgeSeven is pleased to announce an exhibition of works on paper by Lynne Kortenhaus. In partnership with\u00a0Schoolhouse Gallery in Provincetown, where Kortenhaus regularly exhibits, the works on view span multiple years, from 2020-2025, and include large scale collages to monotypes and smaller \u201cpaintings\u201d on paper.The exhibition is on display from\u00a0February 9 - May 1, 2026 from 9-5pm. A reception + Artist Talk will take place on February 12, 5:30-7:30 pmVestigesexplo",
+      "url": "https://www.cambridgeseven.com/about/dietrich-gallery/",
+      "source": "Boston Calendar",
+      "categories": [
+        "Arts & Crafts",
+        "Theater & Film",
+        "Talks & Lectures"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "30bd508d-cacd-8187-bbe1-f68f7d9bfc3e",
+      "name": "Sushi Making 101 - Cooking Class by Classpop!",
+      "date": "2026-02-18",
+      "time": "4:00 PM",
+      "location": "Trillium Brewing Company - Fort Point",
+      "address": "",
+      "price": "$55.00",
+      "description": "With over two decades of sushi-making expertise stretching from California to Boston, Chef Harold is ready to share his knowledge with you. This sushi fundamentals class is free of gluten, nuts and dairy, and focuses on medium inside-out rolls, or uramaki, and hand rolls, or temaki. Begin the hands-on class with miso soup, then move on to mastering sushi rolling. You'll start with a shrimp tempura hand roll, then craft a delicious sweet potato hand roll. To finish, you'll learn the secrets to ma",
+      "url": "https://www.classpop.com/cooking-classes/2/sushi-making-101",
+      "source": "Boston Calendar",
+      "categories": [
+        "Arts & Crafts",
+        "Food & Markets"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "30bd508d-cacd-8113-ace8-e901a8f03f6d",
+      "name": "Michelangelo\u2019s Sistine Chapel: The Exhibition",
+      "date": "2026-02-18",
+      "time": "11:00 AM",
+      "location": "CambridgeSide (Level 2)",
+      "address": "",
+      "price": "$26",
+      "description": "Step inside a breathtaking re-creation of the Sistine Chapel \u2014 where Michelangelo\u2019s iconic ceiling paintings are brought down to eye level.\u2728 Rated 4.8/5.0 by over 3 million guests.\u2708\ufe0f No trip to Rome needed. No crowds.Just an unforgettable experience of art, light, and scale \u2014 in a peaceful, immersive setting for all ages.Tickets are now available at SistineChapelExhibit.com/Boston.General Admission tickets start at $26, with discounted admission for seniors, military, students, and children. VIP",
+      "url": "https://www.thebostoncalendar.com/events/michelangelo-s-sistine-chapel-the-exhibition--3",
+      "source": "Boston Calendar",
+      "categories": [
+        "Arts & Crafts"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "30bd508d-cacd-814c-a505-c24af1900b4e",
+      "name": "Inspirational Jam: Paintings by Carl Ristaino",
+      "date": "2026-02-18",
+      "time": "10:00 AM",
+      "location": "The Umbrella Arts Center",
+      "address": "",
+      "price": "Free",
+      "description": "Carl Ristaino\u2019s imagination comes alive through dynamic jazz scenes and whimsical cityscapes in Inspirational Jam, on view in the Wedge Gallery from Jan 26 - Mar 29. Join us for the opening reception on Jan 28 at 6 PM celebrating Inspirational Jam and Marsha Wilcox\u2019sAncient Light(RSVPs appreciated).Working in acrylics, Ristaino builds layers of bold color that capture the transcendence of live music and fantastical worlds. In his jazz series, Ristaino\u2019s canvases become stages where musicians lea",
+      "url": "https://theumbrellaarts.org/inspirational-jam",
+      "source": "Boston Calendar",
+      "categories": [
+        "Arts & Crafts",
+        "Music & Dance"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "30bd508d-cacd-8120-a0c1-c3fd6cfcbac6",
+      "name": "\u201cAssembly Required\u201d: Herv\u00e9 Kwimo Explores Fragmentation and Perception in New Boston Exhibition",
+      "date": "2026-02-18",
+      "time": "6:00 PM",
+      "location": "Midway Gallery at Midway Artist Studios",
+      "address": "",
+      "price": "Free",
+      "description": "What happens when you break the world apart and put it back together?In \"Assembly Required,\" (curated by Tina Chakarian) multidisciplinary artist Herv\u00e9 Kwimo presents a striking series of modern collages that challenge how we see. Drawing from a background in graphic design and a multicultural perspective, Kwimo\u2019s work is both architectural and lyrical\u2014balancing rigid spatial rhythm with the unpredictable beauty of chance.Fragmentation serves as the framework for this exhibition, inviting viewer",
+      "url": "https://www.instagram.com/p/DURA6M2ARlC/?igsh=MTR5OGUxdjkzZ3U4cg==",
+      "source": "Boston Calendar",
+      "categories": [
+        "South Asian",
+        "Arts & Crafts",
+        "Cultural Festival"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "30bd508d-cacd-8185-916d-f51129f7005c",
+      "name": "Elevated, An Orchid Exhibition at New England Botanic Garden",
+      "date": "2026-02-18",
+      "time": "10:00 AM",
+      "location": "New England Botanic Garden at Tower Hill",
+      "address": "",
+      "price": "$0-21",
+      "description": "Elevated: An Orchid Exhibition at New England Botanic Garden celebrates the beauty and wonder of orchids in combination with captivating aerial sculptures by artist Cicely Carew. Featuring a stunning display of more than 2,000 orchids, Elevated transforms the Garden\u2019s subtropical conservatories into an immersive world of color, movement, and botanical brilliance. Inspired by the forms and rhythms of nature, Carew\u2019s \u201cflying paintings\u201d soar overhead \u2013 a joyful expression of the connection between ",
+      "url": "https://nebg.org/elevated/",
+      "source": "Boston Calendar",
+      "categories": [
+        "Arts & Crafts",
+        "Theater & Film"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "30bd508d-cacd-812f-b028-ce78ab76c8a2",
+      "name": "Griffin Museum of Photography Exhibition: Manifest Destiny",
+      "date": "2026-02-18",
+      "time": "12:00 PM",
+      "location": "Griffin Museum of Photography",
+      "address": "",
+      "price": "$9",
+      "description": "The Griffin Museum of Photography is pleased to present the exhibitionManifest Destinyon view January 9 - March 15, 2026. Featuring the work of American and international artistsScott Conarroe, Craig Easton, Lisa Elmaleh, Rich Frishman, Drew Leventhal, and Vicky Sambunaris,Manifest Destinyinvestigate the layered histories held within the American landscape, inviting viewers to reconsider the narratives that have shaped our national identity.Museum hours are Tuesday-Sunday 12-4pm. General admissi",
+      "url": "https://griffinmuseum.org/",
+      "source": "Boston Calendar",
+      "categories": [
+        "Arts & Crafts"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "30bd508d-cacd-81e5-9fe5-c94f50eb7071",
+      "name": "Debut Solo Exhibition: Ad\u00e8le Patnaude \u2013 The Art of Aquarius @ EventThem Studios",
+      "date": "2026-02-18",
+      "time": "10:00 AM",
+      "location": "EventThem Studios",
+      "address": "",
+      "price": "Free",
+      "description": "EventThemis proud to presentThe Art of Aquarius,the first solo exhibition by painterAd\u00e8le Patnaude. Known for her ethereal and nature-inspired work, Ad\u00e8le creates paintings that dwell in the quiet thresholds \u2013 between light and shadow, seen and unseen, earth and sky.Join us in celebrating this debut solo show with anopening receptiononFebruary 7thand aclosing receptiononMarch 5th, or visit during our gallery hours to view Ad\u00e8le\u2019s incredible work.Location:EventThem Studios, 344 Salem St, Medford,",
+      "url": "https://eventthem.com/ec-event/debut-solo-exhibition-adele-patnaude-the-art-of-aquarius/",
+      "source": "Boston Calendar",
+      "categories": [
+        "Middle Eastern",
+        "Arts & Crafts"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "30bd508d-cacd-818f-8ef9-e9e5e38a7438",
+      "name": "Winter Class: Painting and Drawing Portraits for Teens",
+      "date": "2026-02-18",
+      "time": "4:15 PM",
+      "location": "Arlington Center for the Arts",
+      "address": "",
+      "price": "$299",
+      "description": "Join us for an exploration into the exciting world of portraiture! Students will learn a variety of methods for creating effective portraits, from achieving general likeness to crafting detailed studies. Instruction is personalized to each student and covers basic technique in acrylic paint/drawing as well as more advanced guidance. Come experiment with a variety of materials and gain new, fun methods of making art. Open to artists of all levels and abilities!With Artist Leslie Donahue",
+      "url": "https://reg125.imperisoft.com/acarts/ProgramDetail/3931363732/Registration.aspx",
+      "source": "Boston Calendar",
+      "categories": [
+        "Arts & Crafts",
+        "Music & Dance"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "30bd508d-cacd-81ab-83d8-e6fffb18c42b",
+      "name": "Winter Class: Painting and Drawing Portraits for Adults",
+      "date": "2026-02-18",
+      "time": "6:30 PM",
+      "location": "Arlington Center for the Arts",
+      "address": "",
+      "price": "$360",
+      "description": "Join us for an exploration into the exciting world of portraiture! Students will learn a variety of methods for creating effective portraits, from achieving general likeness to crafting detailed studies. Instruction is personalized to each student and covers basic technique in acrylic paint/drawing as well as more advanced guidance. Come experiment with a variety of materials and gain new, fun methods of making art. Open to artists of all levels and abilities!With Artist Leslie Donahue",
+      "url": "https://reg125.imperisoft.com/acarts/ProgramDetail/3931363133/Registration.aspx",
+      "source": "Boston Calendar",
+      "categories": [
+        "Arts & Crafts",
+        "Music & Dance"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "30bd508d-cacd-817b-9640-fad937a19158",
+      "name": "Painting & Drawing Landscapes for Adults",
+      "date": "2026-02-18",
+      "time": "6:30 PM",
+      "location": "Arlington Center for the Arts",
+      "address": "",
+      "price": "$360",
+      "description": "Landscape art is an important tool for artists to explore and interpret their environment. In this class, we will observe landscapes from the world around us and in art history, with assignments that analyze natural features, man-made structures, plant life, and the interaction between these elements. Instruction will cover using acrylic paint as well as techniques for drawing as well as more advanced material. Open to artists of all levels and abilities!With Artist Leslie Donahue",
+      "url": "https://reg125.imperisoft.com/acarts/ProgramDetail/3931363134/Registration.aspx",
+      "source": "Boston Calendar",
+      "categories": [
+        "Arts & Crafts"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "30bd508d-cacd-8172-a28a-e867fd6ba2c7",
+      "name": "Winter Class: Painting and Drawing Landscapes for Teens",
+      "date": "2026-02-18",
+      "time": "4:00 PM",
+      "location": "Arlington Center for the Arts",
+      "address": "",
+      "price": "$299",
+      "description": "Landscape art is an important tool for artists to explore and interpret their environment. In this class, we will observe landscapes from the world around us and in art history, with assignments that analyze natural features, man-made structures, plant life, and the interaction between these elements. Instruction will cover using acrylic paint as well as techniques for drawing as well as more advanced material. Open to artists of all levels and abilities!With Artist Leslie Donahue",
+      "url": "https://reg125.imperisoft.com/acarts/ProgramDetail/3931363733/Registration.aspx",
+      "source": "Boston Calendar",
+      "categories": [
+        "Arts & Crafts"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "30bd508d-cacd-81c6-9ada-e798f4ef4b91",
+      "name": "ORIGINS | February 7-28, 2026| Atlantic Works Gallery",
+      "date": "2026-02-18",
+      "time": "2:00 PM",
+      "location": "Atlantic Works Gallery",
+      "address": "",
+      "price": "Free",
+      "description": "Title:OriginsArtists:Atlantic Works Gallery New MembersShow Dates:February 7-28, 2026Opening Reception:Saturday February 7 @ 2-6 pmThird Thursday Reception:Thursday February 19 @ 6-9 pmClosing Reception:Saturday February 28 @ 6-8 pmAtlantic Works Gallery is pleased to present ORIGINS, a group exhibition showcasing the newest members of the cooperative gallery: Jonathan Pe\u00f1a Tabares, Chris Chou, and Clyde D\u2019Mello. Through painting, collage, and experimental mark-making, the exhibition explores id",
+      "url": "https://atlanticworks.org/",
+      "source": "Boston Calendar",
+      "categories": [
+        "Arts & Crafts"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "30bd508d-cacd-8169-8d32-ce07aaefee8c",
+      "name": "Beautiful Disruptions; Assoc.Artists' Exhibition",
+      "date": "2026-02-18",
+      "time": "11:00 AM",
+      "location": "Boston Sculptors Gallery",
+      "address": "",
+      "price": "Free",
+      "description": "Beautiful Disruptionsshowcases the work of Boston Sculptors\u2019 14 Associate Artists. Many of the featured artists formally or conceptually explore the concept of disruption in their work for purposes ranging from the physical, philosophical, and political, to the ephemeral.",
+      "url": "http://www.bostonsculptors.com",
+      "source": "Boston Calendar",
+      "categories": [
+        "Arts & Crafts"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "30bd508d-cacd-81ce-90f0-fd9cb32db52c",
+      "name": "Bonsai Bar Workshop at Angle Tree Brewery",
+      "date": "2026-02-18",
+      "time": "1:30 PM",
+      "location": "Angle Tree Brewery",
+      "address": "",
+      "price": "$85.00",
+      "description": "Beginner workshops are perfect for you to grab your friends, grab a drink and come make tiny trees! We\u2019re bringing the awesome art of bonsai out of the hedged in gardens and into the streets! Or at least into your favorite bars/breweries/pubs. Bonsai Bar is a night of fun you don\u2019t want to miss. Learn the fundamental skills and techniques behind the art of bonsai while enjoying a night out with friends! Our teachers will introduce core concepts and guide your experience as you pot, prune, and de",
+      "url": "https://eventvesta.com/events/122733/t/tickets",
+      "source": "Boston Calendar",
+      "categories": [
+        "Arts & Crafts",
+        "Coffee & Chai",
+        "Sports & Outdoors"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "30bd508d-cacd-81df-a4a4-e798729face3",
+      "name": "Candle Making Workshop",
+      "date": "2026-02-18",
+      "time": "7:00 PM",
+      "location": "DARK MODE at Bow Market",
+      "address": "",
+      "price": "$70",
+      "description": "Join us for a night of creativity, fun and intention-setting! During this event, you will learn how to make your own coconut wax candle, infused with your choice of fragrance and decorated with your choice of flowers and herbs. We\u2019ll also guide you through the intention-setting process so you can infuse your candle with your own unique intentions and manifest your dreams into reality.All materials will be provided. No previous experience necessary. You\u2019ll leave with your own 16oz candle.Tickets ",
+      "url": "https://darkmode.as.me/",
+      "source": "Boston Calendar",
+      "categories": [
+        "Arts & Crafts"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "30bd508d-cacd-81bc-b5cf-c0176a05e203",
+      "name": "Healthy love, Healthy mind: meditation class with Gen Khedrub",
+      "date": "2026-02-18",
+      "time": "7:00 PM",
+      "location": "Kadampa Meditation Center Boston",
+      "address": "",
+      "price": "$15",
+      "description": "Our mind has limitless potential. But we can easily find ourself stuck in repetitive ways of thinking and behaving. Buddha taught many gentle methods to help us transform our mind and break free from old habits. Buddha also taught ways to stabilize more realistic, constructive and positive views, intentions and actions. It all starts with understanding and transforming our own mind.This Wednesday meditation classes take a practical look at Buddha\u2019s wisdom teachings and how it can be applied to o",
+      "url": "https://www.meditationinboston.org/wednesdays-in-cambridge",
+      "source": "Boston Calendar",
+      "categories": [
+        "Arts & Crafts",
+        "Coffee & Chai",
+        "Religious"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "30bd508d-cacd-8140-8209-f60ef0fd50f0",
+      "name": "Bonsai Bar Workshop at Lost Shoe Brewing and Roasting Company",
+      "date": "2026-02-18",
+      "time": "6:30 PM",
+      "location": "Lost Shoe Brewing and Roasting Company",
+      "address": "",
+      "price": "$85.00",
+      "description": "Beginner workshops are perfect for you to grab your friends, grab a drink and come make tiny trees! We\u2019re bringing the awesome art of bonsai out of the hedged in gardens and into the streets! Or at least into your favorite bars/breweries/pubs. Bonsai Bar is a night of fun you don\u2019t want to miss. Learn the fundamental skills and techniques behind the art of bonsai while enjoying a night out with friends! Our teachers will introduce core concepts and guide your experience as you pot, prune, and de",
+      "url": "https://eventvesta.com/events/122575/t/tickets",
+      "source": "Boston Calendar",
+      "categories": [
+        "Arts & Crafts",
+        "Coffee & Chai",
+        "Sports & Outdoors"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "30bd508d-cacd-8142-8d7c-f1440f4e5364",
+      "name": "Bubbles! Traveling Science Workshop",
+      "date": "2026-02-18",
+      "time": "10:00 AM",
+      "location": "Wenham Museum",
+      "address": "",
+      "price": "$29.00",
+      "description": "Bubbles! A Traveling Science Workshop with the Discovery MuseumWednesday, February 18 at 10 AM, 11 AM, 1 PM, and 2 PMHow long does a bubble last? What colors can you see swirling across its surface? Can you predict the moment it will pop? In this hands-on science workshop, children dive into the surprising science of bubbles through observation, investigation, and discussion.Participants will make bubbles, test ideas, ask questions, and explore what makes bubbles behave the way they do. Along th",
+      "url": "https://eventvesta.com/events/133540/t/tickets",
+      "source": "Boston Calendar",
+      "categories": [
+        "Arts & Crafts",
+        "Talks & Lectures"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "30bd508d-cacd-81d7-a981-edb0338339cf",
+      "name": "Lexington - Middle School Improv Vacation Workshop",
+      "date": "2026-02-18",
+      "time": "9:00 AM",
+      "location": "Lexington High School, Black Box",
+      "address": "",
+      "price": "$250",
+      "description": "A 3 day improv workshop for middle school students, hosted by Lexington Community Education.THE WORKSHOPThis is an introductory workshop for teens to learn improv exercises and games to expand their acting, improv and social skills. Students will increase their decisiveness and communication skills, sharpen awareness and listening skills, and increase their ability to react well to surprises and overcome the fear of failure. This Beginner to Intermediate workshop is great for those with no or li",
+      "url": "https://lexingtoncommunityed.org/class/improv-for-middle-school-students-february-vacation-workshop/",
+      "source": "Boston Calendar",
+      "categories": [
+        "Arts & Crafts",
+        "Comedy",
+        "Community"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
       "id": "30bd508d-cacd-812a-87b7-d75b47853990",
       "name": "EFoS: South Asian Studies Open House: Concentration Info Session",
       "date": "2026-02-18",
@@ -652,6 +1199,99 @@
       "longitude": -71.17345420000001
     },
     {
+      "id": "30bd508d-cacd-8111-a44e-c43db3d67ee8",
+      "name": "Yoga Flow at the Boston Public Market with Soma Yoga and Mother Juice!",
+      "date": "2026-02-19",
+      "time": "5:30 PM",
+      "location": "BOSTON PUBLIC MARKET",
+      "address": "",
+      "price": "$20",
+      "description": "Join us in the Nook for a Flow class hosted by Soma Yoga, BulldogFlowBoston and then recharge after class with a free smoothie from Mother Juice!Join Soma Yoga at BPM for a yoga flow and mini sound bath. This is an alignment based, Vinyasa class designed to connect your mind with your body. In this 1-hour class, participants will be guided in a series ofyoga postures and light breathwork by instructorPete Sacco. Following the 45 minute yoga flow, the class will transition into a 15 minute sound ",
+      "url": "https://www.eventbrite.com/e/yoga-flow-at-the-boston-public-market-with-soma-yoga-and-mother-juice-tickets-1257200363129?utm-campaign=social&utm-content=attendeeshare&utm-medium=discovery&utm-term=listing&utm-source=cp&aff=ebdsshcopyurl",
+      "source": "Boston Calendar",
+      "categories": [
+        "South Asian",
+        "Arts & Crafts",
+        "Food & Markets",
+        "Sports & Outdoors"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "30bd508d-cacd-81ac-980f-e92ad9af7e17",
+      "name": "Stamp Carving Workshop",
+      "date": "2026-02-19",
+      "time": "6:00 PM",
+      "location": "Craft Loft",
+      "address": "",
+      "price": "$55",
+      "description": "Try your hand at carving stamps and making a fun mark in the world!\u00a0We'll be using rubber blocks as the base for carving.\u00a0We'll also cover fundamentals for carving and much of the topics discussed apply to wood carving and linocuts as well.All tools are provided!\u00a0You'll walk away with 2 of your own carved stamps and a stamp ink pad.\u00a0Due to the sharpness of the tools used, we do ask that all attendees sign a liability waiver upon arrival.Minimum age required: 12 yrs oldDuration:1.5hrLocation:Craf",
+      "url": "https://craft-loft.com/collections/boston-workshops/products/stamp-carving-workshop",
+      "source": "Boston Calendar",
+      "categories": [
+        "Arts & Crafts"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "30bd508d-cacd-81ce-90c1-f2ca6ece6376",
+      "name": "Third Thursdays Mini Workshop : FREE Fabric Collage",
+      "date": "2026-02-19",
+      "time": "5:30 PM",
+      "location": "Hipstitch",
+      "address": "",
+      "price": "Free",
+      "description": "Join Hipstitch Brookline for our Third Thursday event forArts in the Village. On the third Thursday of each month local businesses including Hipstitch, Feet of Clay, Station Street Studios and Village Works, host fun workshops and events to invite community members to our creative spaces.Our drop-in workshop runs from 5:30pm-8:00pm. Participants are invited to drop by any time during our event to create their own fabric collage. We encourage you to stroll around Brookline Village and visit other",
+      "url": "https://www.hipstitchers.com/products/brookline-third-thursdays-mini-workshop-fabric-collage?_pos=1&_sid=d3a4dd615&_ss=r&variant=44807625474263",
+      "source": "Boston Calendar",
+      "categories": [
+        "Arts & Crafts",
+        "Sports & Outdoors",
+        "Community"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "30bd508d-cacd-814f-b672-f58d0c4f2859",
+      "name": "Texture Painting Thursday Night Out",
+      "date": "2026-02-19",
+      "time": "6:00 PM",
+      "location": "Crafts Zone Brookline",
+      "address": "",
+      "price": "$49.99",
+      "description": "Texture Painting Night OutAdd depth to your creativity \u2014 one layer at a time!Join us for an inspiring evening of texture painting, where you\u2019ll explore tools, techniques, and color to create a one-of-a-kind tactile artwork. Whether you\u2019re a total beginner or a seasoned creative, this is the perfect way to relax and express yourself.You\u2019re welcome tobring your own drinks\u2014 we areBYOB licensed.\ud83d\udd52 Event Details:Time:Select Evenings, 6:00 PM \u2013 8:00 PMLocation:Crafts Zone BrooklinePrice:$49.99\ud83c\udf9f\ufe0f Your T",
+      "url": "https://www.crafts.zone/texture-painting-night-out/?v=0b3b97fa6688",
+      "source": "Boston Calendar",
+      "categories": [
+        "Arts & Crafts"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "30bd508d-cacd-81a3-a46f-e8c42c81da15",
+      "name": "Persian Networking (Shabeh Jomeh)",
+      "date": "2026-02-19",
+      "time": "6:30 PM",
+      "location": "Lolita Fort Point",
+      "address": "",
+      "price": "Free",
+      "description": "What is Shabeh Jomeh?Shabeh Jomeh is all about bringing people together, whether you want to make new friends, meet someone special, or just enjoy good conversation with open-minded people. It\u2019s a warm, welcoming space for socializing and networking, where good energy, interesting chats, and genuine connections come naturally.About the GatheringOriginally started in New York in 2000, Shabeh Jomeh has grown into a monthly global event for young Iranian professionals, and anyone who enjoys good co",
+      "url": "https://www.shabehjomeh.com/boston",
+      "source": "Boston Calendar",
+      "categories": [
+        "Middle Eastern",
+        "Arts & Crafts",
+        "Talks & Lectures",
+        "Community"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
       "id": "30bd508d-cacd-8154-a60a-d5ec2d0dcd9b",
       "name": "One-time Pottery Class & Painting - South Boston",
       "date": "2026-02-19",
@@ -1104,6 +1744,41 @@
       "longitude": -71.0963814
     },
     {
+      "id": "30bd508d-cacd-8122-8ecc-f83c4ab3ea30",
+      "name": "Chinese Workshop - Red Envelopes & Lantern",
+      "date": "2026-02-20",
+      "time": "1:00 PM",
+      "location": "CCC Office",
+      "address": "",
+      "price": "Free",
+      "description": "\ud83e\udde7\ud83c\udfee Chinese Workshop: Red Envelope & Lantern Making \ud83c\udfee\ud83e\udde7Join us for a fun and meaningful afternoon celebrating Chinese culture and creativity! Come craft your own beautiful red envelopes and festive lanterns while connecting with community friends \ud83d\udc9b\ud83d\udc09\ud83d\udcc5 Date: Friday, February 20, 2026\ud83d\udd50 Time: 1:00\u20133:00 PM\ud83d\udccd Location: CCC Office (75 Pleasant Street, Suite 403, Malden, MA)\ud83d\udc75\ud83e\uddd3 Ages: 60+\u2728 All materials will be provided\u2014just bring your creativity and festive spirit!\ud83d\udce9 To register, please contact Fanny Lei:com",
+      "url": "https://www.thebostoncalendar.com/events/chinese-workshop-red-envelopes-lantern",
+      "source": "Boston Calendar",
+      "categories": [
+        "Arts & Crafts",
+        "Community"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "30bd508d-cacd-81f6-8928-c07fb460ccfc",
+      "name": "Chinese Calligraphy Workshop",
+      "date": "2026-02-20",
+      "time": "7:30 PM",
+      "location": "zhao art studio",
+      "address": "",
+      "price": "$special offer",
+      "description": "What we'll doChinese Calligraphy Workshop at the American East Mustard Seed Garden (Zhao Art Studio)Chinese calligraphy is one of the oldest and most revered art forms in China. This Calligraphy, Sumi-e painting workshop with Quanzhou (Jack) Zhao will introduce and demonstrate the key techniques for learning Chinese Calligraphy, brushwork that has been taught over the centuries in China (and Japan, Vietnam, Korea, etc.), including brushwork techniques and the proper use of equipment and material",
+      "url": "http://zhaosstudio.blogspot.com",
+      "source": "Boston Calendar",
+      "categories": [
+        "Arts & Crafts"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
       "id": "30bd508d-cacd-81c0-ae75-f0cf9bc94eee",
       "name": "Bollywood Party At Icon Night Club - Dj Rakesh - Dj Ravlor",
       "date": "2026-02-20",
@@ -1510,6 +2185,312 @@
       ],
       "latitude": 42.3499093,
       "longitude": -71.0654502
+    },
+    {
+      "id": "30bd508d-cacd-814b-b7c8-e48ee72c654f",
+      "name": "BOSTON Naked! Yoga",
+      "date": "2026-02-21",
+      "time": "12:00 PM",
+      "location": "GILDED STUDIO",
+      "address": "",
+      "price": "$30, financial assistance available",
+      "description": "All levels and genders welcome. Join us for a 75-minute Yoga class taught by our instructor, Alan.Everyone MUST be an active, willing participant and at least 18 years old.Please bring a valid photo ID for age verification. You will be required to enter an accurate date of birth upon registration.All events have a 24-hour cancellation policy, so if you cancel less than 24 hours before the event, you forfeit your payment. Unless the event is cancelled, ALL EVENTBRITE FEES ARE NON-REFUNDABLE (even",
+      "url": "https://www.eventbrite.com/e/boston-naked-yoga-tickets-1977773077515?aff=oddtdtcreator",
+      "source": "Boston Calendar",
+      "categories": [
+        "Arts & Crafts",
+        "Sports & Outdoors"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "30bd508d-cacd-81bb-ab21-c729a01cac40",
+      "name": "Winter Fitness Series - Yoga",
+      "date": "2026-02-21",
+      "time": "11:00 AM",
+      "location": "Mildred Avenue Community Center",
+      "address": "",
+      "price": "Free",
+      "description": "Boston Parks Fitness Series offers Bostonians and visitors FREE in-person workout classes. Open to all fitness levels.Yoga Flow & Restore: This is a joyful, energizing Vinyasa practice connecting breath with movement. Together, we will cultivate strength, balance and flexibility in the mind and body. We'll end our classes with some restorative poses which will help create a sense of peace and connection within ourselves. I hope to see you on the mat!Class led by Carlos Hernandez*The Boston Parks",
+      "url": "https://www.eventbrite.com/e/boston-parks-winter-fitness-series-yoga-tickets-1978898794565",
+      "source": "Boston Calendar",
+      "categories": [
+        "Sports & Outdoors"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "30bd508d-cacd-81ab-9ad8-c0646d95afe1",
+      "name": "Ever Wanted to Fly? \u2014 Try Aerial Yoga in Hammocks",
+      "date": "2026-02-21",
+      "time": "11:00 AM",
+      "location": "Swet Studio",
+      "address": "",
+      "price": "$see website for details",
+      "description": "Imagine hanging weightless, flipping upside-down, and walking out taller than you walked in.That\u2019s what happens inside our hammocks\u2014no gymnastics background required.What This Event IsA quick, hands-on intro to aerial yoga. You\u2019ll step into a hammock, feel your spine decompress, and nail your first safe mini-inversion.Why You\u2019ll Love It\u2022 Zero experience needed\u2014beginners only.\u2022 Instant core & posture boost.\u2022 Photo-worthy moment you\u2019ll actually post.Ready to test-drive flight?Check out our Intro S",
+      "url": "https://swetstudio.com/schedule",
+      "source": "Boston Calendar",
+      "categories": [
+        "Sports & Outdoors"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "30bd508d-cacd-8104-84fc-f651cdc70575",
+      "name": "$8 Community Yoga",
+      "date": "2026-02-21",
+      "time": "11:00 AM",
+      "location": "The Embody School",
+      "address": "",
+      "price": "$8",
+      "description": "Join us for an all levels yoga class, specially priced to keep yoga accessible to everyone in the community. 50% of the proceeds will go to a local charity. We will choose a different charity every 6 months.",
+      "url": "http://www.embodyschool.com",
+      "source": "Boston Calendar",
+      "categories": [
+        "Sports & Outdoors",
+        "Community"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "30bd508d-cacd-81e8-9ea3-c93566e3eb43",
+      "name": "Dray's Yoga & Functional Tasting!",
+      "date": "2026-02-21",
+      "time": "10:00 AM",
+      "location": "Dray's South End",
+      "address": "",
+      "price": "$25",
+      "description": "We're back with another in-store yoga class in our South End shop with Pete Sacco of BulldogFlowBoston.   This time with an expanded functional tasting menu!   Join us for a restorative, all-levels yoga class AND a sound bath followed by a guided functional NA beverages tasting. Hope to see you there!Cancellations and refund requests must be received within 72 hours of the event.",
+      "url": "https://www.draydrinks.com/collections/events/products/february-yoga-functional-tasting",
+      "source": "Boston Calendar",
+      "categories": [
+        "Food & Markets",
+        "Sports & Outdoors"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "30bd508d-cacd-81c4-a6fa-c65f7fbea81d",
+      "name": "BIPOC Yoga Flow @ Wild Ember Studio",
+      "date": "2026-02-21",
+      "time": "10:00 AM",
+      "location": "Wild Ember Studio",
+      "address": "",
+      "price": "$8 -20",
+      "description": "Please join us at our monthly in-studio #BIPOCYogaFlow. Building community and connections through the practice of yoga.*** This month (February) enjoy Bipoc yoga flow and Vision Boarding. We'll provide the supplies but feel free to bring additional items to add to your vision board experience.Registration atwww.wildemberstudio.comA slow flow yoga practice for all levels, reserved for the BIPOC (Black, Indigenous and People of Color) community. This Yoga flow class is a celebration of community,",
+      "url": "http://www.wildemberstudio.com",
+      "source": "Boston Calendar",
+      "categories": [
+        "Sports & Outdoors",
+        "Cultural Festival",
+        "Community"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "30bd508d-cacd-8189-a91a-ed75e9010777",
+      "name": "Lunar New Year Sensational Street Food \u2013 Adult Cooking Class",
+      "date": "2026-02-21",
+      "time": "10:00 AM",
+      "location": "Powisset Farm",
+      "address": "",
+      "price": "$Member: $80; Nonmember: $95;",
+      "description": "Celebrate the vibrant flavors and traditions of the Lunar New Year with a street food inspired cooking class! Together with event Chef Josh, you\u2019ll cook, taste, and share the stories behind every dish. In this hands-on cooking class, you\u2019ll make Scallion Pancakes with Soy Ginger Dipping Sauce, Pork Panfried Dumplings, and Garlicky Longevity Noodles. This class is an utterly delicious way to welcome the new year with abundance and good fortune!Included in this class:Cooking demonstration and hand",
+      "url": "https://thetrustees.org/event/442722/",
+      "source": "Boston Calendar",
+      "categories": [
+        "Food & Markets",
+        "Music & Dance"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "30bd508d-cacd-8123-8b35-edbdc7508971",
+      "name": "Beginner Strength Training Workshop: Couples & Besties Edition!",
+      "date": "2026-02-21",
+      "time": "2:00 PM",
+      "location": "Skybound Fitness",
+      "address": "",
+      "price": "$20",
+      "description": "Beginner Strength Training Workshop: Couples & Besties EditionWe're offering a limited time2 for 1offer for Valentine's Day! Come learn something new with your loved one. \ud83d\udc9eWelcome to the\u00a0Beginner Strength Workshop! Perfect for those new or rusty to strength training with weights. This educational session is led by a certified personal trainer.Have you ever felt intimidated by the weight racks at the gym? Have you wanted to try barbell training but were unsure of where to start? Come learn how to",
+      "url": "https://www.eventbrite.com/e/beginner-strength-training-workshop-couples-edition-tickets-1978827709949?aff=oddtdtcreator",
+      "source": "Boston Calendar",
+      "categories": [
+        "Arts & Crafts"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "30bd508d-cacd-8134-b727-f9bf00a9bf90",
+      "name": "Crafting Care: A Community Quilt Workshop with Lauren Leone",
+      "date": "2026-02-21",
+      "time": "12:00 PM",
+      "location": "Somerville Museum",
+      "address": "",
+      "price": "$15",
+      "description": "This participatory workshop invites attendees to reflect on the concept and practice of care through embroidery and fabric collage, in dialoThis participatory workshop invites attendees to reflect on the concept and practice of care through embroidery and fabric collage, in dialogue with theCrafting the Mindexhibition. We'll explore questions like \"how do we give and receive care\u2013 in the day-to-day and also in moments of crisis and distress?\", \"how do we create communities of care?\", and \"how ca",
+      "url": "https://www.eventbrite.com/e/crafting-care-a-community-quilt-workshop-with-lauren-leone-tickets-1979940147279?utm-campaign=social&utm-content=attendeeshare&utm-medium=discovery&utm-term=listing&utm-source=cp&aff=ebdsshcopyurl",
+      "source": "Boston Calendar",
+      "categories": [
+        "Arts & Crafts",
+        "Community"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "30bd508d-cacd-8161-a2ce-f0531600a4dc",
+      "name": "Clean Candle Making Workshop",
+      "date": "2026-02-21",
+      "time": "10:00 AM",
+      "location": "Wyllo",
+      "address": "",
+      "price": "$45",
+      "description": "This workshop is perfect for beginners! In this class, you\u2019ll create your own 100% soy wax candle and learn about fragrance blending and the the candle making process. You'll get to take your candle home at the end of the evening and while the candles are curing, we'll play some light candle trivia (with prizes!) and customize your candle jar with various labels and botanical decals to make a truly one of a kind product.For groups of 6 or more, we can make your event a private workshop. Email Al",
+      "url": "https://www.shopwyllo.com/products/soy-candle-making-workshop-multiple-times-and-dates-available",
+      "source": "Boston Calendar",
+      "categories": [
+        "Arts & Crafts",
+        "Theater & Film"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "30bd508d-cacd-81a2-aa1f-eff134f7b31c",
+      "name": "ESL: Accent Improvement Workshop *In-Person*",
+      "date": "2026-02-21",
+      "time": "9:30 AM",
+      "location": "CCAE",
+      "address": "",
+      "price": "$110",
+      "description": "Improve your accent and acquire a communication edge in business that enhances professional relationships. Learn to hear and correct accented speech sounds that contribute to misunderstood speech. After reviewing why certain sounds are so troublesome, we will practice universally difficult sounds, using a technique that builds new habits of speech. Please bring a recording device to class, $40 for class materials, and a willingness to practice! Instructor: Elaine CrowderSaturday & Sunday, 9:30am",
+      "url": "https://ccae.org/classes/offering/4/esl-accent-improvement-workshop-in-person",
+      "source": "Boston Calendar",
+      "categories": [
+        "Arts & Crafts",
+        "Comedy"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "30bd508d-cacd-8103-b74c-f517c789ba85",
+      "name": "Oil Painting Portraiture: 6-Week Class",
+      "date": "2026-02-21",
+      "time": "4:00 PM",
+      "location": "Boston Figurative Art Center",
+      "address": "",
+      "price": "$590",
+      "description": "This 6 week class will guide students through the time honored traditions of layered portrait painting! We will learn about the range of materials and their application in a step by step painting process.Indirect Oil Painting is a time tested methodical approach to painting in successive layers to achieve specific natural effects. Students will focus on both paint handling and drawing with value.The students will begin with a full grisaille (black and white) underpainting, and then begin to buil",
+      "url": "https://www.wellnessliving.com/rs/book-process.html?id_book_process=2&id_book_process_back=6&id_class_tab=2&id_place=2&k_class_tab=75562&dt_date=2026-02-07+21%3A00%3A00&k_class_period=17037105&k_business=693029&id_mode=2",
+      "source": "Boston Calendar",
+      "categories": [
+        "Arts & Crafts"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "30bd508d-cacd-81f8-8c09-ca0e578ab6de",
+      "name": "Create Turkish Lamps: Reverse Glass Painting & Mosaic Design",
+      "date": "2026-02-21",
+      "time": "2:00 PM",
+      "location": "Wyllo",
+      "address": "",
+      "price": "$85",
+      "description": "Turkish lamps symbolize opulence, warmth, and hospitality, featuring intricate, hand-cut glass and geometric or floral patterns.In this workshop, you\u2019ll make your own Turkish lamp by experimenting with reverse glass painting using vibrant alcohol inks. Afterwards you'll add tile accents by creating geometric and floral mosaic designs using hand cut glass. Each lamp will be fully functional and one of a kind.This workshop is beginner friendly so no experience is necessary.",
+      "url": "https://www.shopwyllo.com/products/create-turkish-lamps-reverse-glass-painting-mosaic-design",
+      "source": "Boston Calendar",
+      "categories": [
+        "South Asian",
+        "Middle Eastern",
+        "Arts & Crafts"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "30bd508d-cacd-81f8-bbef-fe923b108ec2",
+      "name": "History of  Boston Through Paintings | Art Tour | Saturdays 12-4pm",
+      "date": "2026-02-21",
+      "time": "12:00 PM",
+      "location": "The Hidden Art Gallery | Saturdays January  17th 12 - 4pm",
+      "address": "",
+      "price": "$25",
+      "description": "Welcome to the HistoricBoton Paintings Art Tourevent!Join us atThe Hidden Art Galleryfor a unique experience where you can explore the rich history of Boston through art. Our knowledgeable guide will take you on a journey through time as you view stunning paintings depicting the city's most iconic landmarks. Immerse yourself in the beauty of Boston's past as you wander through our gallery filled with hidden gems waiting to be discovered. Don't miss out on this one-of-a-kind event!Tickets:https:/",
+      "url": "https://www.eventbrite.com/e/historic-boston-city-painting-tour-tickets-1030094188447?aff=oddtdtcreator",
+      "source": "Boston Calendar",
+      "categories": [
+        "Arts & Crafts"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "30bd508d-cacd-815c-9f11-f5f77b81193c",
+      "name": "Minni Family Workshop - Things that Go!",
+      "date": "2026-02-21",
+      "time": "10:30 AM",
+      "location": "Minni Beacon Hill",
+      "address": "",
+      "price": "$40",
+      "description": "Roll on down to Minni for a Family Workshop all about things that go! Little engineers and caregivers will design their very own cityscapes and roadways using a variety of 2D and 3D art materials. Students will spend time painting colorful wooden cars to bring their streets to life, and explore all the ways to make art through movement - including painting with cars,\u00a0train collages, and more!Minni Family Workshops offer an interactive, approachable experience for the entire family. Each uniquely",
+      "url": "https://www.hisawyer.com/minni/schedules/activity-set/1660812?day=2026-02-21&view=cal&source=camps",
+      "source": "Boston Calendar",
+      "categories": [
+        "South Asian",
+        "Arts & Crafts"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "30bd508d-cacd-810e-90db-dce05f01137d",
+      "name": "The Hidden Art Gallery",
+      "date": "2026-02-21",
+      "time": "10:00 AM",
+      "location": "The Hidden Art Gallery",
+      "address": "",
+      "price": "$10",
+      "description": "Visit The Art Gallery $10View museum quality oil paintingsBrowse the gift shop for awesome treasures and souvenirs.Educational Talks $25Watercolor Classes $55 - $180Fridays & SaturdaysArt & Architectural Historic Tour $45For Classes & Tours (M - Saturdays)Book on Line:www.thehiddenartgallery.compreferred 24hr notice or call first to book a tour.Visit Today Saturday 10AM - 3PMhttps://www.paypal.com/ncp/payment/RCPP38VGHPXU4",
+      "url": "http://www.thehiddenartgallery.com",
+      "source": "Boston Calendar",
+      "categories": [
+        "Arts & Crafts",
+        "Talks & Lectures"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "30bd508d-cacd-8131-b462-f692d7f41601",
+      "name": "A Middle Eastern Brunch Feast *In-Person* *NEW*",
+      "date": "2026-02-21",
+      "time": "11:00 AM",
+      "location": "CCAE",
+      "address": "",
+      "price": "$105",
+      "description": "Arab cuisine is known for its colorful dinnertime meze spreads, but this region dishes out hearty breakfast and brunch spreads, too. Learn to make nationally beloved dishes like hummus, ful medemas (fava bean spread), and cilbir eggs in this traditional-meets-contemporary interactive cooking class. While waiting for everything to come together, we\u2019ll have pita, za\u2019atar, and cardamom tea to snack on. This class is suitable for vegetarians and vegans. Instructor: Lala Thaddeus",
+      "url": "https://ccae.org/classes/offering/4306/a-middle-eastern-brunch-feast-in-person-new",
+      "source": "Boston Calendar",
+      "categories": [
+        "Middle Eastern",
+        "Arts & Crafts",
+        "Food & Markets",
+        "Coffee & Chai",
+        "Sports & Outdoors"
+      ],
+      "latitude": null,
+      "longitude": null
     },
     {
       "id": "30bd508d-cacd-81cf-b112-eee97d171058",
@@ -2033,6 +3014,168 @@
       "longitude": -71.100088
     },
     {
+      "id": "30bd508d-cacd-8158-a525-cba4c644bfc3",
+      "name": "Sunday morning meditation: more connection, less judgement",
+      "date": "2026-02-22",
+      "time": "11:00 AM",
+      "location": "Kadampa Meditation Center Boston",
+      "address": "",
+      "price": "$15",
+      "description": "This world needs more peace. We can all be a part of bringing this about by becoming a more peaceful person.\u00a0An essential part of being able to benefit others is becoming stronger ourselves and creating more balance in our life.This Sunday morning meditation class will look at Buddha\u2019s teachings on patience and on the practice of loving kindness.Each week will include:guided breathing meditationa short teaching on how to access more inner calm and kindnessa practice of some short chanted prayers",
+      "url": "https://www.meditationinboston.org/sundays-in-cambridge",
+      "source": "Boston Calendar",
+      "categories": [
+        "Arts & Crafts",
+        "Coffee & Chai",
+        "Religious"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "30bd508d-cacd-81ce-beb3-ccf85b9c111e",
+      "name": "Specialty Class: Beginner Hot 26 Yoga with Gerdette Armour",
+      "date": "2026-02-22",
+      "time": "12:30 PM",
+      "location": "Down Under School of Yoga - Newton",
+      "address": "",
+      "price": "$32",
+      "description": "Sunday, February 2212:30-1:30pm \u2022NewtonCurious about Hot 26 but not sure where to begin? This approachable class offers a welcoming introduction to the traditional Bikram/Hot 26 sequence, designed especially for those who are new to the practice or returning after time away.In this one-hour, lightly heated class, you\u2019ll move through the26 postures and 2 breathing exerciseswith shorter holds and thoughtful guidance\u2014making the sequence more accessible while still offering all the strengthening, ba",
+      "url": "https://downunderyoga.com/upcoming-events/specialty-class-beginner-hot-26-yoga",
+      "source": "Boston Calendar",
+      "categories": [
+        "South Asian",
+        "Sports & Outdoors",
+        "Music & Dance"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "30bd508d-cacd-8179-9c45-f9b995caf8c1",
+      "name": "Free Heated Yoga Class at CorePower Yoga",
+      "date": "2026-02-22",
+      "time": "11:00 AM",
+      "location": "CorePower Yoga",
+      "address": "",
+      "price": "Free",
+      "description": "Free Community Flow Classes happen every Sunday at CorePower studios nationwide. Join us weekly at 11 am local time for a heated flow! See all upcoming FREE community classeshere.To sign up:1) Go tohttps://www.corepoweryoga.com2) Create a free account3) Go to \"Book\" and select the studio near you4) On Sundays you'll find \"Free Community Flow Class (heated) and press \"book\"",
+      "url": "https://www.corepoweryoga.com/yoga-studio/all-locations/boston",
+      "source": "Boston Calendar",
+      "categories": [
+        "Sports & Outdoors",
+        "Community"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "30bd508d-cacd-81c7-923a-f7b3ce2737aa",
+      "name": "WATERCOLOR WORKSHOPS",
+      "date": "2026-02-22",
+      "time": "3:30 PM",
+      "location": "The Hidden Art Gallery",
+      "address": "",
+      "price": "$300",
+      "description": "WATERCOLOR WORKSHOPSSeries of 4 Sessions Per MonthJoin our fun & relaxed in-person watercolor sessions! Whether you're a beginner, single or couple and want to unwind with some creative vibes, these classes are perfect for you. You'll get hands-on guidance for fellow art lovers, and explore your artistic side in a friendly setting in the gallery studio. Art materials are included so come paint with us \u2013 it's all about enjoying the process and making beautiful art together!Please note 4 people ma",
+      "url": "https://www.thehiddenartgallery.com/Events_The_Hidden_Art_Gallery.html",
+      "source": "Boston Calendar",
+      "categories": [
+        "Arts & Crafts",
+        "Music & Dance"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "30bd508d-cacd-8101-b961-f34fce102366",
+      "name": "Lightroom Classic 1 with Boston Photography Workshops",
+      "date": "2026-02-22",
+      "time": "2:00 PM",
+      "location": "Boston Photography Workshops",
+      "address": "",
+      "price": "$135",
+      "description": "Class Description:- Tuition: $135- Class Size: 4- Duration: 3.5 hours- Skill Level: Intermediate; no prior knowledge of Adobe programs required!Think editing is cheating? Think again.All photographers\u2014from beginners to retired pros\u2014use Lightroom Classic to organize and edit their photos. In this class, students will learn how to manage the thousands of photos they have captured while also exploring editing lingo and buttons used universally. Get hands-on practice editing 3-4 assigned photos usin",
+      "url": "https://www.bostonphotographyworkshops.com/lightroom1",
+      "source": "Boston Calendar",
+      "categories": [
+        "Arts & Crafts"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "30bd508d-cacd-8163-b6e9-eb635d68d4ae",
+      "name": "Materials Lab Workshop: Light Up the Lunar New Year of the Horse",
+      "date": "2026-02-22",
+      "time": "1:00 PM",
+      "location": "Harvard Art Museums",
+      "address": "",
+      "price": "Free",
+      "description": "Know Before You GoHow to join:Register here.Fee:$15, paid at registration (materials will be provided)Age restrictions:Age 14 and olderWhere to go:Materials Lab, Lower LevelAccessibility accommodations:Emailam_register@harvard.eduat least 48 hours in advance, including the name and date of the program in the subject line.General info:Themuseum visit pagehas general guidelines for your visit.The Year of the Snake is drawing to a close, and the Year of the Horse is upon us! We invite you to welcom",
+      "url": "https://bit.ly/4aOdoSm",
+      "source": "Boston Calendar",
+      "categories": [
+        "Arts & Crafts"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "30bd508d-cacd-8114-9710-dcdb7c40d7cb",
+      "name": "Coffee+Crafts",
+      "date": "2026-02-22",
+      "time": "1:00 PM",
+      "location": "Boston Fiber Company",
+      "address": "",
+      "price": "Free",
+      "description": "Join us every Sunday from 1pm-4pm for Coffee+Crafts! Knitters, crocheters, and crafters of all levels are welcome. We encourage you to bring a project you can do while sitting on a chair with minimal/no table space. Coffee+Crafts is a free event, but attendees receive 10% off any purchases made during the event time. Have fun spending time with crafty friends and more!",
+      "url": "http://www.bostonfibercompany.com",
+      "source": "Boston Calendar",
+      "categories": [
+        "South Asian",
+        "Arts & Crafts",
+        "Coffee & Chai"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "30bd508d-cacd-8179-bc05-d600bbaa003c",
+      "name": "Paint and Plant Workshop",
+      "date": "2026-02-22",
+      "time": "1:30 PM",
+      "location": "Craft Loft",
+      "address": "",
+      "price": "$65",
+      "description": "Ever want to combine art and plants in one?\u00a0This is it!\u00a0In this workshop, you\u2019ll have fun painting your own designs on premium fiber-cement pots and then pot it up with a lovely foliage plant!Your host is a multi-talented art and plant aficionado!\u00a0We'll have fun discussing color, design, and pro tips for achieving clean lines on a rounded pot.\u00a0We'll also share plant care knowledge so your finished piece will stay healthy for a long time!Materials Included:1 Fibercement pot (choose your colors on",
+      "url": "https://craft-loft.com/products/paint-and-plant-workshop-cambridge",
+      "source": "Boston Calendar",
+      "categories": [
+        "South Asian",
+        "Arts & Crafts"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "30bd508d-cacd-811e-a2cc-cf4fcfae6acb",
+      "name": "Ouchigohan: Online Japanese Cooking Class",
+      "date": "2026-02-22",
+      "time": "5:00 PM",
+      "location": "Online",
+      "address": "",
+      "price": "$15",
+      "description": "Join the Japan Society of Boston and Table for Two for this family-friendly online Japanese home cooking class series \u304a\u3046\u3061\u3054\u306f\u3093 (OUCHIGOHAN) and cook along or just watch from your own kitchen!We\u2019re celebrating February withehomaki\u2014an uncut sushi roll traditionally eaten on Setsubun (February 3) while facing the year\u2019s auspicious direction for good luck. The roll will be thickly filled with a customizable assortment of ingredients including omelette, marinated mushrooms, seafood, and other vegetable",
+      "url": "https://www.japansocietyboston.org/event-details/ouchigohan-ouchigohan-ehomaki-with-soy-milk-matcha-latte",
+      "source": "Boston Calendar",
+      "categories": [
+        "Food & Markets"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
       "id": "30bd508d-cacd-815f-93e7-f8817a8293ff",
       "name": "Mini Chefs Bake French Pastries Together - Cooking Class in Boston | Cozymeal\u2122",
       "date": "2026-02-22",
@@ -2514,6 +3657,23 @@
       "longitude": -71.1060766
     },
     {
+      "id": "30bd508d-cacd-8191-8408-ca7c77e7ae0d",
+      "name": "Figure Drawing Basics: 3-Week Class",
+      "date": "2026-02-23",
+      "time": "7:00 PM",
+      "location": "Boston Figurative Art Center",
+      "address": "",
+      "price": "$140",
+      "description": "BFAC Members get %25 off!New to figure drawing? Maybe you\u2019ve been practicing, but feel stuck or in need of a new perspective?Illustrator, cartoonist, and figure drawing instructor Chris O\u2019Neill (@thumbsoneill) shares his approach to nailing proportions, making faster drawings, getting loose, and having more fun at figure drawing! Each class, Chris focuses on a fresh topic, so learn something new every time you come!This workshop will include three demos and individual instruction for each studen",
+      "url": "https://www.wellnessliving.com/rs/book-process.html?id_book_process=2&id_book_process_back=6&id_class_tab=2&id_place=2&k_class_tab=75562&dt_date=2026-02-10+00%3A00%3A00&k_class_period=17037688&k_business=693029&id_mode=2",
+      "source": "Boston Calendar",
+      "categories": [
+        "Arts & Crafts"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
       "id": "30bd508d-cacd-81cc-9b5e-d0df2cfab22d",
       "name": "Not Your Bubbe Book Club Hosts A Discussion of The Society with Karen Winn",
       "date": "2026-02-23",
@@ -2666,6 +3826,42 @@
       ],
       "latitude": 42.3429997,
       "longitude": -71.0840424
+    },
+    {
+      "id": "30bd508d-cacd-8197-bd0f-ee383996bb6c",
+      "name": "Winter Workshop: Wet Felted Wool Scarf",
+      "date": "2026-02-24",
+      "time": "9:00 AM",
+      "location": "Arlington Center for the Arts",
+      "address": "",
+      "price": "$83",
+      "description": "Program DescriptionIn this class we will wet felt a merino scarf from start to finish using traditional wet felting techniques. A scarf is an easy and fun way to get into the world of wet felting. All you need is wool, water, and a bit of elbow grease to create this warm, durable scarf! In this class we will also experience a variety of embellishment fibers and their applications, and use them to completely customize your project. Bear in mind - wet felting is a lot of work, but very tactile and",
+      "url": "https://reg125.imperisoft.com/acarts/ProgramDetail/3931363536/Registration.aspx",
+      "source": "Boston Calendar",
+      "categories": [
+        "Arts & Crafts"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "30bd508d-cacd-813c-b620-c6802f06760b",
+      "name": "Chinese Knots Workshop",
+      "date": "2026-02-24",
+      "time": "10:00 AM",
+      "location": "CCC Office",
+      "address": "",
+      "price": "Free",
+      "description": "\ud83e\udde7\u2728 Chinese Knots Workshop \u2728\ud83e\udde7Join us every two weeks on Tuesdays at the CCC office to learn and create beautiful traditional Chinese knots! This hands-on workshop is fun, relaxing, and perfect for all experience levels.\ud83d\uddd3 Biweekly Tuesdays\u23f0 10:00 AM \u2013 12:00 PM\ud83d\udccd CCC Office75 Pleasant Street, Suite 403, Malden, MA 02148\ud83e\uddf5 All materials provided | Everyone welcome!#ChineseKnots #CulturalWorkshop #MaldenEvents #CommunityArt #HandsOnWorkshop #CreativeCommunity",
+      "url": "https://chinesecultureconnection.org/upcoming-events/",
+      "source": "Boston Calendar",
+      "categories": [
+        "Arts & Crafts",
+        "Cultural Festival",
+        "Community"
+      ],
+      "latitude": null,
+      "longitude": null
     },
     {
       "id": "30bd508d-cacd-81be-822d-e66eb782d3eb",
@@ -2957,6 +4153,23 @@
       "longitude": -71.0600705
     },
     {
+      "id": "30bd508d-cacd-81cb-a92d-e2dca639d797",
+      "name": "Winter Workshop: Color Mixing & Theory",
+      "date": "2026-02-25",
+      "time": "9:00 AM",
+      "location": "Arlington Center for the Arts",
+      "address": "",
+      "price": "$73",
+      "description": "From new visual artists to those working for decades, understanding color is imperative in creating successful work.\u00a0 Let our color theory expert, Lee Su, show you how to master color. If you feel like your work is taking you more time because you keep having to correct it, this is absolutely the class for you. Even well-established visual artists know the vital importance of growing their knowledge of color theory.\u00a0 Color mixing is knowledge that can be applied to all mediums of visual art. Thi",
+      "url": "https://reg125.imperisoft.com/acarts/ProgramDetail/3931363135/Registration.aspx",
+      "source": "Boston Calendar",
+      "categories": [
+        "Arts & Crafts"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
       "id": "30ad508d-cacd-81b2-8143-f9bf1917eeaf",
       "name": "Hatha Yoga at the Lilypad",
       "date": "2026-02-25",
@@ -3151,6 +4364,41 @@
       ],
       "latitude": 42.3373218,
       "longitude": -71.0435761
+    },
+    {
+      "id": "30bd508d-cacd-81f4-8d15-d3d302218422",
+      "name": "House Plant Embroidery Workshop",
+      "date": "2026-02-26",
+      "time": "6:00 PM",
+      "location": "Hipstitch",
+      "address": "",
+      "price": "$60",
+      "description": "Join us for a fun and inspiring embroidery basics class! During this class you will learn a variety of embroidery stitches and techniques and create your very own\u00a0meadow inspired\u00a0embroidery.Perfect for both beginner to advanced embroidery artists looking to expand their skill setIn this\u00a0workshop you will learn\u00a0stitches including:\u00a0back stitch, stem stitch, satin stitch, lazy daisy, french knot and basket weave stitch.Thursday February 26th 6:00pm-8:00pmAge: 14 yrs of age or olderMaterials provide",
+      "url": "https://www.hipstitchers.com/products/house-plant-embroidery-workshop-brookline?_pos=2&_sid=df7ab3565&_ss=r",
+      "source": "Boston Calendar",
+      "categories": [
+        "Arts & Crafts"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "30bd508d-cacd-81e0-b9a8-c58dfff17aa8",
+      "name": "Volunteer in Cambridge: Find Your Mission Workshop",
+      "date": "2026-02-26",
+      "time": "12:00 PM",
+      "location": "Online",
+      "address": "",
+      "price": "Free",
+      "description": "This workshop with is designed for individuals or groups who want to participate in our vast and varied local nonprofit landscape in the Boston area through volunteerism. We will discuss the search and application process and how you can make a good match, then highlight opportunities at the program or board level in response to your priorities, and explain how you can find more options independently. Agency staff may drop in. Attendees are encouraged to share relevant first-hand experiences, bu",
+      "url": "https://www.cambridgevolunteers.org/event-details/volunteer-in-cambridge-find-your-mission-feb-26",
+      "source": "Boston Calendar",
+      "categories": [
+        "South Asian",
+        "Arts & Crafts"
+      ],
+      "latitude": null,
+      "longitude": null
     },
     {
       "id": "30ad508d-cacd-8148-8e94-eff9034a7138",
@@ -3592,6 +4840,226 @@
       "longitude": -71.100088
     },
     {
+      "id": "30bd508d-cacd-81e7-96cf-ca6166657ae2",
+      "name": "Mahamudra Meditations: A day retreat with Gen Khedrub",
+      "date": "2026-02-28",
+      "time": "11:00 AM",
+      "location": "Kadampa Meditation Center Boston",
+      "address": "",
+      "price": "$40",
+      "description": "In this special day retreat with Gen Khedrub, we will explore the time-honored Kadampa lineage of Mahamudra meditation, as presented in The Oral Instructions of Mahamudra by Venerable Geshe Kelsang Gyatso Rinpoche.This meditative journey begins with discovering the nature of our own mind, progresses through meditation on ultimate truth, emptiness, and then guides us deeply inward with completion stage meditations on the central channel, drop, and wind.Through these profound meditations we learn ",
+      "url": "https://www.meditationinboston.org/mahamudra-retreat",
+      "source": "Boston Calendar",
+      "categories": [
+        "Religious"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "30bd508d-cacd-8152-8bb8-c8c8d463a760",
+      "name": "Taproom Yoga at Long Live Roxbury",
+      "date": "2026-02-28",
+      "time": "11:00 AM",
+      "location": "Long Live Roxbury",
+      "address": "",
+      "price": "$15",
+      "description": "Join Andrea atLong Live Roxburyfor one hour of Vinyasa style yoga that includes breath work, a thoughtful sequence of movement + postures, and an energetic playlist to kick off your Saturday! With mouth-watering IPAs, eclectic local vendor pop-ups, a gorgeous indoor space, and a class offering to set your mind & body right- it's worth the visit! After class, treat yourself to this Rhode Island-based brewery's extensive draft menu, grab some lite bites, and soak in the the vibey atmosphere.Class ",
+      "url": "https://www.eventbrite.com/e/taproom-yoga-at-long-live-roxbury-tickets-1983280089135?aff=oddtdtcreator",
+      "source": "Boston Calendar",
+      "categories": [
+        "Theater & Film",
+        "Sports & Outdoors"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "30bd508d-cacd-8176-bf57-f0cacfda5b11",
+      "name": "Date Night: Flirty Tapas \u2013 Adult Cooking Class",
+      "date": "2026-02-28",
+      "time": "6:00 PM",
+      "location": "Powisset Farm",
+      "address": "",
+      "price": "$250 nonmember couple/$200 Trustees Member couple",
+      "description": "Spice up your evening with a hands-on tapas inspired cooking class with event Chef Josh. Grab your date and learn to make a variety of flavorful and sharable dishes, including Patatas Bravos, Seasonal Vegetable Frittatas, Farm Paella with Chorizo and Chicken, and Caramelized Figs with Ice Cream.Included in this class:Cooking demonstration and hands-on learning experience.Instruction from an experienced, top-notch instructor.Recipes to take home.At the end of each class, the opportunity to enjoy ",
+      "url": "https://thetrustees.org/event/442723/",
+      "source": "Boston Calendar",
+      "categories": [
+        "Middle Eastern",
+        "Food & Markets"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "30bd508d-cacd-8169-92d1-d334efcf710c",
+      "name": "Candle Making Workshop",
+      "date": "2026-02-28",
+      "time": "6:00 PM",
+      "location": "Craft Loft",
+      "address": "",
+      "price": "$65",
+      "description": "Learn about the art of candle making and practice making your own candles with deliciously scented essential oils.\u00a0We will use soy wax and glass jars with beautiful natural decorations. You'll be delighted by the beautiful candles you make, perfect for enjoyment or gifting!During this workshop, you will make 2 candles in 7oz jars.\u00a0They will also come with a fitted bamboo lid to keep your candles clean and scents fresh!Materials Included:Candle Jars (choose from clear glass, forest green frosted ",
+      "url": "https://studio.gardenstreets.com/collections/boston-workshops/products/candle-making-workshop-90min-cambridge",
+      "source": "Boston Calendar",
+      "categories": [
+        "Arts & Crafts"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "30bd508d-cacd-81ba-b500-fa7012075d3c",
+      "name": "Soul Speak Alchemy Box - A Meditative Art Workshop",
+      "date": "2026-02-28",
+      "time": "2:30 PM",
+      "location": "Honan-Allston Branch of the Boston Public Library",
+      "address": "",
+      "price": "Free",
+      "description": "**Program is full. Email Sarah atsmahon@bpl.orgto be placed on the waitlist.**Join Kim Larkin from Klassic Kreations for a\u00a0unique, soulful, and meditative art program!We'll\u00a0transform an 8 x 8 kraft box into your own 3-D Alchemy Box to\u00a0manifest your hopes and dreams. We will decorate the inside to represent\u00a0our innermost desires and goals, as well as the outside to reflect\u00a0our outer personas. A wide variety of mixed media and colorful wrapping papers are provided as well as fun paper punches, rib",
+      "url": "https://bpl.bibliocommons.com/events/69750fb9bcd2049764608b01",
+      "source": "Boston Calendar",
+      "categories": [
+        "South Asian",
+        "Arts & Crafts"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "30bd508d-cacd-8133-bfda-f7d212482f38",
+      "name": "Winter Workshop: Introduction to Japanese Shibori Dyeing",
+      "date": "2026-02-28",
+      "time": "1:00 PM",
+      "location": "Arlington Center for the Arts",
+      "address": "",
+      "price": "$165",
+      "description": "Join us for an introductory workshop exploring the basics of Japanese Indigo Shibori! Shibori is a traditional Japanese resist dye technique that uses a variety of textile manipulation methods to produce different patterns when the fabric is immersed in indigo dye. Experiment with tying, folding, stitching, compressing, and twisting fabric to create your own unique shibori masterpieces. Tuition includes dye kit, miscellaneous materials and variety of napkins/teatowels for dyeing.With Artist Mich",
+      "url": "https://reg125.imperisoft.com/acarts/ProgramDetail/3931363537/Registration.aspx",
+      "source": "Boston Calendar",
+      "categories": [
+        "Arts & Crafts",
+        "Coffee & Chai"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "30bd508d-cacd-81dc-851e-f30457ddb6a1",
+      "name": "Mosaic Workshop",
+      "date": "2026-02-28",
+      "time": "12:30 PM",
+      "location": "Craft Loft",
+      "address": "",
+      "price": "$55",
+      "description": "Join us at our Mosaic Workshop where you can learn mosaic and grouting techniques and create beautiful and unique statement pieces. You can choose to make a charming set of coasters, a mirror, or a plant pot. This activity is perfect for home d\u00e9cor or as a thoughtful gift!It's an easy and memorable activity to enjoy with friends and family. Each project will be one-of-a-kind, and you'll also learn design principles, color theory, and techniques that can be used for other DIY home design projects",
+      "url": "https://studio.gardenstreets.com/collections/boston-workshops/products/mosaic-mirror-workshop-cambridge",
+      "source": "Boston Calendar",
+      "categories": [
+        "South Asian",
+        "Arts & Crafts"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "30bd508d-cacd-8170-b1d7-c3ed213e7b6a",
+      "name": "Portrait Intensive Workshop (Studio School) * IN-Person* *NEW*",
+      "date": "2026-02-28",
+      "time": "10:00 AM",
+      "location": "CCAE",
+      "address": "",
+      "price": "$185",
+      "description": "Working with a live model, the class will focus on accurately depicting the face and head, including understanding relative proportions and facial structure while honing your understanding of color theory, value, and composition. This two-day intensive workshop is appropriate for both beginner and advanced students. Instructor: Amanda HillSaturday & Sunday, 10am-2pm\u00a0Feb 28 & Mar. 1",
+      "url": "https://ccae.org/classes/offering/4284/figure-intensive-workshop-in-person-new",
+      "source": "Boston Calendar",
+      "categories": [
+        "Arts & Crafts"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "30bd508d-cacd-81ac-a581-d54f9089d7dc",
+      "name": "Cloudscapes in Watercolor *In-Person*",
+      "date": "2026-02-28",
+      "time": "10:00 AM",
+      "location": "CCAE",
+      "address": "",
+      "price": "$120",
+      "description": "In this one-day workshop students will learn to create spectacular, emotive, moody skies that will set the tone of your landscapes in watercolor. Explore incorporating clouds into the composition of larger pieces as well as painting techniques to create a variety of cloud types.\u00a0Several demonstrations will be performed and will be chock-full of information to help you create the landscapes you desire. This is designed for a wide range of watercolor skill levels from beginners to advanced artists",
+      "url": "https://ccae.org/classes/offering/3460/cloudscapes-in-watercolor-in-person",
+      "source": "Boston Calendar",
+      "categories": [
+        "South Asian",
+        "Middle Eastern",
+        "Arts & Crafts"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "30bd508d-cacd-8173-b830-ceb71d636f3f",
+      "name": "South Asian Showdown",
+      "date": "2026-02-28",
+      "time": "6:00 PM",
+      "location": "543 Columbia Rd, Boston, MA",
+      "address": "",
+      "price": "$13-100",
+      "description": "(Boston)South Asian Showdown has announced the ten teams that will compete in the 17th annual Bollywood/Fusion dance competition. One of North America\u2019s premier showcases of South Asian fusion dance, the event brings together some of the most celebrated dance groups from across the United States. These teams will tell a unique story through expertly choreographed dance moves and colorful costumes for the chance to win a generous cash prize on Saturday, February 28, 2026, at the Strand Theatre in",
+      "url": "https://www.southasianshowdown.com/2026/",
+      "source": "Boston Calendar",
+      "categories": [
+        "South Asian",
+        "Theater & Film",
+        "Coffee & Chai",
+        "Music & Dance"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "30bd508d-cacd-8156-af89-cba5957abbc0",
+      "name": "South Asian Showdown XVII",
+      "date": "2026-02-28",
+      "time": "6:00 PM",
+      "location": "Strand Theatre",
+      "address": "",
+      "price": "$20-100",
+      "description": "This will be the 17th year of the South Asian Showdown (SAS) due to the support of the teams, sponsors and community! We look to make this the BIGGEST SAS ever! Teams from all over North America & Canada have deemed us \u201cone of the best Bollywood/Fusion competitions\u201d in the North America, and we look forward to living up to that title again this year.Bollywood/Fusion is a highly energetic dance from India that combines many different styles of dance coordinated to a theme. You will see Bollywood,",
+      "url": "http://www.southasianshowdown.com",
+      "source": "Boston Calendar",
+      "categories": [
+        "South Asian",
+        "Coffee & Chai",
+        "Music & Dance",
+        "Community"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "30bd508d-cacd-812c-aed7-c2c58dc70c60",
+      "name": "Winter Special: Indian Comfort Food",
+      "date": "2026-02-28",
+      "time": "11:00 AM",
+      "location": "CCAE",
+      "address": "",
+      "price": "$105",
+      "description": "In Indian cuisine, one of the most comforting meals in the winter time is a bowl of hot dal and rice. In this class we will learn to make two kinds of dals : a hearty dal makhani and Gujarati dal along with steamed rice. All dishes are vegetarian and can be made vegan. Instructor: Neha Coureil",
+      "url": "https://ccae.org/classes/offering/485789/winter-special-indian-comfort-food",
+      "source": "Boston Calendar",
+      "categories": [
+        "South Asian",
+        "Arts & Crafts",
+        "Food & Markets",
+        "Coffee & Chai"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
       "id": "30bd508d-cacd-81f7-960a-ec1f7aeb9465",
       "name": "Hatha Yoga with Live Music",
       "date": "2026-02-28",
@@ -3942,6 +5410,114 @@
       "longitude": -71.0660247
     },
     {
+      "id": "30bd508d-cacd-81ab-898e-d69b73e31d51",
+      "name": "Opera Innovators Series: Workshop with Anne Bogart",
+      "date": "2026-03-01",
+      "time": "7:00 PM",
+      "location": "Studio 401",
+      "address": "",
+      "price": "Free",
+      "description": "Legendary theater and opera director Anne Bogart leads a workshop with Boston Conservatory at Berklee students as part of the Opera Innovators Series.Anne Bogart is presented as part of Boston Conservatory at Berklee\u2019s Opera Innovators Series in partnership with the Boston Lyric Opera.This event is open to Berklee students, faculty, and staff with a valid Berklee ID, and invited guests only.",
+      "url": "https://www.thebostoncalendar.com/events/opera-innovators-series-workshop-with-anne-bogart",
+      "source": "Boston Calendar",
+      "categories": [
+        "Arts & Crafts",
+        "Theater & Film"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "30bd508d-cacd-8192-b708-c33a1779ea30",
+      "name": "Moss Art Workshop",
+      "date": "2026-03-01",
+      "time": "4:30 PM",
+      "location": "Craft Loft",
+      "address": "",
+      "price": "$55",
+      "description": "Come relax and\u00a0get some zen by making your own, unique piece of moss art!During this workshop, attendees will create an 8\"x 8\" piece of moss art by incorporating natural and dried materials such as branches, moss of various texture, and colors to create a beautiful and long-lasting frame. The end product will bring a beautiful, natural element to any space!\u00a0\u00a0You can hang the moss art on the wall or display on a stand.All Basic Materials Included.\u00a0Frame included. Dried flowers and other items ava",
+      "url": "https://studio.gardenstreets.com/collections/boston-workshops/products/moss-art-workshop-60min-cambridge",
+      "source": "Boston Calendar",
+      "categories": [
+        "Arts & Crafts",
+        "Theater & Film"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "30bd508d-cacd-81cf-b857-fb0fea5a488d",
+      "name": "Building Connections Workshop",
+      "date": "2026-03-01",
+      "time": "3:00 PM",
+      "location": "Online",
+      "address": "",
+      "price": "Free",
+      "description": "The Newton Human Rights Commission (HRC) with seven neighboring HRCs (or equivalents) is working with Essential Partners to host the free, virtual workshop, Building Connections: Effective Tools for Community Conversations on March 1, 2026 and March 8, 2026 from 3-4:30pm. To learn more about the workshop and to register, please visit:Building Connections_Effective Tools for Community Conversations Workshop.pdf - Google Drive",
+      "url": "https://drive.google.com/file/d/1QNIh4yJpIYLKcuX9e7oz538KICS1Iap3/view",
+      "source": "Boston Calendar",
+      "categories": [
+        "Arts & Crafts",
+        "Talks & Lectures",
+        "Community"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "30bd508d-cacd-81d5-a831-d41fc48b6ac5",
+      "name": "Astrology Workshop: The 12 Houses",
+      "date": "2026-03-01",
+      "time": "1:00 PM",
+      "location": "Venus House",
+      "address": "",
+      "price": "$35.00",
+      "description": "\u2728Join us for an astrology workshop focused on understanding your birth chart!The 12 houses of the birth chart represent the different areas of life where your story unfolds: from relationships & work, to identity, family, goals & purpose.In this workshop, you\u2019ll learn:\u2728 What each of the 12 houses represent\ud83d\uddfa\ufe0f How to locate and understand the houses in your own birth chart\ud83e\ude90 How planets express themselves differently depending on which house they\u2019re in\ud83d\udd4a\ufe0f Understanding the role of empty houses\ud83c\udf31 How ",
+      "url": "https://www.venushouseboston.com/offerings/p/workshop-a-tour-of-the-12-houses",
+      "source": "Boston Calendar",
+      "categories": [
+        "Arts & Crafts"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "30bd508d-cacd-8151-ace3-ec07c2453d73",
+      "name": "Nibble Kitchen presents Paint Night Workshop",
+      "date": "2026-03-01",
+      "time": "4:00 PM",
+      "location": "Nibble Kitchen",
+      "address": "",
+      "price": "$65",
+      "description": "Join us for \ud835\udde1\ud835\uddf6\ud835\uddef\ud835\uddef\ud835\uddf9\ud835\uddf2 \ud835\uddde\ud835\uddf6\ud835\ude01\ud835\uddf0\ud835\uddf5\ud835\uddf2\ud835\uddfb'\ud835\ude00 \ud835\uddf3\ud835\uddf6\ud835\uddff\ud835\ude00\ud835\ude01-\ud835\uddf2\ud835\ude03\ud835\uddf2\ud835\uddff \ud835\udde3\ud835\uddee\ud835\uddf6\ud835\uddfb\ud835\ude01 \ud835\udde1\ud835\uddf6\ud835\uddf4\ud835\uddf5\ud835\ude01 in partnership with local \ud835\udddb\ud835\uddee\ud835\uddf6\ud835\ude01\ud835\uddf6\ud835\uddee\ud835\uddfb \ud835\uddf0\ud835\uddf5\ud835\uddf2\ud835\uddf3 \ud835\udde0\ud835\uddee\ud835\uddff\ud835\uddf6\ud835\ude01\ud835\ude07\ud835\uddee \ud835\udddd\ud835\ude02\ud835\uddf9\ud835\uddf2\ud835\ude00 and \ud835\udddb\ud835\uddee\ud835\uddf6\ud835\ude01\ud835\uddf6\ud835\uddee\ud835\uddfb \ud835\uddee\ud835\uddff\ud835\ude01\ud835\uddf6\ud835\ude00\ud835\ude01 \ud835\udde0\ud835\uddee\ud835\uddff\ud835\uddf0 \ud835\uddd8\ud835\uddf9\ud835\uddf6\ud835\uddf2 \ud835\udde0\ud835\uddfc\ud835\uddff\ud835\uddf1\ud835\uddee\ud835\uddfb.Participants will sample bevvy of delicious treat and go home with a work of art of their own creation\u2014all for $65!Space is limited. Get tickets here:https://www.eventbrite.com/e/1979368941788?aff=oddtdtcreatorAbout the EventTo kick off the evening, Marc will share insights into his personal artistic style and the unique characteristics that define a tradit",
+      "url": "https://www.eventbrite.com/e/1979368941788?aff=oddtdtcreator",
+      "source": "Boston Calendar",
+      "categories": [
+        "Arts & Crafts"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "30bd508d-cacd-8191-b40e-ccb2bb96d6d0",
+      "name": "Chinese New Year Lion Dance Parade & Cultural Village 2026",
+      "date": "2026-03-01",
+      "time": "11:00 AM",
+      "location": "Chinatown Trade Center",
+      "address": "",
+      "price": "Free",
+      "description": "Celebrate Chinese New Year with Chinatown Main Street! Gather with friends and family to open a prosperous year filled with lion dancing, performances, music, arts and crafts, gifts, calligraphy, and more!Time & LocationMar 01, 2026, 11:00 AM \u2013 3:30 PMChina Trade Center, 2 Boylston St, Boston, MA 02116, USA",
+      "url": "https://www.chinatownmainstreet.org/",
+      "source": "Boston Calendar",
+      "categories": [
+        "Arts & Crafts",
+        "Music & Dance",
+        "Cultural Festival"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
       "id": "30bd508d-cacd-815e-ad54-d97a61783b32",
       "name": "(Junk) Book Binding - Small Works Artist Workshop",
       "date": "2026-03-01",
@@ -4187,6 +5763,76 @@
       "longitude": -71.06589079999999
     },
     {
+      "id": "30bd508d-cacd-811f-a2a2-ff2c50a9a64e",
+      "name": "Full Moon Yoga @ The Museum Of Modern Renaissance Somerville MA!",
+      "date": "2026-03-03",
+      "time": "7:00 PM",
+      "location": "Museum of Modern Renaissance",
+      "address": "",
+      "price": "$35",
+      "description": "The \"Worm\" moon was named this because it occurs when the ground thaws and earthworms emerge from the soil. The Worm Moon symbolizes rebirth, renewal, and transformation. It marks the end of winter and the beginning of spring, when nature awakens. The Worm Moon is a powerful time for a spiritual reset as the earthworms work through the soil and setup for a great time to plant and start something new! This is a perfect time to, ditch negativity, look inward, and make room for personal growth. Pic",
+      "url": "https://www.eventbrite.com/e/full-moon-yoga-soundscape-the-museum-of-modern-renaissance-tickets-1982325871043?utm-campaign=social&utm-content=attendeeshare&utm-medium=discovery&utm-term=listing&utm-source=cp&aff=ebdsshcopyurl",
+      "source": "Boston Calendar",
+      "categories": [
+        "Arts & Crafts",
+        "Sports & Outdoors",
+        "Religious"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "30bd508d-cacd-81f0-ab21-fc4d65ddf8fd",
+      "name": "Succulent Planting Workshop",
+      "date": "2026-03-03",
+      "time": "6:00 PM",
+      "location": "Craft Loft",
+      "address": "",
+      "price": "$65",
+      "description": "During this workshop, attendees will get their hands dirty putting together a beautiful\u00a0succulent terrarium or wine bottle planter using a curated selection of high-quality materials, including moss, rocks, and live succulent plants.Our expert host will guide you through the process, providing tips and insight on how to care for the plants to help them thrive. These plants are easy to care for and add a nice touch of nature to any indoor setting.See how everyone\u2019s creativity and style comes thro",
+      "url": "https://craft-loft.com/products/succulent-terrarium-workshop-60min-cambridge",
+      "source": "Boston Calendar",
+      "categories": [
+        "Arts & Crafts"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "30bd508d-cacd-81aa-80fa-e425ede4cee3",
+      "name": "Winter Workshop: Hand Sew a Yeti (Gr K-3)",
+      "date": "2026-03-03",
+      "time": "4:00 PM",
+      "location": "Arlington Center for the Arts",
+      "address": "",
+      "price": "$65",
+      "description": "Create your very own yeti friend in this fun hand sewing class. Using felt, thread, a needle, and stuffing (the soul of the plushie!) kids will sew their very own wintery plush to keep them company during the cold and frosty months. Come learn a new skill and (literally) make a new friend in this workshop. All skill levels welcomed and encouraged.With Artist Chelsea Brown",
+      "url": "https://reg125.imperisoft.com/acarts/ProgramDetail/3931363637/Registration.aspx",
+      "source": "Boston Calendar",
+      "categories": [
+        "Arts & Crafts"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "30bd508d-cacd-8170-84bb-fbbfa4e08be1",
+      "name": "Art Class Hosted by All Ways Arts",
+      "date": "2026-03-03",
+      "time": "7:00 PM",
+      "location": "Lord Hobo Brewing Company",
+      "address": "",
+      "price": "$35-85",
+      "description": "Join us for an Art Class hosted by All Ways Arts! They haven't posted the exact class for this date yet but they host a variety of Art Workshops such as Paint your Pet Nite (my personal favorite), Chunky Blanket Nite, a Seaglass Tree Workshop, Classic Paint Nite & many more!We'll post the link to sign up when its ready!",
+      "url": "https://www.thebostoncalendar.com/events/art-class-hosted-by-all-ways-arts--34",
+      "source": "Boston Calendar",
+      "categories": [
+        "Arts & Crafts"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
       "id": "30ad508d-cacd-81c5-a7fa-c5a047ea9c20",
       "name": "Full Moon Yoga & Soundscape @ The Museum Of Modern Renaissance!",
       "date": "2026-03-03",
@@ -4291,6 +5937,23 @@
       "longitude": -71.07113389999999
     },
     {
+      "id": "30bd508d-cacd-8103-90ff-c28402c3fb1a",
+      "name": "Arab Desserts: Knefeh and Baklava *In-Person* *NEW*",
+      "date": "2026-03-04",
+      "time": "6:00 PM",
+      "location": "CCAE",
+      "address": "",
+      "price": "$95",
+      "description": "In this class, we'll make classic Middle Eastern baklava and Levantine knefeh, sweet treats fit for special occasions. Students will work with philo and katayif dough and learn how to avoid common mistakes while making these intimidating big desserts. We'll practice adding different fillings and making various shapes of baklava, which students will get to take home. We will eat warm, cheesy knefeh together in class, discuss Arab and Middle Eastern culture, and where to buy the best ingredients t",
+      "url": "https://ccae.org/classes/offering/429155/arab-desserts-knefeh-and-baklava-in-person-new",
+      "source": "Boston Calendar",
+      "categories": [
+        "Middle Eastern"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
       "id": "30ad508d-cacd-81dc-bdf2-e3325e6230b6",
       "name": "Mind Body Machine: 1 Day Holistic Health Training in Boston, MA",
       "date": "2026-03-04",
@@ -4393,6 +6056,80 @@
       ],
       "latitude": 42.3600825,
       "longitude": -71.0588801
+    },
+    {
+      "id": "30bd508d-cacd-81b7-98bc-f9bec19274c1",
+      "name": "Zest & Zing \u2013 Adult Cooking Class",
+      "date": "2026-03-05",
+      "time": "6:00 PM",
+      "location": "Powisset Farm",
+      "address": "",
+      "price": "$Member: $80; Nonmember: $95;",
+      "description": "Escape the winter chill and treat your tastebuds to a burst of sunshine! Join us for a hands-on cooking class focused on the bright, vibrant flavors of citrus.You\u2019ll learn to perfectly balance the zest and tang of oranges, lemons, and pomelos to create spectacular seasonal dishes. We\u2019ll make Lemon Herb Chicken, Chili Pomelo Salad with herbs and greens, and Orange Honey Glazed Carrots.Included in this class:Cooking demonstration and hands-on learning experience.Instruction from an experienced, to",
+      "url": "https://thetrustees.org/event/442724/",
+      "source": "Boston Calendar",
+      "categories": [
+        "Food & Markets"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "30bd508d-cacd-8100-a3a6-e94599d5d3e7",
+      "name": "St Patrick's Day Ribbon Wreath Workshop",
+      "date": "2026-03-05",
+      "time": "7:00 PM",
+      "location": "Break Rock Brewery",
+      "address": "",
+      "price": "$25.00",
+      "description": "Kick off St. Patrick\u2019s Day season with a hands-on Ribbon Wreath Workshop hosted at a local brewery in early March. In this guided session, you\u2019ll design and assemble a festive ribbon wreath perfect for celebrating the holiday at home or gifting to a fellow Irish-at-heart friend. You\u2019ll choose from a mix of classic greens, patterns, and textures while learning simple techniques that make the process fun and approachable for all skill levels. All materials are provided, and the relaxed brewery set",
+      "url": "https://www.eventbrite.com/e/st-patricks-day-ribbon-wreath-workshop-tickets-1980334523870?aff=oddtdtcreator",
+      "source": "Boston Calendar",
+      "categories": [
+        "South Asian",
+        "Arts & Crafts",
+        "Cultural Festival"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "30bd508d-cacd-8134-93b0-feb79044747d",
+      "name": "Hand Building Pottery Workshop",
+      "date": "2026-03-05",
+      "time": "6:00 PM",
+      "location": "Craft Loft",
+      "address": "",
+      "price": "$55",
+      "description": "Get your hands on some clay and make a versatile trinket dish or incense holder.\u00a0We will discuss the basics of rolling a slab, making a coil, and finally how to add texture to your piece.\u00a0We'll also have fun add-ons such as seashells and pebbles to make your piece extra special.Best of all, we will be using air dried clay that you can take home and simply dry and harden.\u00a0No long waiting times for kiln firing!\u00a0The hardened pieces can be painted with acrylic paint if you want to add additional col",
+      "url": "https://craft-loft.com/products/hand-building-pottery-workshop-cambridge",
+      "source": "Boston Calendar",
+      "categories": [
+        "Arts & Crafts"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "30bd508d-cacd-8134-9695-eb6386b0c593",
+      "name": "Art Clinic: Sigil Making Workshop",
+      "date": "2026-03-05",
+      "time": "4:00 PM",
+      "location": "The Foundry",
+      "address": "",
+      "price": "$Pay-What-You-Can ($10-$30)",
+      "description": "Art Clinics are curated healing spaces for creative expression and emotional/spiritual connection with community. Drop-in to make some unique art and enjoy the conversation. Hosted byArt & Soul Clinic. Featuring local artists and friends. Follow us onInstagramfor the latest updates \ud83e\udde1In this session, local artistPhoenixwill lead you through designing a unique sigil patch to be worn for protection or manifestation. Sigils are unique & abstract symbols created for a specific intention. Learn more a",
+      "url": "https://forms.gle/f59DpkjQRzJGNBuW9",
+      "source": "Boston Calendar",
+      "categories": [
+        "South Asian",
+        "Arts & Crafts",
+        "Talks & Lectures",
+        "Religious",
+        "Community"
+      ],
+      "latitude": null,
+      "longitude": null
     },
     {
       "id": "30ad508d-cacd-814c-b9ad-e5761c61161e",
@@ -4660,6 +6397,43 @@
       "longitude": -71.23741
     },
     {
+      "id": "30bd508d-cacd-813d-a49c-ef32039aa70a",
+      "name": "Minni Tween Workshop - Terrific Totes",
+      "date": "2026-03-06",
+      "time": "5:30 PM",
+      "location": "Minni Beacon Hill",
+      "address": "",
+      "price": "$50",
+      "description": "Tweens are invited to dive into the world of textile surface design as they paint and embellish their very own canvas tote bags. Participants will explore a variety of artistic techniques, including brushwork, stenciling, and tape resist techniques, using a colorful array of fabric paints and crafty embellishments. Each child will craft a unique tote that showcases their personal style\u2014ideal for carrying treasures, snacks, or art supplies! Join us for a colorful adventure in creativity!Minni Twe",
+      "url": "https://www.hisawyer.com/minni/schedules/activity-set/1660820?day=2026-03-06&view=cal&source=camps",
+      "source": "Boston Calendar",
+      "categories": [
+        "South Asian",
+        "Arts & Crafts"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "30bd508d-cacd-8127-a3a4-f46c843f50d0",
+      "name": "Winter Workshop: Introduction to Woodburning!",
+      "date": "2026-03-06",
+      "time": "1:00 PM",
+      "location": "Arlington Center for the Arts",
+      "address": "",
+      "price": "$65",
+      "description": "Curious about pyrography or wood burning? We\u2019ll go through a basic introduction to the various pyrography pen nibs, wood grain types, and mark making techniques. Then go doodle to your heart\u2019s desire on pre lasercut wood shapes including hearts for Valentine\u2019s Day, rectangles for keychains and labels, or Christmas trees for ornaments etc.\u00a0 For creative minds of all ages and skill levels looking to try out pyrography. Tuition includes materials and tool use.With Artist Wendy Xu",
+      "url": "https://reg125.imperisoft.com/acarts/ProgramDetail/3931363232/Registration.aspx",
+      "source": "Boston Calendar",
+      "categories": [
+        "South Asian",
+        "Arts & Crafts",
+        "Coffee & Chai"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
       "id": "30ad508d-cacd-813c-b5ed-e4b004e9ce86",
       "name": "Hands-On: Pasta alla Carbonara",
       "date": "2026-03-06",
@@ -4745,6 +6519,76 @@
       ],
       "latitude": 42.5079686,
       "longitude": -71.0617761
+    },
+    {
+      "id": "30bd508d-cacd-8175-948f-d9b889fa264f",
+      "name": "BIPOC Affinity Meditation Group",
+      "date": "2026-03-07",
+      "time": "12:00 PM",
+      "location": "Shambhala Meditation Center of Boston",
+      "address": "",
+      "price": "Free",
+      "description": "Welcome to the BIPOC Meditation Affinity Group, a supportive and nurturing space dedicated to individuals who identify as Black, Indigenous, or People of Color. Our group provides a unique opportunity for members to explore meditation practices and mindfulness in a context of belonging and shared experience.In our sessions, we focus on creating a safe and inclusive environment where members can connect with their inner selves while honoring and sharing their diverse backgrounds and experiences. ",
+      "url": "https://boston.shambhala.org/program-details/?id=749494",
+      "source": "Boston Calendar",
+      "categories": [
+        "Religious"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "30bd508d-cacd-8130-866c-e1d22810cd5d",
+      "name": "Yoga Sculpt Teacher Training with Meredith Evangelisti",
+      "date": "2026-03-07",
+      "time": "1:30 PM",
+      "location": "Down Under School of Yoga - Newton",
+      "address": "",
+      "price": "$480",
+      "description": "March 7-8 & March 14-15, 2026Saturdays & Sundays \u2022\u00a01:30-6:30pmNewtonThis two-weekend intensive (16 hours) is intended for any certified fitness professional or 200 Hour Yoga Teacher. The intention of this training is to:Provide you with the tools to sequence and teach a 45, 60, or 75-minute Yoga Sculpt class.Give yourself the ability to incorporate resistance training into your yoga classes safely.Train you to merge your knowledge of resistance training into a vinyasa yoga flow.Make yogis strong",
+      "url": "https://downunderyoga.com/yoga-sculpt-teacher-training",
+      "source": "Boston Calendar",
+      "categories": [
+        "Coffee & Chai",
+        "Sports & Outdoors"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "30bd508d-cacd-81c0-9476-ebb0825d8553",
+      "name": "Minni Slime Workshop - St. Patrick's Day Edition",
+      "date": "2026-03-07",
+      "time": "10:30 AM",
+      "location": "Minni Beacon Hill",
+      "address": "",
+      "price": "$40",
+      "description": "Ooey gooey fun is a goopy guarantee in this slippery slime session! Celebrate St. Patrick\u2019s Day with gooey green concoctions as a range of ingredients are offered up to students to make the most of three different slimey recipes. Unleash your inner scientist and relax; we\u2019ll take care of the mess as students enjoy the rest.",
+      "url": "https://www.hisawyer.com/minni/schedules/activity-set/1660821?day=2026-03-07&view=cal&source=camps",
+      "source": "Boston Calendar",
+      "categories": [
+        "Arts & Crafts"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "30bd508d-cacd-818b-ab8e-edb398da48ea",
+      "name": "\"Dazzle of the Light\" - Members Spring Exhibition",
+      "date": "2026-03-07",
+      "time": "10:30 AM",
+      "location": "The Guild of Boston Artists",
+      "address": "",
+      "price": "Free",
+      "description": "The Guild of Boston Artists is proud to present \"Dazzle of the Light,\" an exhibition of new paintings by our members to conjure the advent of Spring. Every March, we celebrate the season of renewal as the days grow longer, the sun\u2019s light shines with expectancy, and the luminous colors we had once forgotten under the shadows of winter return to gleam in their glorious splendor. The inspired work in this showcase will likewise gently reintroduce a brilliant chroma to wake audiences from their per",
+      "url": "https://www.guildofbostonartists.org/",
+      "source": "Boston Calendar",
+      "categories": [
+        "Middle Eastern",
+        "Arts & Crafts"
+      ],
+      "latitude": null,
+      "longitude": null
     },
     {
       "id": "30ad508d-cacd-81f6-83be-d5be6d131247",
@@ -5037,6 +6881,23 @@
       "longitude": -71.23722409999999
     },
     {
+      "id": "30bd508d-cacd-813a-9712-fe826bae9ee3",
+      "name": "Pressed Flower Frame Workshop",
+      "date": "2026-03-08",
+      "time": "2:00 PM",
+      "location": "Craft Loft",
+      "address": "",
+      "price": "$55",
+      "description": "Make a lovely framed art using fresh pressed real flowers and foliage.\u00a0So easy, so satisfying and so pretty!\u00a0Choose from a big selection of pressed florals at the studio.Note:\u00a0Yes, you will be able to take it home on the same day!Materials:Shadow frame with double panes of glass, fresh pressed flowers, adhesiveDuration:1hrLocation:Craft Loft100 CambridgeSide Pl, 2nd floor near\u00a0TJ MaxxCambridge, MA 02141Parking: Street parking or garage.\u00a0Unfortunately, we don't validate parking vouchers.Tipping i",
+      "url": "https://craft-loft.com/collections/boston-workshops/products/pressed-flower-art-cambridge",
+      "source": "Boston Calendar",
+      "categories": [
+        "Arts & Crafts"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
       "id": "30ad508d-cacd-819c-af7a-c081bf06011e",
       "name": "Park-9 Puppy Yoga with Sweet Paws Rescue",
       "date": "2026-03-08",
@@ -5283,6 +7144,24 @@
       "longitude": -71.0565872
     },
     {
+      "id": "30bd508d-cacd-816d-a00a-d9affc6abb31",
+      "name": "Terrarium Workshop at Sprout!",
+      "date": "2026-03-11",
+      "time": "6:00 PM",
+      "location": "Sprout by Cityscapes",
+      "address": "",
+      "price": "$45",
+      "description": "Welcome to the\u00a0Terrarium Workshop at Sprout!March 11th, 20266-7 PM ETJoin us at Cityscapes' downtown plant shop,Sprout,\u00a0for a fun and creative\u00a01-hr workshop\u00a0where you'll learn how to make your very own\u00a0mini\u00a0terrarium. This hands-on workshop will teach you all the tips and tricks to create a beautiful, low maintence terrarium for your home.No prior experience is necessary - just bring your creativity and enthusiasm! Don't miss out on this opportunity to connect with nature and add a touch of gree",
+      "url": "https://www.eventbrite.com/e/terrarium-workshop-at-sprout-tickets-1979895326218?aff=oddtdtcreator",
+      "source": "Boston Calendar",
+      "categories": [
+        "Arts & Crafts",
+        "Coffee & Chai"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
       "id": "30ad508d-cacd-814c-b9f1-f7ed201ae13d",
       "name": "The BIG DIG: From A to Scheme Z",
       "date": "2026-03-11",
@@ -5351,6 +7230,25 @@
       ],
       "latitude": 42.3227831,
       "longitude": -71.1687096
+    },
+    {
+      "id": "30bd508d-cacd-81f0-89cd-df079e01ab60",
+      "name": "St. Patrick's Day Shamrockin' Supper \u2013 Adult Cooking Class",
+      "date": "2026-03-12",
+      "time": "6:00 PM",
+      "location": "Powisset Farm",
+      "address": "",
+      "price": "$Member: $80 Nonmember: $95",
+      "description": "Why wait for a four-leaf clover? Make your own luck this St. Patrick\u2019s Day by mastering a festive and flavorful holiday menu! In this hands-on cooking class, we\u2019ll make Colcannon Cakes with Kale and herb Butter, Stout Braised Lamb Meatballs, and Irish Soda Bread Biscuits. At the end of class, you\u2019ll find recipes to share with friends and family at the end of the Powisset rainbow!Included in this class:Cooking demonstration and hands-on learning experience.Instruction from an experienced, top-not",
+      "url": "https://thetrustees.org/event/442725/",
+      "source": "Boston Calendar",
+      "categories": [
+        "South Asian",
+        "Food & Markets",
+        "Cultural Festival"
+      ],
+      "latitude": null,
+      "longitude": null
     },
     {
       "id": "30ad508d-cacd-81a5-80a3-c81bf5302d9f",
@@ -5529,6 +7427,112 @@
       ],
       "latitude": 42.39515349999999,
       "longitude": -71.17527869999999
+    },
+    {
+      "id": "30bd508d-cacd-810b-89ee-edeea4b005d4",
+      "name": "EAT. KNIT. YOGA.",
+      "date": "2026-03-14",
+      "time": "6:30 PM",
+      "location": "Open Doors Yoga Studio",
+      "address": "",
+      "price": "$115",
+      "description": "Join Courtney and Lisa for a cozy evening of yoga and knitting.This is not just a craft class. It is a soft pause. A moment to sit with yourself as you spark the warmth of the season's quiet shift to spring. This evening event will include a place to unwind from the week with a light snack, gentle movement and the creation of a cozy blanket to snuggle up with on a cold\u00a0night.In this gentle gathering, we will unwind from our week with yoga and arm knitting - no needles! After 45 minutes of gentle",
+      "url": "https://courtneybellyoga.com/yoga",
+      "source": "Boston Calendar",
+      "categories": [
+        "Arts & Crafts",
+        "Sports & Outdoors",
+        "Community"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "30bd508d-cacd-810d-b181-fd9617375224",
+      "name": "Marvelous Muffins \u2013 Adult Cooking Class",
+      "date": "2026-03-14",
+      "time": "11:00 AM",
+      "location": "Powisset Farm",
+      "address": "",
+      "price": "$Member: $80; Nonmember: $95;",
+      "description": "Brighten your morning with guest Chef Clarisse! Join her in the Powisset Farm kitchen as she whips up Zesty Citrus Marmalade and warm, fluffy English muffins from scratch. You\u2019ll master techniques for perfect dough and get all her best baking tips in this hands-on cooking class.Included in this class:Cooking demonstration and hands-on learning experience.Instruction from an experienced, top-notch instructor.Recipes to take home.At the end of each class, the opportunity to enjoy the food you crea",
+      "url": "https://thetrustees.org/event/442726/",
+      "source": "Boston Calendar",
+      "categories": [
+        "Food & Markets"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "30bd508d-cacd-8108-800e-fadab91b3b3a",
+      "name": "Minni Family Workshop - Mixing Rainbows",
+      "date": "2026-03-14",
+      "time": "10:30 AM",
+      "location": "Minni Beacon Hill",
+      "address": "",
+      "price": "$40",
+      "description": "In our Minni Family Workshop \u2013 Mixing Rainbows workshop, color-loving kiddos will work on identifying all the colors of the rainbow, and then turn to creating bright rainbows of their very own. A Minni instructor will guide the group through a variety of vibrant activities including the mixing and matching of a host of hues, fun with fluffy rainbow cloud dough, and the ultimate production of fuzzy rainbow sculptures!Minni Family Workshops offer an interactive, approachable experience for the ent",
+      "url": "https://www.hisawyer.com/minni/schedules/activity-set/1660822?day=2026-03-14&view=cal&source=camps",
+      "source": "Boston Calendar",
+      "categories": [
+        "Middle Eastern",
+        "Arts & Crafts"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "30bd508d-cacd-81c7-ba9b-c18b855822b3",
+      "name": "Total Acceptance, Total Freedom: A meditation workshop with Gen Khedrub",
+      "date": "2026-03-14",
+      "time": "10:00 AM",
+      "location": "Kadampa Meditation Center Boston",
+      "address": "",
+      "price": "$30",
+      "description": "We all want lasting freedom from problems and pain. The possibility of this happening can only develop within a clear, open and patient mind.As we all know, normally our need to escape from unpleasant feelings is so urgent that we become impatient and reactive and we do not give ourself the time to discover where our suffering is actually coming from. We think that things should be different from the way they are. We blame circumstances or other people for our unhappiness.What we need is the cla",
+      "url": "https://www.meditationinboston.org/total-acceptance-total-freedom",
+      "source": "Boston Calendar",
+      "categories": [
+        "Arts & Crafts",
+        "Religious"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "30bd508d-cacd-814b-a357-cb21c62a93a2",
+      "name": "Create a Sailor\u2019s Valentine: Hands-On Workshop with Artist Hatsue Iimuro",
+      "date": "2026-03-14",
+      "time": "9:00 AM",
+      "location": "Highfield Hall & Gardens",
+      "address": "",
+      "price": "$Members $625, Non-members $640",
+      "description": "Join award-winning artist Hatsue Iimuro of Japan, internationally recognized as one of the world\u2019s most accomplished Sailor\u2019s Valentine artists, for an exceptional hands-on workshop devoted to this rare and historic art form.Sailor\u2019s Valentines were cherished 19th-century keepsakes, created by sailors as enduring expressions of love and devotion for those awaiting them at home. In this special workshop, participants will create a refined, contemporary Sailor\u2019s Valentine guided directly by Iimuro",
+      "url": "https://highfieldhallandgardens.org/event/sailors-valentine-workshop/",
+      "source": "Boston Calendar",
+      "categories": [
+        "Arts & Crafts"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "30bd508d-cacd-81f4-8836-efe77d660a64",
+      "name": "Mindfulness and Intuitive Art *Online*",
+      "date": "2026-03-14",
+      "time": "10:00 AM",
+      "location": "CCAE",
+      "address": "",
+      "price": "$65",
+      "description": "Art as a mindfulness practice and the act of intuitively painting or drawing is a practice accessible to all regardless of art experience or skill. This class will introduce mindfulness practices utilizing art for stress relief, establishing a connection with your heart and innate creativity, and incorporating creative practice into your daily life. The class will focus on mindfulness and art as process rather than a finished product or the technical aspects of art. Activities will include guide",
+      "url": "https://ccae.org/classes/offering/2904/mindfulness-and-intuitive-art-online",
+      "source": "Boston Calendar",
+      "categories": [
+        "Arts & Crafts"
+      ],
+      "latitude": null,
+      "longitude": null
     },
     {
       "id": "30bd508d-cacd-818c-9956-d7dbf5feda79",
@@ -5773,6 +7777,24 @@
       "longitude": -70.96879729999999
     },
     {
+      "id": "30bd508d-cacd-81b3-bcab-e0c3f32273a9",
+      "name": "Family Practice - Family & Children affinity meditation practice space",
+      "date": "2026-03-15",
+      "time": "10:30 AM",
+      "location": "Shambhala Boston",
+      "address": "",
+      "price": "Free",
+      "description": "Family as a Practice, Practice as a FamilyFamily is a place of practice. How do we work with our minds and hearts in the sometimes turbulent waters of family life? We can all use reminders and support to stay connected to our patience, generosity, discipline, and wisdom. Each week we will explore a different theme - something valuable for both parents and children.These sessions provide:Age-appropriate, secular introduction to mindfulness (the innate qualities of one\u2019s mind and heart);Support in",
+      "url": "https://boston.shambhala.org/program-details/?id=643085",
+      "source": "Boston Calendar",
+      "categories": [
+        "Arts & Crafts",
+        "Religious"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
       "id": "30ad508d-cacd-81a7-bcb1-c57dcc2a7d54",
       "name": "Sunday Morning Yoga with Live Piano @ Museum Of Modern Renaissance!",
       "date": "2026-03-15",
@@ -5892,6 +7914,23 @@
       "longitude": -71.0556385
     },
     {
+      "id": "30bd508d-cacd-8175-8c11-c86952a0b9f9",
+      "name": "Winter Workshop: Botanical Watercolor",
+      "date": "2026-03-16",
+      "time": "9:00 AM",
+      "location": "Arlington Center for the Arts",
+      "address": "",
+      "price": "$67",
+      "description": "In this Botanical Watercolor Workshop we will learn how to draw and paint watercolor flowers using wet on wet and wet on dry techniques. Students will experiment with texture and gradient color. Please bring in a favorite flower photo or a floral arrangement photo to work from. Students will leave with a finished watercolor painting. All levels are welcome!With Artist Angela Ackerman",
+      "url": "https://reg125.imperisoft.com/acarts/ProgramDetail/3931363035/Registration.aspx",
+      "source": "Boston Calendar",
+      "categories": [
+        "Arts & Crafts"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
       "id": "30ad508d-cacd-81ae-b6c9-c8bb68ce4694",
       "name": "Inclusive Intelligence for Modern Workplaces \u2013 1 Day Course, Boston, MA",
       "date": "2026-03-16",
@@ -5946,6 +7985,24 @@
       "longitude": -71.2283607
     },
     {
+      "id": "30bd508d-cacd-81f7-86a3-ce25824778ea",
+      "name": "LGBTQ Meditation Group",
+      "date": "2026-03-17",
+      "time": "7:00 PM",
+      "location": "Shambhala Boston",
+      "address": "",
+      "price": "Free",
+      "description": "About the groupThe intention of the LGBTQ+ meditation group is to provide a welcoming environment for individuals of diverse sexual orientation and gender identity who are interested in exploring the teachings and principles of meditation and Shambhala Buddhism.Our goal is to provide an open space for genuine exploration of how these teachings can be incorporated into everyday life. Mixing our sense of self with the dharma can provide a powerful path toward the development of maitri, or friendli",
+      "url": "https://boston.shambhala.org/lgbtq/",
+      "source": "Boston Calendar",
+      "categories": [
+        "Coffee & Chai",
+        "Religious"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
       "id": "30ad508d-cacd-8155-a9b4-e1e17212f5bc",
       "name": "Hands-On: Pasta alla Gricia",
       "date": "2026-03-17",
@@ -5997,6 +8054,24 @@
       ],
       "latitude": 42.3542157,
       "longitude": -71.0748136
+    },
+    {
+      "id": "30bd508d-cacd-8159-a59e-f65cf4e6ed9c",
+      "name": "Writing Your Own Declaration: A Writing Workshop",
+      "date": "2026-03-18",
+      "time": "6:00 PM",
+      "location": "North End Branch of the Boston Public Library",
+      "address": "",
+      "price": "Free",
+      "description": "Join the Boston Public Library community to write your own declaration!This program will take place at four branches in Spring 2026.What is in a declaration? How do we declare our own values, thoughts, and ideas and share them with others? This workshop invites patrons into a deep dive of self-exploration and public writing. Join us for an active learning environment where we read, discuss, and draw inspiration from several pieces of declarative writing that emerged over the course of history. P",
+      "url": "https://bpl.bibliocommons.com/events/69790a8f1e64afd01e5716b8",
+      "source": "Boston Calendar",
+      "categories": [
+        "Arts & Crafts",
+        "Community"
+      ],
+      "latitude": null,
+      "longitude": null
     },
     {
       "id": "30ad508d-cacd-817a-96c0-c9d50fb74a6b",
@@ -6070,6 +8145,42 @@
       "longitude": -71.056826
     },
     {
+      "id": "30bd508d-cacd-812b-8929-f46649e12fc8",
+      "name": "Spring Flatbreads \u2013 Adult Cooking Class",
+      "date": "2026-03-19",
+      "time": "6:00 PM",
+      "location": "Powisset Farm",
+      "address": "",
+      "price": "$Member: $80 Nonmember: $95",
+      "description": "Spring into spring! In this hands-on cooking class, you\u2019ll use the bright flavors of the season to make delicious flatbreads. You\u2019ll learn to make Spring Onion Flatbread topped with a Herb Carrot Sesame Salad, Zaatar Flatbread topped with Homemade Lemony Pepper Hummus, Spiced Beef, and Spring Greens.Included in this class:Cooking demonstration and hands-on learning experience.Instruction from an experienced, top-notch instructor.Recipes to take home.At the end of each class, the opportunity to e",
+      "url": "https://thetrustees.org/event/442727/",
+      "source": "Boston Calendar",
+      "categories": [
+        "Middle Eastern",
+        "Food & Markets"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "30bd508d-cacd-814f-8d81-ee3d5d195641",
+      "name": "Self-Reflections: An Ekphrastic Poetry Workshop",
+      "date": "2026-03-19",
+      "time": "7:00 PM",
+      "location": "Isabella Stewart Gardner Museum",
+      "address": "",
+      "price": "$15-22",
+      "description": "Experience the Isabella Stewart Gardner Museum's new exhibit,Persona: Photography and the Re-Imagined Self, through ekphrasis, the practice of creating poetry in response to a work of visual art. Participants will spend time in the exhibition and be guided by poet Precious Musa to engage closely with the art, cultivating reflection and conversation before ultimately penning their own response to the works that resonate with them.",
+      "url": "https://www.gardnermuseum.org/calendar/self-reflections-ekphrastic-poetry-3.19.26",
+      "source": "Boston Calendar",
+      "categories": [
+        "Arts & Crafts",
+        "Talks & Lectures"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
       "id": "30ad508d-cacd-8133-8edb-c73758b3294e",
       "name": "Chef's Dinner: A multi-course dinner with Chef Andrea Franca",
       "date": "2026-03-19",
@@ -6137,6 +8248,59 @@
       ],
       "latitude": 42.4780462,
       "longitude": -71.1920092
+    },
+    {
+      "id": "30bd508d-cacd-819f-ba4d-d4b5520cd3f5",
+      "name": "What the World Needs Now: International Meditation Hour",
+      "date": "2026-03-20",
+      "time": "1:00 PM",
+      "location": "Online",
+      "address": "",
+      "price": "Free",
+      "description": "Join a Global Moment of PeaceOn Thursday, 1 January 2026 at 1:00 PM ET, we will convene hundreds around the world to unite in silence forWhat the World Needs Now: International Meditation Hour.Click here to register.This free online event features speakers and global leaders in meditation and consciousness, offering a shared hour of knowledge, silence, and renewed being.Whether you are new to meditation or a lifelong practitioner, this is your invitation to experience the power of collective sti",
+      "url": "https://meditationhour.org/",
+      "source": "Boston Calendar",
+      "categories": [
+        "Talks & Lectures",
+        "Religious"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "30bd508d-cacd-8179-b805-c0dbdc882f08",
+      "name": "Date Night: Spring Fling \u2013 Adult Cooking Class",
+      "date": "2026-03-20",
+      "time": "6:00 PM",
+      "location": "Powisset Farm",
+      "address": "",
+      "price": "$250 nonmember couple/$200 Trustees Member couple",
+      "description": "Turn up the charm in the kitchen this spring! In this hands-on cooking class, you and your spring fling will create a seasonal dinner full of fresh flavors, all designed for sharing and savoring together.You\u2019ll create Lemony Thyme Chicken Pot Pie, Glazed Parsnips, Spring Green Sald with Herb Vinaigrette, and Carrot Cake.Included in this class:Cooking demonstration and hands-on learning experience.Instruction from an experienced, top-notch instructor.Recipes to take home.At the end of each class,",
+      "url": "https://thetrustees.org/event/442728/",
+      "source": "Boston Calendar",
+      "categories": [
+        "South Asian",
+        "Food & Markets"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "30bd508d-cacd-81a3-8e69-cd9b478f2f31",
+      "name": "Sea Glass Gnome Workshop",
+      "date": "2026-03-20",
+      "time": "7:30 PM",
+      "location": "Wicked Peaceful Mind. Body. Soul.",
+      "address": "",
+      "price": "$40",
+      "description": "Come and dive in to the creative world of sea glass! Here you will be provided with all the materials required to create your own unique gnome! Gnomes measure around 7\u201d in height and take about an hour and a half to complete. No experience is necessary!When: March 20th, 7:30 PM \u2013 9 PMWhere: Wicked Peaceful Mind. Body. Soul.Investment: $40Instructor: JessieVisitwww.wickedpeaceful.com/classesto check out our other classes! Email us atbookings@wickedpeaceful.comto book a reading/energy healing with",
+      "url": "https://square.link/u/UbzfbrtN",
+      "source": "Boston Calendar",
+      "categories": [
+        "Arts & Crafts"
+      ],
+      "latitude": null,
+      "longitude": null
     },
     {
       "id": "30ad508d-cacd-8194-9af5-d1eb64025a55",
@@ -6224,6 +8388,43 @@
       ],
       "latitude": 42.2645592,
       "longitude": -71.0649751
+    },
+    {
+      "id": "30bd508d-cacd-8104-a5d8-d77ad15c1311",
+      "name": "Intro to Kintsugi (Japanese pottery repair)",
+      "date": "2026-03-21",
+      "time": "9:30 AM",
+      "location": "Artisans Asylum",
+      "address": "",
+      "price": "$80",
+      "description": "About this eventInstructor - Quantum WeiQuantum first started practicing Kintsugi in 2021 when he wanted to fix a broken souvenir plate (two pieces, epoxy + liquid gold leaf). Since then, he has ventured deeper into the art by working on more complex breaks and utilizing traditional materials (urushi lacquer), and constructing a muro (wooden curing box). He hopes to one day take a kintsugi class in Japan, where he has traveled extensively.Class DescriptionKintsugi is the Japanese tradition of po",
+      "url": "https://www.eventbrite.com/e/intro-to-kintsugi-japanese-pottery-repair-tickets-699243354697?aff=ebdsoporgprofile",
+      "source": "Boston Calendar",
+      "categories": [
+        "Arts & Crafts"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "30bd508d-cacd-8142-a902-f2c70346edff",
+      "name": "Holi Mela",
+      "date": "2026-03-21",
+      "time": "11:00 AM",
+      "location": "Adams Park",
+      "address": "",
+      "price": "Free",
+      "description": "Holi is a festival of colors in India.Shanti RestaurantandRoslindale Village Main Streetis bringing this celebration to Adams Park.Come join us for a vibrant and joyous celebration of colors atHoli Mela! This exciting event will take place onSat Mar 21st, 2026atAdams Park. Get ready to immerse yourself in the spirit of Holi, the festival of love and togetherness.Holi Melaoffers a variety of activities for people of all ages. From traditional Indian music to live DJ, dance performances, kid's cra",
+      "url": "https://www.eventbrite.com/e/holi-mela-by-shanti-tickets-1981242566851?aff=oddtdtcreator",
+      "source": "Boston Calendar",
+      "categories": [
+        "South Asian",
+        "Food & Markets",
+        "Music & Dance",
+        "Cultural Festival"
+      ],
+      "latitude": null,
+      "longitude": null
     },
     {
       "id": "30bd508d-cacd-81aa-9778-da3f660393a8",
@@ -6421,6 +8622,59 @@
       "longitude": -71.42147709999999
     },
     {
+      "id": "30bd508d-cacd-819b-99f9-c1ecb736088e",
+      "name": "Workshop: Organize & Align",
+      "date": "2026-03-22",
+      "time": "1:00 PM",
+      "location": "Venus House",
+      "address": "",
+      "price": "$25.00",
+      "description": "This workshop focuses on practical strategies for creating structure AND follow-through in daily life. Using simple, accessible tools, we\u2019ll explore ways to organize time, reduce overwhelm & build supportive systems\u23f1\ufe0fTopics include:Visual tools for time management and planning \ud83d\udcc6Breaking tasks into manageable steps \u2714\ufe0fEstablishing routines and external reminders \ud83d\udd14Reducing distractions and cognitive overload \ud83e\udde0Accountability, progress-based motivation & self-compassion \ud83d\udc9bThe emphasis is on practical ",
+      "url": "https://www.venushouseboston.com/offerings/p/workshop-organize-align",
+      "source": "Boston Calendar",
+      "categories": [
+        "Arts & Crafts"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "30bd508d-cacd-8193-9553-e79ac25c1a1c",
+      "name": "Maple Magic Cooking Workshop",
+      "date": "2026-03-22",
+      "time": "1:00 PM",
+      "location": "Lands Sake Farm",
+      "address": "",
+      "price": "$95",
+      "description": "Take 10% off with code: BOSCAL10We\u2019re excited to partner with Land\u2019s Sake Farm in Weston, MA, to bring you hands-on seasonal workshops that celebrate the rhythms of New England agriculture.In this program we will explore the magical process of making maple syrup, from tree to pancakes. We will discuss our maple syrup making process, sample different types of syrup, and use it in a variety of recipes.Participants will take home a 4 ounce jar of nut-free maple granola.What's Included:Weekend Commu",
+      "url": "https://keolismassadventures.com/tour/seasonal-workshop-series-at-lands-sake-farm/",
+      "source": "Boston Calendar",
+      "categories": [
+        "Arts & Crafts",
+        "Food & Markets"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "30bd508d-cacd-81fb-b68b-e860047aafc2",
+      "name": "Studio Workshop: Portraiture with Evoke Tintype",
+      "date": "2026-03-22",
+      "time": "10:30 AM",
+      "location": "Isabella Stewart Gardner Museum",
+      "address": "",
+      "price": "$100-125",
+      "description": "Visit the Isabella Stewart Gardner Museum's special exhibition, Picturing Isabella, and see historic salt, albumen, and platinum prints of a woman who fashioned her own public persona. You are then invited to suspend time in silver, using tintype photography to create a nostalgic, otherworldly portrait of yourself. The artists of Evoke Tintype Photography will teach you the process behind this 20th-century artform and allow you to reimagine yourself as an inhabitant of Isabella's bygone Boston i",
+      "url": "https://www.gardnermuseum.org/calendar/studio-tintype-workshop-3.22.26",
+      "source": "Boston Calendar",
+      "categories": [
+        "Arts & Crafts",
+        "Coffee & Chai"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
       "id": "30ad508d-cacd-81d5-aea0-c59226c08d97",
       "name": "Yoga for Mental Wellbeing",
       "date": "2026-03-22",
@@ -6576,6 +8830,24 @@
       "longitude": -71.0565872
     },
     {
+      "id": "30bd508d-cacd-813a-99c2-db9fef8cf903",
+      "name": "Writing Your Own Declaration: A Writing Workshop",
+      "date": "2026-03-24",
+      "time": "11:00 AM",
+      "location": "West End Branch of the Boston Public Library",
+      "address": "",
+      "price": "Free",
+      "description": "Join the Boston Public Library community to write your own declaration!This program will take place at four branches in Spring 2026.What is in a declaration? How do we declare our own values, thoughts, and ideas and share them with others? This workshop invites patrons into a deep dive of self-exploration and public writing. Join us for an active learning environment where we read, discuss, and draw inspiration from several pieces of declarative writing that emerged over the course of history. P",
+      "url": "https://bpl.bibliocommons.com/events/69790a9b491b809c6f158dbf",
+      "source": "Boston Calendar",
+      "categories": [
+        "Arts & Crafts",
+        "Community"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
       "id": "30ad508d-cacd-814c-8654-d967cceda7b7",
       "name": "The Manager\u2019s Role in Building High-Performing Global Teams",
       "date": "2026-03-24",
@@ -6664,6 +8936,26 @@
       "longitude": -71.11565709999999
     },
     {
+      "id": "30bd508d-cacd-8156-bb13-e09a3085eae1",
+      "name": "Mastering Tech Packs Workshop",
+      "date": "2026-03-25",
+      "time": "1:00 PM",
+      "location": "The School of Fashion Design",
+      "address": "",
+      "price": "$295",
+      "description": "If you're a brand owner, fashion designer, in retail or manufacturing and involved in apparel product development, your success hinges on garments that fit and satisfy customers.Master essential technical skills like proper fit techniques and quality standards. Improve communication with factories worldwide using clear industry terminology. Learn to establish quality specifications for prototypes, minimizing fit adjustments and reducing costs.This course is ideal for patternmakers, designers, an",
+      "url": "https://schooloffashiondesign.asapconnected.com/#CourseID=298296",
+      "source": "Boston Calendar",
+      "categories": [
+        "South Asian",
+        "Arts & Crafts",
+        "Comedy",
+        "Music & Dance"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
       "id": "30ad508d-cacd-81c5-b090-f937bf299e97",
       "name": "Sherene Seikaly: From Baltimore to Beirut: On the Question of Palestine",
       "date": "2026-03-25",
@@ -6732,6 +9024,23 @@
       ],
       "latitude": 42.3846289,
       "longitude": -71.1191585
+    },
+    {
+      "id": "30bd508d-cacd-81b2-a497-ecc6f123d118",
+      "name": "DIY Macrame Workshop at Sprout!",
+      "date": "2026-03-27",
+      "time": "6:00 PM",
+      "location": "Sprout by Cityscapes",
+      "address": "",
+      "price": "$35",
+      "description": "March 27th, 20266-7 PM ETJoin us at Cityscapes' downtown plant shop,Sprout,for a fun and creative1-hr workshopwhere you'll learn how to make your very ownmacrame plant hanger!This hands on workshop will guide you step by step through creating a custom macrame plant hanger.Attendees will also receive 20% off a 6in plant and pot in store during the event!No prior experience is necessary - just bring your creativity and enthusiasm! Don't miss out on this opportunity to connect with nature and add a",
+      "url": "https://www.eventbrite.com/e/diy-macrame-workshop-at-sprout-tickets-1979897459599?aff=oddtdtcreator",
+      "source": "Boston Calendar",
+      "categories": [
+        "Arts & Crafts"
+      ],
+      "latitude": null,
+      "longitude": null
     },
     {
       "id": "30ad508d-cacd-8182-880b-d2fac2c7095a",
@@ -6803,6 +9112,61 @@
       ],
       "latitude": 42.3551327,
       "longitude": -71.06213709999997
+    },
+    {
+      "id": "30bd508d-cacd-819e-af25-ff4c95d1e62c",
+      "name": "Embroider From a Pattern, One Day Workshop *In-Person* *NEW*",
+      "date": "2026-03-28",
+      "time": "12:00 PM",
+      "location": "CCAE",
+      "address": "",
+      "price": "$110",
+      "description": "In this one-day workshop, learn how to embroider or pick up some new stitching skills using a pattern! Whether you are an embroidery beginner or expert, you'll learn how to design, interpret, and use embroidery patterns to create beautiful pieces to hang in a hoop or dress up a piece of clothing. You'll work with the instructor ahead of time to create your custom patterns and decide what to embroider. All other materials will be provided-just show up ready to stitch!\u00a0Instructor Kendall Kulper",
+      "url": "https://ccae.org/classes/offering/4248/embroider-from-a-pattern-one-day-workshop-in-person-new",
+      "source": "Boston Calendar",
+      "categories": [
+        "South Asian",
+        "Arts & Crafts"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "30bd508d-cacd-81fc-8e73-fa583cbb65c1",
+      "name": "Minni Family Workshop - Tonal Tides",
+      "date": "2026-03-28",
+      "time": "10:30 AM",
+      "location": "Minni Beacon Hill",
+      "address": "",
+      "price": "$40",
+      "description": "Minni Family Workshop \u2013 Tonal Tidesinvites little artists and their caregivers to dive into the magic of the ocean through texture, tone, and hands-on play. Guided by a Minni instructor, families will\u00a0bring shimmering tide pools to life with drips of blue-tinted glue and layers of sand and shells. Along the way, students will explore the many shades of ocean blues, from deep sea to foamy shore.\u00a0Join us for a splashy, creative day inspired by the sea!Minni Family Workshops offer an interactive, a",
+      "url": "https://www.hisawyer.com/minni/schedules/activity-set/1761580?day=2026-03-28&view=cal&source=camps",
+      "source": "Boston Calendar",
+      "categories": [
+        "South Asian",
+        "Arts & Crafts",
+        "Theater & Film"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "30bd508d-cacd-8186-ab9f-de3f8bf6605e",
+      "name": "Abstract Portrait Painting",
+      "date": "2026-03-28",
+      "time": "3:30 PM",
+      "location": "Craft Loft",
+      "address": "",
+      "price": "$69",
+      "description": "Turn your favorite photo into a lovely piece of art made by you!\u00a0You don't need to be an artist to make something cool.\u00a0We'll follow an easy process to transfer your image from a photo printout onto a glass surface.\u00a0Choose your picture frame color to match (white, black and natural)!This is perfect for Valentine's Day, Anniversary and Birthday celebrations!Materials:Please bring a print out of the portrait you want to use.\u00a0A color printout is preferred, but black and white can work as well.\u00a0We r",
+      "url": "https://craft-loft.com/products/abstract-portrait-painting-cambridge",
+      "source": "Boston Calendar",
+      "categories": [
+        "Arts & Crafts",
+        "Cultural Festival"
+      ],
+      "latitude": null,
+      "longitude": null
     },
     {
       "id": "30ad508d-cacd-8179-adc6-db30c1e57c06",
@@ -6979,6 +9343,42 @@
       "longitude": -70.95118959999999
     },
     {
+      "id": "30bd508d-cacd-81d2-9559-f170911bcb4a",
+      "name": "Alexa Tarantino & the Cape Ann Jazz Workshop Showcase",
+      "date": "2026-03-31",
+      "time": "7:00 PM",
+      "location": "Shalin Liu Performance Center",
+      "address": "",
+      "price": "Free",
+      "description": "Free, reservations encouraged.Cape Ann Jazz Workshop Director and Jazz at Lincoln Center saxophonist Alexa Tarantino is joined for a collaborative showcase with students from the workshop.\"[Alexa is] a one-woman wrecking crew, [...] an indomitable force for expression, education, and for absolute excellence.\u201d \u2014 Wynton MarsalisABOUT THE ARTISTAlexa Tarantino is an award-winning, vibrant, young jazz saxophonist, woodwind doubler, composer, and educator. Alexa\u2019s \u201chigh-octane [performance]\u201d (Jazziz ",
+      "url": "https://eventvesta.com/events/122394/t/tickets",
+      "source": "Boston Calendar",
+      "categories": [
+        "Arts & Crafts",
+        "Music & Dance"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "30bd508d-cacd-81d5-979e-db571e8b1e20",
+      "name": "Virtual Open House - School of Fashion Design",
+      "date": "2026-03-31",
+      "time": "6:00 PM",
+      "location": "Online",
+      "address": "",
+      "price": "Free",
+      "description": "Learn about our programs, see our studio classroom spaces, instruction demos, and have the opportunity to speak with our admissions staff! Come and ask all of the questions you have!This event is free, please click here to RSVP.\ufeffThis workshop is part ofHandwork 2026, presented by Craft in America.",
+      "url": "https://www.schooloffashiondesign.org/sfdtour",
+      "source": "Boston Calendar",
+      "categories": [
+        "South Asian",
+        "Arts & Crafts"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
       "id": "30ad508d-cacd-819b-9c83-c6ef6ccfaa86",
       "name": "Animating in Canva, all ages, FREE for members!",
       "date": "2026-03-31",
@@ -7012,6 +9412,23 @@
       ],
       "latitude": 42.331697,
       "longitude": -71.127881
+    },
+    {
+      "id": "30bd508d-cacd-8139-89ab-e808240fa656",
+      "name": "Angamardhana - Yoga Class",
+      "date": "2026-04-03",
+      "time": "5:00 PM",
+      "location": "Italo American Educational Club",
+      "address": "",
+      "price": "Unknown",
+      "description": "In Angamardana, you use your own body weight and momentum to increase the flexibility of the muscle over a period of time. It is taught as a series of dynamic processes (7 standing, 8 squatting, 5 sitting, and 7 lying down) to invigorate the body and reach peak physical and mental health.It is as effective for body building as weight training, but it does not create any unnecessary stress on the system.Benefits of practicing Angamardana regularly:Weight lossIncreased Physical StrengthIncreased F",
+      "url": "https://www.thebostoncalendar.com/events/angamardhana-yoga-class",
+      "source": "Boston Calendar",
+      "categories": [
+        "Sports & Outdoors"
+      ],
+      "latitude": null,
+      "longitude": null
     },
     {
       "id": "30ad508d-cacd-812a-8496-de6ead560920",
@@ -7049,6 +9466,61 @@
       "longitude": -71.10144
     },
     {
+      "id": "30bd508d-cacd-8194-8c6e-e7582fed63ca",
+      "name": "Surya Kriya - Yoga Class",
+      "date": "2026-04-04",
+      "time": "8:30 AM",
+      "location": "Italo American Educational Club",
+      "address": "",
+      "price": "Unknown",
+      "description": "Traditionally available only to select groups of yogis, Surya Kriya is being offered by Sadhguru as a comprehensive spiritual practice that is ideal for the hectic pace of today's world.\"Surya\" means \"sun\", and \"Kriya\" means \"inner energy process\". It is a gentle, slow-paced, 21-step process and is a way of aligning yourself with the sun, the basic powerhouse for this planet. All life on this planet is solar powered, including yourself.Surya Kriya is an ancient, potent yogic practice that raises",
+      "url": "https://www.thebostoncalendar.com/events/surya-kriya-yoga-class",
+      "source": "Boston Calendar",
+      "categories": [
+        "Sports & Outdoors",
+        "Religious"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "30bd508d-cacd-81e4-91eb-f3cf7d8e1850",
+      "name": "Protest! Relief Printmaking Workshop",
+      "date": "2026-04-04",
+      "time": "1:00 PM",
+      "location": "Central Library at Copley Square",
+      "address": "",
+      "price": "Free",
+      "description": "Join the Boston Public Library community to create revolutionary art!Boston is a city of revolutionaries and prints are the medium for the message. As we mark the 250th Anniversary of the American Revolution we invite you to make your own small-scale protest posters with Boston-based artist and printmakerCrystalle Lacouture. In this three hour workshop we will learn about the history of the print and the press as tools for people to share ideas and to affordably reproduce urgent political images",
+      "url": "https://bpl.bibliocommons.com/events/698dfb0bcbf6405d35672e92",
+      "source": "Boston Calendar",
+      "categories": [
+        "Arts & Crafts",
+        "Community"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "30bd508d-cacd-8177-947c-cebac899aa56",
+      "name": "Nordic Easter Crafts",
+      "date": "2026-04-04",
+      "time": "10:00 AM",
+      "location": "Scandinavian Cultural Center & Library",
+      "address": "",
+      "price": "$20",
+      "description": "Join us for a festive morning of Nordic Easter crafts and traditions! This event is open to all ages (and egg-painting skill levels) and will invite you to explore a variety of Scandinavian traditions to celebrate one of the region\u2019s most beloved holidays.Activities will include\u2026Makingp\u00e5skris(Swedish Easter trees), twigs embellished with colorful ribbons and feathers, that symbolize the end of the cold season and the beginning of springDressing up as Easter witches (p\u00e5skk\u00e4rringar/p\u00e5skh\u00e4xor) a tr",
+      "url": "https://scandicenter.org/event/nordic-easter-crafts-2026/",
+      "source": "Boston Calendar",
+      "categories": [
+        "South Asian",
+        "Arts & Crafts",
+        "Cultural Festival"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
       "id": "30bd508d-cacd-8126-a0b2-fbe27e9f925e",
       "name": "Easter Soir\u00e9e",
       "date": "2026-04-04",
@@ -7082,6 +9554,24 @@
       ],
       "latitude": 42.3508575,
       "longitude": -71.11565709999999
+    },
+    {
+      "id": "30bd508d-cacd-8145-894a-f53f75ef7801",
+      "name": "Writing Your Own Declaration: A Writing Workshop",
+      "date": "2026-04-07",
+      "time": "12:00 PM",
+      "location": "Lower Mills Branch of the Boston Public Library",
+      "address": "",
+      "price": "Free",
+      "description": "Join the Boston Public Library community to write your own declaration!This program will take place at four branches in Spring 2026.What is in a declaration? How do we declare our own values, thoughts, and ideas and share them with others? This workshop invites patrons into a deep dive of self-exploration and public writing. Join us for an active learning environment where we read, discuss, and draw inspiration from several pieces of declarative writing that emerged over the course of history. P",
+      "url": "https://bpl.bibliocommons.com/events/69790aa676261f2800670c5c",
+      "source": "Boston Calendar",
+      "categories": [
+        "Arts & Crafts",
+        "Community"
+      ],
+      "latitude": null,
+      "longitude": null
     },
     {
       "id": "30ad508d-cacd-81cd-9ef6-f9b8ffe4d88d",
@@ -7136,6 +9626,24 @@
       "longitude": -71.067875
     },
     {
+      "id": "30bd508d-cacd-81dc-9ae2-cd445a8e55d7",
+      "name": "Protest! Relief Printmaking Workshop",
+      "date": "2026-04-09",
+      "time": "5:30 PM",
+      "location": "Central Library at Copley Square",
+      "address": "",
+      "price": "Free",
+      "description": "Join the Boston Public Library community to create revolutionary art!Boston is a city of revolutionaries and prints are the medium for the message. As we mark the 250th Anniversary of the American Revolution we invite you to make your own small-scale protest posters with Boston-based artist and printmakerCrystalle Lacouture. In this three hour workshop we will learn about the history of the print and the press as tools for people to share ideas and to affordably reproduce urgent political images",
+      "url": "https://bpl.bibliocommons.com/events/698dfce1cbf1533ca536f5a6",
+      "source": "Boston Calendar",
+      "categories": [
+        "Arts & Crafts",
+        "Community"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
       "id": "30ad508d-cacd-8185-8437-daf22fd25879",
       "name": "Abstract Landscape Painting Workshop with C\u00e9cile Ganne",
       "date": "2026-04-09",
@@ -7188,6 +9696,25 @@
       ],
       "latitude": 42.2522286,
       "longitude": -71.13046059999999
+    },
+    {
+      "id": "30bd508d-cacd-815d-8e72-cebd3fa514af",
+      "name": "Embroidery for Mental Health and Wellness Workshop",
+      "date": "2026-04-11",
+      "time": "9:00 AM",
+      "location": "The School of Fashion Design",
+      "address": "",
+      "price": "$40",
+      "description": "Learn how embroidery can be a tactile self soothing tool for anxiety, ADHD, or general well-being! Join us to create a tactile soothing article of clothing for you or someone you care about.In this workshop, fashion meets inclusivity and sustainability. Be a part of engaging discussions on inclusive design practices, and learn embroidery techniques that prioritize wellbeing and comfort.Through insightful discussions, hands-on activities, and expert instruction, students will work towards a final",
+      "url": "https://schooloffashiondesign.asapconnected.com/#CourseID=302927",
+      "source": "Boston Calendar",
+      "categories": [
+        "South Asian",
+        "Arts & Crafts",
+        "Talks & Lectures"
+      ],
+      "latitude": null,
+      "longitude": null
     },
     {
       "id": "30ad508d-cacd-8110-b813-da5c806d9ecc",
@@ -7276,6 +9803,23 @@
       "longitude": -71.0948125
     },
     {
+      "id": "30bd508d-cacd-81ec-bfe5-c7c8ba769a70",
+      "name": "Art Class Hosted by All Ways Arts",
+      "date": "2026-04-12",
+      "time": "11:30 AM",
+      "location": "Lord Hobo Brewing Company",
+      "address": "",
+      "price": "$35-85",
+      "description": "Join us for an Art Class hosted by All Ways Arts! They haven't posted the exact class for this date yet but they host a variety of Art Workshops such as Paint your Pet Nite (my personal favorite), Chunky Blanket Nite, a Seaglass Tree Workshop, Classic Paint Nite & many more!We'll post the link to sign up when its ready!",
+      "url": "https://www.thebostoncalendar.com/events/art-class-hosted-by-all-ways-arts--25",
+      "source": "Boston Calendar",
+      "categories": [
+        "Arts & Crafts"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
       "id": "30ad508d-cacd-815c-bc4d-c79aaa4b12fd",
       "name": "Hub New Music",
       "date": "2026-04-12",
@@ -7329,6 +9873,24 @@
       "longitude": -71.1182488
     },
     {
+      "id": "30bd508d-cacd-8151-850e-dda10b59697a",
+      "name": "When and Where in Boston: Digital Community History Workshop",
+      "date": "2026-04-13",
+      "time": "6:00 PM",
+      "location": "Connolly Branch of the BPL",
+      "address": "",
+      "price": "Free",
+      "description": "You know Jamaica Plain\u2019s history, now learn how to share it with the world!Join The West End Museum (WEM) at the Connolly Branch of the Boston Public Library for an interactive community history workshop. Learn to use the crowdsourced history databaseWhen and Where in Bostonto create pins on a digital map that tell the story of the who, what, when, and where in Jamaica Plain's history. Share the details of what makes JP such a unique place to live.Learn how to research, format, and submit pins t",
+      "url": "https://www.jphs.org/events",
+      "source": "Boston Calendar",
+      "categories": [
+        "Arts & Crafts",
+        "Community"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
       "id": "30ad508d-cacd-811b-96cf-de8cb1a7337c",
       "name": "Apostles of Development: Six Economists and the World They Made",
       "date": "2026-04-13",
@@ -7361,6 +9923,24 @@
       ],
       "latitude": 42.3500037,
       "longitude": -71.1116874
+    },
+    {
+      "id": "30bd508d-cacd-8145-ad65-dc22c6f9095e",
+      "name": "Studio Workshop: Portraiture with Evoke Tintype",
+      "date": "2026-04-16",
+      "time": "5:00 PM",
+      "location": "Isabella Stewart Gardner Museum",
+      "address": "",
+      "price": "$100-125",
+      "description": "Visit the Isabella Stewart Gardner Museum's special exhibition, Picturing Isabella, and see historic salt, albumen, and platinum prints of a woman who fashioned her own public persona. You are then invited to suspend time in silver, using tintype photography to create a nostalgic, otherworldly portrait of yourself. The artists of Evoke Tintype Photography will teach you the process behind this 20th-century artform and allow you to reimagine yourself as an inhabitant of Isabella's bygone Boston i",
+      "url": "https://www.gardnermuseum.org/calendar/studio-tintype-workshop-4.16.26",
+      "source": "Boston Calendar",
+      "categories": [
+        "Arts & Crafts",
+        "Coffee & Chai"
+      ],
+      "latitude": null,
+      "longitude": null
     },
     {
       "id": "30ad508d-cacd-8115-a598-e4d8a0269e86",
@@ -7448,6 +10028,24 @@
       ],
       "latitude": 42.3810179,
       "longitude": -71.1249813
+    },
+    {
+      "id": "30bd508d-cacd-818c-97e8-c3946d180fcd",
+      "name": "Tatted Lace Making Workshop",
+      "date": "2026-04-18",
+      "time": "9:00 AM",
+      "location": "The School of Fashion Design",
+      "address": "",
+      "price": "$120",
+      "description": "Discover the timeless art of creating tatted lace in this hands-on workshop! Students will explore the perfect threads, tools, and essential terminology needed to bring their designs to life. You will learn foundational stitches and be ready to craft your own lace designs\u2014whether it\u2019s delicate ornaments, jewelry, or elegant trims to elevate your wardrobe.The morning will consist of an introduction to the instructor, terminology and technique. The afternoon will be practicing the stitches and fol",
+      "url": "https://schooloffashiondesign.asapconnected.com/#CourseID=298310",
+      "source": "Boston Calendar",
+      "categories": [
+        "South Asian",
+        "Arts & Crafts"
+      ],
+      "latitude": null,
+      "longitude": null
     },
     {
       "id": "30bd508d-cacd-81a4-aa65-c574abb57f68",
@@ -7539,6 +10137,23 @@
       "longitude": -71.094405
     },
     {
+      "id": "30bd508d-cacd-81e1-9a83-feecc38c4407",
+      "name": "Art Class Hosted by All Ways Arts",
+      "date": "2026-04-21",
+      "time": "7:00 PM",
+      "location": "Lord Hobo Brewing Company",
+      "address": "",
+      "price": "$35-85",
+      "description": "Join us for an Art Class hosted by All Ways Arts! They haven't posted the exact class for this date yet but they host a variety of Art Workshops such as Paint your Pet Nite (my personal favorite), Chunky Blanket Nite, a Seaglass Tree Workshop, Classic Paint Nite & many more!We'll post the link to sign up when its ready!",
+      "url": "https://www.thebostoncalendar.com/events/art-class-hosted-by-all-ways-arts--37",
+      "source": "Boston Calendar",
+      "categories": [
+        "Arts & Crafts"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
       "id": "30ad508d-cacd-8115-abce-df435fc2aeb5",
       "name": "London Falling: New Yorker Writer Patrick Radden Keefe's new book",
       "date": "2026-04-21",
@@ -7554,6 +10169,24 @@
       ],
       "latitude": 42.3508575,
       "longitude": -71.11565709999999
+    },
+    {
+      "id": "30bd508d-cacd-812c-b1bb-da5904b4af44",
+      "name": "Writing Your Own Declaration: A Writing Workshop",
+      "date": "2026-04-23",
+      "time": "5:00 PM",
+      "location": "Brighton Branch of the Boston Public Library",
+      "address": "",
+      "price": "Free",
+      "description": "Join the Boston Public Library community to write your own declaration!This program will take place at four branches in Spring 2026.What is in a declaration? How do we declare our own values, thoughts, and ideas and share them with others? This workshop invites patrons into a deep dive of self-exploration and public writing. Join us for an active learning environment where we read, discuss, and draw inspiration from several pieces of declarative writing that emerged over the course of history. P",
+      "url": "https://bpl.bibliocommons.com/events/69790ab076261f2800670c5e",
+      "source": "Boston Calendar",
+      "categories": [
+        "Arts & Crafts",
+        "Community"
+      ],
+      "latitude": null,
+      "longitude": null
     },
     {
       "id": "30ad508d-cacd-8187-8b28-f939d337509f",
@@ -7749,6 +10382,44 @@
       "longitude": -71.08517719999998
     },
     {
+      "id": "30bd508d-cacd-816a-9d4b-f50c60adaac2",
+      "name": "Celebrate Spring Grazing Board Arranging Workshop",
+      "date": "2026-04-29",
+      "time": "6:30 PM",
+      "location": "Life Love Cheese",
+      "address": "",
+      "price": "$85",
+      "description": "Celebrate springtime with fresh flavors and fun times arranging grazing boards spring house wines.Get ready for all those upcoming springtime gatherings with with CHEESE & WINE!Head to Life Love Cheese for a night of cheese and charcuterie board arranging. You'll unleash your food styling creativity while while sipping on delicious wines.Join us at\u00a0184 Water St\u00a0for laughter, good food, and great company. Whether you're a charcuterie pro or a wine enthusiast, this event is perfect for a night out",
+      "url": "https://www.eventbrite.com/e/celebrate-spring-grazing-board-arranging-workshop-tickets-1979548637262?aff=oddtdtcreator",
+      "source": "Boston Calendar",
+      "categories": [
+        "Arts & Crafts",
+        "Food & Markets",
+        "Comedy",
+        "Community"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "30bd508d-cacd-81f3-b7f9-df3391ae3cd4",
+      "name": "Sashiko Stitches Japanese Mending Workshop",
+      "date": "2026-04-29",
+      "time": "6:00 PM",
+      "location": "The School of Fashion Design",
+      "address": "",
+      "price": "$110",
+      "description": "Immerse yourself in the art and history of Sashiko, a traditional Japanese stitching technique rooted in practicality and beauty. Learn Sashiko's origins and its cultural significance as a form of mending, storytelling, and creative expression. Then, roll up your sleeves for a hands-on workshop where you\u2019ll learn to master this timeless technique.Whether you're new to sewing or a seasoned artisan, you\u2019ll leave with a deeper appreciation for this heritage craft\u2014and your very own Sashiko masterpie",
+      "url": "https://schooloffashiondesign.asapconnected.com/#CourseID=306940",
+      "source": "Boston Calendar",
+      "categories": [
+        "Arts & Crafts",
+        "Cultural Festival"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
       "id": "30ad508d-cacd-81b4-bc58-d08116d1ed69",
       "name": "International Runway Show & Pop Up Shop  by Fashion SB Global",
       "date": "2026-05-02",
@@ -7798,6 +10469,57 @@
       ],
       "latitude": 42.10253480000001,
       "longitude": -71.0481733
+    },
+    {
+      "id": "30bd508d-cacd-8125-bb70-daf4d72df599",
+      "name": "Art Class Hosted by All Ways Arts",
+      "date": "2026-05-05",
+      "time": "7:00 PM",
+      "location": "Lord Hobo Brewing Company",
+      "address": "",
+      "price": "$35-85",
+      "description": "Join us for an Art Class hosted by All Ways Arts! They haven't posted the exact class for this date yet but they host a variety of Art Workshops such as Paint your Pet Nite (my personal favorite), Chunky Blanket Nite, a Seaglass Tree Workshop, Classic Paint Nite & many more!We'll post the link to sign up when its ready!",
+      "url": "https://www.thebostoncalendar.com/events/art-class-hosted-by-all-ways-arts--38",
+      "source": "Boston Calendar",
+      "categories": [
+        "Arts & Crafts"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "30bd508d-cacd-81e6-8847-db27b9c3f6fc",
+      "name": "Art Class Hosted by All Ways Arts",
+      "date": "2026-05-10",
+      "time": "11:30 AM",
+      "location": "Lord Hobo Brewing Company",
+      "address": "",
+      "price": "$35-85",
+      "description": "Join us for an Art Class hosted by All Ways Arts! They haven't posted the exact class for this date yet but they host a variety of Art Workshops such as Paint your Pet Nite (my personal favorite), Chunky Blanket Nite, a Seaglass Tree Workshop, Classic Paint Nite & many more!We'll post the link to sign up when its ready!",
+      "url": "https://www.thebostoncalendar.com/events/art-class-hosted-by-all-ways-arts--26",
+      "source": "Boston Calendar",
+      "categories": [
+        "Arts & Crafts"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "30bd508d-cacd-813f-9d67-f8f8f018944a",
+      "name": "Art Class Hosted by All Ways Arts",
+      "date": "2026-05-19",
+      "time": "7:00 PM",
+      "location": "Lord Hobo Brewing Company",
+      "address": "",
+      "price": "$35-85",
+      "description": "Join us for an Art Class hosted by All Ways Arts! They haven't posted the exact class for this date yet but they host a variety of Art Workshops such as Paint your Pet Nite (my personal favorite), Chunky Blanket Nite, a Seaglass Tree Workshop, Classic Paint Nite & many more!We'll post the link to sign up when its ready!",
+      "url": "https://www.thebostoncalendar.com/events/art-class-hosted-by-all-ways-arts--39",
+      "source": "Boston Calendar",
+      "categories": [
+        "Arts & Crafts"
+      ],
+      "latitude": null,
+      "longitude": null
     },
     {
       "id": "30ad508d-cacd-81d2-a87b-f61b98362742",
@@ -7905,6 +10627,40 @@
       "longitude": -71.13376840000001
     },
     {
+      "id": "30bd508d-cacd-81d5-9b17-d2a812aded28",
+      "name": "Art Class Hosted by All Ways Arts",
+      "date": "2026-06-14",
+      "time": "11:30 AM",
+      "location": "Lord Hobo Brewing Company",
+      "address": "",
+      "price": "$35-85",
+      "description": "Join us for an Art Class hosted by All Ways Arts! They haven't posted the exact class for this date yet but they host a variety of Art Workshops such as Paint your Pet Nite (my personal favorite), Chunky Blanket Nite, a Seaglass Tree Workshop, Classic Paint Nite & many more!We'll post the link to sign up when its ready!",
+      "url": "https://www.thebostoncalendar.com/events/art-class-hosted-by-all-ways-arts--27",
+      "source": "Boston Calendar",
+      "categories": [
+        "Arts & Crafts"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "30bd508d-cacd-81bb-9b10-cd2c3e63acb3",
+      "name": "Art Class Hosted by All Ways Arts",
+      "date": "2026-06-16",
+      "time": "7:00 PM",
+      "location": "Lord Hobo Brewing Company",
+      "address": "",
+      "price": "$35-85",
+      "description": "Join us for an Art Class hosted by All Ways Arts! They haven't posted the exact class for this date yet but they host a variety of Art Workshops such as Paint your Pet Nite (my personal favorite), Chunky Blanket Nite, a Seaglass Tree Workshop, Classic Paint Nite & many more!We'll post the link to sign up when its ready!",
+      "url": "https://www.thebostoncalendar.com/events/art-class-hosted-by-all-ways-arts--40",
+      "source": "Boston Calendar",
+      "categories": [
+        "Arts & Crafts"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
       "id": "30ad508d-cacd-8156-a562-f356fd6cbad2",
       "name": "Friends of the Harborwalk: Exploring Castle Island",
       "date": "2026-06-18",
@@ -7975,6 +10731,59 @@
       "longitude": -71.068801
     },
     {
+      "id": "30bd508d-cacd-815d-adc5-e37f70252d91",
+      "name": "Public Speaking, Argumentative Writing, and Civic Leadership Summer Workshop",
+      "date": "2026-07-06",
+      "time": "10:00 AM",
+      "location": "Lesley University",
+      "address": "",
+      "price": "$300/week, $500/both",
+      "description": "Leaders 4SC is a summer workshop for middle school (rising 5th to 10th grade) students on writing and speaking, as well as leadership, communication, decision-making, and advocacy. Our goal is to train the next generation of civic leaders: members of a community who actively participate in society.By the end of each week, students will have:Completed at least one writing or speaking assignment arguing for and defending their opinion on any current issueParticipated in daily discussions and activ",
+      "url": "https://learn.academy4sc.org/student-workshops/camp/",
+      "source": "Boston Calendar",
+      "categories": [
+        "Arts & Crafts",
+        "Talks & Lectures",
+        "Community"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "30bd508d-cacd-81e2-922c-cbfe504afe63",
+      "name": "Art Class Hosted by All Ways Arts",
+      "date": "2026-07-07",
+      "time": "7:00 PM",
+      "location": "Lord Hobo Brewing Company",
+      "address": "",
+      "price": "$35-85",
+      "description": "Join us for an Art Class hosted by All Ways Arts! They haven't posted the exact class for this date yet but they host a variety of Art Workshops such as Paint your Pet Nite (my personal favorite), Chunky Blanket Nite, a Seaglass Tree Workshop, Classic Paint Nite & many more!We'll post the link to sign up when its ready!",
+      "url": "https://www.thebostoncalendar.com/events/art-class-hosted-by-all-ways-arts--41",
+      "source": "Boston Calendar",
+      "categories": [
+        "Arts & Crafts"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "30bd508d-cacd-81aa-a46d-c9d34a0e516d",
+      "name": "Art Class Hosted by All Ways Arts",
+      "date": "2026-07-12",
+      "time": "11:30 AM",
+      "location": "Lord Hobo Brewing Company",
+      "address": "",
+      "price": "$35-85",
+      "description": "Join us for an Art Class hosted by All Ways Arts! They haven't posted the exact class for this date yet but they host a variety of Art Workshops such as Paint your Pet Nite (my personal favorite), Chunky Blanket Nite, a Seaglass Tree Workshop, Classic Paint Nite & many more!We'll post the link to sign up when its ready!",
+      "url": "https://www.thebostoncalendar.com/events/art-class-hosted-by-all-ways-arts--28",
+      "source": "Boston Calendar",
+      "categories": [
+        "Arts & Crafts"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
       "id": "30ad508d-cacd-81ae-be85-dc788cbf0966",
       "name": "My Caribbean One World Expo",
       "date": "2026-07-18",
@@ -7990,6 +10799,145 @@
       ],
       "latitude": 42.3483536,
       "longitude": -71.0399106
+    },
+    {
+      "id": "30bd508d-cacd-8110-a545-c190428077dd",
+      "name": "Art Class Hosted by All Ways Arts",
+      "date": "2026-07-21",
+      "time": "7:00 PM",
+      "location": "Lord Hobo Brewing Company",
+      "address": "",
+      "price": "$35-85",
+      "description": "Join us for an Art Class hosted by All Ways Arts! They haven't posted the exact class for this date yet but they host a variety of Art Workshops such as Paint your Pet Nite (my personal favorite), Chunky Blanket Nite, a Seaglass Tree Workshop, Classic Paint Nite & many more!We'll post the link to sign up when its ready!",
+      "url": "https://www.thebostoncalendar.com/events/art-class-hosted-by-all-ways-arts--42",
+      "source": "Boston Calendar",
+      "categories": [
+        "Arts & Crafts"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "30bd508d-cacd-8107-81cc-ea26d4086cae",
+      "name": "Art Class Hosted by All Ways Arts",
+      "date": "2026-08-04",
+      "time": "7:00 PM",
+      "location": "Lord Hobo Brewing Company",
+      "address": "",
+      "price": "$35-85",
+      "description": "Join us for an Art Class hosted by All Ways Arts! They haven't posted the exact class for this date yet but they host a variety of Art Workshops such as Paint your Pet Nite (my personal favorite), Chunky Blanket Nite, a Seaglass Tree Workshop, Classic Paint Nite & many more!We'll post the link to sign up when its ready!",
+      "url": "https://www.thebostoncalendar.com/events/art-class-hosted-by-all-ways-arts--43",
+      "source": "Boston Calendar",
+      "categories": [
+        "Arts & Crafts"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "30bd508d-cacd-8160-b453-dbcf74f6a43e",
+      "name": "Art Class Hosted by All Ways Arts",
+      "date": "2026-08-09",
+      "time": "11:30 AM",
+      "location": "Lord Hobo Brewing Company",
+      "address": "",
+      "price": "$35-85",
+      "description": "Join us for an Art Class hosted by All Ways Arts! They haven't posted the exact class for this date yet but they host a variety of Art Workshops such as Paint your Pet Nite (my personal favorite), Chunky Blanket Nite, a Seaglass Tree Workshop, Classic Paint Nite & many more!We'll post the link to sign up when its ready!",
+      "url": "https://www.thebostoncalendar.com/events/art-class-hosted-by-all-ways-arts--29",
+      "source": "Boston Calendar",
+      "categories": [
+        "Arts & Crafts"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "30bd508d-cacd-8118-a84d-cebd366909de",
+      "name": "Newton - Teen Improv Workshop",
+      "date": "2026-08-17",
+      "time": "9:00 AM",
+      "location": "Zervas School",
+      "address": "",
+      "price": "$635",
+      "description": "A 5 day improv workshop for teens (grades 9-12), hosted by Newton Community Education.THE CLASSExplore thematic games to create comedic and dramatic scenes, without a script! Build characters, think quickly, and throw all self and peer judgement away! No improv or acting experience is required and the session will end with a student showcase for friends and family!THE DETAILSSECTION KS705-S26-W8-ZE-FD-G912LOCATION Zervas Elementary School, Classroom TBADATES 8/17 \u2013 8/21DAYS Mo Tu We Th FrTIMES 0",
+      "url": "https://newtoncommunityed.asapconnected.com/#EventID=2928713",
+      "source": "Boston Calendar",
+      "categories": [
+        "Arts & Crafts",
+        "Theater & Film",
+        "Comedy",
+        "Community"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "30bd508d-cacd-813a-9652-d225163d7d7d",
+      "name": "Art Class Hosted by All Ways Arts",
+      "date": "2026-08-18",
+      "time": "7:00 PM",
+      "location": "Lord Hobo Brewing Company",
+      "address": "",
+      "price": "$35-85",
+      "description": "Join us for an Art Class hosted by All Ways Arts! They haven't posted the exact class for this date yet but they host a variety of Art Workshops such as Paint your Pet Nite (my personal favorite), Chunky Blanket Nite, a Seaglass Tree Workshop, Classic Paint Nite & many more!We'll post the link to sign up when its ready!",
+      "url": "https://www.thebostoncalendar.com/events/art-class-hosted-by-all-ways-arts--44",
+      "source": "Boston Calendar",
+      "categories": [
+        "Arts & Crafts"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "30bd508d-cacd-8163-8da8-eb5ac03b8685",
+      "name": "Art Class Hosted by All Ways Arts",
+      "date": "2026-09-01",
+      "time": "7:00 PM",
+      "location": "Lord Hobo Brewing Company",
+      "address": "",
+      "price": "$35-85",
+      "description": "Join us for an Art Class hosted by All Ways Arts! They haven't posted the exact class for this date yet but they host a variety of Art Workshops such as Paint your Pet Nite (my personal favorite), Chunky Blanket Nite, a Seaglass Tree Workshop, Classic Paint Nite & many more!We'll post the link to sign up when its ready!",
+      "url": "https://www.thebostoncalendar.com/events/art-class-hosted-by-all-ways-arts--45",
+      "source": "Boston Calendar",
+      "categories": [
+        "Arts & Crafts"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "30bd508d-cacd-8135-95c2-c2b01552a41d",
+      "name": "Art Class Hosted by All Ways Arts",
+      "date": "2026-09-13",
+      "time": "11:30 AM",
+      "location": "Lord Hobo Brewing Company",
+      "address": "",
+      "price": "$35-85",
+      "description": "Join us for an Art Class hosted by All Ways Arts! They haven't posted the exact class for this date yet but they host a variety of Art Workshops such as Paint your Pet Nite (my personal favorite), Chunky Blanket Nite, a Seaglass Tree Workshop, Classic Paint Nite & many more!We'll post the link to sign up when its ready!",
+      "url": "https://www.thebostoncalendar.com/events/art-class-hosted-by-all-ways-arts--30",
+      "source": "Boston Calendar",
+      "categories": [
+        "Arts & Crafts"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "30bd508d-cacd-8198-8c79-ebf9e5986a1e",
+      "name": "Art Class Hosted by All Ways Arts",
+      "date": "2026-09-15",
+      "time": "7:00 PM",
+      "location": "Lord Hobo Brewing Company",
+      "address": "",
+      "price": "$35-85",
+      "description": "Join us for an Art Class hosted by All Ways Arts! They haven't posted the exact class for this date yet but they host a variety of Art Workshops such as Paint your Pet Nite (my personal favorite), Chunky Blanket Nite, a Seaglass Tree Workshop, Classic Paint Nite & many more!We'll post the link to sign up when its ready!",
+      "url": "https://www.thebostoncalendar.com/events/art-class-hosted-by-all-ways-arts--46",
+      "source": "Boston Calendar",
+      "categories": [
+        "Arts & Crafts"
+      ],
+      "latitude": null,
+      "longitude": null
     },
     {
       "id": "30ad508d-cacd-818e-971f-d87c8c26814f",
@@ -8009,6 +10957,57 @@
       "longitude": -71.0558319
     },
     {
+      "id": "30bd508d-cacd-8187-9728-e13a42956164",
+      "name": "Art Class Hosted by All Ways Arts",
+      "date": "2026-10-06",
+      "time": "7:00 PM",
+      "location": "Lord Hobo Brewing Company",
+      "address": "",
+      "price": "$35-85",
+      "description": "Join us for an Art Class hosted by All Ways Arts! They haven't posted the exact class for this date yet but they host a variety of Art Workshops such as Paint your Pet Nite (my personal favorite), Chunky Blanket Nite, a Seaglass Tree Workshop, Classic Paint Nite & many more!We'll post the link to sign up when its ready!",
+      "url": "https://www.thebostoncalendar.com/events/art-class-hosted-by-all-ways-arts--47",
+      "source": "Boston Calendar",
+      "categories": [
+        "Arts & Crafts"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "30bd508d-cacd-8107-90cc-ff29dff93ba5",
+      "name": "Art Class Hosted by All Ways Arts",
+      "date": "2026-10-11",
+      "time": "11:30 AM",
+      "location": "Lord Hobo Brewing Company",
+      "address": "",
+      "price": "$35-85",
+      "description": "Join us for an Art Class hosted by All Ways Arts! They haven't posted the exact class for this date yet but they host a variety of Art Workshops such as Paint your Pet Nite (my personal favorite), Chunky Blanket Nite, a Seaglass Tree Workshop, Classic Paint Nite & many more!We'll post the link to sign up when its ready!",
+      "url": "https://www.thebostoncalendar.com/events/art-class-hosted-by-all-ways-arts--31",
+      "source": "Boston Calendar",
+      "categories": [
+        "Arts & Crafts"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "30bd508d-cacd-81bf-a8d4-fa02a68fa5b2",
+      "name": "Art Class Hosted by All Ways Arts",
+      "date": "2026-10-20",
+      "time": "7:00 PM",
+      "location": "Lord Hobo Brewing Company",
+      "address": "",
+      "price": "$35-85",
+      "description": "Join us for an Art Class hosted by All Ways Arts! They haven't posted the exact class for this date yet but they host a variety of Art Workshops such as Paint your Pet Nite (my personal favorite), Chunky Blanket Nite, a Seaglass Tree Workshop, Classic Paint Nite & many more!We'll post the link to sign up when its ready!",
+      "url": "https://www.thebostoncalendar.com/events/art-class-hosted-by-all-ways-arts--48",
+      "source": "Boston Calendar",
+      "categories": [
+        "Arts & Crafts"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
       "id": "30ad508d-cacd-8143-9777-ed8bd3a3bc06",
       "name": "2nd Conference on IM, IT & AI for Business, Finance, Industries & Education",
       "date": "2026-10-24",
@@ -8025,7 +11024,109 @@
       ],
       "latitude": 42.349626,
       "longitude": -71.0995466
+    },
+    {
+      "id": "30bd508d-cacd-8198-8788-e25532d6d402",
+      "name": "Art Class Hosted by All Ways Arts",
+      "date": "2026-11-03",
+      "time": "7:00 PM",
+      "location": "Lord Hobo Brewing Company",
+      "address": "",
+      "price": "$35-85",
+      "description": "Join us for an Art Class hosted by All Ways Arts! They haven't posted the exact class for this date yet but they host a variety of Art Workshops such as Paint your Pet Nite (my personal favorite), Chunky Blanket Nite, a Seaglass Tree Workshop, Classic Paint Nite & many more!We'll post the link to sign up when its ready!",
+      "url": "https://www.thebostoncalendar.com/events/art-class-hosted-by-all-ways-arts--49",
+      "source": "Boston Calendar",
+      "categories": [
+        "Arts & Crafts"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "30bd508d-cacd-8183-b4e1-fd860c27b625",
+      "name": "Art Class Hosted by All Ways Arts",
+      "date": "2026-11-08",
+      "time": "11:30 AM",
+      "location": "Lord Hobo Brewing Company",
+      "address": "",
+      "price": "$35-85",
+      "description": "Join us for an Art Class hosted by All Ways Arts! They haven't posted the exact class for this date yet but they host a variety of Art Workshops such as Paint your Pet Nite (my personal favorite), Chunky Blanket Nite, a Seaglass Tree Workshop, Classic Paint Nite & many more!We'll post the link to sign up when its ready!",
+      "url": "https://www.thebostoncalendar.com/events/art-class-hosted-by-all-ways-arts--32",
+      "source": "Boston Calendar",
+      "categories": [
+        "Arts & Crafts"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "30bd508d-cacd-8100-a449-c97ff3938869",
+      "name": "Art Class Hosted by All Ways Arts",
+      "date": "2026-11-17",
+      "time": "7:00 PM",
+      "location": "Lord Hobo Brewing Company",
+      "address": "",
+      "price": "$35-85",
+      "description": "Join us for an Art Class hosted by All Ways Arts! They haven't posted the exact class for this date yet but they host a variety of Art Workshops such as Paint your Pet Nite (my personal favorite), Chunky Blanket Nite, a Seaglass Tree Workshop, Classic Paint Nite & many more!We'll post the link to sign up when its ready!",
+      "url": "https://www.thebostoncalendar.com/events/art-class-hosted-by-all-ways-arts--50",
+      "source": "Boston Calendar",
+      "categories": [
+        "Arts & Crafts"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "30bd508d-cacd-818b-acca-fc27f6a6dacc",
+      "name": "Art Class Hosted by All Ways Arts",
+      "date": "2026-12-01",
+      "time": "7:00 PM",
+      "location": "Lord Hobo Brewing Company",
+      "address": "",
+      "price": "$35-85",
+      "description": "Join us for an Art Class hosted by All Ways Arts! They haven't posted the exact class for this date yet but they host a variety of Art Workshops such as Paint your Pet Nite (my personal favorite), Chunky Blanket Nite, a Seaglass Tree Workshop, Classic Paint Nite & many more!We'll post the link to sign up when its ready!",
+      "url": "https://www.thebostoncalendar.com/events/art-class-hosted-by-all-ways-arts--51",
+      "source": "Boston Calendar",
+      "categories": [
+        "Arts & Crafts"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "30bd508d-cacd-8164-818f-c9b60b0ed306",
+      "name": "Art Class Hosted by All Ways Arts",
+      "date": "2026-12-13",
+      "time": "11:30 AM",
+      "location": "Lord Hobo Brewing Company",
+      "address": "",
+      "price": "$35-85",
+      "description": "Join us for an Art Class hosted by All Ways Arts! They haven't posted the exact class for this date yet but they host a variety of Art Workshops such as Paint your Pet Nite (my personal favorite), Chunky Blanket Nite, a Seaglass Tree Workshop, Classic Paint Nite & many more!We'll post the link to sign up when its ready!",
+      "url": "https://www.thebostoncalendar.com/events/art-class-hosted-by-all-ways-arts--33",
+      "source": "Boston Calendar",
+      "categories": [
+        "Arts & Crafts"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "30bd508d-cacd-8175-a113-c10b375caaba",
+      "name": "Art Class Hosted by All Ways Arts",
+      "date": "2026-12-15",
+      "time": "7:00 PM",
+      "location": "Lord Hobo Brewing Company",
+      "address": "",
+      "price": "$35-85",
+      "description": "Join us for an Art Class hosted by All Ways Arts! They haven't posted the exact class for this date yet but they host a variety of Art Workshops such as Paint your Pet Nite (my personal favorite), Chunky Blanket Nite, a Seaglass Tree Workshop, Classic Paint Nite & many more!We'll post the link to sign up when its ready!",
+      "url": "https://www.thebostoncalendar.com/events/art-class-hosted-by-all-ways-arts--52",
+      "source": "Boston Calendar",
+      "categories": [
+        "Arts & Crafts"
+      ],
+      "latitude": null,
+      "longitude": null
     }
   ],
-  "updated": "2026-02-18T15:50:31.829904"
+  "updated": "2026-02-18T17:36:30.441794"
 }
