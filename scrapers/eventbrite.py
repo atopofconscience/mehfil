@@ -75,11 +75,26 @@ class EventbriteScraper(BaseScraper):
 
         try:
             with sync_playwright() as p:
-                browser = p.chromium.launch(headless=True)
+                # Launch with additional args to avoid detection
+                browser = p.chromium.launch(
+                    headless=True,
+                    args=[
+                        '--disable-blink-features=AutomationControlled',
+                        '--no-sandbox',
+                        '--disable-dev-shm-usage',
+                    ]
+                )
                 context = browser.new_context(
-                    user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"
+                    user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
+                    viewport={'width': 1920, 'height': 1080},
+                    locale='en-US',
                 )
                 page = context.new_page()
+
+                # Hide webdriver property
+                page.add_init_script("""
+                    Object.defineProperty(navigator, 'webdriver', {get: () => undefined});
+                """)
 
                 for term in self.SEARCH_TERMS:
                     try:
@@ -102,17 +117,35 @@ class EventbriteScraper(BaseScraper):
         """Search for a specific term using Playwright."""
         search_url = f"{self.base_url}/{term}/"
 
-        page.goto(search_url, wait_until="domcontentloaded", timeout=30000)
-        page.wait_for_timeout(2000)  # Wait for dynamic content
+        try:
+            page.goto(search_url, wait_until="domcontentloaded", timeout=30000)
+            page.wait_for_timeout(3000)  # Wait longer for dynamic content
+        except Exception as e:
+            print(f"    Failed to load page for '{term}': {e}")
+            return []
 
         html = page.content()
         soup = BeautifulSoup(html, "html.parser")
         events = []
 
         # Extract JSON-LD structured data
-        for script in soup.find_all("script", {"type": "application/ld+json"}):
+        scripts = soup.find_all("script", {"type": "application/ld+json"})
+
+        if not scripts:
+            # Debug: check page title to see if we got blocked
+            title = soup.find("title")
+            title_text = title.get_text() if title else "No title"
+            if "just a moment" in title_text.lower() or "blocked" in title_text.lower():
+                print(f"    Blocked by Cloudflare for '{term}'")
+            return []
+
+        for script in scripts:
             try:
-                data = json.loads(script.string)
+                script_content = script.string or script.get_text()
+                if not script_content:
+                    continue
+
+                data = json.loads(script_content)
 
                 # Handle itemList format
                 if isinstance(data, dict) and "itemListElement" in data:
@@ -129,7 +162,9 @@ class EventbriteScraper(BaseScraper):
                     if event:
                         events.append(event)
 
-            except json.JSONDecodeError:
+            except json.JSONDecodeError as e:
+                continue
+            except Exception as e:
                 continue
 
         return events
