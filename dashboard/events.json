@@ -1,6 +1,233 @@
 {
   "events": [
     {
+      "id": "30bd508d-cacd-81f3-90f2-fd6593b40320",
+      "name": "Arabic, Persian, and Turkish Language Table",
+      "date": "2026-02-18",
+      "time": "",
+      "location": "Harvard University, Cambridge, MA",
+      "address": "",
+      "price": "",
+      "description": "",
+      "url": "https://calendar.college.harvard.edu/event/arabic-persian-and-turkish-language-table",
+      "source": "Harvard Events",
+      "categories": [
+        "Middle Eastern"
+      ],
+      "latitude": 42.377,
+      "longitude": -71.1167
+    },
+    {
+      "id": "30bd508d-cacd-8130-ab1e-f12f6dec14fe",
+      "name": "Cookie Settings",
+      "date": "2026-02-18",
+      "time": "",
+      "location": "Boston, MA",
+      "address": "",
+      "price": "",
+      "description": "",
+      "url": "https://www.meetup.com/boston-cultural-events/events/#",
+      "source": "Meetup",
+      "categories": [
+        "Cultural Festival"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "30bd508d-cacd-8159-a3d1-c1e22b31d38a",
+      "name": "Cookie Settings",
+      "date": "2026-02-18",
+      "time": "",
+      "location": "Boston, MA",
+      "address": "",
+      "price": "",
+      "description": "",
+      "url": "https://www.meetup.com/boston-middle-eastern/events/#",
+      "source": "Meetup",
+      "categories": [
+        "Community"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "30bd508d-cacd-8176-9bcf-fdb3d4e1bfd7",
+      "name": "Cookie Settings",
+      "date": "2026-02-18",
+      "time": "",
+      "location": "Boston, MA",
+      "address": "",
+      "price": "",
+      "description": "",
+      "url": "https://www.meetup.com/boston-arab-community/events/#",
+      "source": "Meetup",
+      "categories": [
+        "Middle Eastern",
+        "Community"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "30bd508d-cacd-81c9-8e62-de5b2ea1406a",
+      "name": "Cookie Settings",
+      "date": "2026-02-18",
+      "time": "",
+      "location": "Boston, MA",
+      "address": "",
+      "price": "",
+      "description": "",
+      "url": "https://www.meetup.com/persian-boston/events/#",
+      "source": "Meetup",
+      "categories": [
+        "Middle Eastern"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "30bd508d-cacd-8111-9226-da17a45ce343",
+      "name": "Cookie Settings",
+      "date": "2026-02-18",
+      "time": "",
+      "location": "Boston, MA",
+      "address": "",
+      "price": "",
+      "description": "",
+      "url": "https://www.meetup.com/boston-young-indian-professionals/events/#",
+      "source": "Meetup",
+      "categories": [
+        "South Asian"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "30bd508d-cacd-817b-a499-c844c1ce269d",
+      "name": "Cookie Settings",
+      "date": "2026-02-18",
+      "time": "",
+      "location": "Boston, MA",
+      "address": "",
+      "price": "",
+      "description": "",
+      "url": "https://www.meetup.com/boston-south-asian-professionals/events/#",
+      "source": "Meetup",
+      "categories": [
+        "Community"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "30bd508d-cacd-813d-8595-d0fb6a521ece",
+      "name": "Cookie Settings",
+      "date": "2026-02-18",
+      "time": "",
+      "location": "Boston, MA",
+      "address": "",
+      "price": "",
+      "description": "",
+      "url": "https://www.meetup.com/boston-bollywood/events/#",
+      "source": "Meetup",
+      "categories": [
+        "South Asian",
+        "Music & Dance"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "30bd508d-cacd-8186-b012-f3f3a447c978",
+      "name": "Cookie Settings",
+      "date": "2026-02-18",
+      "time": "",
+      "location": "Boston, MA",
+      "address": "",
+      "price": "",
+      "description": "",
+      "url": "https://www.meetup.com/boston-desi-social/events/#",
+      "source": "Meetup",
+      "categories": [
+        "South Asian",
+        "Community"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "30bd508d-cacd-8117-aff7-c1db60c0cafe",
+      "name": "Cookie Settings",
+      "date": "2026-02-18",
+      "time": "",
+      "location": "Boston, MA",
+      "address": "",
+      "price": "",
+      "description": "",
+      "url": "https://www.meetup.com/boston-indian-professionals/events/#",
+      "source": "Meetup",
+      "categories": [
+        "South Asian"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "30bd508d-cacd-8147-bd5d-daaa00d0e057",
+      "name": "Designing Human-Centered AI in HealthcareThu, Feb 26 \u00b7 5:30 PM ESTby Boston Healthcare Cloud & AI Community",
+      "date": "2026-02-18",
+      "time": "",
+      "location": "Boston, MA",
+      "address": "",
+      "price": "",
+      "description": "",
+      "url": "https://www.meetup.com/healthcare-tech-community/events/312635972/?eventOrigin=city_most_popular_event",
+      "source": "Meetup",
+      "categories": [
+        "South Asian",
+        "Middle Eastern",
+        "Community"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "30bd508d-cacd-8101-a7c4-d382a8510524",
+      "name": "AMA with Amazon Interns - AWS Cloud Club EventThu, Feb 19 \u00b7 6:30 PM ESTby AWS Cloud Club at Northeastern University",
+      "date": "2026-02-18",
+      "time": "",
+      "location": "Boston, MA",
+      "address": "",
+      "price": "",
+      "description": "",
+      "url": "https://www.meetup.com/aws-cloud-club-at-northeastern-university/events/313383514/?eventOrigin=city_most_popular_event",
+      "source": "Meetup",
+      "categories": [
+        "Middle Eastern"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "30bd508d-cacd-8191-ae6b-ed92a2cda05f",
+      "name": "Change Over Chai - CambridgeSat, Feb 21 \u00b7 11:00 AM ESTby Change Over Chai with Tarik",
+      "date": "2026-02-18",
+      "time": "",
+      "location": "Boston, MA",
+      "address": "",
+      "price": "",
+      "description": "",
+      "url": "https://www.meetup.com/changeoverchaiwithtarik/events/313158679/?eventOrigin=city_most_popular_event",
+      "source": "Meetup",
+      "categories": [
+        "South Asian",
+        "Coffee & Chai"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
       "id": "30ad508d-cacd-81a6-a997-c2b7fe2cb3ff",
       "name": "Mindfulness & Resilience 1 Day Workshop in Boston, MA",
       "date": "2026-02-18",
@@ -858,6 +1085,25 @@
       ],
       "latitude": 42.3452636,
       "longitude": -71.0963814
+    },
+    {
+      "id": "30bd508d-cacd-81c0-ae75-f0cf9bc94eee",
+      "name": "Bollywood Party At Icon Night Club - Dj Rakesh - Dj Ravlor",
+      "date": "2026-02-20",
+      "time": "10:00 PM",
+      "location": "Icon Night Club",
+      "address": "100 Warrenton Street, Boston, MA, 02116",
+      "price": "$20.00",
+      "description": "",
+      "url": "https://events.sulekha.com/bollywood-party-at-icon-night-club-dj-rakesh-dj-ravlor_event-in_boston-ma_398743",
+      "source": "Sulekha",
+      "categories": [
+        "South Asian",
+        "Arts & Crafts",
+        "Music & Dance"
+      ],
+      "latitude": 42.350571,
+      "longitude": -71.076869
     },
     {
       "id": "30bd508d-cacd-81d3-9261-e6b121fb196c",
@@ -7764,5 +8010,5 @@
       "longitude": -71.0995466
     }
   ],
-  "updated": "2026-02-18T05:47:57.117633"
+  "updated": "2026-02-18T15:43:58.093659"
 }
