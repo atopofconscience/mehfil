@@ -235,6 +235,77 @@
             border-color: var(--navy);
         }
 
+        .filter-chip.active .chip-dot {
+            background: white !important;
+        }
+
+        /* Calendar Export Dropdown */
+        .calendar-dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .calendar-btn {
+            padding: 0.4rem 0.75rem;
+            background: var(--light-blue);
+            color: var(--harbor-blue);
+            border: 1px solid var(--harbor-blue);
+            border-radius: 6px;
+            font-size: 0.8rem;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 0.3rem;
+            transition: all 0.2s;
+        }
+
+        .calendar-btn:hover {
+            background: var(--harbor-blue);
+            color: white;
+        }
+
+        .calendar-menu {
+            position: absolute;
+            bottom: 100%;
+            right: 0;
+            background: white;
+            border: 1px solid var(--gray-200);
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+            z-index: 100;
+            display: none;
+            min-width: 160px;
+            margin-bottom: 0.5rem;
+        }
+
+        .calendar-menu.show {
+            display: block;
+        }
+
+        .calendar-menu-item {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.6rem 1rem;
+            font-size: 0.85rem;
+            color: var(--gray-800);
+            cursor: pointer;
+            transition: background 0.2s;
+            text-decoration: none;
+        }
+
+        .calendar-menu-item:hover {
+            background: var(--light-blue);
+        }
+
+        .calendar-menu-item:first-child {
+            border-radius: 8px 8px 0 0;
+        }
+
+        .calendar-menu-item:last-child {
+            border-radius: 0 0 8px 8px;
+        }
+
         .chip-dot {
             width: 10px;
             height: 10px;
@@ -946,7 +1017,7 @@
             search: '',
             dateFrom: null,
             dateTo: null,
-            category: 'all',
+            categories: [], // Changed to array for multi-select
             location: 'all',
             freeOnly: false,
             mapCategory: 'all'
@@ -1038,12 +1109,35 @@
                 });
             });
 
-            // Category chips
+            // Category chips - multi-select
             document.querySelectorAll('#categoryChips .filter-chip').forEach(chip => {
                 chip.addEventListener('click', () => {
-                    document.querySelectorAll('#categoryChips .filter-chip').forEach(c => c.classList.remove('active'));
-                    chip.classList.add('active');
-                    filters.category = chip.dataset.category;
+                    const category = chip.dataset.category;
+                    const allChip = document.querySelector('#categoryChips .filter-chip[data-category="all"]');
+
+                    if (category === 'all') {
+                        // Clear all selections
+                        document.querySelectorAll('#categoryChips .filter-chip').forEach(c => c.classList.remove('active'));
+                        allChip.classList.add('active');
+                        filters.categories = [];
+                    } else {
+                        // Toggle this category
+                        allChip.classList.remove('active');
+                        chip.classList.toggle('active');
+
+                        if (chip.classList.contains('active')) {
+                            if (!filters.categories.includes(category)) {
+                                filters.categories.push(category);
+                            }
+                        } else {
+                            filters.categories = filters.categories.filter(c => c !== category);
+                        }
+
+                        // If no categories selected, activate "All"
+                        if (filters.categories.length === 0) {
+                            allChip.classList.add('active');
+                        }
+                    }
                     render();
                 });
             });
@@ -1142,9 +1236,11 @@
                     if (filters.dateTo && eventDate > filters.dateTo) return false;
                 }
 
-                // Category
-                if (filters.category !== 'all') {
-                    if (!event.categories || !event.categories.includes(filters.category)) return false;
+                // Category - multi-select with OR logic
+                if (filters.categories.length > 0) {
+                    if (!event.categories) return false;
+                    const hasMatch = filters.categories.some(cat => event.categories.includes(cat));
+                    if (!hasMatch) return false;
                 }
 
                 // Free only
@@ -1237,7 +1333,25 @@
                                 <div class="event-tags">
                                     ${cats.slice(0, 2).map(c => `<span class="event-tag">${c}</span>`).join('')}
                                 </div>
-                                ${event.price ? `<span class="event-price ${isFree ? 'free' : 'paid'}">${event.price}</span>` : ''}
+                                <div style="display:flex;align-items:center;gap:0.5rem;">
+                                    ${event.price ? `<span class="event-price ${isFree ? 'free' : 'paid'}">${event.price}</span>` : ''}
+                                    <div class="calendar-dropdown">
+                                        <button class="calendar-btn" onclick="toggleCalendarMenu('${event.id}', event)">
+                                            📅 <span style="font-size:0.7rem;">▼</span>
+                                        </button>
+                                        <div class="calendar-menu" id="cal-menu-${event.id}">
+                                            <a class="calendar-menu-item" onclick="addToGoogleCalendar('${event.id}', event)">
+                                                🔴 Google Calendar
+                                            </a>
+                                            <a class="calendar-menu-item" onclick="downloadICS('${event.id}', event)">
+                                                🍎 Apple Calendar
+                                            </a>
+                                            <a class="calendar-menu-item" onclick="downloadICS('${event.id}', event)">
+                                                📧 Outlook
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </article>
                     </a>
@@ -1410,6 +1524,185 @@
                     alert('Link copied to clipboard!');
                 });
             }
+        }
+
+        // Calendar export functions
+        function getEventById(id) {
+            return allEvents.find(e => e.id === id);
+        }
+
+        function toggleCalendarMenu(eventId, e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            // Close all other menus
+            document.querySelectorAll('.calendar-menu').forEach(menu => {
+                if (menu.id !== `cal-menu-${eventId}`) {
+                    menu.classList.remove('show');
+                }
+            });
+
+            const menu = document.getElementById(`cal-menu-${eventId}`);
+            menu.classList.toggle('show');
+        }
+
+        // Close menus when clicking outside
+        document.addEventListener('click', (e) => {
+            if (!e.target.closest('.calendar-dropdown')) {
+                document.querySelectorAll('.calendar-menu').forEach(menu => {
+                    menu.classList.remove('show');
+                });
+            }
+        });
+
+        function formatICSDate(dateStr, timeStr) {
+            const date = new Date(dateStr + 'T00:00:00');
+
+            if (timeStr && timeStr !== 'Time TBA') {
+                // Parse time like "7:00 PM" or "10:30 AM"
+                const timeMatch = timeStr.match(/(\d{1,2}):(\d{2})\s*(AM|PM)/i);
+                if (timeMatch) {
+                    let hours = parseInt(timeMatch[1]);
+                    const mins = parseInt(timeMatch[2]);
+                    const ampm = timeMatch[3].toUpperCase();
+
+                    if (ampm === 'PM' && hours !== 12) hours += 12;
+                    if (ampm === 'AM' && hours === 12) hours = 0;
+
+                    date.setHours(hours, mins, 0, 0);
+                }
+            }
+
+            // Format as YYYYMMDDTHHMMSS
+            const pad = n => String(n).padStart(2, '0');
+            return `${date.getFullYear()}${pad(date.getMonth() + 1)}${pad(date.getDate())}T${pad(date.getHours())}${pad(date.getMinutes())}00`;
+        }
+
+        function formatICSDateOnly(dateStr) {
+            const date = new Date(dateStr + 'T00:00:00');
+            const pad = n => String(n).padStart(2, '0');
+            return `${date.getFullYear()}${pad(date.getMonth() + 1)}${pad(date.getDate())}`;
+        }
+
+        function downloadICS(eventId, e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            const event = getEventById(eventId);
+            if (!event) return;
+
+            const hasTime = event.time && event.time !== 'Time TBA';
+            let startDate, endDate;
+
+            if (hasTime) {
+                startDate = formatICSDate(event.date, event.time);
+                // End 2 hours after start by default
+                const endTime = new Date(event.date + 'T00:00:00');
+                const timeMatch = event.time.match(/(\d{1,2}):(\d{2})\s*(AM|PM)/i);
+                if (timeMatch) {
+                    let hours = parseInt(timeMatch[1]);
+                    const mins = parseInt(timeMatch[2]);
+                    const ampm = timeMatch[3].toUpperCase();
+                    if (ampm === 'PM' && hours !== 12) hours += 12;
+                    if (ampm === 'AM' && hours === 12) hours = 0;
+                    endTime.setHours(hours + 2, mins, 0, 0);
+                }
+                const pad = n => String(n).padStart(2, '0');
+                endDate = `${endTime.getFullYear()}${pad(endTime.getMonth() + 1)}${pad(endTime.getDate())}T${pad(endTime.getHours())}${pad(endTime.getMinutes())}00`;
+            } else {
+                // All-day event
+                startDate = formatICSDateOnly(event.date);
+                const nextDay = new Date(event.date + 'T00:00:00');
+                nextDay.setDate(nextDay.getDate() + 1);
+                const pad = n => String(n).padStart(2, '0');
+                endDate = `${nextDay.getFullYear()}${pad(nextDay.getMonth() + 1)}${pad(nextDay.getDate())}`;
+            }
+
+            const location = event.location ? event.location + (event.address ? ', ' + event.address : '') : '';
+            const description = (event.description || '') + (event.url ? '\\n\\nMore info: ' + event.url : '');
+
+            const icsContent = [
+                'BEGIN:VCALENDAR',
+                'VERSION:2.0',
+                'PRODID:-//Mehfil//Boston Events//EN',
+                'BEGIN:VEVENT',
+                `UID:${eventId}@mehfil`,
+                `DTSTAMP:${new Date().toISOString().replace(/[-:]/g, '').split('.')[0]}Z`,
+                hasTime ? `DTSTART:${startDate}` : `DTSTART;VALUE=DATE:${startDate}`,
+                hasTime ? `DTEND:${endDate}` : `DTEND;VALUE=DATE:${endDate}`,
+                `SUMMARY:${event.name.replace(/,/g, '\\,')}`,
+                location ? `LOCATION:${location.replace(/,/g, '\\,')}` : '',
+                description ? `DESCRIPTION:${description.replace(/\n/g, '\\n').replace(/,/g, '\\,')}` : '',
+                event.url ? `URL:${event.url}` : '',
+                'END:VEVENT',
+                'END:VCALENDAR'
+            ].filter(line => line).join('\r\n');
+
+            const blob = new Blob([icsContent], { type: 'text/calendar;charset=utf-8' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = `${event.name.replace(/[^a-z0-9]/gi, '_').substring(0, 30)}.ics`;
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            URL.revokeObjectURL(url);
+
+            // Close menu
+            document.querySelectorAll('.calendar-menu').forEach(menu => menu.classList.remove('show'));
+        }
+
+        function addToGoogleCalendar(eventId, e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            const event = getEventById(eventId);
+            if (!event) return;
+
+            const hasTime = event.time && event.time !== 'Time TBA';
+            let dates;
+
+            if (hasTime) {
+                const start = formatICSDate(event.date, event.time);
+                // End 2 hours later
+                const endTime = new Date(event.date + 'T00:00:00');
+                const timeMatch = event.time.match(/(\d{1,2}):(\d{2})\s*(AM|PM)/i);
+                if (timeMatch) {
+                    let hours = parseInt(timeMatch[1]);
+                    const mins = parseInt(timeMatch[2]);
+                    const ampm = timeMatch[3].toUpperCase();
+                    if (ampm === 'PM' && hours !== 12) hours += 12;
+                    if (ampm === 'AM' && hours === 12) hours = 0;
+                    endTime.setHours(hours + 2, mins, 0, 0);
+                }
+                const pad = n => String(n).padStart(2, '0');
+                const end = `${endTime.getFullYear()}${pad(endTime.getMonth() + 1)}${pad(endTime.getDate())}T${pad(endTime.getHours())}${pad(endTime.getMinutes())}00`;
+                dates = `${start}/${end}`;
+            } else {
+                // All-day event
+                const start = formatICSDateOnly(event.date);
+                const nextDay = new Date(event.date + 'T00:00:00');
+                nextDay.setDate(nextDay.getDate() + 1);
+                const pad = n => String(n).padStart(2, '0');
+                const end = `${nextDay.getFullYear()}${pad(nextDay.getMonth() + 1)}${pad(nextDay.getDate())}`;
+                dates = `${start}/${end}`;
+            }
+
+            const location = event.location ? event.location + (event.address ? ', ' + event.address : '') : '';
+            const description = (event.description || '') + (event.url ? '\n\nMore info: ' + event.url : '');
+
+            const params = new URLSearchParams({
+                action: 'TEMPLATE',
+                text: event.name,
+                dates: dates,
+                details: description,
+                location: location
+            });
+
+            window.open(`https://calendar.google.com/calendar/render?${params.toString()}`, '_blank');
+
+            // Close menu
+            document.querySelectorAll('.calendar-menu').forEach(menu => menu.classList.remove('show'));
         }
 
         // Start
