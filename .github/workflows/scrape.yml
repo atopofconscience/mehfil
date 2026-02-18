@@ -34,6 +34,9 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
+      - name: Install Playwright browsers
+        run: playwright install chromium
+
       - name: Clear database (if requested)
         if: ${{ github.event.inputs.clear_database == 'true' }}
         env:
