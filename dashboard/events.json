@@ -1,126 +1,6 @@
 {
   "events": [
     {
-      "id": "30ad508d-cacd-8140-9077-c6d46ef43a9e",
-      "name": "Tuesday Night Central Square Cambridge Food & Mural Tour!",
-      "date": "2026-02-17",
-      "time": "7:00 PM",
-      "location": "Market Central",
-      "address": "425 Massachusetts Avenue, Cambridge, MA",
-      "price": "",
-      "description": "Have fun and unleash your inner art and food critic while exploring Central Square, Cambridge with us on this exciting weeknight food tour!",
-      "url": "https://www.eventbrite.com/e/tuesday-night-central-square-cambridge-food-mural-tour-tickets-1329239825099",
-      "source": "Eventbrite",
-      "categories": [
-        "Food & Markets"
-      ],
-      "latitude": 42.3638649,
-      "longitude": -71.10042729999999
-    },
-    {
-      "id": "30ad508d-cacd-8154-a9d6-cc5dc3f72446",
-      "name": "Galentine's Makers & Mocktails: Shell Dish Mosaic Workshop",
-      "date": "2026-02-17",
-      "time": "6:30 PM",
-      "location": "Toca Chida Casa Sociale",
-      "address": "331 Great River Road, Somerville, MA",
-      "price": "",
-      "description": "Join Live In Mosaics for a workshop where you'll create a mosaic, oyster shell ring dish with your gals!",
-      "url": "https://www.eventbrite.com/e/galentines-makers-mocktails-shell-dish-mosaic-workshop-tickets-1980380830374",
-      "source": "Eventbrite",
-      "categories": [
-        "Arts & Crafts"
-      ],
-      "latitude": 42.39570379999999,
-      "longitude": -71.08084590000001
-    },
-    {
-      "id": "30ad508d-cacd-81ec-b0b8-defedb978610",
-      "name": "Drinking and Drawing",
-      "date": "2026-02-17",
-      "time": "5:30 PM",
-      "location": "Zone 3",
-      "address": "267 Western Avenue, Boston, MA",
-      "price": "",
-      "description": "A free weekly artmaking event led by local artists on Tuesday nights at Zone 3.",
-      "url": "https://www.eventbrite.com/e/drinking-and-drawing-tickets-1981596497467",
-      "source": "Eventbrite",
-      "categories": [
-        "Arts & Crafts"
-      ],
-      "latitude": 42.3638004,
-      "longitude": -71.13285239999999
-    },
-    {
-      "id": "30ad508d-cacd-8172-a8c0-e07b86c1cd20",
-      "name": "Tuesday Night Studio: A Cozy Crafting Club",
-      "date": "2026-02-17",
-      "time": "7:00 PM",
-      "location": "The Local Hand",
-      "address": "1912-B Dorchester Avenue, Boston, MA",
-      "price": "",
-      "description": "Bring your own project or play around with our supplies. Open to everyone from beginner crafters to professional artists. Snacks provided!",
-      "url": "https://www.eventbrite.com/e/tuesday-night-studio-a-cozy-crafting-club-tickets-1980724005821",
-      "source": "Eventbrite",
-      "categories": [
-        "Arts & Crafts"
-      ],
-      "latitude": 42.2840741,
-      "longitude": -71.06457569999999
-    },
-    {
-      "id": "30ad508d-cacd-81dd-809c-fa8da1c739e7",
-      "name": "Mahjong on a Mission: WBUR edition",
-      "date": "2026-02-17",
-      "time": "6:30 PM",
-      "location": "WBUR CitySpace",
-      "address": "890 Commonwealth Avenue, Boston, MA",
-      "price": "",
-      "description": "Connect with community and learn to play Hong Kong style mahjong on Lunar New Year!",
-      "url": "https://www.eventbrite.com/e/mahjong-on-a-mission-wbur-edition-tickets-1977458281953",
-      "source": "Eventbrite",
-      "categories": [
-        "South Asian",
-        "Cultural Festival"
-      ],
-      "latitude": 42.3508575,
-      "longitude": -71.11565709999999
-    },
-    {
-      "id": "30ad508d-cacd-812e-98ae-d52f12234cd9",
-      "name": "MOOD: Caribbean Party Vibes every TUESDAY",
-      "date": "2026-02-17",
-      "time": "9:00 PM",
-      "location": "The Middle East",
-      "address": "480 Massachusetts Avenue, Cambridge, MA",
-      "price": "",
-      "description": "Every TUESDAY is a Big MOOD @ The Middle East!",
-      "url": "https://www.eventbrite.com/e/mood-caribbean-party-vibes-every-tuesday-tickets-1980443512859",
-      "source": "Eventbrite",
-      "categories": [
-        "Arts & Crafts"
-      ],
-      "latitude": 42.3638301,
-      "longitude": -71.10142739999999
-    },
-    {
-      "id": "30ad508d-cacd-811c-9420-d37d0e8eb965",
-      "name": "Kate Brown with Kenda Mutongi: Tiny Gardens Everywhere",
-      "date": "2026-02-17",
-      "time": "7:00 PM",
-      "location": "Brookline Booksmith",
-      "address": "279 Harvard Street, Brookline, MA",
-      "price": "",
-      "description": "Read on for important details for this Brookline Booksmith event.",
-      "url": "https://www.eventbrite.com/e/kate-brown-with-kenda-mutongi-tiny-gardens-everywhere-tickets-1979073587375",
-      "source": "Eventbrite",
-      "categories": [
-        "Community"
-      ],
-      "latitude": 42.34263869999999,
-      "longitude": -71.12171390000003
-    },
-    {
       "id": "30ad508d-cacd-81a6-a997-c2b7fe2cb3ff",
       "name": "Mindfulness & Resilience 1 Day Workshop in Boston, MA",
       "date": "2026-02-18",
@@ -526,6 +406,23 @@
       ],
       "latitude": 42.5450019,
       "longitude": -71.17345420000001
+    },
+    {
+      "id": "30bd508d-cacd-8154-a60a-d5ec2d0dcd9b",
+      "name": "One-time Pottery Class & Painting - South Boston",
+      "date": "2026-02-19",
+      "time": "10:00 AM",
+      "location": "33 A St",
+      "address": "33 A Street, Boston, MA",
+      "price": "",
+      "description": "Learn wheel throwing or hand-building with an experienced instructor in this Boston pottery class! Get a painted functional crockery item!",
+      "url": "https://www.eventbrite.com/e/one-time-pottery-class-painting-south-boston-tickets-1983271079186",
+      "source": "Eventbrite",
+      "categories": [
+        "Arts & Crafts"
+      ],
+      "latitude": 42.3411481,
+      "longitude": -71.0560512
     },
     {
       "id": "30ad508d-cacd-8116-b844-cbde81064012",
@@ -963,6 +860,23 @@
       "longitude": -71.0963814
     },
     {
+      "id": "30bd508d-cacd-81d3-9261-e6b121fb196c",
+      "name": "Allergen-Free Mediterranean Feast - Cooking Class in Boston | Cozymeal\u2122",
+      "date": "2026-02-20",
+      "time": "6:00 PM",
+      "location": "Location provided after booking",
+      "address": "Brighton, MA",
+      "price": "",
+      "description": "",
+      "url": "https://www.eventbrite.com/e/allergen-free-mediterranean-feast-cooking-class-in-boston-cozymealtm-tickets-1975218094492",
+      "source": "Eventbrite",
+      "categories": [
+        "Food & Markets"
+      ],
+      "latitude": 42.3389629,
+      "longitude": -71.1564379
+    },
+    {
       "id": "30ad508d-cacd-8138-a59e-eaaab6f73010",
       "name": "Mardi Gras Carnival Party At The Greatest Bar",
       "date": "2026-02-20",
@@ -1333,6 +1247,42 @@
       ],
       "latitude": 42.3499093,
       "longitude": -71.0654502
+    },
+    {
+      "id": "30bd508d-cacd-81cf-b112-eee97d171058",
+      "name": "Culture Saturdays",
+      "date": "2026-02-21",
+      "time": "10:00 PM",
+      "location": "West End Johnnie\u2019s",
+      "address": "138 Portland Street, Boston, MA",
+      "price": "",
+      "description": "Culture Saturdays is back stay tuned for the the dates happening at the beautiful west end Johnny\u2019s party with stylish young professionals",
+      "url": "https://www.eventbrite.com/e/culture-saturdays-tickets-1983414462048",
+      "source": "Eventbrite",
+      "categories": [
+        "Cultural Festival"
+      ],
+      "latitude": 42.3636969,
+      "longitude": -71.0612869
+    },
+    {
+      "id": "30bd508d-cacd-8143-936d-e4698b2ceb09",
+      "name": "Madhrasi Chai Party at Lakon Paris - Free Chai & Indian Tea Ritual",
+      "date": "2026-02-21",
+      "time": "11:00 AM",
+      "location": "Lakon Paris Patisserie",
+      "address": "407 Washington Street, Boston, MA",
+      "price": "",
+      "description": "Join us for a warm Madhrasi Chai Party at Lakon Paris \u2615\n\nStep into the world of authentic Indian chai \u2014 where tea is more than a beverage.",
+      "url": "https://www.eventbrite.com/e/madhrasi-chai-party-at-lakon-paris-free-chai-indian-tea-ritual-tickets-1983406950581",
+      "source": "Eventbrite",
+      "categories": [
+        "South Asian",
+        "Arts & Crafts",
+        "Coffee & Chai"
+      ],
+      "latitude": 42.34933119999999,
+      "longitude": -71.15520169999999
     },
     {
       "id": "30ad508d-cacd-8196-bad2-e9c763fc9350",
@@ -1820,6 +1770,57 @@
       "longitude": -71.100088
     },
     {
+      "id": "30bd508d-cacd-815f-93e7-f8817a8293ff",
+      "name": "Mini Chefs Bake French Pastries Together - Cooking Class in Boston | Cozymeal\u2122",
+      "date": "2026-02-22",
+      "time": "9:00 AM",
+      "location": "Location provided after booking",
+      "address": "Brighton, MA",
+      "price": "",
+      "description": "",
+      "url": "https://www.eventbrite.com/e/mini-chefs-bake-french-pastries-together-cooking-class-in-boston-cozymealtm-tickets-1975339658092",
+      "source": "Eventbrite",
+      "categories": [
+        "Food & Markets"
+      ],
+      "latitude": 42.3389629,
+      "longitude": -71.1564379
+    },
+    {
+      "id": "30bd508d-cacd-8104-b5b8-ec96e6ec9176",
+      "name": "Kid-Friendly Gluten-Free Pie Adventure - Cooking Class in Boston | Cozymeal\u2122",
+      "date": "2026-02-22",
+      "time": "9:00 AM",
+      "location": "Location provided after booking",
+      "address": "Brighton, MA",
+      "price": "",
+      "description": "",
+      "url": "https://www.eventbrite.com/e/kid-friendly-gluten-free-pie-adventure-cooking-class-in-boston-cozymealtm-tickets-1975339654080",
+      "source": "Eventbrite",
+      "categories": [
+        "Food & Markets"
+      ],
+      "latitude": 42.3389629,
+      "longitude": -71.1564379
+    },
+    {
+      "id": "30bd508d-cacd-81cd-9e07-f0cd10a0b7bd",
+      "name": "Gluten-Free Confections for Young Bakers - Cooking Class in Boston | Cozymeal\u2122",
+      "date": "2026-02-22",
+      "time": "9:00 AM",
+      "location": "Location provided after booking",
+      "address": "Brighton, MA",
+      "price": "",
+      "description": "",
+      "url": "https://www.eventbrite.com/e/gluten-free-confections-for-young-bakers-cooking-class-in-boston-cozymealtm-tickets-1975339660098",
+      "source": "Eventbrite",
+      "categories": [
+        "Food & Markets"
+      ],
+      "latitude": 42.3389629,
+      "longitude": -71.1564379
+    },
+    {
       "id": "30ad508d-cacd-811e-9300-c3260902470a",
       "name": "Brewery Yoga at Lamplighter CX",
       "date": "2026-02-22",
@@ -2250,6 +2251,23 @@
       "longitude": -71.1060766
     },
     {
+      "id": "30bd508d-cacd-81cc-9b5e-d0df2cfab22d",
+      "name": "Not Your Bubbe Book Club Hosts A Discussion of The Society with Karen Winn",
+      "date": "2026-02-23",
+      "time": "7:00 PM",
+      "location": "The Boston Synagogue",
+      "address": "55 Martha Road, Boston, MA",
+      "price": "",
+      "description": "Join us for a wild night of intrigue At Not Your Bubbe's  Book Club - it's not your grandma's book club, that's for sure!",
+      "url": "https://www.eventbrite.com/e/not-your-bubbe-book-club-hosts-a-discussion-of-the-society-with-karen-winn-tickets-1979238858706",
+      "source": "Eventbrite",
+      "categories": [
+        "Talks & Lectures"
+      ],
+      "latitude": 42.3657844,
+      "longitude": -71.06589079999999
+    },
+    {
       "id": "30ad508d-cacd-81a2-81d1-dbd865741450",
       "name": "Instructed Slow Flow Yoga",
       "date": "2026-02-23",
@@ -2385,6 +2403,74 @@
       ],
       "latitude": 42.3429997,
       "longitude": -71.0840424
+    },
+    {
+      "id": "30bd508d-cacd-81be-822d-e66eb782d3eb",
+      "name": "Tuesday Night Central Square Cambridge Food & Mural Tour!",
+      "date": "2026-02-24",
+      "time": "7:00 PM",
+      "location": "Market Central",
+      "address": "425 Massachusetts Avenue, Cambridge, MA",
+      "price": "",
+      "description": "Have fun and unleash your inner art and food critic while exploring Central Square, Cambridge with us on this exciting weeknight food tour!",
+      "url": "https://www.eventbrite.com/e/tuesday-night-central-square-cambridge-food-mural-tour-tickets-1329239835129",
+      "source": "Eventbrite",
+      "categories": [
+        "Food & Markets"
+      ],
+      "latitude": 42.3638649,
+      "longitude": -71.10042729999999
+    },
+    {
+      "id": "30bd508d-cacd-8150-8887-df0f149f67c8",
+      "name": "Drinking and Drawing",
+      "date": "2026-02-24",
+      "time": "5:30 PM",
+      "location": "Zone 3",
+      "address": "267 Western Avenue, Boston, MA",
+      "price": "",
+      "description": "A free weekly artmaking event led by local artists on Tuesday nights at Zone 3.",
+      "url": "https://www.eventbrite.com/e/drinking-and-drawing-tickets-1981596498470",
+      "source": "Eventbrite",
+      "categories": [
+        "Arts & Crafts"
+      ],
+      "latitude": 42.3638004,
+      "longitude": -71.13285239999999
+    },
+    {
+      "id": "30bd508d-cacd-81c4-ae2e-e58bfa04e941",
+      "name": "Tuesday Night Studio: A Cozy Crafting Club",
+      "date": "2026-02-24",
+      "time": "7:00 PM",
+      "location": "The Local Hand",
+      "address": "1912-B Dorchester Avenue, Boston, MA",
+      "price": "",
+      "description": "Bring your own project or play around with our supplies. Open to everyone from beginner crafters to professional artists. Snacks provided!",
+      "url": "https://www.eventbrite.com/e/tuesday-night-studio-a-cozy-crafting-club-tickets-1980724006824",
+      "source": "Eventbrite",
+      "categories": [
+        "Arts & Crafts"
+      ],
+      "latitude": 42.2840741,
+      "longitude": -71.06457569999999
+    },
+    {
+      "id": "30bd508d-cacd-81f2-aa19-d44f5f8fd8d5",
+      "name": "MOOD: Caribbean Party Vibes every TUESDAY",
+      "date": "2026-02-24",
+      "time": "9:00 PM",
+      "location": "The Middle East",
+      "address": "480 Massachusetts Avenue, Cambridge, MA",
+      "price": "",
+      "description": "Every TUESDAY is a Big MOOD @ The Middle East!",
+      "url": "https://www.eventbrite.com/e/mood-caribbean-party-vibes-every-tuesday-tickets-1980443513862",
+      "source": "Eventbrite",
+      "categories": [
+        "Arts & Crafts"
+      ],
+      "latitude": 42.3638301,
+      "longitude": -71.10142739999999
     },
     {
       "id": "30ad508d-cacd-816f-bb83-ec4c79577aef",
@@ -3243,6 +3329,25 @@
       "longitude": -71.100088
     },
     {
+      "id": "30bd508d-cacd-81f7-960a-ec1f7aeb9465",
+      "name": "Hatha Yoga with Live Music",
+      "date": "2026-02-28",
+      "time": "12:00 PM",
+      "location": "The Lilypad",
+      "address": "1353 Cambridge Street, Cambridge, MA",
+      "price": "",
+      "description": "Relax and rejuvenate your mind, body, and spirit in this meditative Yoga class at the Lilypad, complete with live musical accompaniment.",
+      "url": "https://www.eventbrite.com/e/hatha-yoga-with-live-music-registration-1982979977493",
+      "source": "Eventbrite",
+      "categories": [
+        "South Asian",
+        "Sports & Outdoors",
+        "Music & Dance"
+      ],
+      "latitude": 42.3738079,
+      "longitude": -71.100088
+    },
+    {
       "id": "30ad508d-cacd-8197-b808-ca4341c82702",
       "name": "South Asian Showdown 2026",
       "date": "2026-02-28",
@@ -3572,6 +3677,23 @@
       ],
       "latitude": 42.315997,
       "longitude": -71.0660247
+    },
+    {
+      "id": "30bd508d-cacd-815e-ad54-d97a61783b32",
+      "name": "(Junk) Book Binding - Small Works Artist Workshop",
+      "date": "2026-03-01",
+      "time": "10:00 AM",
+      "location": "Gallery 263",
+      "address": "263 Pearl Street, Cambridge, MA",
+      "price": "",
+      "description": "Join former Small Works Artist McCall Hollister for a hands-on book binding workshop, inspired by drum-leaf. Bring your own (paper) junk!",
+      "url": "https://www.eventbrite.com/e/junk-book-binding-small-works-artist-workshop-tickets-1983160385097",
+      "source": "Eventbrite",
+      "categories": [
+        "Arts & Crafts"
+      ],
+      "latitude": 42.3582724,
+      "longitude": -71.1097934
     },
     {
       "id": "30ad508d-cacd-814d-afab-cf4a151f3cfa",
@@ -5057,6 +5179,25 @@
       "longitude": -71.0674577
     },
     {
+      "id": "30bd508d-cacd-8114-871f-e00bec6e7093",
+      "name": "Annual International Women's Day Celebration at Ula Cafe!",
+      "date": "2026-03-13",
+      "time": "6:00 PM",
+      "location": "Ula Caf\u00e9",
+      "address": "284 Amory Street, Boston, MA",
+      "price": "",
+      "description": "Live music, art experiences, and more celebrating women worldwide.",
+      "url": "https://www.eventbrite.com/e/annual-international-womens-day-celebration-at-ula-cafe-tickets-1983206737739",
+      "source": "Eventbrite",
+      "categories": [
+        "Coffee & Chai",
+        "Music & Dance",
+        "Cultural Festival"
+      ],
+      "latitude": 42.3146454,
+      "longitude": -71.1039954
+    },
+    {
       "id": "30ad508d-cacd-8184-b9ea-f43e66489e99",
       "name": "Hands-On: Pappardelle ai Funghi",
       "date": "2026-03-13",
@@ -5125,6 +5266,25 @@
       ],
       "latitude": 42.39515349999999,
       "longitude": -71.17527869999999
+    },
+    {
+      "id": "30bd508d-cacd-818c-9956-d7dbf5feda79",
+      "name": "Tejas Dhoke Naachchicago BOSTON Dance Workshop",
+      "date": "2026-03-14",
+      "time": "1:00 PM",
+      "location": "Dance Complex",
+      "address": "536 Massachusetts Avenue, Cambridge, MA",
+      "price": "",
+      "description": "Tejas Dhoke Naachchicago BOSTON Dance Workshop",
+      "url": "https://www.eventbrite.com/e/tejas-dhoke-naachchicago-boston-dance-workshop-tickets-1983420109941",
+      "source": "Eventbrite",
+      "categories": [
+        "South Asian",
+        "Arts & Crafts",
+        "Music & Dance"
+      ],
+      "latitude": 42.3642172,
+      "longitude": -71.10229439999999
     },
     {
       "id": "30ad508d-cacd-81a5-9890-d4ef84906048",
@@ -5801,6 +5961,24 @@
       ],
       "latitude": 42.2645592,
       "longitude": -71.0649751
+    },
+    {
+      "id": "30bd508d-cacd-81aa-9778-da3f660393a8",
+      "name": "Waltham 3rd Annual Easter Family Fun Day",
+      "date": "2026-03-21",
+      "time": "",
+      "location": "American Legion",
+      "address": "215 Waverley Oaks Road, Waltham, MA",
+      "price": "",
+      "description": "Hop on over for egg hunts, games, and laughs at the 3rd Annual Easter Family Fun Day!",
+      "url": "https://www.eventbrite.com/e/waltham-3rd-annual-easter-family-fun-day-tickets-1979530786871",
+      "source": "Eventbrite",
+      "categories": [
+        "South Asian",
+        "Cultural Festival"
+      ],
+      "latitude": 42.3833035,
+      "longitude": -71.20954979999999
     },
     {
       "id": "30ad508d-cacd-81da-bb2b-f966eea1bcf8",
@@ -6556,6 +6734,23 @@
       "longitude": -71.127881
     },
     {
+      "id": "30bd508d-cacd-811c-a22f-d3414588c29b",
+      "name": "Screenwriting Workshop Spring 2026, all ages, FREE for members!",
+      "date": "2026-04-01",
+      "time": "6:00 PM",
+      "location": "Brookline Interactive Group",
+      "address": "46 Tappan St, Brookline, MA",
+      "price": "",
+      "description": "A three-part screenwriting workshop for all ages!",
+      "url": "https://www.eventbrite.com/e/screenwriting-workshop-spring-2026-all-ages-free-for-members-tickets-1982454028365",
+      "source": "Eventbrite",
+      "categories": [
+        "Arts & Crafts"
+      ],
+      "latitude": 42.331697,
+      "longitude": -71.127881
+    },
+    {
       "id": "30ad508d-cacd-812a-8496-de6ead560920",
       "name": "Avalon Dance Productions presents \"ICONS \u2014 Live Music & Dance Showcase\"",
       "date": "2026-04-03",
@@ -6589,6 +6784,24 @@
       ],
       "latitude": 42.3637732,
       "longitude": -71.10144
+    },
+    {
+      "id": "30bd508d-cacd-8126-a0b2-fbe27e9f925e",
+      "name": "Easter Soir\u00e9e",
+      "date": "2026-04-04",
+      "time": "9:00 PM",
+      "location": "Aspirers",
+      "address": "358 Washington Street, Dorchester, MA",
+      "price": "",
+      "description": "Boston Easter Soir\u00e9e. Multiple DJs, good music, and tropical  chic vibes.",
+      "url": "https://www.eventbrite.com/e/easter-soiree-tickets-1983199274416",
+      "source": "Eventbrite",
+      "categories": [
+        "South Asian",
+        "Music & Dance"
+      ],
+      "latitude": 42.299029,
+      "longitude": -71.07315299999999
     },
     {
       "id": "30ad508d-cacd-8117-8811-c83ad54cec11",
@@ -6972,6 +7185,25 @@
       ],
       "latitude": 42.3810179,
       "longitude": -71.1249813
+    },
+    {
+      "id": "30bd508d-cacd-81a4-aa65-c574abb57f68",
+      "name": "THE BOSTON ROOTS & REVIVAL MUSIC AND CRAFT FESTIVAL",
+      "date": "2026-04-18",
+      "time": "",
+      "location": "415 Summer St",
+      "address": "415 Summer Street, Boston, MA",
+      "price": "",
+      "description": "Get ready to groove to some classic tunes and discover local crafts at the Boston Roots & Revival Music and Craft Festival! Vendors wanted.",
+      "url": "https://www.eventbrite.com/e/the-boston-roots-revival-music-and-craft-festival-tickets-1982668613194",
+      "source": "Eventbrite",
+      "categories": [
+        "Arts & Crafts",
+        "Music & Dance",
+        "Cultural Festival"
+      ],
+      "latitude": 42.3458497,
+      "longitude": -71.0464339
     },
     {
       "id": "30ad508d-cacd-8159-b30f-ccddac0baebc",
@@ -7532,5 +7764,5 @@
       "longitude": -71.0995466
     }
   ],
-  "updated": "2026-02-17T23:58:24.651988"
+  "updated": "2026-02-18T05:47:57.117633"
 }
