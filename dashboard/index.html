@@ -1336,19 +1336,16 @@
                                 <div style="display:flex;align-items:center;gap:0.5rem;">
                                     ${event.price ? `<span class="event-price ${isFree ? 'free' : 'paid'}">${event.price}</span>` : ''}
                                     <div class="calendar-dropdown">
-                                        <button class="calendar-btn" onclick="toggleCalendarMenu('${event.id}', event)">
-                                            📅 <span style="font-size:0.7rem;">▼</span>
+                                        <button class="calendar-btn" onclick="toggleCalendarMenu(this, event)" data-event-id="${event.id}">
+                                            + Cal
                                         </button>
-                                        <div class="calendar-menu" id="cal-menu-${event.id}">
-                                            <a class="calendar-menu-item" onclick="addToGoogleCalendar('${event.id}', event)">
-                                                🔴 Google Calendar
-                                            </a>
-                                            <a class="calendar-menu-item" onclick="downloadICS('${event.id}', event)">
-                                                🍎 Apple Calendar
-                                            </a>
-                                            <a class="calendar-menu-item" onclick="downloadICS('${event.id}', event)">
-                                                📧 Outlook
-                                            </a>
+                                        <div class="calendar-menu" data-menu-for="${event.id}">
+                                            <div class="calendar-menu-item" onclick="addToGoogleCalendar('${event.id}', event)">
+                                                Google
+                                            </div>
+                                            <div class="calendar-menu-item" onclick="downloadICS('${event.id}', event)">
+                                                Apple / Outlook
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -1531,18 +1528,20 @@
             return allEvents.find(e => e.id === id);
         }
 
-        function toggleCalendarMenu(eventId, e) {
+        function toggleCalendarMenu(btn, e) {
             e.preventDefault();
             e.stopPropagation();
 
+            const eventId = btn.dataset.eventId;
+
             // Close all other menus
             document.querySelectorAll('.calendar-menu').forEach(menu => {
-                if (menu.id !== `cal-menu-${eventId}`) {
+                if (menu.dataset.menuFor !== eventId) {
                     menu.classList.remove('show');
                 }
             });
 
-            const menu = document.getElementById(`cal-menu-${eventId}`);
+            const menu = btn.nextElementSibling;
             menu.classList.toggle('show');
         }
 
