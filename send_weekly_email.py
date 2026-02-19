@@ -22,16 +22,19 @@ BREVO_API_URL = "https://api.brevo.com/v3"
 SENDER_EMAIL = "hello@mehfil.com"  # Update with your verified sender
 SENDER_NAME = "Mehfil Boston"
 
-# Map form interests to event categories
-INTEREST_TO_CATEGORY = {
+# Map form values to event categories
+COMMUNITY_TO_CATEGORY = {
     "south-asian": ["South Asian"],
     "middle-eastern": ["Middle Eastern"],
+}
+
+INTEREST_TO_CATEGORY = {
     "arts": ["Arts & Crafts"],
     "music": ["Music & Dance"],
     "food": ["Food & Markets"],
     "cultural": ["Cultural Festival"],
     "community": ["Community"],
-    "wellness": ["Sports & Outdoors"],  # Yoga/wellness falls under this
+    "wellness": ["Sports & Outdoors"],
 }
 
 
@@ -73,18 +76,54 @@ def categorize_events(events):
     return dict(by_category)
 
 
-def get_events_for_interests(events_by_category, interests):
-    """Get events matching a subscriber's interests."""
-    matched_events = []
-    seen_ids = set()
+def get_events_for_subscriber(events, subscriber):
+    """Get events matching a subscriber's full preferences."""
+    communities = subscriber.get("communities", [])
+    interests = subscriber.get("interests", [])
+    location_pref = subscriber.get("location", "all")
+    price_prefs = subscriber.get("price_prefs", [])
 
-    for interest in interests:
-        categories = INTEREST_TO_CATEGORY.get(interest, [])
-        for cat in categories:
-            for event in events_by_category.get(cat, []):
-                if event["id"] not in seen_ids:
-                    seen_ids.add(event["id"])
-                    matched_events.append(event)
+    # Build list of category filters
+    community_cats = []
+    for c in communities:
+        community_cats.extend(COMMUNITY_TO_CATEGORY.get(c, []))
+
+    interest_cats = []
+    for i in interests:
+        interest_cats.extend(INTEREST_TO_CATEGORY.get(i, []))
+
+    matched_events = []
+
+    for event in events:
+        event_cats = event.get("categories", [])
+
+        # Community filter: if subscriber selected communities, event must match at least one
+        if community_cats:
+            if not any(cat in event_cats for cat in community_cats):
+                continue
+
+        # Interest filter: if subscriber selected interests, event must match at least one
+        if interest_cats:
+            if not any(cat in event_cats for cat in interest_cats):
+                continue
+
+        # Location filter
+        if location_pref and location_pref != "all":
+            event_location = f"{event.get('location', '')} {event.get('address', '')}".lower()
+            if location_pref.lower() not in event_location:
+                continue
+
+        # Price filter
+        if price_prefs:
+            event_price = (event.get("price") or "").lower()
+            if "free" in price_prefs and "paid" not in price_prefs:
+                if "free" not in event_price:
+                    continue
+            elif "paid" in price_prefs and "free" not in price_prefs:
+                if "free" in event_price or not event_price:
+                    continue
+
+        matched_events.append(event)
 
     # Sort by date
     matched_events.sort(key=lambda e: e["date"])
@@ -211,7 +250,7 @@ def get_subscribers_from_brevo():
     response = requests.get(
         f"{BREVO_API_URL}/contacts",
         headers=headers,
-        params={"limit": 500}  # Adjust as needed
+        params={"limit": 500}
     )
 
     if response.status_code != 200:
@@ -226,7 +265,10 @@ def get_subscribers_from_brevo():
         subscribers.append({
             "email": contact["email"],
             "name": attrs.get("FIRSTNAME", ""),
-            "interests": attrs.get("INTERESTS", "").split(",") if attrs.get("INTERESTS") else []
+            "communities": [c.strip() for c in attrs.get("COMMUNITIES", "").split(",") if c.strip()],
+            "interests": [i.strip() for i in attrs.get("INTERESTS", "").split(",") if i.strip()],
+            "location": attrs.get("LOCATION", "all"),
+            "price_prefs": [p.strip() for p in attrs.get("PRICE_PREF", "").split(",") if p.strip()]
         })
 
     return subscribers
@@ -307,20 +349,30 @@ def main():
     for subscriber in subscribers:
         email = subscriber["email"]
         name = subscriber.get("name", "")
-        interests = subscriber.get("interests", [])
 
-        # Get events matching their interests
-        if interests:
-            matched_events = get_events_for_interests(events_by_category, interests)
+        # Get events matching their full preferences
+        has_preferences = (subscriber.get("communities") or subscriber.get("interests") or
+                          subscriber.get("location", "all") != "all" or subscriber.get("price_prefs"))
+
+        if has_preferences:
+            matched_events = get_events_for_subscriber(upcoming, subscriber)
         else:
-            # No specific interests = send top events from all categories
+            # No specific preferences = send top events
             matched_events = upcoming[:10]
+
+        # Build preference description for email
+        pref_parts = []
+        if subscriber.get("communities"):
+            pref_parts.extend(subscriber["communities"])
+        if subscriber.get("interests"):
+            pref_parts.extend(subscriber["interests"])
+        pref_desc = pref_parts if pref_parts else ["all events"]
 
         # Generate email
         if matched_events:
-            html = generate_email_html(name, matched_events, interests)
+            html = generate_email_html(name, matched_events, pref_desc)
         else:
-            html = generate_no_events_html(name, interests)
+            html = generate_no_events_html(name, pref_desc)
 
         # Send
         if send_email_via_brevo(email, name, subject, html):

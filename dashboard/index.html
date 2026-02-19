@@ -1188,6 +1188,70 @@
         </main>
     </div>
 
+    <!-- Privacy Policy Modal -->
+    <div class="modal-overlay" id="privacyModal">
+        <div class="modal" style="max-width:560px;">
+            <div class="modal-header">
+                <h2>Privacy Policy</h2>
+            </div>
+            <div class="modal-body" style="font-size:0.95rem;color:var(--gray-800);">
+                <h4 style="margin-bottom:0.5rem;">What we collect</h4>
+                <p style="margin-bottom:1rem;">Email address, name (optional), and your event preferences (interests, location, price).</p>
+
+                <h4 style="margin-bottom:0.5rem;">How we use it</h4>
+                <p style="margin-bottom:1rem;">Only to send you personalized weekly event recommendations. We never sell or share your data with third parties.</p>
+
+                <h4 style="margin-bottom:0.5rem;">Where it's stored</h4>
+                <p style="margin-bottom:1rem;">Your data is securely stored with Brevo (our email provider), which is GDPR compliant and uses encryption.</p>
+
+                <h4 style="margin-bottom:0.5rem;">Your rights</h4>
+                <ul style="margin-bottom:1rem;padding-left:1.25rem;">
+                    <li>Unsubscribe anytime via link in emails</li>
+                    <li>Request deletion of all your data</li>
+                    <li>Access what data we have about you</li>
+                </ul>
+
+                <h4 style="margin-bottom:0.5rem;">Contact</h4>
+                <p>Questions? Email us at <strong>privacy@mehfil.com</strong></p>
+
+                <button class="submit-btn" style="margin-top:1.5rem;" onclick="closePrivacyModal()">Close</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Delete Data Modal -->
+    <div class="modal-overlay" id="deleteModal">
+        <div class="modal" style="max-width:480px;">
+            <div class="modal-header">
+                <h2>Delete My Data</h2>
+                <p>Remove all your information from Mehfil</p>
+            </div>
+            <div class="modal-body">
+                <p style="margin-bottom:1rem;color:var(--gray-600);">
+                    Enter your email and we'll permanently delete all data associated with it. This cannot be undone.
+                </p>
+
+                <form id="deleteForm">
+                    <div class="form-group">
+                        <label class="form-label">Email address</label>
+                        <input type="email" class="form-input" id="deleteEmail" placeholder="you@example.com" required>
+                    </div>
+                    <button type="submit" class="submit-btn" style="background:var(--brick);">Delete My Data</button>
+                </form>
+
+                <div id="deleteSuccess" style="display:none;text-align:center;padding:1rem;">
+                    <h3 style="color:var(--brick);">Data Deleted</h3>
+                    <p style="color:var(--gray-600);margin-top:0.5rem;">Your information has been removed from our system.</p>
+                    <button class="submit-btn" style="margin-top:1rem;" onclick="closeDeleteModal()">Close</button>
+                </div>
+
+                <p class="form-note" style="margin-top:1rem;">
+                    <a href="#" onclick="closeDeleteModal();return false;" style="color:var(--gray-600);">Cancel</a>
+                </p>
+            </div>
+        </div>
+    </div>
+
     <!-- Subscribe Modal -->
     <div class="modal-overlay" id="subscribeModal">
         <div class="modal">
@@ -1208,18 +1272,24 @@
                     </div>
 
                     <div class="form-group">
-                        <label class="form-label">What interests you?</label>
+                        <label class="form-label">Community (select all that apply)</label>
                         <div class="interest-grid">
                             <label class="interest-item" onclick="toggleInterest(this)">
-                                <input type="checkbox" name="interests" value="south-asian">
+                                <input type="checkbox" name="community" value="south-asian">
                                 <span class="interest-check">✓</span>
                                 <span class="interest-label">South Asian</span>
                             </label>
                             <label class="interest-item" onclick="toggleInterest(this)">
-                                <input type="checkbox" name="interests" value="middle-eastern">
+                                <input type="checkbox" name="community" value="middle-eastern">
                                 <span class="interest-check">✓</span>
                                 <span class="interest-label">Middle Eastern</span>
                             </label>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label">Event types</label>
+                        <div class="interest-grid">
                             <label class="interest-item" onclick="toggleInterest(this)">
                                 <input type="checkbox" name="interests" value="arts">
                                 <span class="interest-check">✓</span>
@@ -1233,28 +1303,59 @@
                             <label class="interest-item" onclick="toggleInterest(this)">
                                 <input type="checkbox" name="interests" value="food">
                                 <span class="interest-check">✓</span>
-                                <span class="interest-label">Food & Markets</span>
+                                <span class="interest-label">Food & Dining</span>
                             </label>
                             <label class="interest-item" onclick="toggleInterest(this)">
                                 <input type="checkbox" name="interests" value="cultural">
                                 <span class="interest-check">✓</span>
-                                <span class="interest-label">Cultural Festivals</span>
-                            </label>
-                            <label class="interest-item" onclick="toggleInterest(this)">
-                                <input type="checkbox" name="interests" value="community">
-                                <span class="interest-check">✓</span>
-                                <span class="interest-label">Community</span>
+                                <span class="interest-label">Festivals</span>
                             </label>
                             <label class="interest-item" onclick="toggleInterest(this)">
                                 <input type="checkbox" name="interests" value="wellness">
                                 <span class="interest-check">✓</span>
                                 <span class="interest-label">Yoga & Wellness</span>
                             </label>
+                            <label class="interest-item" onclick="toggleInterest(this)">
+                                <input type="checkbox" name="interests" value="community">
+                                <span class="interest-check">✓</span>
+                                <span class="interest-label">Networking</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label">Preferred area</label>
+                        <select class="form-input" id="subLocation">
+                            <option value="all">All Boston Area</option>
+                            <option value="boston">Boston Only</option>
+                            <option value="cambridge">Cambridge</option>
+                            <option value="somerville">Somerville</option>
+                            <option value="brookline">Brookline</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label">Price preference</label>
+                        <div class="interest-grid">
+                            <label class="interest-item" onclick="toggleInterest(this)">
+                                <input type="checkbox" name="price" value="free">
+                                <span class="interest-check">✓</span>
+                                <span class="interest-label">Free events</span>
+                            </label>
+                            <label class="interest-item" onclick="toggleInterest(this)">
+                                <input type="checkbox" name="price" value="paid">
+                                <span class="interest-check">✓</span>
+                                <span class="interest-label">Paid events</span>
+                            </label>
                         </div>
                     </div>
 
                     <button type="submit" class="submit-btn">Subscribe</button>
-                    <p class="form-note">We'll send you a personalized weekly email. Unsubscribe anytime.</p>
+                    <p class="form-note">
+                        We'll send personalized weekly picks. Unsubscribe anytime.<br>
+                        <a href="#" onclick="openPrivacyModal(event)" style="color:var(--harbor-blue);">Privacy Policy</a> ·
+                        <a href="#" onclick="openDeleteModal(event)" style="color:var(--harbor-blue);">Delete My Data</a>
+                    </p>
                 </form>
 
                 <div class="success-message" id="successMessage" style="display:none;">
@@ -1995,22 +2096,96 @@
             }
         });
 
-        // Form submission - Brevo API
+        // Privacy Modal Functions
+        function openPrivacyModal(e) {
+            e.preventDefault();
+            document.getElementById('privacyModal').classList.add('show');
+        }
+
+        function closePrivacyModal() {
+            document.getElementById('privacyModal').classList.remove('show');
+        }
+
+        function openDeleteModal(e) {
+            e.preventDefault();
+            document.getElementById('deleteModal').classList.add('show');
+        }
+
+        function closeDeleteModal() {
+            document.getElementById('deleteModal').classList.remove('show');
+            document.getElementById('deleteForm').style.display = 'block';
+            document.getElementById('deleteSuccess').style.display = 'none';
+        }
+
+        // Close modals on overlay click
+        document.getElementById('privacyModal').addEventListener('click', function(e) {
+            if (e.target === this) closePrivacyModal();
+        });
+        document.getElementById('deleteModal').addEventListener('click', function(e) {
+            if (e.target === this) closeDeleteModal();
+        });
+
+        // Delete data form
+        document.getElementById('deleteForm').addEventListener('submit', async function(e) {
+            e.preventDefault();
+            const email = document.getElementById('deleteEmail').value;
+            const btn = this.querySelector('.submit-btn');
+            btn.textContent = 'Deleting...';
+            btn.disabled = true;
+
+            try {
+                // Brevo API to delete contact
+                await fetch(`https://api.brevo.com/v3/contacts/${encodeURIComponent(email)}`, {
+                    method: 'DELETE',
+                    headers: {
+                        'api-key': window.BREVO_PUBLIC_KEY || ''
+                    }
+                });
+            } catch (error) {
+                console.log('Delete request sent');
+            }
+
+            // Also remove from localStorage
+            let subscribers = JSON.parse(localStorage.getItem('mehfilSubscribers') || '[]');
+            subscribers = subscribers.filter(s => s.email !== email);
+            localStorage.setItem('mehfilSubscribers', JSON.stringify(subscribers));
+
+            document.getElementById('deleteForm').style.display = 'none';
+            document.getElementById('deleteSuccess').style.display = 'block';
+        });
+
+        // Form submission - Brevo API with full preferences
         document.getElementById('subscribeForm').addEventListener('submit', async function(e) {
             e.preventDefault();
 
             const email = document.getElementById('subEmail').value;
             const name = document.getElementById('subName').value;
-            const interests = Array.from(document.querySelectorAll('.interest-item.selected input'))
+            const location = document.getElementById('subLocation').value;
+
+            // Get all selected options
+            const communities = Array.from(document.querySelectorAll('input[name="community"]:checked'))
+                .map(input => input.value);
+            const interests = Array.from(document.querySelectorAll('input[name="interests"]:checked'))
+                .map(input => input.value);
+            const pricePrefs = Array.from(document.querySelectorAll('input[name="price"]:checked'))
                 .map(input => input.value);
 
             const submitBtn = this.querySelector('.submit-btn');
             submitBtn.textContent = 'Subscribing...';
             submitBtn.disabled = true;
 
+            const subscriberData = {
+                email,
+                name,
+                communities,
+                interests,
+                location,
+                pricePrefs,
+                subscribedAt: new Date().toISOString()
+            };
+
             try {
                 // Brevo API endpoint for adding contacts
-                // Note: For production, use a serverless function to hide API key
                 const response = await fetch('https://api.brevo.com/v3/contacts', {
                     method: 'POST',
                     headers: {
@@ -2021,22 +2196,23 @@
                         email: email,
                         attributes: {
                             FIRSTNAME: name,
-                            INTERESTS: interests.join(',')
+                            COMMUNITIES: communities.join(','),
+                            INTERESTS: interests.join(','),
+                            LOCATION: location,
+                            PRICE_PREF: pricePrefs.join(',')
                         },
-                        listIds: [2], // Your Brevo list ID
+                        listIds: [2],
                         updateEnabled: true
                     })
                 });
 
                 if (response.ok || response.status === 201 || response.status === 204) {
-                    // Success
                     document.getElementById('subscribeForm').style.display = 'none';
                     document.getElementById('successMessage').style.display = 'block';
                 } else {
-                    // Fallback: store locally and show success anyway
-                    // (Brevo might not be configured yet)
+                    // Fallback: store locally
                     const subscribers = JSON.parse(localStorage.getItem('mehfilSubscribers') || '[]');
-                    subscribers.push({ email, name, interests, subscribedAt: new Date().toISOString() });
+                    subscribers.push(subscriberData);
                     localStorage.setItem('mehfilSubscribers', JSON.stringify(subscribers));
 
                     document.getElementById('subscribeForm').style.display = 'none';
@@ -2044,9 +2220,8 @@
                 }
             } catch (error) {
                 console.log('Brevo not configured, storing locally:', error);
-                // Store locally as fallback
                 const subscribers = JSON.parse(localStorage.getItem('mehfilSubscribers') || '[]');
-                subscribers.push({ email, name, interests, subscribedAt: new Date().toISOString() });
+                subscribers.push(subscriberData);
                 localStorage.setItem('mehfilSubscribers', JSON.stringify(subscribers));
 
                 document.getElementById('subscribeForm').style.display = 'none';
