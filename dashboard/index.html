@@ -98,6 +98,188 @@
             border-color: rgba(255,255,255,0.5);
         }
 
+        .header-btn.primary {
+            background: var(--gold);
+            border-color: var(--gold);
+            color: var(--navy);
+            font-weight: 600;
+        }
+
+        .header-btn.primary:hover {
+            background: #b8860b;
+            border-color: #b8860b;
+        }
+
+        /* Modal Styles */
+        .modal-overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0,0,0,0.6);
+            z-index: 1000;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .modal-overlay.show {
+            display: flex;
+        }
+
+        .modal {
+            background: white;
+            border-radius: 16px;
+            max-width: 480px;
+            width: 90%;
+            max-height: 90vh;
+            overflow-y: auto;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+
+        .modal-header {
+            padding: 1.5rem 1.5rem 1rem;
+            border-bottom: 1px solid var(--gray-200);
+        }
+
+        .modal-header h2 {
+            font-size: 1.5rem;
+            color: var(--navy);
+            margin-bottom: 0.25rem;
+        }
+
+        .modal-header p {
+            color: var(--gray-600);
+            font-size: 0.95rem;
+        }
+
+        .modal-close {
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+            background: none;
+            border: none;
+            font-size: 1.5rem;
+            cursor: pointer;
+            color: var(--gray-600);
+        }
+
+        .modal-body {
+            padding: 1.5rem;
+        }
+
+        .form-group {
+            margin-bottom: 1.25rem;
+        }
+
+        .form-label {
+            display: block;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            color: var(--gray-800);
+        }
+
+        .form-input {
+            width: 100%;
+            padding: 0.75rem 1rem;
+            border: 2px solid var(--gray-200);
+            border-radius: 8px;
+            font-size: 1rem;
+            transition: border-color 0.2s;
+        }
+
+        .form-input:focus {
+            outline: none;
+            border-color: var(--harbor-blue);
+        }
+
+        .interest-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 0.5rem;
+        }
+
+        .interest-item {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.6rem 0.75rem;
+            border: 2px solid var(--gray-200);
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .interest-item:hover {
+            border-color: var(--harbor-blue);
+        }
+
+        .interest-item.selected {
+            border-color: var(--navy);
+            background: var(--light-blue);
+        }
+
+        .interest-item input {
+            display: none;
+        }
+
+        .interest-check {
+            width: 18px;
+            height: 18px;
+            border: 2px solid var(--gray-300);
+            border-radius: 4px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.75rem;
+            color: white;
+        }
+
+        .interest-item.selected .interest-check {
+            background: var(--navy);
+            border-color: var(--navy);
+        }
+
+        .interest-label {
+            font-size: 0.9rem;
+            color: var(--gray-800);
+        }
+
+        .submit-btn {
+            width: 100%;
+            padding: 0.9rem;
+            background: var(--navy);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+
+        .submit-btn:hover {
+            background: var(--harbor-blue);
+        }
+
+        .form-note {
+            text-align: center;
+            font-size: 0.8rem;
+            color: var(--gray-600);
+            margin-top: 1rem;
+        }
+
+        .success-message {
+            text-align: center;
+            padding: 2rem;
+        }
+
+        .success-message h3 {
+            color: var(--navy);
+            margin-bottom: 0.5rem;
+        }
+
         /* Main Layout */
         .app-container {
             display: flex;
@@ -839,6 +1021,7 @@
         </div>
         <div class="header-actions">
             <button class="header-btn" onclick="shareEvents()">Share</button>
+            <button class="header-btn primary" onclick="openSubscribeModal()">Get Weekly Picks</button>
         </div>
     </header>
 
@@ -1005,6 +1188,84 @@
         </main>
     </div>
 
+    <!-- Subscribe Modal -->
+    <div class="modal-overlay" id="subscribeModal">
+        <div class="modal">
+            <div class="modal-header">
+                <h2>Get Weekly Event Picks</h2>
+                <p>Personalized recommendations based on your interests</p>
+            </div>
+            <div class="modal-body">
+                <form id="subscribeForm">
+                    <div class="form-group">
+                        <label class="form-label">Email</label>
+                        <input type="email" class="form-input" id="subEmail" placeholder="you@example.com" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label">Name (optional)</label>
+                        <input type="text" class="form-input" id="subName" placeholder="Your first name">
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label">What interests you?</label>
+                        <div class="interest-grid">
+                            <label class="interest-item" onclick="toggleInterest(this)">
+                                <input type="checkbox" name="interests" value="south-asian">
+                                <span class="interest-check">✓</span>
+                                <span class="interest-label">South Asian</span>
+                            </label>
+                            <label class="interest-item" onclick="toggleInterest(this)">
+                                <input type="checkbox" name="interests" value="middle-eastern">
+                                <span class="interest-check">✓</span>
+                                <span class="interest-label">Middle Eastern</span>
+                            </label>
+                            <label class="interest-item" onclick="toggleInterest(this)">
+                                <input type="checkbox" name="interests" value="arts">
+                                <span class="interest-check">✓</span>
+                                <span class="interest-label">Arts & Crafts</span>
+                            </label>
+                            <label class="interest-item" onclick="toggleInterest(this)">
+                                <input type="checkbox" name="interests" value="music">
+                                <span class="interest-check">✓</span>
+                                <span class="interest-label">Music & Dance</span>
+                            </label>
+                            <label class="interest-item" onclick="toggleInterest(this)">
+                                <input type="checkbox" name="interests" value="food">
+                                <span class="interest-check">✓</span>
+                                <span class="interest-label">Food & Markets</span>
+                            </label>
+                            <label class="interest-item" onclick="toggleInterest(this)">
+                                <input type="checkbox" name="interests" value="cultural">
+                                <span class="interest-check">✓</span>
+                                <span class="interest-label">Cultural Festivals</span>
+                            </label>
+                            <label class="interest-item" onclick="toggleInterest(this)">
+                                <input type="checkbox" name="interests" value="community">
+                                <span class="interest-check">✓</span>
+                                <span class="interest-label">Community</span>
+                            </label>
+                            <label class="interest-item" onclick="toggleInterest(this)">
+                                <input type="checkbox" name="interests" value="wellness">
+                                <span class="interest-check">✓</span>
+                                <span class="interest-label">Yoga & Wellness</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="submit-btn">Subscribe</button>
+                    <p class="form-note">We'll send you a personalized weekly email. Unsubscribe anytime.</p>
+                </form>
+
+                <div class="success-message" id="successMessage" style="display:none;">
+                    <h3>You're in! 🎉</h3>
+                    <p>Check your inbox for a welcome email. Your first personalized picks arrive this week!</p>
+                    <button class="submit-btn" style="margin-top:1rem;" onclick="closeSubscribeModal()">Done</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <script>
         // State
@@ -1053,7 +1314,8 @@
 
         async function loadEvents() {
             try {
-                const response = await fetch('events.json');
+                // Cache-bust to always get fresh data
+                const response = await fetch('events.json?v=' + Date.now());
                 const data = await response.json();
                 allEvents = (data.events || []).map(e => ({
                     ...e,
@@ -1703,6 +1965,65 @@
             // Close menu
             document.querySelectorAll('.calendar-menu').forEach(menu => menu.classList.remove('show'));
         }
+
+        // Subscribe Modal Functions
+        function openSubscribeModal() {
+            document.getElementById('subscribeModal').classList.add('show');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeSubscribeModal() {
+            document.getElementById('subscribeModal').classList.remove('show');
+            document.body.style.overflow = '';
+        }
+
+        function toggleInterest(item) {
+            item.classList.toggle('selected');
+        }
+
+        // Close modal on overlay click
+        document.getElementById('subscribeModal').addEventListener('click', function(e) {
+            if (e.target === this) {
+                closeSubscribeModal();
+            }
+        });
+
+        // Close modal on Escape key
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape') {
+                closeSubscribeModal();
+            }
+        });
+
+        // Form submission
+        document.getElementById('subscribeForm').addEventListener('submit', async function(e) {
+            e.preventDefault();
+
+            const email = document.getElementById('subEmail').value;
+            const name = document.getElementById('subName').value;
+            const interests = Array.from(document.querySelectorAll('.interest-item.selected input'))
+                .map(input => input.value);
+
+            // TODO: Replace with your email service API endpoint
+            // For now, we'll store locally and show success
+            const subscriber = {
+                email,
+                name,
+                interests,
+                subscribedAt: new Date().toISOString()
+            };
+
+            // Store in localStorage for now (replace with API call)
+            const subscribers = JSON.parse(localStorage.getItem('mehfilSubscribers') || '[]');
+            subscribers.push(subscriber);
+            localStorage.setItem('mehfilSubscribers', JSON.stringify(subscribers));
+
+            console.log('New subscriber:', subscriber);
+
+            // Show success message
+            document.getElementById('subscribeForm').style.display = 'none';
+            document.getElementById('successMessage').style.display = 'block';
+        });
 
         // Start
         init();
