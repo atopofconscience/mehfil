@@ -421,29 +421,31 @@
             background: white !important;
         }
 
-        /* Calendar Export Dropdown */
+        /* Calendar Export Dropdown - Minimal */
         .calendar-dropdown {
             position: relative;
             display: inline-block;
         }
 
         .calendar-btn {
-            padding: 0.4rem 0.75rem;
-            background: var(--light-blue);
-            color: var(--harbor-blue);
-            border: 1px solid var(--harbor-blue);
-            border-radius: 6px;
-            font-size: 0.8rem;
+            padding: 0.35rem 0.5rem;
+            background: transparent;
+            color: var(--gray-600);
+            border: none;
+            border-radius: 4px;
+            font-size: 0.85rem;
             cursor: pointer;
-            display: flex;
-            align-items: center;
-            gap: 0.3rem;
+            opacity: 0;
             transition: all 0.2s;
         }
 
+        .event-card:hover .calendar-btn {
+            opacity: 1;
+        }
+
         .calendar-btn:hover {
-            background: var(--harbor-blue);
-            color: white;
+            background: var(--light-blue);
+            color: var(--harbor-blue);
         }
 
         .calendar-menu {
@@ -456,8 +458,8 @@
             box-shadow: 0 4px 12px rgba(0,0,0,0.15);
             z-index: 100;
             display: none;
-            min-width: 160px;
-            margin-bottom: 0.5rem;
+            min-width: 140px;
+            margin-bottom: 0.25rem;
         }
 
         .calendar-menu.show {
@@ -465,11 +467,9 @@
         }
 
         .calendar-menu-item {
-            display: flex;
-            align-items: center;
-            gap: 0.5rem;
-            padding: 0.6rem 1rem;
-            font-size: 0.85rem;
+            display: block;
+            padding: 0.5rem 0.75rem;
+            font-size: 0.8rem;
             color: var(--gray-800);
             cursor: pointer;
             transition: background 0.2s;
@@ -1075,6 +1075,9 @@
                     <button class="filter-chip" data-category="Sports & Outdoors">
                         <span class="chip-dot" style="background:#34d399;"></span> Sports
                     </button>
+                    <button class="filter-chip" data-category="Career & Tech">
+                        <span class="chip-dot" style="background:#6366f1;"></span> Career
+                    </button>
                 </div>
             </div>
 
@@ -1272,24 +1275,18 @@
                     </div>
 
                     <div class="form-group">
-                        <label class="form-label">Community (select all that apply)</label>
+                        <label class="form-label">What events interest you?</label>
                         <div class="interest-grid">
                             <label class="interest-item" onclick="toggleInterest(this)">
-                                <input type="checkbox" name="community" value="south-asian">
+                                <input type="checkbox" name="interests" value="desi">
                                 <span class="interest-check">✓</span>
-                                <span class="interest-label">South Asian</span>
+                                <span class="interest-label">Desi & Bollywood</span>
                             </label>
                             <label class="interest-item" onclick="toggleInterest(this)">
-                                <input type="checkbox" name="community" value="middle-eastern">
+                                <input type="checkbox" name="interests" value="arab">
                                 <span class="interest-check">✓</span>
-                                <span class="interest-label">Middle Eastern</span>
+                                <span class="interest-label">Arab & Persian</span>
                             </label>
-                        </div>
-                    </div>
-
-                    <div class="form-group">
-                        <label class="form-label">Event types</label>
-                        <div class="interest-grid">
                             <label class="interest-item" onclick="toggleInterest(this)">
                                 <input type="checkbox" name="interests" value="arts">
                                 <span class="interest-check">✓</span>
@@ -1316,9 +1313,9 @@
                                 <span class="interest-label">Yoga & Wellness</span>
                             </label>
                             <label class="interest-item" onclick="toggleInterest(this)">
-                                <input type="checkbox" name="interests" value="community">
+                                <input type="checkbox" name="interests" value="career">
                                 <span class="interest-check">✓</span>
-                                <span class="interest-label">Networking</span>
+                                <span class="interest-label">Career & Tech</span>
                             </label>
                         </div>
                     </div>
@@ -1694,22 +1691,16 @@
                             </div>
                             <div class="event-card-footer">
                                 <div class="event-tags">
-                                    ${cats.slice(0, 2).map(c => `<span class="event-tag">${c}</span>`).join('')}
-                                </div>
-                                <div style="display:flex;align-items:center;gap:0.5rem;">
+                                    ${cats.slice(0, 1).map(c => `<span class="event-tag">${c}</span>`).join('')}
                                     ${event.price ? `<span class="event-price ${isFree ? 'free' : 'paid'}">${event.price}</span>` : ''}
-                                    <div class="calendar-dropdown">
-                                        <button class="calendar-btn" onclick="toggleCalendarMenu(this, event)" data-event-id="${event.id}">
-                                            + Cal
-                                        </button>
-                                        <div class="calendar-menu" data-menu-for="${event.id}">
-                                            <div class="calendar-menu-item" onclick="addToGoogleCalendar('${event.id}', event)">
-                                                Google
-                                            </div>
-                                            <div class="calendar-menu-item" onclick="downloadICS('${event.id}', event)">
-                                                Apple / Outlook
-                                            </div>
-                                        </div>
+                                </div>
+                                <div class="calendar-dropdown">
+                                    <button class="calendar-btn" onclick="toggleCalendarMenu(this, event)" data-event-id="${event.id}" title="Add to calendar">
+                                        📅
+                                    </button>
+                                    <div class="calendar-menu" data-menu-for="${event.id}">
+                                        <div class="calendar-menu-item" onclick="addToGoogleCalendar('${event.id}', event)">Google Calendar</div>
+                                        <div class="calendar-menu-item" onclick="downloadICS('${event.id}', event)">Apple / Outlook</div>
                                     </div>
                                 </div>
                             </div>
@@ -2163,8 +2154,6 @@
             const location = document.getElementById('subLocation').value;
 
             // Get all selected options
-            const communities = Array.from(document.querySelectorAll('input[name="community"]:checked'))
-                .map(input => input.value);
             const interests = Array.from(document.querySelectorAll('input[name="interests"]:checked'))
                 .map(input => input.value);
             const pricePrefs = Array.from(document.querySelectorAll('input[name="price"]:checked'))
@@ -2177,7 +2166,6 @@
             const subscriberData = {
                 email,
                 name,
-                communities,
                 interests,
                 location,
                 pricePrefs,
@@ -2196,7 +2184,6 @@
                         email: email,
                         attributes: {
                             FIRSTNAME: name,
-                            COMMUNITIES: communities.join(','),
                             INTERESTS: interests.join(','),
                             LOCATION: location,
                             PRICE_PREF: pricePrefs.join(',')

@@ -22,20 +22,20 @@ BREVO_API_URL = "https://api.brevo.com/v3"
 SENDER_EMAIL = "hello@mehfil.com"  # Update with your verified sender
 SENDER_NAME = "Mehfil Boston"
 
-# Map form values to event categories
-COMMUNITY_TO_CATEGORY = {
-    "south-asian": ["South Asian"],
-    "middle-eastern": ["Middle Eastern"],
-}
-
+# Map form interests to event categories
 INTEREST_TO_CATEGORY = {
+    "desi": ["South Asian", "Music & Dance"],  # Desi & Bollywood
+    "arab": ["Middle Eastern"],  # Arab & Persian
     "arts": ["Arts & Crafts"],
     "music": ["Music & Dance"],
     "food": ["Food & Markets"],
     "cultural": ["Cultural Festival"],
-    "community": ["Community"],
     "wellness": ["Sports & Outdoors"],
+    "career": ["Career & Tech", "Talks & Lectures"],  # Career & Tech events
 }
+
+# Max events per email
+MAX_EVENTS_PER_EMAIL = 7
 
 
 def load_events():
@@ -78,16 +78,11 @@ def categorize_events(events):
 
 def get_events_for_subscriber(events, subscriber):
     """Get events matching a subscriber's full preferences."""
-    communities = subscriber.get("communities", [])
     interests = subscriber.get("interests", [])
     location_pref = subscriber.get("location", "all")
     price_prefs = subscriber.get("price_prefs", [])
 
-    # Build list of category filters
-    community_cats = []
-    for c in communities:
-        community_cats.extend(COMMUNITY_TO_CATEGORY.get(c, []))
-
+    # Build list of category filters from interests
     interest_cats = []
     for i in interests:
         interest_cats.extend(INTEREST_TO_CATEGORY.get(i, []))
@@ -96,11 +91,6 @@ def get_events_for_subscriber(events, subscriber):
 
     for event in events:
         event_cats = event.get("categories", [])
-
-        # Community filter: if subscriber selected communities, event must match at least one
-        if community_cats:
-            if not any(cat in event_cats for cat in community_cats):
-                continue
 
         # Interest filter: if subscriber selected interests, event must match at least one
         if interest_cats:
@@ -125,9 +115,9 @@ def get_events_for_subscriber(events, subscriber):
 
         matched_events.append(event)
 
-    # Sort by date
+    # Sort by date and limit
     matched_events.sort(key=lambda e: e["date"])
-    return matched_events
+    return matched_events[:MAX_EVENTS_PER_EMAIL]
 
 
 def format_event_html(event):
@@ -265,7 +255,6 @@ def get_subscribers_from_brevo():
         subscribers.append({
             "email": contact["email"],
             "name": attrs.get("FIRSTNAME", ""),
-            "communities": [c.strip() for c in attrs.get("COMMUNITIES", "").split(",") if c.strip()],
             "interests": [i.strip() for i in attrs.get("INTERESTS", "").split(",") if i.strip()],
             "location": attrs.get("LOCATION", "all"),
             "price_prefs": [p.strip() for p in attrs.get("PRICE_PREF", "").split(",") if p.strip()]
@@ -350,23 +339,19 @@ def main():
         email = subscriber["email"]
         name = subscriber.get("name", "")
 
-        # Get events matching their full preferences
-        has_preferences = (subscriber.get("communities") or subscriber.get("interests") or
-                          subscriber.get("location", "all") != "all" or subscriber.get("price_prefs"))
+        # Get events matching their preferences
+        has_preferences = (subscriber.get("interests") or
+                          subscriber.get("location", "all") != "all" or
+                          subscriber.get("price_prefs"))
 
         if has_preferences:
             matched_events = get_events_for_subscriber(upcoming, subscriber)
         else:
             # No specific preferences = send top events
-            matched_events = upcoming[:10]
+            matched_events = upcoming[:MAX_EVENTS_PER_EMAIL]
 
         # Build preference description for email
-        pref_parts = []
-        if subscriber.get("communities"):
-            pref_parts.extend(subscriber["communities"])
-        if subscriber.get("interests"):
-            pref_parts.extend(subscriber["interests"])
-        pref_desc = pref_parts if pref_parts else ["all events"]
+        pref_desc = subscriber.get("interests", []) or ["all events"]
 
         # Generate email
         if matched_events:

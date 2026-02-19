@@ -52,9 +52,10 @@ CATEGORY_KEYWORDS = {
     "Coffee & Chai": ["coffee", "chai", "tea", "cafe", "café", "coffeehouse"],
     "Sports & Outdoors": ["sports", "cricket", "soccer", "basketball", "hiking", "outdoor", "fitness", "yoga", "run", "marathon", "kabaddi"],
     "Music & Dance": ["music", "dance", "concert", "performance", "dj", "live music", "recital", "bhangra", "bollywood", "classical", "qawwali"],
-    "Talks & Lectures": ["talk", "lecture", "seminar", "discussion", "panel", "speaker", "conversation", "symposium", "conference"],
+    "Talks & Lectures": ["talk", "lecture", "seminar", "discussion", "panel", "speaker", "conversation", "symposium", "conference", "ama", "fireside"],
     "Cultural Festival": ["festival", "mela", "celebration", "holi", "diwali", "eid", "navratri", "nowruz", "cultural"],
     "Religious": ["religious", "spiritual", "prayer", "temple", "mosque", "church", "meditation", "puja", "namaz"],
+    "Career & Tech": ["career", "professional", "intern", "startup", "entrepreneur", "tech", "coding", "aws", "cloud", "ai", "machine learning", "job", "hiring", "resume"],
     "Community": ["community", "meetup", "networking", "social", "gathering"],
 }
 
