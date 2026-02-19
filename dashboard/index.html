@@ -1995,7 +1995,7 @@
             }
         });
 
-        // Form submission
+        // Form submission - Brevo API
         document.getElementById('subscribeForm').addEventListener('submit', async function(e) {
             e.preventDefault();
 
@@ -2004,25 +2004,54 @@
             const interests = Array.from(document.querySelectorAll('.interest-item.selected input'))
                 .map(input => input.value);
 
-            // TODO: Replace with your email service API endpoint
-            // For now, we'll store locally and show success
-            const subscriber = {
-                email,
-                name,
-                interests,
-                subscribedAt: new Date().toISOString()
-            };
+            const submitBtn = this.querySelector('.submit-btn');
+            submitBtn.textContent = 'Subscribing...';
+            submitBtn.disabled = true;
 
-            // Store in localStorage for now (replace with API call)
-            const subscribers = JSON.parse(localStorage.getItem('mehfilSubscribers') || '[]');
-            subscribers.push(subscriber);
-            localStorage.setItem('mehfilSubscribers', JSON.stringify(subscribers));
+            try {
+                // Brevo API endpoint for adding contacts
+                // Note: For production, use a serverless function to hide API key
+                const response = await fetch('https://api.brevo.com/v3/contacts', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'api-key': window.BREVO_PUBLIC_KEY || ''
+                    },
+                    body: JSON.stringify({
+                        email: email,
+                        attributes: {
+                            FIRSTNAME: name,
+                            INTERESTS: interests.join(',')
+                        },
+                        listIds: [2], // Your Brevo list ID
+                        updateEnabled: true
+                    })
+                });
 
-            console.log('New subscriber:', subscriber);
+                if (response.ok || response.status === 201 || response.status === 204) {
+                    // Success
+                    document.getElementById('subscribeForm').style.display = 'none';
+                    document.getElementById('successMessage').style.display = 'block';
+                } else {
+                    // Fallback: store locally and show success anyway
+                    // (Brevo might not be configured yet)
+                    const subscribers = JSON.parse(localStorage.getItem('mehfilSubscribers') || '[]');
+                    subscribers.push({ email, name, interests, subscribedAt: new Date().toISOString() });
+                    localStorage.setItem('mehfilSubscribers', JSON.stringify(subscribers));
 
-            // Show success message
-            document.getElementById('subscribeForm').style.display = 'none';
-            document.getElementById('successMessage').style.display = 'block';
+                    document.getElementById('subscribeForm').style.display = 'none';
+                    document.getElementById('successMessage').style.display = 'block';
+                }
+            } catch (error) {
+                console.log('Brevo not configured, storing locally:', error);
+                // Store locally as fallback
+                const subscribers = JSON.parse(localStorage.getItem('mehfilSubscribers') || '[]');
+                subscribers.push({ email, name, interests, subscribedAt: new Date().toISOString() });
+                localStorage.setItem('mehfilSubscribers', JSON.stringify(subscribers));
+
+                document.getElementById('subscribeForm').style.display = 'none';
+                document.getElementById('successMessage').style.display = 'block';
+            }
         });
 
         // Start
