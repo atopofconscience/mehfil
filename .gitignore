@@ -13,3 +13,8 @@ venv/
 
 # OS
 .DS_Store
+
+# CLI tools
+gh.zip
+gh_*/
+
