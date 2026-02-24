@@ -1,9 +1,9 @@
 {
   "events": [
     {
-      "id": "310d508d-cacd-8142-8ce1-f5fc43945ee8",
+      "id": "311d508d-cacd-8149-bda5-d768f7f0c592",
       "name": "Arabic, Persian, and Turkish Language Table",
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "time": "",
       "location": "Harvard University, Cambridge, MA",
       "address": "",
@@ -18,9 +18,9 @@
       "longitude": -71.1167
     },
     {
-      "id": "310d508d-cacd-8195-818a-c94b8489f84d",
+      "id": "311d508d-cacd-815b-86b5-e27416c89f4b",
       "name": "EFoS: South Asian Studies Open House: Concentration Info Session",
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "time": "",
       "location": "Harvard University, Cambridge, MA",
       "address": "",
@@ -35,9 +35,9 @@
       "longitude": -71.1167
     },
     {
-      "id": "310d508d-cacd-81b8-b621-c44b219c10fa",
+      "id": "311d508d-cacd-8135-89ec-f9ca9df87e16",
       "name": "Cookie Settings",
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "time": "",
       "location": "Boston, MA",
       "address": "",
@@ -52,9 +52,9 @@
       "longitude": null
     },
     {
-      "id": "310d508d-cacd-8179-be0f-dcaf0e7ae757",
+      "id": "311d508d-cacd-81c7-b3ac-e007608ca40f",
       "name": "Cookie Settings",
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "time": "",
       "location": "Boston, MA",
       "address": "",
@@ -69,9 +69,9 @@
       "longitude": null
     },
     {
-      "id": "310d508d-cacd-8192-876c-c649de93a4d6",
+      "id": "311d508d-cacd-818d-b6ce-cbd17c180ccb",
       "name": "Cookie Settings",
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "time": "",
       "location": "Boston, MA",
       "address": "",
@@ -87,9 +87,9 @@
       "longitude": null
     },
     {
-      "id": "310d508d-cacd-8137-b05a-d6f04dd2caa2",
+      "id": "311d508d-cacd-812c-af6a-d8d775c5fae9",
       "name": "Cookie Settings",
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "time": "",
       "location": "Boston, MA",
       "address": "",
@@ -104,9 +104,9 @@
       "longitude": null
     },
     {
-      "id": "310d508d-cacd-81c3-afc7-e1865355aeb4",
+      "id": "311d508d-cacd-812d-b6e7-cab1c83e441f",
       "name": "Cookie Settings",
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "time": "",
       "location": "Boston, MA",
       "address": "",
@@ -122,9 +122,9 @@
       "longitude": null
     },
     {
-      "id": "310d508d-cacd-81bb-be2e-f395592be2e7",
+      "id": "311d508d-cacd-8168-8c12-cf8621a309d7",
       "name": "Cookie Settings",
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "time": "",
       "location": "Boston, MA",
       "address": "",
@@ -139,9 +139,9 @@
       "longitude": null
     },
     {
-      "id": "310d508d-cacd-810c-b139-fc83ebea800e",
+      "id": "311d508d-cacd-813b-aca8-fdfc0eb5349e",
       "name": "Cookie Settings",
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "time": "",
       "location": "Boston, MA",
       "address": "",
@@ -157,9 +157,9 @@
       "longitude": null
     },
     {
-      "id": "310d508d-cacd-8149-be65-f0e19a17b543",
+      "id": "311d508d-cacd-8197-ad8e-ead94362b18d",
       "name": "Cookie Settings",
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "time": "",
       "location": "Boston, MA",
       "address": "",
@@ -175,9 +175,9 @@
       "longitude": null
     },
     {
-      "id": "310d508d-cacd-810e-867a-f4199f513026",
+      "id": "311d508d-cacd-8154-ae88-cf504472ae97",
       "name": "Cookie Settings",
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "time": "",
       "location": "Boston, MA",
       "address": "",
@@ -193,29 +193,9 @@
       "longitude": null
     },
     {
-      "id": "310d508d-cacd-811a-af2d-dcee157c1ceb",
-      "name": "Designing Human-Centered AI in HealthcareThu, Feb 26 \u00b7 5:30 PM ESTby Boston Healthcare Cloud & AI Community",
-      "date": "2026-02-23",
-      "time": "",
-      "location": "Boston, MA",
-      "address": "",
-      "price": "",
-      "description": "",
-      "url": "https://www.meetup.com/healthcare-tech-community/events/312635972/?eventOrigin=city_most_popular_event",
-      "source": "Meetup",
-      "categories": [
-        "South Asian",
-        "Middle Eastern",
-        "Career & Tech",
-        "Community"
-      ],
-      "latitude": null,
-      "longitude": null
-    },
-    {
-      "id": "310d508d-cacd-81f6-b9ad-dc57023b42d7",
+      "id": "311d508d-cacd-81f5-b6a1-d5b9b7a9ed60",
       "name": "Pottery Wheel Class | One Time",
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "time": "6:30 PM",
       "location": "Clay Lounge",
       "address": "",
@@ -232,9 +212,9 @@
       "longitude": null
     },
     {
-      "id": "310d508d-cacd-8116-9b1e-f2eb101613e3",
+      "id": "311d508d-cacd-8137-8148-d946917e377a",
       "name": "The American Revolution: A Story of the War in 28 Paintings",
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "time": "9:00 AM",
       "location": "Cabot House",
       "address": "",
@@ -251,9 +231,9 @@
       "longitude": null
     },
     {
-      "id": "310d508d-cacd-81f9-b5fd-fef4756e86d0",
+      "id": "311d508d-cacd-8196-99ca-e463ce0a64a0",
       "name": "SWETSTUDIO | Aerial Yoga and Fitness in the South End",
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "time": "",
       "location": "SWETSTUDIO\u00ae",
       "address": "",
@@ -269,9 +249,9 @@
       "longitude": null
     },
     {
-      "id": "310d508d-cacd-8197-b888-ccaabdd62425",
+      "id": "311d508d-cacd-812c-8e06-e82dca2140c7",
       "name": "Castanet Designer Consignment",
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "time": "",
       "location": "Castanet Designer Consignment",
       "address": "",
@@ -288,9 +268,9 @@
       "longitude": null
     },
     {
-      "id": "310d508d-cacd-81fc-964b-c6043d225c43",
+      "id": "311d508d-cacd-81ce-a492-e0e9e4abfc5d",
       "name": "Sarma: Turkish & Mediterranean Small Plates | Somerville",
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "time": "",
       "location": "Sarma",
       "address": "",
@@ -311,9 +291,9 @@
       "longitude": null
     },
     {
-      "id": "310d508d-cacd-812c-b576-f6b201a513e7",
+      "id": "311d508d-cacd-8107-8396-eb4b4a9062ce",
       "name": "The Paint Bar: Painting Classes for Work Events | Newton",
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "time": "",
       "location": "The Paint Bar",
       "address": "",
@@ -331,9 +311,9 @@
       "longitude": null
     },
     {
-      "id": "310d508d-cacd-814b-8bba-f9a4c2498fda",
+      "id": "311d508d-cacd-81cf-9349-fc70fa15b140",
       "name": "Comm Ave Mall Holiday Lights: 2025-2026 Season",
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "time": "8:00 PM",
       "location": "Commonwealth Avenue Mall",
       "address": "",
@@ -352,9 +332,9 @@
       "longitude": null
     },
     {
-      "id": "310d508d-cacd-8161-bc84-fa57f3dfecde",
+      "id": "311d508d-cacd-811c-9fe2-e0b49ed64626",
       "name": "Karen Aqua Gallery Exhibit, \"When Dreams Take Shape\"",
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "time": "5:30 PM",
       "location": "Cambridge Community Television",
       "address": "",
@@ -371,9 +351,9 @@
       "longitude": null
     },
     {
-      "id": "310d508d-cacd-81e7-b142-d9df5e1292b2",
+      "id": "311d508d-cacd-81be-97b1-d5bac05afdd9",
       "name": "The Immortal Magu: A Sixteenth-Century Chinese Painting Up Close",
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "time": "11:00 AM",
       "location": "Davis Museum at Wellesley College",
       "address": "",
@@ -390,9 +370,9 @@
       "longitude": null
     },
     {
-      "id": "310d508d-cacd-81ff-8590-d5900d736648",
+      "id": "311d508d-cacd-81ab-94bc-f2713bcda682",
       "name": "Open Now \u2014'Material Dialogues: Artist Unresidency, 2025-2026 at UMB Archives' Exhibition",
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "time": "9:00 AM",
       "location": "Healey Library at UMass Boston",
       "address": "",
@@ -407,9 +387,9 @@
       "longitude": null
     },
     {
-      "id": "310d508d-cacd-81d7-8074-e41fdc66c4a7",
+      "id": "311d508d-cacd-81ae-ba89-c8a882140684",
       "name": "New Exhibition + Artist Talk: Lynne Kortenhaus at Paul Dietrich Gallery",
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "time": "9:00 AM",
       "location": "The Paul Dietrich Gallery at CambridgeSeven",
       "address": "",
@@ -427,9 +407,9 @@
       "longitude": null
     },
     {
-      "id": "310d508d-cacd-814b-b2e6-dc55d6ed1002",
+      "id": "311d508d-cacd-8128-a601-cb22edf33837",
       "name": "Michelangelo\u2019s Sistine Chapel: The Exhibition",
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "time": "11:00 AM",
       "location": "CambridgeSide (Level 2)",
       "address": "",
@@ -445,9 +425,9 @@
       "longitude": null
     },
     {
-      "id": "310d508d-cacd-815e-98ed-e10a23cf78c2",
+      "id": "311d508d-cacd-813e-aebf-c6f0c7142ae7",
       "name": "Sushi Making 101 - Cooking Class by Classpop!",
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "time": "4:00 PM",
       "location": "Trillium Brewing Company - Fort Point",
       "address": "",
@@ -465,9 +445,9 @@
       "longitude": null
     },
     {
-      "id": "310d508d-cacd-814b-9da4-f7eac7de6442",
+      "id": "311d508d-cacd-81c4-ae8a-f77842ec9fce",
       "name": "Inspirational Jam: Paintings by Carl Ristaino",
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "time": "10:00 AM",
       "location": "The Umbrella Arts Center",
       "address": "",
@@ -484,9 +464,9 @@
       "longitude": null
     },
     {
-      "id": "310d508d-cacd-81d2-be4f-f88e56e7cbdf",
+      "id": "311d508d-cacd-814f-9660-d8f505aba016",
       "name": "\u201cAssembly Required\u201d: Herv\u00e9 Kwimo Explores Fragmentation and Perception in New Boston Exhibition",
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "time": "6:00 PM",
       "location": "Midway Gallery at Midway Artist Studios",
       "address": "",
@@ -503,9 +483,9 @@
       "longitude": null
     },
     {
-      "id": "310d508d-cacd-818a-a028-c8ef94f7f41d",
+      "id": "311d508d-cacd-8170-ae75-ef2298e3c1fa",
       "name": "Elevated, An Orchid Exhibition at New England Botanic Garden",
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "time": "10:00 AM",
       "location": "New England Botanic Garden at Tower Hill",
       "address": "",
@@ -522,9 +502,9 @@
       "longitude": null
     },
     {
-      "id": "310d508d-cacd-8196-b10a-e68f6b90670a",
+      "id": "311d508d-cacd-8163-9853-e7467643e6a4",
       "name": "Griffin Museum of Photography Exhibition: Manifest Destiny",
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "time": "12:00 PM",
       "location": "Griffin Museum of Photography",
       "address": "",
@@ -540,9 +520,9 @@
       "longitude": null
     },
     {
-      "id": "310d508d-cacd-81c5-a74d-e7d4ee98e5c6",
+      "id": "311d508d-cacd-816c-8fa5-f6e3173eb7e5",
       "name": "Debut Solo Exhibition: Ad\u00e8le Patnaude \u2013 The Art of Aquarius @ EventThem Studios",
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "time": "10:00 AM",
       "location": "EventThem Studios",
       "address": "",
@@ -559,9 +539,9 @@
       "longitude": null
     },
     {
-      "id": "310d508d-cacd-8151-b107-c0be5434814b",
+      "id": "311d508d-cacd-8127-b1b5-dd227cef16be",
       "name": "Winter Class: Painting and Drawing Portraits for Teens",
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "time": "4:15 PM",
       "location": "Arlington Center for the Arts",
       "address": "",
@@ -578,9 +558,9 @@
       "longitude": null
     },
     {
-      "id": "310d508d-cacd-81ec-8e8c-d13309a29043",
+      "id": "311d508d-cacd-8171-b791-cfb8da02e0de",
       "name": "Winter Class: Painting and Drawing Portraits for Adults",
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "time": "6:30 PM",
       "location": "Arlington Center for the Arts",
       "address": "",
@@ -597,9 +577,9 @@
       "longitude": null
     },
     {
-      "id": "310d508d-cacd-818f-8e54-eedd96d4eb4e",
+      "id": "311d508d-cacd-8118-bad0-ef3f0a9ed1bd",
       "name": "Painting & Drawing Landscapes for Adults",
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "time": "6:30 PM",
       "location": "Arlington Center for the Arts",
       "address": "",
@@ -615,9 +595,9 @@
       "longitude": null
     },
     {
-      "id": "310d508d-cacd-8157-9033-c909580f94ff",
+      "id": "311d508d-cacd-8139-9b0d-c55c2952a7a0",
       "name": "Winter Class: Painting and Drawing Landscapes for Teens",
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "time": "4:00 PM",
       "location": "Arlington Center for the Arts",
       "address": "",
@@ -633,9 +613,9 @@
       "longitude": null
     },
     {
-      "id": "310d508d-cacd-8159-982c-c01b76703c41",
+      "id": "311d508d-cacd-810b-b9dd-d97f915001ba",
       "name": "ORIGINS | February 7-28, 2026| Atlantic Works Gallery",
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "time": "2:00 PM",
       "location": "Atlantic Works Gallery",
       "address": "",
@@ -651,190 +631,15 @@
       "longitude": null
     },
     {
-      "id": "310d508d-cacd-8105-870f-eb21206d2907",
-      "name": "Guided Tours of WINTERACTIVE Art Exhibit",
-      "date": "2026-02-23",
-      "time": "",
-      "location": "Hyatt Regency Boston",
-      "address": "One Avenue de Lafayette, Boston, MA",
-      "price": "",
-      "description": "Looking for things to do this winter in Downtown? Don\u2019t miss taking a tour of the art experience that has Boston buzzing!",
-      "url": "https://www.eventbrite.com/e/guided-tours-of-winteractive-art-exhibit-tickets-1983451397523",
-      "source": "Eventbrite",
-      "categories": [
-        "Arts & Crafts",
-        "Career & Tech"
-      ],
-      "latitude": 42.3532293,
-      "longitude": -71.06090999999999
-    },
-    {
-      "id": "310d508d-cacd-8114-9d8d-e98699e9bd5e",
-      "name": "Step Into Culture Dance Group",
-      "date": "2026-02-23",
-      "time": "",
-      "location": "24 Supple Rd",
-      "address": "24 Supple Road, Boston, MA",
-      "price": "",
-      "description": "Cultural Dance Group for all ages. Focuses on the culture and creativity through black and Caribbean Dance.",
-      "url": "https://www.eventbrite.com/e/step-into-culture-dance-group-tickets-1295726265139",
-      "source": "Eventbrite",
-      "categories": [
-        "Music & Dance"
-      ],
-      "latitude": 42.3057016,
-      "longitude": -71.08220589999999
-    },
-    {
-      "id": "310d508d-cacd-817f-84f1-d180cea0c66d",
-      "name": "Pottery + Painting Class For Kids - Back Bay",
-      "date": "2026-02-23",
-      "time": "",
-      "location": "279 Newbury St",
-      "address": "279 Newbury Street, Boston, MA",
-      "price": "",
-      "description": "Learn wheel throwing or hand-building with an experienced instructor in this Boston pottery class! Get a painted functional crockery item!",
-      "url": "https://www.eventbrite.com/e/pottery-painting-class-for-kids-back-bay-tickets-1981562100585",
-      "source": "Eventbrite",
-      "categories": [
-        "Arts & Crafts",
-        "Career & Tech"
-      ],
-      "latitude": 42.3494005,
-      "longitude": -71.0840573
-    },
-    {
-      "id": "310d508d-cacd-814b-be1a-d69a2c13f9ad",
-      "name": "One-time Pottery Class - South Boston",
-      "date": "2026-02-23",
-      "time": "",
-      "location": "33 A St",
-      "address": "33 A Street, Boston, MA",
-      "price": "",
-      "description": "Learn wheel throwing or hand-building with an experienced instructor in this Boston pottery class!",
-      "url": "https://www.eventbrite.com/e/one-time-pottery-class-south-boston-tickets-1983269949808",
-      "source": "Eventbrite",
-      "categories": [
-        "Arts & Crafts"
-      ],
-      "latitude": 42.3411481,
-      "longitude": -71.0560512
-    },
-    {
-      "id": "310d508d-cacd-81c9-b11d-d1b4527566c9",
-      "name": "Kids' Pottery Party - Back Bay",
-      "date": "2026-02-23",
-      "time": "",
-      "location": "279 Newbury St",
-      "address": "279 Newbury Street, Boston, MA",
-      "price": "",
-      "description": "Your kids birthday party! Have an experience of pottery together!",
-      "url": "https://www.eventbrite.com/e/kids-pottery-party-back-bay-tickets-1981562534884",
-      "source": "Eventbrite",
-      "categories": [
-        "Arts & Crafts"
-      ],
-      "latitude": 42.3494005,
-      "longitude": -71.0840573
-    },
-    {
-      "id": "310d508d-cacd-81a1-8f77-dd6c80ba15f8",
-      "name": "Pottery Class For Kids - Back Bay",
-      "date": "2026-02-23",
-      "time": "",
-      "location": "279 Newbury St",
-      "address": "279 Newbury Street, Boston, MA",
-      "price": "",
-      "description": "Learn wheel throwing or hand-building with an experienced instructor in this Boston pottery class!",
-      "url": "https://www.eventbrite.com/e/pottery-class-for-kids-back-bay-tickets-1981561403500",
-      "source": "Eventbrite",
-      "categories": [
-        "Arts & Crafts"
-      ],
-      "latitude": 42.3494005,
-      "longitude": -71.0840573
-    },
-    {
-      "id": "310d508d-cacd-8134-bada-c0f9ef449521",
-      "name": "Love and Clay: Couple's Pottery Class - Back Bay",
-      "date": "2026-02-23",
-      "time": "",
-      "location": "279 Newbury St",
-      "address": "279 Newbury Street, Boston, MA",
-      "price": "",
-      "description": "Surprise your significant other with an unusual and creative activity for your date! Create a pottery masterpiece together!",
-      "url": "https://www.eventbrite.com/e/love-and-clay-couples-pottery-class-back-bay-tickets-1981559675331",
-      "source": "Eventbrite",
-      "categories": [
-        "Arts & Crafts"
-      ],
-      "latitude": 42.3494005,
-      "longitude": -71.0840573
-    },
-    {
-      "id": "310d508d-cacd-81af-ace5-fae905ef96ad",
-      "name": "THE FUTURE OF AI IN SPORTS, MEDIA AND ENTERTAINMENT",
-      "date": "2026-02-23",
-      "time": "",
-      "location": "Boston Convention and Exhibition Center",
-      "address": "415 Summer Street, Boston, MA",
-      "price": "",
-      "description": "2-DAY EXECUTIVE BRIEFING FOR INDUSTRY LEADERS",
-      "url": "https://www.eventbrite.com/e/the-future-of-ai-in-sports-media-and-entertainment-tickets-1983163374037",
-      "source": "Eventbrite",
-      "categories": [
-        "Middle Eastern",
-        "Sports & Outdoors",
-        "Career & Tech"
-      ],
-      "latitude": 42.3451493,
-      "longitude": -71.0475482
-    },
-    {
-      "id": "310d508d-cacd-816d-87b2-f4fb4ab30bfd",
-      "name": "Classic Boston Libations and Bites - Food Tour in Boston | Cozymeal\u2122",
-      "date": "2026-02-23",
-      "time": "",
-      "location": "Location provided after booking",
-      "address": "Boston, MA",
-      "price": "",
-      "description": "",
-      "url": "https://www.eventbrite.com/e/classic-boston-libations-and-bites-food-tour-in-boston-cozymealtm-tickets-1975640333420",
-      "source": "Eventbrite",
-      "categories": [
-        "Food & Markets"
-      ],
-      "latitude": 42.3626753,
-      "longitude": -71.0588767
-    },
-    {
-      "id": "30bd508d-cacd-8107-a99e-f74cd1c4e886",
-      "name": "Meatless Moroccan Dinner - Cooking Class in Boston | Cozymeal\u2122",
-      "date": "2026-02-23",
-      "time": "",
-      "location": "Location provided after booking",
-      "address": "Somerville, MA",
-      "price": "",
-      "description": "",
-      "url": "https://www.eventbrite.com/e/meatless-moroccan-dinner-cooking-class-in-boston-cozymealtm-tickets-1979610269606",
-      "source": "Eventbrite",
-      "categories": [
-        "Middle Eastern",
-        "Food & Markets"
-      ],
-      "latitude": 42.3839227,
-      "longitude": -71.10868
-    },
-    {
-      "id": "30bd508d-cacd-8191-8408-ca7c77e7ae0d",
-      "name": "Figure Drawing Basics: 3-Week Class",
-      "date": "2026-02-23",
-      "time": "7:00 PM",
-      "location": "Boston Figurative Art Center",
+      "id": "311d508d-cacd-8195-9c50-c354274a51fe",
+      "name": "Live Figure Drawing- Winter/Spring 2026",
+      "date": "2026-02-24",
+      "time": "6:30 PM",
+      "location": "Kathryn Schultz Gallery",
       "address": "",
-      "price": "$140",
-      "description": "BFAC Members get %25 off!New to figure drawing? Maybe you\u2019ve been practicing, but feel stuck or in need of a new perspective?Illustrator, cartoonist, and figure drawing instructor Chris O\u2019Neill (@thumbsoneill) shares his approach to nailing proportions, making faster drawings, getting loose, and having more fun at figure drawing! Each class, Chris focuses on a fresh topic, so learn something new every time you come!This workshop will include three demos and individual instruction for each studen",
-      "url": "https://www.wellnessliving.com/rs/book-process.html?id_book_process=2&id_book_process_back=6&id_class_tab=2&id_place=2&k_class_tab=75562&dt_date=2026-02-10+00%3A00%3A00&k_class_period=17037688&k_business=693029&id_mode=2",
+      "price": "$20",
+      "description": "Live Figure Drawing 2026Tuesdays from 6:30-8:30 at the Kathryn Schultz GalleryLocationKathryn Schultz Gallery, 25 Lowell St. Cambridge MAAdmission$15 CAA Member$20 General Admission(per session)Maximum number of attendees: 20NO REFUNDS OR TRANSFERSCAA's Live Figure Drawing Sessions meet in our Kathryn Schultz Gallery space on Tuesday evenings. Each session features a live model who transitions through a dynamic mix of long and short poses. We work with a diverse roster of models representing dif",
+      "url": "https://cambridgeart.app.neoncrm.com/nx/portal/neonevents/events?path=%2Fportal%2Fevents%2F29025",
       "source": "Boston Calendar",
       "categories": [
         "Arts & Crafts"
@@ -843,158 +648,22 @@
       "longitude": null
     },
     {
-      "id": "30bd508d-cacd-81cc-9b5e-d0df2cfab22d",
-      "name": "Not Your Bubbe Book Club Hosts A Discussion of The Society with Karen Winn",
-      "date": "2026-02-23",
-      "time": "7:00 PM",
-      "location": "The Boston Synagogue",
-      "address": "55 Martha Road, Boston, MA",
-      "price": "",
-      "description": "Join us for a wild night of intrigue At Not Your Bubbe's  Book Club - it's not your grandma's book club, that's for sure!",
-      "url": "https://www.eventbrite.com/e/not-your-bubbe-book-club-hosts-a-discussion-of-the-society-with-karen-winn-tickets-1979238858706",
-      "source": "Eventbrite",
+      "id": "311d508d-cacd-81e8-a036-ceedbe4a03f0",
+      "name": "Drinking + Drawing at Zone 3",
+      "date": "2026-02-24",
+      "time": "5:30 PM",
+      "location": "Zone 3",
+      "address": "",
+      "price": "Free",
+      "description": "Join us Tuesday evenings this winter for Drinking + Drawing where creativity, community, and casual fun come together. Each week, a different local artist leads a relaxed evening of creative prompts, inspiration, and connection. Whether you\u2019re flexing your creative muscles or unwinding with a pencil and a slice, this is your space to explore and connect.February 3 \u2013 Michael TalbotFebruary 17 \u2013 Ava PomFebruary 24 \u2013 Scott MurryMarch 3 \u2013 Riley HallidayMarch 10 \u2013 Nat ReedMarch 17 \u2013 Des BennettThis e",
+      "url": "https://www.thebostoncalendar.com/events/drinking-drawing-at-zone-3--11",
+      "source": "Boston Calendar",
       "categories": [
-        "Talks & Lectures"
+        "Arts & Crafts",
+        "Community"
       ],
-      "latitude": 42.3657844,
-      "longitude": -71.06589079999999
-    },
-    {
-      "id": "30ad508d-cacd-81a2-81d1-dbd865741450",
-      "name": "Instructed Slow Flow Yoga",
-      "date": "2026-02-23",
-      "time": "12:30 PM",
-      "location": "Fenway Community Center",
-      "address": "1282 Boylston Street, Boston, MA",
-      "price": "",
-      "description": "Join us for slow flow hour long yoga class led by an instructor here at the Center with neighbors and friends! No experience required!",
-      "url": "https://www.eventbrite.com/e/instructed-slow-flow-yoga-tickets-1980748972497",
-      "source": "Eventbrite",
-      "categories": [
-        "Sports & Outdoors"
-      ],
-      "latitude": 42.3444486,
-      "longitude": -71.0975411
-    },
-    {
-      "id": "30ad508d-cacd-8160-b3d7-d54358eb90a4",
-      "name": "Mindfulness Is Your Inner Power For HealthCare Professionals",
-      "date": "2026-02-23",
-      "time": "7:00 PM",
-      "location": "02116",
-      "address": "02116, Boston, MA",
-      "price": "",
-      "description": "Online workshop for healthcare professionals: meditation/deep breathing, imagery/visualization, and sound therapy to help your relax.",
-      "url": "https://www.eventbrite.com/e/mindfulness-is-your-inner-power-for-healthcare-professionals-tickets-1982718729092",
-      "source": "Eventbrite",
-      "categories": [
-        "Religious"
-      ],
-      "latitude": 42.353068,
-      "longitude": -71.0765188
-    },
-    {
-      "id": "30ad508d-cacd-815a-a36b-f91646e82d38",
-      "name": "Mindfulness Is Your Inner Power For HealthCare Professionals",
-      "date": "2026-02-23",
-      "time": "7:00 PM",
-      "location": "02445",
-      "address": "02445, Brookline, MA",
-      "price": "",
-      "description": "Online workshop for healthcare professionals:  meditation/deep breathing, imagery/visualization, and sound therapy to help you relax.",
-      "url": "https://www.eventbrite.com/e/mindfulness-is-your-inner-power-for-healthcare-professionals-tickets-1982716131322",
-      "source": "Eventbrite",
-      "categories": [
-        "Religious"
-      ],
-      "latitude": 42.33280269999999,
-      "longitude": -71.13891009999999
-    },
-    {
-      "id": "30ad508d-cacd-81ac-b3c3-ecd13864e164",
-      "name": "Phyllo 101 - Cooking Class in Boston | Cozymeal\u2122",
-      "date": "2026-02-23",
-      "time": "6:00 PM",
-      "location": "Location provided after booking",
-      "address": "Somerville, MA",
-      "price": "",
-      "description": "",
-      "url": "https://www.eventbrite.com/e/phyllo-101-cooking-class-in-boston-cozymealtm-tickets-1979618130117",
-      "source": "Eventbrite",
-      "categories": [
-        "Food & Markets"
-      ],
-      "latitude": 42.3839227,
-      "longitude": -71.10868
-    },
-    {
-      "id": "30ad508d-cacd-81df-b5b1-cfb9fa57b31f",
-      "name": "Choreographic Composition: Creative Laboratory and Improvisation",
-      "date": "2026-02-23",
-      "time": "6:30 PM",
-      "location": "The Dance Complex",
-      "address": "536 Massachusetts Avenue, Cambridge, MA",
-      "price": "",
-      "description": "This creative laboratory  is designed as an in-studio movement and dance improvisation session  to generate original movement vocabulary.",
-      "url": "https://www.eventbrite.com/e/choreographic-composition-creative-laboratory-and-improvisation-registration-1982547688505",
-      "source": "Eventbrite",
-      "categories": [
-        "Comedy"
-      ],
-      "latitude": 42.364204,
-      "longitude": -71.1023075
-    },
-    {
-      "id": "30ad508d-cacd-81f9-b6de-cb7a0cebdc28",
-      "name": "Figure Drawing",
-      "date": "2026-02-23",
-      "time": "6:30 PM",
-      "location": "Artisan's Asylum",
-      "address": "96 Holton Street, Boston, MA",
-      "price": "",
-      "description": "Join us for our weekly evening of figure drawing with a live nude model at Artisans Asylum.",
-      "url": "https://www.eventbrite.com/e/figure-drawing-tickets-1972693217517",
-      "source": "Eventbrite",
-      "categories": [
-        "Arts & Crafts"
-      ],
-      "latitude": 42.3598794,
-      "longitude": -71.1379218
-    },
-    {
-      "id": "30ad508d-cacd-812f-942a-e53a85f43cd2",
-      "name": "World Dance Rhythms with Andromeda",
-      "date": "2026-02-23",
-      "time": "7:00 PM",
-      "location": "Grace Episcopal Church",
-      "address": "76 Eldredge Street, Newton, MA",
-      "price": "",
-      "description": "Uplifting Dance Classes with Dance Artist Andromeda! Waiver required.",
-      "url": "https://www.eventbrite.com/e/world-dance-rhythms-with-andromeda-tickets-1980199206131",
-      "source": "Eventbrite",
-      "categories": [
-        "Music & Dance"
-      ],
-      "latitude": 42.3532034,
-      "longitude": -71.1834756
-    },
-    {
-      "id": "30ad508d-cacd-81ba-987a-f0edd82e91d9",
-      "name": "Viola Masterclass and Recital with Wenting Kang",
-      "date": "2026-02-23",
-      "time": "7:00 PM",
-      "location": "236 Huntington Ave suite 304",
-      "address": "236 Huntington Avenue, Boston, MA",
-      "price": "",
-      "description": "Join us in our Boston Showroom for an evening of music with Wenting Kang.",
-      "url": "https://www.eventbrite.com/e/viola-masterclass-and-recital-with-wenting-kang-tickets-1980515644607",
-      "source": "Eventbrite",
-      "categories": [
-        "South Asian",
-        "Music & Dance"
-      ],
-      "latitude": 42.3429997,
-      "longitude": -71.0840424
+      "latitude": null,
+      "longitude": null
     },
     {
       "id": "310d508d-cacd-816b-8089-f9f9d5b7e916",
@@ -2068,6 +1737,24 @@
       ],
       "latitude": 42.29942459999999,
       "longitude": -71.03109289999999
+    },
+    {
+      "id": "311d508d-cacd-81f4-8454-f87635eaf7f9",
+      "name": "Chinese Sachet Workshop (60+)",
+      "date": "2026-02-27",
+      "time": "11:30 AM",
+      "location": "CCC Office",
+      "address": "",
+      "price": "Free",
+      "description": "Craft tradition, wellness, and community \ud83c\udf3f\ud83e\uddf5Join us for a Chinese Sachet Workshop where you\u2019ll handcraft your own fragrant herbal sachet while learning about traditional wellness practices and herbal blending. It\u2019s a relaxing, hands-on experience perfect for connecting, creating, and caring for your health.\ud83d\udccd CCC Office (75 Pleasant Street, Suite 403, Malden, MA)\ud83d\udcc5 Friday, February 27, 2026\u23f0 11:30 AM \u2013 1:30 PM\ud83d\udc65 Ages 60+Register with Fanny atcommunity@chinesecultureconnection.org, via WeChat, or in ",
+      "url": "https://www.thebostoncalendar.com/events/chinese-sachet-workshop-60",
+      "source": "Boston Calendar",
+      "categories": [
+        "Arts & Crafts",
+        "Community"
+      ],
+      "latitude": null,
+      "longitude": null
     },
     {
       "id": "310d508d-cacd-818a-9886-dca8e869bb69",
@@ -6389,6 +6076,27 @@
       "longitude": -71.1687096
     },
     {
+      "id": "311d508d-cacd-8110-985a-f965f9a20f69",
+      "name": "Meditations in Beverly: The Hidden Wealth of Contentment",
+      "date": "2026-03-12",
+      "time": "7:00 PM",
+      "location": "The Beverly Public Library",
+      "address": "",
+      "price": "Free",
+      "description": "https://www.meditationinboston.org/beverly-classesMeditations in BeverlyMonthly from 7:00 to 8:00pmwith Tim HogartyThursday, March 12:The Hidden Wealth of ContentmentWe all have a wish to be happy and avoid suffering. Throughout our lives, we travel many different paths driven by this desire: career, relationships, home, vacations, etc. But ultimately, these external paths do not yield the results we seek.During these introductory Dharma talks and meditation sessions, we will discuss the interna",
+      "url": "https://www.meditationinboston.org/beverly-classes",
+      "source": "Boston Calendar",
+      "categories": [
+        "South Asian",
+        "Arts & Crafts",
+        "Talks & Lectures",
+        "Religious",
+        "Career & Tech"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
       "id": "310d508d-cacd-8138-a0ec-da72e3a60ec6",
       "name": "DANCE SWEAT MEDITATE",
       "date": "2026-03-12",
@@ -10239,6 +9947,24 @@
       "longitude": -71.1249813
     },
     {
+      "id": "311d508d-cacd-8183-9788-c1303686eb0c",
+      "name": "BOSTON Naked! Yoga",
+      "date": "2026-04-18",
+      "time": "12:00 PM",
+      "location": "GILDED STUDIO",
+      "address": "",
+      "price": "$30, financial assistance available",
+      "description": "All levels and genders welcome. Join us for a 75-minute Yoga class taught by our instructor, Alan.Everyone MUST be an active, willing participant and at least 18 years old.Please bring a valid photo ID for age verification. You will be required to enter an accurate date of birth upon registration.All events have a 24-hour cancellation policy, so if you cancel less than 24 hours before the event, you forfeit your payment. Unless the event is cancelled, ALL EVENTBRITE FEES ARE NON-REFUNDABLE (even",
+      "url": "https://www.eventbrite.com/e/boston-naked-yoga-tickets-1983828378082?aff=oddtdtcreator",
+      "source": "Boston Calendar",
+      "categories": [
+        "Arts & Crafts",
+        "Sports & Outdoors"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
       "id": "30bd508d-cacd-818a-903e-f5482b57cc71",
       "name": "CARLOS",
       "date": "2026-04-18",
@@ -10960,6 +10686,24 @@
       "source": "Boston Calendar",
       "categories": [
         "Arts & Crafts"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "311d508d-cacd-81db-8114-d4d7ca0502e0",
+      "name": "BOSTON Naked! Yoga",
+      "date": "2026-05-14",
+      "time": "7:00 PM",
+      "location": "GILDED STUDIO",
+      "address": "",
+      "price": "$30, financial assistance available",
+      "description": "All levels and genders welcome. Join us for a 75-minute Yoga class taught by our instructor, Alan.Everyone MUST be an active, willing participant and at least 18 years old.Please bring a valid photo ID for age verification. You will be required to enter an accurate date of birth upon registration.All events have a 24-hour cancellation policy, so if you cancel less than 24 hours before the event, you forfeit your payment. Unless the event is cancelled, ALL EVENTBRITE FEES ARE NON-REFUNDABLE (even",
+      "url": "https://www.eventbrite.com/e/boston-naked-yoga-tickets-1983823837501?aff=oddtdtcreator",
+      "source": "Boston Calendar",
+      "categories": [
+        "Arts & Crafts",
+        "Sports & Outdoors"
       ],
       "latitude": null,
       "longitude": null
@@ -11835,5 +11579,5 @@
       "longitude": null
     }
   ],
-  "updated": "2026-02-23T06:22:02.495679"
+  "updated": "2026-02-24T06:08:45.608166"
 }
