@@ -11419,6 +11419,79 @@
       ],
       "latitude": null,
       "longitude": null
+    },
+    {
+      "id": "f4493804-0b54-4abd-b090-e6abced82bc2",
+      "name": "Vir Das - Hey Stranger Tour",
+      "date": "2026-03-18",
+      "time": "7:30 PM",
+      "location": "The Wilbur Theatre",
+      "address": "246 Tremont St, Boston, MA",
+      "price": "$66+",
+      "description": "Emmy-winning comedian Vir Das brings his Hey Stranger Tour to Boston.",
+      "url": "https://thewilbur.com/artist/vir-das/",
+      "source": "Manual",
+      "categories": [
+        "South Asian",
+        "Comedy"
+      ],
+      "latitude": 42.3519,
+      "longitude": -71.0643
+    },
+    {
+      "id": "0fafb0b9-d89e-4ec5-9ea5-d5d9e4b6d36a",
+      "name": "Vir Das - Hey Stranger Tour (Night 2)",
+      "date": "2026-03-19",
+      "time": "7:30 PM",
+      "location": "The Wilbur Theatre",
+      "address": "246 Tremont St, Boston, MA",
+      "price": "$66+",
+      "description": "Emmy-winning comedian Vir Das brings his Hey Stranger Tour to Boston.",
+      "url": "https://thewilbur.com/artist/vir-das/",
+      "source": "Manual",
+      "categories": [
+        "South Asian",
+        "Comedy"
+      ],
+      "latitude": 42.3519,
+      "longitude": -71.0643
+    },
+    {
+      "id": "675ecf93-19e6-4973-89ba-78ef205d441e",
+      "name": "BollyX Bollywood Dance Fitness",
+      "date": "2026-02-24",
+      "time": "6:30 PM",
+      "location": "Studio 6, Boston",
+      "address": "Boston, MA",
+      "price": "Varies",
+      "description": "Bollywood-inspired dance fitness workout. Every Monday.",
+      "url": "https://bollyx.com/classes-and-events/boston/",
+      "source": "Manual",
+      "categories": [
+        "South Asian",
+        "Music & Dance",
+        "Sports & Outdoors"
+      ],
+      "latitude": 42.3601,
+      "longitude": -71.0589
+    },
+    {
+      "id": "48e8fe1d-30da-4f9c-8d28-16323c60ba20",
+      "name": "Boston Bollywood Dance Classes",
+      "date": "2026-02-25",
+      "time": "See schedule",
+      "location": "Boston Bollywood Studio",
+      "address": "Boston, MA",
+      "price": "Varies",
+      "description": "Learn Bollywood dance with Boston Bollywood company.",
+      "url": "https://www.bostonbollywood.com/schedule.html",
+      "source": "Manual",
+      "categories": [
+        "South Asian",
+        "Music & Dance"
+      ],
+      "latitude": 42.3601,
+      "longitude": -71.0589
     }
   ],
   "updated": "2026-02-24T06:08:45.608166"
