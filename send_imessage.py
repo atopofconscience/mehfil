@@ -14,6 +14,7 @@ No external setup required.
 """
 
 import json
+import random
 import subprocess
 import urllib.request
 import sys
@@ -253,11 +254,16 @@ def load_events(weather_condition):
 
     # Filter: future events within 7 days, no junk names
     junk = ["cookie", "sign up", "log in", "privacy", "terms"]
+    # Skip restaurants and permanent attractions - we want actual events
+    not_events = ["sarma", "holiday lights", "consignment", "restaurant",
+                  "mall lights", "2025-2026", "designer consignment"]
     good_events = []
 
     for e in data["events"]:
         name = e.get("name", "")
         if not name or any(j in name.lower() for j in junk):
+            continue
+        if any(n in name.lower() for n in not_events):
             continue
         try:
             event_date = datetime.strptime(e["date"], "%Y-%m-%d").date()
@@ -321,11 +327,38 @@ def load_events(weather_condition):
     return unique_events[:7]
 
 
-def format_message(events, weather_emoji, weather_note):
+# Inspirational quotes
+QUOTES = [
+    "She remembered who she was and the game changed. ✨",
+    "Good things are coming. Keep going. 💫",
+    "You're allowed to be both a masterpiece and a work in progress. 🦋",
+    "Create the life you can't wait to wake up to. ☀️",
+    "Your vibe attracts your tribe. 💕",
+    "She believed she could, so she did. 🌸",
+    "Plot twist: everything works out. 🌙",
+    "Main character energy only. 💅",
+    "Healing isn't linear, but you're doing amazing. 🌷",
+    "The universe has your back, babe. ⭐",
+]
+
+# Weather vibes
+WEATHER_VIBES = {
+    "snow": "Cozy girl winter is HERE. Grab your chai, light a candle, and let's find you some warm indoor plans ❄️",
+    "freezing": "It's giving polar vortex. Time for hot cocoa and cozy indoor vibes 🥶",
+    "rainy": "Rainy days = self care days. Here's some indoor inspo for you 🌧️",
+    "heat": "Hot girl summer called - let's find you some AC and cold drinks 🔥",
+    "mixed": "The weather can't make up its mind but we've got you covered 🌦️",
+    "nice": "Perfect weather alert! Get outside and touch grass bestie ☀️",
+}
+
+
+def format_message(events, weather_emoji, weather_note, weather_condition="nice"):
     """Format events as a simple text message."""
-    header = f"{weather_emoji} Your 7 Picks This Week"
-    if weather_note:
-        header += f"\n{weather_note}"
+    # Get vibes intro
+    vibes = WEATHER_VIBES.get(weather_condition, WEATHER_VIBES["nice"])
+    quote = random.choice(QUOTES)
+
+    header = f"{weather_emoji} Your Weekly Picks\n\n{vibes}"
 
     lines = [header + "\n"]
 
@@ -349,7 +382,9 @@ def format_message(events, weather_emoji, weather_note):
 
         lines.append(line)
 
-    lines.append("\natopofconscience.github.io/mehfil")
+    # Add quote and link
+    lines.append(f"\n{quote}")
+    lines.append("atopofconscience.github.io/mehfil")
     return "\n\n".join(lines)
 
 
@@ -411,7 +446,7 @@ def send_to_all():
         print("No events found!")
         return
 
-    message = format_message(events, emoji, note)
+    message = format_message(events, emoji, note, condition)
 
     print(f"\nSending to {len(data['subscribers'])} subscriber(s)...")
 
@@ -444,7 +479,7 @@ def get_message():
         print("No events found!")
         return None
 
-    return format_message(events, emoji, note)
+    return format_message(events, emoji, note, condition)
 
 
 def clipboard():
