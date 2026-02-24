@@ -288,16 +288,16 @@ def load_events(weather_condition):
         if "Food & Markets" in cats:
             score += 40
 
+        # Free events get a boost
+        price = (e.get("price") or "").lower()
+        if "free" in price:
+            score += 30
+
         # Weather appropriateness
         is_indoor = e.get("is_indoor", True)
         if prefer_indoor and is_indoor:
-            score += 30
+            score += 20
         elif not prefer_indoor and not is_indoor:
-            score += 30
-
-        # Free events get a small boost
-        price = (e.get("price") or "").lower()
-        if "free" in price:
             score += 20
 
         # Has time listed (more organized)
