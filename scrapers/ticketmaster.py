@@ -112,7 +112,11 @@ class TicketmasterScraper(BaseScraper):
 
         name = re.sub(r'\s+', ' ', name).strip()
 
-        if name.lower() in ["see tickets", "view details", "buy tickets"]:
+        # Filter out junk
+        junk = ["see tickets", "view details", "buy tickets", "parking",
+                "food & beverage", "voucher", "not a concert ticket",
+                "coat check", "lounge:", "premium tickets"]
+        if any(j in name.lower() for j in junk):
             return None
 
         return Event(

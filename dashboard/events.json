@@ -11492,6 +11492,60 @@
       ],
       "latitude": 42.3601,
       "longitude": -71.0589
+    },
+    {
+      "id": "b396866c-fbf7-433a-adc0-e77373a4826a",
+      "name": "Zakir Khan Live",
+      "date": "2026-05-22",
+      "time": "7:00 PM",
+      "location": "Boch Center Wang Theatre",
+      "address": "270 Tremont St, Boston, MA",
+      "price": "See Ticketmaster",
+      "description": "Indian standup comedian Zakir Khan live in Boston.",
+      "url": "https://www.ticketmaster.com/zakir-khan-tickets/artist/2927498",
+      "source": "Ticketmaster",
+      "categories": [
+        "South Asian",
+        "Comedy"
+      ],
+      "latitude": 42.3519,
+      "longitude": -71.0636
+    },
+    {
+      "id": "76e539dc-31a7-4f7e-9a11-2cf9f2ff52d0",
+      "name": "Kanan Gill: Not This Again",
+      "date": "2026-10-04",
+      "time": "7:00 PM",
+      "location": "The Wilbur",
+      "address": "246 Tremont St, Boston, MA",
+      "price": "See Ticketmaster",
+      "description": "Indian standup comedian Kanan Gill brings his new tour to Boston.",
+      "url": "https://www.ticketmaster.com/kanan-gill-tickets/artist/2612498",
+      "source": "Ticketmaster",
+      "categories": [
+        "South Asian",
+        "Comedy"
+      ],
+      "latitude": 42.3519,
+      "longitude": -71.0643
+    },
+    {
+      "id": "b98e2c7a-c1ea-4741-83e9-b01cecd7ecfc",
+      "name": "Bollywood Night w/ DJ Moksha",
+      "date": "2026-04-03",
+      "time": "10:00 PM",
+      "location": "Middle East - Zuzu",
+      "address": "472 Massachusetts Ave, Cambridge, MA",
+      "price": "See Ticketmaster",
+      "description": "Bollywood dance party with DJ Moksha.",
+      "url": "https://www.ticketmaster.com/bollywood-night-tickets/artist/123",
+      "source": "Ticketmaster",
+      "categories": [
+        "South Asian",
+        "Music & Dance"
+      ],
+      "latitude": 42.3629,
+      "longitude": -71.1003
     }
   ],
   "updated": "2026-02-24T06:08:45.608166"
