@@ -1,6 +1,9 @@
 # Environment variables (KEEP PRIVATE)
 .env
 
+# iMessage subscribers (phone numbers - KEEP PRIVATE)
+imessage_subscribers.json
+
 # Python
 __pycache__/
 *.py[cod]
