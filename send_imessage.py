@@ -1,20 +1,38 @@
 #!/usr/bin/env python3
 """
 Send weekly event picks via iMessage with weather-aware recommendations.
-Just run: python send_imessage.py
 
-No setup required - uses your Mac's Messages app directly.
+Usage:
+  python send_imessage.py              # Send to all subscribers
+  python send_imessage.py --add        # Add a subscriber
+  python send_imessage.py --list       # List subscribers
+  python send_imessage.py --remove     # Remove a subscriber
+  python send_imessage.py --preview    # Preview message only
+
+No external setup required - uses your Mac's Messages app directly.
 """
 
 import json
 import subprocess
 import urllib.request
+import sys
+import os
 from datetime import datetime, timedelta
+from pathlib import Path
 
 
 # Boston coordinates
 BOSTON_LAT = 42.3601
 BOSTON_LON = -71.0589
+
+# Subscribers file
+SUBSCRIBERS_FILE = Path(__file__).parent / "imessage_subscribers.json"
+
+# Weather thresholds (adjusted per user feedback)
+HEAT_THRESHOLD = 35  # °C - heat wave
+FREEZING_THRESHOLD = -5  # °C - freezing cold
+SNOW_THRESHOLD = 2  # cm - significant snow
+RAIN_THRESHOLD = 15  # mm - heavy rain
 
 # Indoor categories (good for bad weather)
 INDOOR_CATEGORIES = [
@@ -28,12 +46,96 @@ OUTDOOR_CATEGORIES = [
 ]
 
 
+def load_subscribers():
+    """Load subscribers from JSON file."""
+    if SUBSCRIBERS_FILE.exists():
+        with open(SUBSCRIBERS_FILE) as f:
+            return json.load(f)
+    return {"subscribers": []}
+
+
+def save_subscribers(data):
+    """Save subscribers to JSON file."""
+    with open(SUBSCRIBERS_FILE, "w") as f:
+        json.dump(data, f, indent=2)
+
+
+def add_subscriber():
+    """Add a new subscriber."""
+    data = load_subscribers()
+
+    print("Add iMessage Subscriber")
+    print("-" * 30)
+    phone = input("Phone number or iMessage email: ").strip()
+    name = input("Name (optional): ").strip()
+
+    if not phone:
+        print("No phone number entered.")
+        return
+
+    # Check if already exists
+    for sub in data["subscribers"]:
+        if sub["phone"] == phone:
+            print(f"Already subscribed: {phone}")
+            return
+
+    data["subscribers"].append({
+        "phone": phone,
+        "name": name or phone,
+        "added": datetime.now().isoformat()
+    })
+
+    save_subscribers(data)
+    print(f"Added: {name or phone} ({phone})")
+
+
+def remove_subscriber():
+    """Remove a subscriber."""
+    data = load_subscribers()
+
+    if not data["subscribers"]:
+        print("No subscribers.")
+        return
+
+    print("Current subscribers:")
+    for i, sub in enumerate(data["subscribers"], 1):
+        print(f"  {i}. {sub['name']} ({sub['phone']})")
+
+    choice = input("\nEnter number to remove (or 'cancel'): ").strip()
+
+    if choice.lower() == 'cancel':
+        return
+
+    try:
+        idx = int(choice) - 1
+        removed = data["subscribers"].pop(idx)
+        save_subscribers(data)
+        print(f"Removed: {removed['name']}")
+    except (ValueError, IndexError):
+        print("Invalid selection.")
+
+
+def list_subscribers():
+    """List all subscribers."""
+    data = load_subscribers()
+
+    if not data["subscribers"]:
+        print("No subscribers yet.")
+        print("Run: python send_imessage.py --add")
+        return
+
+    print(f"Subscribers ({len(data['subscribers'])}):")
+    print("-" * 40)
+    for sub in data["subscribers"]:
+        print(f"  {sub['name']}: {sub['phone']}")
+
+
 def get_weather_forecast():
     """Get 7-day weather forecast for Boston using Open-Meteo (free, no API key)."""
     url = (
         f"https://api.open-meteo.com/v1/forecast?"
         f"latitude={BOSTON_LAT}&longitude={BOSTON_LON}"
-        f"&daily=temperature_2m_max,temperature_2m_min,precipitation_sum,snowfall_sum,weathercode"
+        f"&daily=temperature_2m_max,temperature_2m_min,precipitation_sum,snowfall_sum,weather_code"
         f"&timezone=America/New_York"
         f"&forecast_days=7"
     )
@@ -50,53 +152,63 @@ def get_weather_forecast():
 def analyze_weather(weather_data):
     """Analyze weather and return conditions + recommendation."""
     if not weather_data:
-        return None, "unknown", ""
+        return "unknown", "📅", ""
 
-    dates = weather_data.get("date", [])
+    dates = weather_data.get("time", [])
     temps_max = weather_data.get("temperature_2m_max", [])
     temps_min = weather_data.get("temperature_2m_min", [])
     rain = weather_data.get("precipitation_sum", [])
     snow = weather_data.get("snowfall_sum", [])
-    codes = weather_data.get("weathercode", [])
+    codes = weather_data.get("weather_code", [])
 
-    # Weather code meanings (WMO codes)
-    # 0-3: Clear/Cloudy, 45-48: Fog, 51-67: Rain/Drizzle, 71-77: Snow, 80-82: Showers, 85-86: Snow showers, 95-99: Thunderstorm
+    # WMO weather codes: 71-77 = snow, 51-67 = rain/drizzle, 80-82 = showers, 95-99 = thunderstorm
 
-    bad_days = []
     total_rain = sum(rain) if rain else 0
     total_snow = sum(snow) if snow else 0
-    avg_high = sum(temps_max) / len(temps_max) if temps_max else 50
+    avg_high = sum(temps_max) / len(temps_max) if temps_max else 10
+    avg_low = sum(temps_min) / len(temps_min) if temps_min else 0
 
-    # Check for bad weather days
+    # Count snow days
+    snow_days = sum(1 for s in snow if s > 0)
+
+    # Find specific bad weather days
+    bad_weather_days = []
     for i, code in enumerate(codes):
-        if code >= 51:  # Any precipitation
-            bad_days.append(dates[i] if i < len(dates) else f"Day {i+1}")
+        if code >= 71 and code <= 77:  # Snow codes
+            day_name = datetime.strptime(dates[i], "%Y-%m-%d").strftime("%A")
+            bad_weather_days.append(f"{day_name} (snow)")
+        elif code >= 51 and code <= 67:  # Rain codes
+            day_name = datetime.strptime(dates[i], "%Y-%m-%d").strftime("%A")
+            bad_weather_days.append(f"{day_name} (rain)")
 
     # Determine overall condition
-    if total_snow > 5:
+    if total_snow >= SNOW_THRESHOLD or snow_days >= 2:
         condition = "snow"
         emoji = "❄️"
-        note = f"Snow expected ({total_snow:.1f}cm) - cozy indoor picks!"
-    elif total_rain > 20:
-        condition = "rainy"
-        emoji = "🌧️"
-        note = f"Rainy week ahead ({total_rain:.1f}mm) - indoor events!"
-    elif avg_high > 30:  # 86°F
-        condition = "heat"
-        emoji = "🔥"
-        note = f"Heat wave ({avg_high:.0f}°C highs) - stay cool indoors!"
-    elif avg_high < 0:  # Below freezing
+        if bad_weather_days:
+            note = f"Snow on {bad_weather_days[0].split()[0]} - cozy indoor picks!"
+        else:
+            note = f"Snow expected ({total_snow:.1f}cm) - staying warm indoors!"
+    elif avg_low <= FREEZING_THRESHOLD:
         condition = "freezing"
         emoji = "🥶"
-        note = f"Freezing temps ({avg_high:.0f}°C) - warm indoor spots!"
-    elif len(bad_days) >= 4:
+        note = f"Brutal cold ({avg_low:.0f}°C lows) - warm indoor events!"
+    elif total_rain >= RAIN_THRESHOLD:
+        condition = "rainy"
+        emoji = "🌧️"
+        note = f"Rainy week ({total_rain:.0f}mm) - indoor activities!"
+    elif avg_high >= HEAT_THRESHOLD:
+        condition = "heat"
+        emoji = "🔥"
+        note = f"Heat wave ({avg_high:.0f}°C) - AC is your friend!"
+    elif len(bad_weather_days) >= 3:
         condition = "mixed"
         emoji = "🌦️"
         note = "Mixed weather - mostly indoor picks"
     else:
         condition = "nice"
         emoji = "☀️"
-        note = f"Great week ahead ({avg_high:.0f}°C) - get outside!"
+        note = f"Nice week ahead ({avg_high:.0f}°C) - great for outdoors!"
 
     return condition, emoji, note
 
@@ -132,7 +244,7 @@ def is_indoor_event(event):
 
 def load_events(weather_condition):
     """Load and filter events, prioritizing based on weather."""
-    with open("dashboard/events.json") as f:
+    with open(Path(__file__).parent / "dashboard/events.json") as f:
         data = json.load(f)
 
     today = datetime.now().date()
@@ -214,7 +326,7 @@ def format_message(events, weather_emoji, weather_note):
 
 def send_imessage(phone_number, message):
     """Send iMessage using AppleScript."""
-    # Escape quotes and newlines for AppleScript
+    # Escape quotes and backslashes for AppleScript
     message = message.replace('\\', '\\\\').replace('"', '\\"')
 
     script = f'''
@@ -232,18 +344,26 @@ def send_imessage(phone_number, message):
     )
 
     if result.returncode == 0:
-        print(f"Sent to {phone_number}")
         return True
     else:
-        print(f"Error: {result.stderr}")
+        print(f"  Error sending to {phone_number}: {result.stderr}")
         return False
 
 
-def main():
+def send_to_all():
+    """Send weekly picks to all subscribers."""
+    data = load_subscribers()
+
+    if not data["subscribers"]:
+        print("No subscribers yet!")
+        print("Add yourself: python send_imessage.py --add")
+        return
+
     print("Fetching Boston weather forecast...")
     weather_data = get_weather_forecast()
     condition, emoji, note = analyze_weather(weather_data)
-    print(f"  Weather: {emoji} {condition} - {note}")
+    print(f"  Weather: {emoji} {condition}")
+    print(f"  {note}")
 
     print("\nLoading events (weather-adjusted)...")
     events = load_events(condition)
@@ -254,17 +374,64 @@ def main():
 
     message = format_message(events, emoji, note)
 
-    print("\n--- Preview ---")
-    print(message)
-    print("--- End Preview ---\n")
+    print(f"\nSending to {len(data['subscribers'])} subscriber(s)...")
 
-    YOUR_NUMBER = input("Enter your phone number or iMessage email (or 'skip' to just preview): ").strip()
+    sent = 0
+    failed = 0
+    for sub in data["subscribers"]:
+        print(f"  Sending to {sub['name']}...", end=" ")
+        if send_imessage(sub["phone"], message):
+            print("✓")
+            sent += 1
+        else:
+            print("✗")
+            failed += 1
 
-    if YOUR_NUMBER.lower() == 'skip':
-        print("Preview only - not sent.")
+    print(f"\nDone! Sent: {sent}, Failed: {failed}")
+
+
+def preview():
+    """Preview the message without sending."""
+    print("Fetching Boston weather forecast...")
+    weather_data = get_weather_forecast()
+    condition, emoji, note = analyze_weather(weather_data)
+    print(f"  Weather: {emoji} {condition}")
+    print(f"  {note}")
+
+    print("\nLoading events (weather-adjusted)...")
+    events = load_events(condition)
+
+    if not events:
+        print("No events found!")
         return
 
-    send_imessage(YOUR_NUMBER, message)
+    message = format_message(events, emoji, note)
+
+    print("\n" + "=" * 50)
+    print("MESSAGE PREVIEW")
+    print("=" * 50)
+    print(message)
+    print("=" * 50)
+
+
+def main():
+    if len(sys.argv) > 1:
+        arg = sys.argv[1].lower()
+        if arg == "--add":
+            add_subscriber()
+        elif arg == "--remove":
+            remove_subscriber()
+        elif arg == "--list":
+            list_subscribers()
+        elif arg == "--preview":
+            preview()
+        elif arg == "--help":
+            print(__doc__)
+        else:
+            print(f"Unknown option: {arg}")
+            print("Use --help for usage info")
+    else:
+        send_to_all()
 
 
 if __name__ == "__main__":
