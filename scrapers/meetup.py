@@ -131,6 +131,14 @@ class MeetupScraper(BaseScraper):
 
         return events
 
+    # Junk text to filter out (cookie banners, nav elements, etc.)
+    JUNK_NAMES = [
+        "cookie settings", "cookie preferences", "accept cookies",
+        "sign up", "log in", "login", "sign in", "join",
+        "see all", "view all", "load more", "show more",
+        "privacy policy", "terms of service",
+    ]
+
     def _parse_event_link(self, link):
         """Parse an event link into an Event object."""
         url = link.get("href", "")
@@ -139,6 +147,10 @@ class MeetupScraper(BaseScraper):
 
         name = link.get_text(strip=True)
         if not name or len(name) < 5:
+            return None
+
+        # Filter out junk names
+        if name.lower() in self.JUNK_NAMES or any(junk in name.lower() for junk in self.JUNK_NAMES):
             return None
 
         return Event(
@@ -173,6 +185,10 @@ class MeetupScraper(BaseScraper):
 
         # Clean up
         name = re.sub(r'\s+', ' ', name).strip()
+
+        # Filter out junk names
+        if name.lower() in self.JUNK_NAMES or any(junk in name.lower() for junk in self.JUNK_NAMES):
+            return None
 
         # Get date/time if available
         date_elem = card.find("time")
