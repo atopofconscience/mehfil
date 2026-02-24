@@ -1,15 +1,16 @@
 #!/usr/bin/env python3
 """
-Send weekly event picks via iMessage with weather-aware recommendations.
+Send weekly event picks with weather-aware recommendations.
 
 Usage:
-  python send_imessage.py              # Send to all subscribers
+  python send_imessage.py              # Copy to clipboard (default)
+  python send_imessage.py --preview    # Preview message only
+  python send_imessage.py --send       # Send via iMessage (requires permissions)
   python send_imessage.py --add        # Add a subscriber
   python send_imessage.py --list       # List subscribers
   python send_imessage.py --remove     # Remove a subscriber
-  python send_imessage.py --preview    # Preview message only
 
-No external setup required - uses your Mac's Messages app directly.
+No external setup required.
 """
 
 import json
@@ -324,6 +325,16 @@ def format_message(events, weather_emoji, weather_note):
     return "\n\n".join(lines)
 
 
+def copy_to_clipboard(message):
+    """Copy message to clipboard using pbcopy."""
+    result = subprocess.run(
+        ["pbcopy"],
+        input=message.encode(),
+        capture_output=True
+    )
+    return result.returncode == 0
+
+
 def send_imessage(phone_number, message):
     """Send iMessage using AppleScript."""
     # Escape quotes and backslashes for AppleScript
@@ -390,8 +401,8 @@ def send_to_all():
     print(f"\nDone! Sent: {sent}, Failed: {failed}")
 
 
-def preview():
-    """Preview the message without sending."""
+def get_message():
+    """Generate the weather-aware message."""
     print("Fetching Boston weather forecast...")
     weather_data = get_weather_forecast()
     condition, emoji, note = analyze_weather(weather_data)
@@ -403,9 +414,33 @@ def preview():
 
     if not events:
         print("No events found!")
+        return None
+
+    return format_message(events, emoji, note)
+
+
+def clipboard():
+    """Copy message to clipboard."""
+    message = get_message()
+    if not message:
         return
 
-    message = format_message(events, emoji, note)
+    if copy_to_clipboard(message):
+        print("\n" + "=" * 50)
+        print("COPIED TO CLIPBOARD!")
+        print("Just open Messages and paste (⌘V)")
+        print("=" * 50)
+        print(message)
+        print("=" * 50)
+    else:
+        print("Failed to copy to clipboard.")
+
+
+def preview():
+    """Preview the message without sending."""
+    message = get_message()
+    if not message:
+        return
 
     print("\n" + "=" * 50)
     print("MESSAGE PREVIEW")
@@ -425,13 +460,16 @@ def main():
             list_subscribers()
         elif arg == "--preview":
             preview()
+        elif arg == "--send":
+            send_to_all()
         elif arg == "--help":
             print(__doc__)
         else:
             print(f"Unknown option: {arg}")
             print("Use --help for usage info")
     else:
-        send_to_all()
+        # Default: copy to clipboard
+        clipboard()
 
 
 if __name__ == "__main__":
