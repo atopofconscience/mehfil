@@ -267,30 +267,40 @@ def load_events(weather_condition):
         except:
             continue
 
-    # Sort by date first
-    good_events.sort(key=lambda x: x["date"])
+    # Group events by date
+    from collections import defaultdict
+    by_date = defaultdict(list)
+    for e in good_events:
+        by_date[e["date"]].append(e)
 
-    # Weather-based prioritization
+    # Weather-based prioritization within each day
     prefer_indoor = weather_condition in ["snow", "rainy", "heat", "freezing", "mixed"]
 
-    if prefer_indoor:
-        # Put indoor events first, then outdoor
-        indoor = [e for e in good_events if e.get("is_indoor", True)]
-        outdoor = [e for e in good_events if not e.get("is_indoor", True)]
-        good_events = indoor + outdoor
-    else:
-        # Nice weather - mix it up, slight preference for outdoor
-        outdoor = [e for e in good_events if not e.get("is_indoor", True)]
-        indoor = [e for e in good_events if e.get("is_indoor", True)]
-        # Interleave: outdoor, indoor, outdoor, indoor...
-        good_events = []
-        for i in range(max(len(outdoor), len(indoor))):
-            if i < len(outdoor):
-                good_events.append(outdoor[i])
-            if i < len(indoor):
-                good_events.append(indoor[i])
+    for date in by_date:
+        if prefer_indoor:
+            by_date[date].sort(key=lambda e: (0 if e.get("is_indoor", True) else 1))
+        else:
+            by_date[date].sort(key=lambda e: (1 if e.get("is_indoor", True) else 0))
 
-    return good_events[:7]
+    # Pick events spread across the week (1-2 per day)
+    sorted_dates = sorted(by_date.keys())
+    picks = []
+
+    # First pass: 1 event per day
+    for date in sorted_dates:
+        if len(picks) >= 7:
+            break
+        if by_date[date]:
+            picks.append(by_date[date].pop(0))
+
+    # Second pass: fill remaining slots with best events from days with more options
+    for date in sorted_dates:
+        if len(picks) >= 7:
+            break
+        while by_date[date] and len(picks) < 7:
+            picks.append(by_date[date].pop(0))
+
+    return picks
 
 
 def format_message(events, weather_emoji, weather_note):
