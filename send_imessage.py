@@ -349,7 +349,7 @@ def format_message(events, weather_emoji, weather_note):
 
         lines.append(line)
 
-    lines.append("\nmehfil.com")
+    lines.append("\natopofconscience.github.io/mehfil")
     return "\n\n".join(lines)
 
 
