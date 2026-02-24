@@ -1,193 +1,131 @@
-"""Scraper for Ticketmaster events."""
+"""Scraper for Ticketmaster events using Playwright."""
 
 import re
-import requests
 from datetime import datetime
 from typing import List
 from bs4 import BeautifulSoup
+
+try:
+    from playwright.sync_api import sync_playwright
+    PLAYWRIGHT_AVAILABLE = True
+except ImportError:
+    PLAYWRIGHT_AVAILABLE = False
+
 from .base import BaseScraper, Event, SOUTH_ASIAN_KEYWORDS, MIDDLE_EASTERN_KEYWORDS, CATEGORY_KEYWORDS
 
 
 class TicketmasterScraper(BaseScraper):
-    """Scrapes Ticketmaster for South Asian and Middle Eastern concerts/shows in Boston."""
+    """Scrapes Ticketmaster for South Asian and Middle Eastern events in Boston."""
 
     SOURCE_NAME = "Ticketmaster"
 
-    # Artists and search terms popular with South Asian/Middle Eastern audiences
+    # Search terms - comedians, artists, cultural events
     SEARCH_TERMS = [
-        # South Asian artists/terms
-        "arijit singh",
-        "ar rahman",
-        "shreya ghoshal",
-        "atif aslam",
-        "neha kakkar",
-        "badshah",
-        "diljit dosanjh",
-        "ap dhillon",
-        "karan aujla",
-        "bollywood",
-        "indian",
-        "desi",
-        "bhangra",
-        "punjabi",
-        # Middle Eastern artists/terms
-        "arabic",
-        "persian",
-        "lebanese",
-        "belly dance",
-        # Comedy
-        "hasan minhaj",
-        "russell peters",
-        "vir das",
-        "aziz ansari",
-        # Cultural
-        "qawwali",
-        "ghazal",
-        "sufi",
+        # South Asian comedians - male
+        "vir das", "samay raina", "zakir khan", "kenny sebastian",
+        "abhishek upmanyu", "kanan gill", "anubhav singh bassi",
+        # South Asian comedians - female
+        "aditi mittal", "sumukhi suresh", "kaneez surka", "urooj ashfaq",
+        "aishwarya mohanraj", "prashasti singh", "neeti palta",
+        "shreeja chaturvedi", "agrima joshua",
+        # Middle Eastern comedians
+        "hasan minhaj", "maz jobrani", "mo amer", "ramy youssef",
+        # Music artists
+        "arijit singh", "shreya ghoshal", "ar rahman", "pritam",
+        "atif aslam", "rahat fateh ali khan", "sonu nigam",
+        "sunidhi chauhan", "neha kakkar",
+        # Cultural keywords
+        "bollywood", "desi party", "holi", "diwali", "navratri",
+        "bhangra", "garba", "qawwali",
     ]
 
     def __init__(self):
         self.base_url = "https://www.ticketmaster.com"
-        self.search_url = "https://www.ticketmaster.com/search"
-        self.headers = {
-            "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36"
-        }
 
     def scrape(self) -> List[Event]:
-        """Scrape Ticketmaster for community events."""
+        """Scrape Ticketmaster for cultural events."""
+        if not PLAYWRIGHT_AVAILABLE:
+            print("  Playwright not available, skipping Ticketmaster")
+            return []
+
         all_events = []
         seen_urls = set()
 
-        for term in self.SEARCH_TERMS:
-            try:
-                events = self._search_term(term)
-                for event in events:
-                    if event.url not in seen_urls:
-                        seen_urls.add(event.url)
-                        all_events.append(event)
-            except Exception as e:
-                print(f"  Error scraping Ticketmaster for '{term}': {e}")
+        try:
+            with sync_playwright() as p:
+                browser = p.chromium.launch(headless=True)
+                context = browser.new_context(
+                    user_agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36"
+                )
+                page = context.new_page()
+
+                for term in self.SEARCH_TERMS:
+                    try:
+                        events = self._search(page, term)
+                        for event in events:
+                            if event.url not in seen_urls:
+                                seen_urls.add(event.url)
+                                all_events.append(event)
+                                print(f"    Found: {event.name}")
+                    except Exception as e:
+                        continue
+
+                browser.close()
+        except Exception as e:
+            print(f"  Playwright error: {e}")
 
         return all_events
 
-    def _search_term(self, term: str) -> List[Event]:
-        """Search for a specific term on Ticketmaster."""
-        # Use the discovery API endpoint format
-        search_url = f"{self.search_url}?q={term.replace(' ', '+')}&loc=Boston%2C+MA"
-
-        response = requests.get(search_url, headers=self.headers, timeout=15)
-        if response.status_code != 200:
-            return []
-
-        soup = BeautifulSoup(response.text, "html.parser")
+    def _search(self, page, query: str) -> List[Event]:
+        """Search Ticketmaster for events near Boston."""
         events = []
 
-        # Find event cards
-        event_cards = soup.find_all("div", {"class": lambda c: c and "event" in str(c).lower()}) or \
-                      soup.find_all("a", {"class": lambda c: c and "event" in str(c).lower()}) or \
-                      soup.find_all("li", {"class": lambda c: c and "result" in str(c).lower()})
+        search_url = f"{self.base_url}/search?q={query}&lat=42.3601&long=-71.0589&radius=50"
+        page.goto(search_url, wait_until="domcontentloaded", timeout=30000)
+        page.wait_for_timeout(2000)
 
-        for card in event_cards[:10]:
+        html = page.content()
+        soup = BeautifulSoup(html, "html.parser")
+
+        # Find event links
+        event_links = soup.find_all("a", href=lambda h: h and "/event/" in str(h))
+
+        for link in event_links[:10]:
             try:
-                event = self._parse_event_card(card, term)
-                if event and self._is_boston_area(event):
+                event = self._parse_event_link(link, query)
+                if event:
                     events.append(event)
             except Exception:
                 continue
 
         return events
 
-    def _parse_event_card(self, card, search_term: str):
-        """Parse an event card into an Event object."""
-        link = card.find("a", href=True) if card.name != "a" else card
-        if not link:
-            return None
-
+    def _parse_event_link(self, link, search_term: str):
+        """Parse an event link into an Event object."""
         url = link.get("href", "")
         if not url.startswith("http"):
             url = self.base_url + url
 
-        # Get title
-        title_elem = card.find(["h2", "h3", "span"], {"class": lambda c: c and "title" in str(c).lower()}) or \
-                     card.find(["h2", "h3"])
-        name = title_elem.get_text(strip=True) if title_elem else link.get_text(strip=True)
-
-        if not name or len(name) < 3:
+        name = link.get_text(strip=True)
+        if not name or len(name) < 5:
             return None
 
-        # Get date
-        date_elem = card.find(["time", "span", "div"], {"class": lambda c: c and "date" in str(c).lower()})
-        date = datetime.now()
-        time_str = None
+        name = re.sub(r'\s+', ' ', name).strip()
 
-        if date_elem:
-            date_text = date_elem.get_text(strip=True)
-            date, time_str = self._parse_date_time(date_text)
-
-        # Get venue/location
-        venue_elem = card.find(["span", "div"], {"class": lambda c: c and ("venue" in str(c).lower() or "location" in str(c).lower())})
-        location = venue_elem.get_text(strip=True) if venue_elem else "Boston, MA"
-
-        # Get price
-        price_elem = card.find(["span", "div"], {"class": lambda c: c and "price" in str(c).lower()})
-        price = None
-        if price_elem:
-            price_text = price_elem.get_text(strip=True)
-            match = re.search(r'\$[\d,]+(?:\.\d{2})?', price_text)
-            if match:
-                price = match.group(0)
+        if name.lower() in ["see tickets", "view details", "buy tickets"]:
+            return None
 
         return Event(
             name=name,
-            date=date,
-            time=time_str,
-            location=location,
-            price=price,
+            date=datetime.now(),
+            location="Boston Area",
             url=url,
             source=self.SOURCE_NAME,
             category=self._categorize(name, search_term),
         )
 
-    def _is_boston_area(self, event: Event) -> bool:
-        """Check if event is in Boston area."""
-        if not event.location:
-            return True
-        location_lower = event.location.lower()
-        boston_areas = ["boston", "cambridge", "somerville", "brookline", "newton",
-                        "quincy", "medford", "malden", "everett", "chelsea", "ma"]
-        return any(area in location_lower for area in boston_areas)
-
-    def _parse_date_time(self, date_text: str):
-        """Parse date and time from text."""
-        date = datetime.now()
-        time_str = None
-
-        time_match = re.search(r'(\d{1,2}:\d{2}\s*(?:AM|PM|am|pm)?)', date_text)
-        if time_match:
-            time_str = time_match.group(1).strip()
-
-        formats = [
-            "%a, %b %d, %Y", "%B %d, %Y", "%b %d, %Y",
-            "%m/%d/%Y", "%a %b %d", "%b %d",
-        ]
-
-        date_only = re.sub(r'\d{1,2}:\d{2}\s*(?:AM|PM|am|pm)?', '', date_text).strip()
-        date_only = re.sub(r'\s+', ' ', date_only).strip(' ,·•-')
-
-        for fmt in formats:
-            try:
-                parsed = datetime.strptime(date_only, fmt)
-                date = parsed.replace(year=datetime.now().year)
-                if date < datetime.now():
-                    date = date.replace(year=datetime.now().year + 1)
-                break
-            except ValueError:
-                continue
-
-        return date, time_str
-
     def _categorize(self, name: str, search_term: str) -> List[str]:
-        """Assign categories based on event content."""
+        """Categorize event based on content."""
         text = f"{name} {search_term}".lower()
         categories = []
 
@@ -201,8 +139,7 @@ class TicketmasterScraper(BaseScraper):
                 if cat not in categories:
                     categories.append(cat)
 
-        # Default to Music & Dance for Ticketmaster
         if not categories:
-            categories = ["Music & Dance"]
+            categories.append("Comedy" if "comedy" in text else "Music & Dance")
 
         return categories

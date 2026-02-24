@@ -28,10 +28,23 @@ SOUTH_ASIAN_KEYWORDS = [
     "south asian", "indian", "pakistani", "bengali", "desi", "nepali", "sri lankan",
     "bangladeshi", "afghan", "tamil", "punjabi", "gujarati", "marathi", "telugu",
     "bollywood", "bhangra", "garba", "dandiya", "kathak", "bharatanatyam",
+    "odissi", "kuchipudi", "mohiniyattam", "lavani",
     "holi", "diwali", "navratri", "durga puja", "ganesh", "onam", "pongal", "baisakhi",
     "biryani", "samosa", "chai", "tandoori", "naan", "curry", "masala", "thali",
     "mehndi", "henna", "rangoli", "sari", "saree", "kurta", "salwar",
     "cricket", "kabaddi", "carrom",
+    "ghazal", "qawwali", "sufi", "hindustani classical", "carnatic", "jugalbandi",
+    # Comedians - male
+    "vir das", "samay raina", "zakir khan", "biswa kalyan", "kenny sebastian",
+    "abhishek upmanyu", "kanan gill", "tanmay bhat", "anubhav singh bassi",
+    "kunal kamra",
+    # Comedians - female
+    "aishwarya mohanraj", "prashasti singh", "neeti palta", "sumukhi suresh",
+    "kaneez surka", "aditi mittal", "urooj ashfaq", "shreeja chaturvedi",
+    "supriya joshi", "agrima joshua", "swati sachdeva", "kajol srinivasan",
+    # Music artists
+    "arijit singh", "shreya ghoshal", "ar rahman", "pritam", "amit trivedi",
+    "sunidhi chauhan", "neha kakkar", "shreya ghoshal", "lata mangeshkar",
 ]
 
 MIDDLE_EASTERN_KEYWORDS = [
@@ -40,8 +53,10 @@ MIDDLE_EASTERN_KEYWORDS = [
     "eid", "ramadan", "iftar", "nowruz", "norooz",
     "mosque", "masjid", "islamic", "muslim",
     "halal", "falafel", "hummus", "shawarma", "kebab", "kabob", "baklava", "tahini",
-    "belly dance", "dabke", "oud", "arabic music",
+    "belly dance", "dabke", "oud", "arabic music", "turkish music",
     "hookah", "shisha", "arabic calligraphy",
+    # Comedians & artists
+    "maz jobrani", "hasan minhaj", "mo amer", "ramy youssef", "ahmed ahmed",
 ]
 
 CATEGORY_KEYWORDS = {
