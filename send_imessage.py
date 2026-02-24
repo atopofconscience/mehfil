@@ -267,40 +267,58 @@ def load_events(weather_condition):
         except:
             continue
 
-    # Group events by date
-    from collections import defaultdict
-    by_date = defaultdict(list)
-    for e in good_events:
-        by_date[e["date"]].append(e)
-
-    # Weather-based prioritization within each day
+    # Score each event by relevance
     prefer_indoor = weather_condition in ["snow", "rainy", "heat", "freezing", "mixed"]
 
-    for date in by_date:
-        if prefer_indoor:
-            by_date[date].sort(key=lambda e: (0 if e.get("is_indoor", True) else 1))
-        else:
-            by_date[date].sort(key=lambda e: (1 if e.get("is_indoor", True) else 0))
+    def score_event(e):
+        score = 0
+        cats = e.get("categories", [])
 
-    # Pick events spread across the week (1-2 per day)
-    sorted_dates = sorted(by_date.keys())
-    picks = []
+        # Community relevance (highest priority)
+        if "South Asian" in cats:
+            score += 100
+        if "Middle Eastern" in cats:
+            score += 100
 
-    # First pass: 1 event per day
-    for date in sorted_dates:
-        if len(picks) >= 7:
-            break
-        if by_date[date]:
-            picks.append(by_date[date].pop(0))
+        # Cultural events
+        if "Cultural Festival" in cats:
+            score += 50
+        if "Music & Dance" in cats:
+            score += 40
+        if "Food & Markets" in cats:
+            score += 40
 
-    # Second pass: fill remaining slots with best events from days with more options
-    for date in sorted_dates:
-        if len(picks) >= 7:
-            break
-        while by_date[date] and len(picks) < 7:
-            picks.append(by_date[date].pop(0))
+        # Weather appropriateness
+        is_indoor = e.get("is_indoor", True)
+        if prefer_indoor and is_indoor:
+            score += 30
+        elif not prefer_indoor and not is_indoor:
+            score += 30
 
-    return picks
+        # Free events get a small boost
+        price = (e.get("price") or "").lower()
+        if "free" in price:
+            score += 20
+
+        # Has time listed (more organized)
+        if e.get("time"):
+            score += 10
+
+        return score
+
+    # Sort by score (highest first), then by date
+    good_events.sort(key=lambda e: (-score_event(e), e["date"]))
+
+    # Remove duplicates (same name)
+    seen_names = set()
+    unique_events = []
+    for e in good_events:
+        name = e["name"].lower().strip()
+        if name not in seen_names:
+            seen_names.add(name)
+            unique_events.append(e)
+
+    return unique_events[:7]
 
 
 def format_message(events, weather_emoji, weather_note):
