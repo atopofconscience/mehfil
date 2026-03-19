@@ -1,9 +1,9 @@
 {
   "events": [
     {
-      "id": "327d508d-cacd-8182-9556-f935b8a543bc",
+      "id": "328d508d-cacd-8199-ad17-d5f5b02e8f71",
       "name": "American Indian Sovereignty, Law, Writing, and Self-Determination: A Northeastern University Colloquium",
-      "date": "2026-03-18",
+      "date": "2026-03-19",
       "time": "",
       "location": "Northeastern University, Boston, MA",
       "address": "",
@@ -18,9 +18,9 @@
       "longitude": -71.0892
     },
     {
-      "id": "327d508d-cacd-8127-9c9d-fef946b1ff1f",
+      "id": "328d508d-cacd-813e-964a-ef45d6c773f7",
       "name": "Arabic, Persian, and Turkish Language Table",
-      "date": "2026-03-18",
+      "date": "2026-03-19",
       "time": "",
       "location": "Harvard University, Cambridge, MA",
       "address": "",
@@ -35,9 +35,43 @@
       "longitude": -71.1167
     },
     {
-      "id": "327d508d-cacd-816d-9e34-daf619a81505",
+      "id": "328d508d-cacd-816c-a6f3-c2b99e171046",
+      "name": "MITHAS presents: Abhishek Raghuram and Shashank (Carnatic Vocal and Flute)",
+      "date": "2026-03-19",
+      "time": "",
+      "location": "MIT Campus, Cambridge, MA",
+      "address": "",
+      "price": "",
+      "description": "",
+      "url": "https://calendar.mit.edu/event/mithas-presents-abhishek-raghuram-and-shashank",
+      "source": "MIT Events",
+      "categories": [
+        "South Asian"
+      ],
+      "latitude": 42.3601,
+      "longitude": -71.0942
+    },
+    {
+      "id": "328d508d-cacd-81b1-a80a-c61902426bc5",
+      "name": "MITHAS presents: Ganesh & Kumaresh (Carnatic Violin)",
+      "date": "2026-03-19",
+      "time": "",
+      "location": "MIT Campus, Cambridge, MA",
+      "address": "",
+      "price": "",
+      "description": "",
+      "url": "https://calendar.mit.edu/event/mithas-presents-ganesh-kumaresh-carnatic-violin",
+      "source": "MIT Events",
+      "categories": [
+        "South Asian"
+      ],
+      "latitude": 42.3601,
+      "longitude": -71.0942
+    },
+    {
+      "id": "328d508d-cacd-816f-a135-d3a7302e49f1",
       "name": "Holi, A Festival Of Colors! (Boston)Sat, Mar 21 \u00b7 11:00 AM EDTby \ud83d\ude0b 20's & 30's Social Boston",
-      "date": "2026-03-18",
+      "date": "2026-03-19",
       "time": "",
       "location": "Boston, MA",
       "address": "",
@@ -54,9 +88,9 @@
       "longitude": null
     },
     {
-      "id": "327d508d-cacd-81c0-8a83-ea55d272b8bd",
+      "id": "328d508d-cacd-81df-910e-cc944f17ee60",
       "name": "Chinese Calligraphy Workshop",
-      "date": "2026-03-18",
+      "date": "2026-03-19",
       "time": "",
       "location": "zhao art studio",
       "address": "",
@@ -71,9 +105,9 @@
       "longitude": null
     },
     {
-      "id": "327d508d-cacd-813d-873a-cbdbb2141ed2",
+      "id": "328d508d-cacd-816e-a70e-f00033c19643",
       "name": "Pottery Wheel Class | One Time",
-      "date": "2026-03-18",
+      "date": "2026-03-19",
       "time": "",
       "location": "Clay Lounge",
       "address": "",
@@ -88,9 +122,9 @@
       "longitude": null
     },
     {
-      "id": "327d508d-cacd-8192-ae15-c981c55c025a",
+      "id": "328d508d-cacd-81db-ac1e-eed70688d288",
       "name": "The American Revolution: A Story of the War in 28 Paintings",
-      "date": "2026-03-18",
+      "date": "2026-03-19",
       "time": "",
       "location": "Cabot House",
       "address": "",
@@ -106,9 +140,9 @@
       "longitude": null
     },
     {
-      "id": "327d508d-cacd-8197-b1d6-f6628ae4b76d",
+      "id": "328d508d-cacd-8100-8530-deca6e884ff9",
       "name": "SWETSTUDIO | Aerial Yoga and Fitness in the South End",
-      "date": "2026-03-18",
+      "date": "2026-03-19",
       "time": "",
       "location": "SWETSTUDIO\u00ae",
       "address": "",
@@ -123,9 +157,9 @@
       "longitude": null
     },
     {
-      "id": "327d508d-cacd-8175-b378-da1466be8e4d",
+      "id": "328d508d-cacd-81ea-b9f0-cbbf2e9113fd",
       "name": "Castanet Designer Consignment",
-      "date": "2026-03-18",
+      "date": "2026-03-19",
       "time": "",
       "location": "Castanet Designer Consignment",
       "address": "",
@@ -140,9 +174,9 @@
       "longitude": null
     },
     {
-      "id": "327d508d-cacd-81e0-a7b5-c191725b7b47",
+      "id": "328d508d-cacd-8120-adbd-dbe960f83c69",
       "name": "Sarma: Turkish & Mediterranean Small Plates | Somerville",
-      "date": "2026-03-18",
+      "date": "2026-03-19",
       "time": "",
       "location": "Sarma",
       "address": "",
@@ -157,9 +191,9 @@
       "longitude": null
     },
     {
-      "id": "327d508d-cacd-81c4-a9d6-d8b39140f24b",
+      "id": "328d508d-cacd-81e4-b423-f47fa85bb02b",
       "name": "The Paint Bar: Painting Classes for Work Events | Newton",
-      "date": "2026-03-18",
+      "date": "2026-03-19",
       "time": "",
       "location": "The Paint Bar",
       "address": "",
@@ -175,9 +209,9 @@
       "longitude": null
     },
     {
-      "id": "327d508d-cacd-81ac-866b-ee1158b5e002",
+      "id": "328d508d-cacd-8160-aa75-fc48896d3759",
       "name": "Comm Ave Mall Holiday Lights: 2025-2026 Season",
-      "date": "2026-03-18",
+      "date": "2026-03-19",
       "time": "",
       "location": "Commonwealth Avenue Mall",
       "address": "",
@@ -193,9 +227,9 @@
       "longitude": null
     },
     {
-      "id": "327d508d-cacd-81dd-ae9e-fa8aa89eb375",
+      "id": "328d508d-cacd-81cc-95c6-f945f635bbcd",
       "name": "Karen Aqua Gallery Exhibit, \"When Dreams Take Shape\"",
-      "date": "2026-03-18",
+      "date": "2026-03-19",
       "time": "",
       "location": "Cambridge Community Television",
       "address": "",
@@ -210,9 +244,9 @@
       "longitude": null
     },
     {
-      "id": "327d508d-cacd-8152-aa36-e3f03811740b",
+      "id": "328d508d-cacd-81a9-b549-fe7e3381722b",
       "name": "The Immortal Magu: A Sixteenth-Century Chinese Painting Up Close",
-      "date": "2026-03-18",
+      "date": "2026-03-19",
       "time": "",
       "location": "Davis Museum at Wellesley College",
       "address": "",
@@ -228,9 +262,9 @@
       "longitude": null
     },
     {
-      "id": "327d508d-cacd-81c6-9c18-dcd7268fd9f9",
+      "id": "328d508d-cacd-81b3-812d-f8ca52a67844",
       "name": "Open Now \u2014'Material Dialogues: Artist Unresidency, 2025-2026 at UMB Archives' Exhibition",
-      "date": "2026-03-18",
+      "date": "2026-03-19",
       "time": "",
       "location": "Healey Library at UMass Boston",
       "address": "",
@@ -245,9 +279,9 @@
       "longitude": null
     },
     {
-      "id": "327d508d-cacd-8122-9f47-e134f215fbe6",
+      "id": "328d508d-cacd-81cb-b727-d56fc45ddae7",
       "name": "New Exhibition + Artist Talk: Lynne Kortenhaus at Paul Dietrich Gallery",
-      "date": "2026-03-18",
+      "date": "2026-03-19",
       "time": "",
       "location": "The Paul Dietrich Gallery at CambridgeSeven",
       "address": "",
@@ -263,9 +297,9 @@
       "longitude": null
     },
     {
-      "id": "327d508d-cacd-812e-aa8c-d380fe329292",
+      "id": "328d508d-cacd-8109-ab84-eff48c7bc004",
       "name": "Michelangelo\u2019s Sistine Chapel: The Exhibition",
-      "date": "2026-03-18",
+      "date": "2026-03-19",
       "time": "",
       "location": "CambridgeSide (Level 2)",
       "address": "",
@@ -280,9 +314,9 @@
       "longitude": null
     },
     {
-      "id": "327d508d-cacd-8115-ad97-c65bad12e329",
+      "id": "328d508d-cacd-8155-9e95-c852367bd358",
       "name": "Sushi Making 101 - Cooking Class by Classpop!",
-      "date": "2026-03-18",
+      "date": "2026-03-19",
       "time": "",
       "location": "Trillium Brewing Company - Fort Point",
       "address": "",
@@ -297,9 +331,9 @@
       "longitude": null
     },
     {
-      "id": "327d508d-cacd-810a-873a-fc67d431cd14",
+      "id": "328d508d-cacd-81cd-88b7-e96771e02b3e",
       "name": "Inspirational Jam: Paintings by Carl Ristaino",
-      "date": "2026-03-18",
+      "date": "2026-03-19",
       "time": "",
       "location": "The Umbrella Arts Center",
       "address": "",
@@ -315,9 +349,9 @@
       "longitude": null
     },
     {
-      "id": "327d508d-cacd-81c1-a541-c0d77f79e35a",
+      "id": "328d508d-cacd-812b-97e9-f10eb4f8fca2",
       "name": "\"Dazzle of the Light\" - Members Spring Exhibition",
-      "date": "2026-03-18",
+      "date": "2026-03-19",
       "time": "",
       "location": "The Guild of Boston Artists",
       "address": "",
@@ -332,9 +366,9 @@
       "longitude": null
     },
     {
-      "id": "327d508d-cacd-8121-aa40-dcbc4be14ceb",
+      "id": "328d508d-cacd-81e8-b933-c225a8803839",
       "name": "\u201cAssembly Required\u201d: Herv\u00e9 Kwimo Explores Fragmentation and Perception in New Boston Exhibition",
-      "date": "2026-03-18",
+      "date": "2026-03-19",
       "time": "",
       "location": "Midway Gallery at Midway Artist Studios",
       "address": "",
@@ -349,9 +383,9 @@
       "longitude": null
     },
     {
-      "id": "327d508d-cacd-81f8-b24b-c92bf7d04217",
+      "id": "328d508d-cacd-8161-8c8d-d3c60023fe76",
       "name": "Winter Workshop: Color Mixing & Theory",
-      "date": "2026-03-18",
+      "date": "2026-03-19",
       "time": "",
       "location": "Arlington Center for the Arts",
       "address": "",
@@ -366,9 +400,9 @@
       "longitude": null
     },
     {
-      "id": "327d508d-cacd-8139-83c3-d4aab8edba95",
+      "id": "328d508d-cacd-81f0-8bae-db71146c385b",
       "name": "Elevated, An Orchid Exhibition at New England Botanic Garden",
-      "date": "2026-03-18",
+      "date": "2026-03-19",
       "time": "",
       "location": "New England Botanic Garden at Tower Hill",
       "address": "",
@@ -381,591 +415,6 @@
       ],
       "latitude": null,
       "longitude": null
-    },
-    {
-      "id": "327d508d-cacd-8132-b2c2-f184deb394d1",
-      "name": "Raja Yoga Meditation Course",
-      "date": "2026-03-18",
-      "time": "",
-      "location": "Brahma Kumaris Learning Center for Peace",
-      "address": "75 Common St., Watertown, MA",
-      "price": "",
-      "description": "Experience Raja Yoga: simple, soulful, and open to all",
-      "url": "https://www.eventbrite.com/e/raja-yoga-meditation-course-tickets-1984654226216",
-      "source": "Eventbrite",
-      "categories": [
-        "Sports & Outdoors",
-        "Religious"
-      ],
-      "latitude": 42.370725,
-      "longitude": -71.17875600000002
-    },
-    {
-      "id": "327d508d-cacd-8135-8353-ec84d114d40e",
-      "name": "Evening Meditation",
-      "date": "2026-03-18",
-      "time": "",
-      "location": "Brahma Kumaris Learning Center for Peace",
-      "address": "75 Common St., Watertown, MA",
-      "price": "",
-      "description": "Unwind and find your calm with a evening Meditation session to clear your mind and relax.",
-      "url": "https://www.eventbrite.com/e/evening-meditation-tickets-1984719233655",
-      "source": "Eventbrite",
-      "categories": [
-        "Religious"
-      ],
-      "latitude": 42.370725,
-      "longitude": -71.17875600000002
-    },
-    {
-      "id": "327d508d-cacd-8174-8b91-e12a91c00af2",
-      "name": "Step Into Culture Dance Group",
-      "date": "2026-03-18",
-      "time": "",
-      "location": "24 Supple Rd",
-      "address": "24 Supple Road, Boston, MA",
-      "price": "",
-      "description": "Cultural Dance Group for all ages. Focuses on the culture and creativity through black and Caribbean Dance.",
-      "url": "https://www.eventbrite.com/e/step-into-culture-dance-group-tickets-1295726335349",
-      "source": "Eventbrite",
-      "categories": [
-        "Music & Dance"
-      ],
-      "latitude": 42.3057016,
-      "longitude": -71.08220589999999
-    },
-    {
-      "id": "327d508d-cacd-81f2-85aa-e15fc7bd3f66",
-      "name": "Kids' Pottery Party - Back Bay",
-      "date": "2026-03-18",
-      "time": "",
-      "location": "279 Newbury St",
-      "address": "279 Newbury Street, Boston, MA",
-      "price": "",
-      "description": "Your kids birthday party! Have an experience of pottery together!",
-      "url": "https://www.eventbrite.com/e/kids-pottery-party-back-bay-tickets-1981562581022",
-      "source": "Eventbrite",
-      "categories": [
-        "Arts & Crafts"
-      ],
-      "latitude": 42.3494005,
-      "longitude": -71.0840573
-    },
-    {
-      "id": "327d508d-cacd-812e-bb97-e473f7cd4ef4",
-      "name": "Love and Clay: Couple's Pottery Class - Back Bay",
-      "date": "2026-03-18",
-      "time": "",
-      "location": "279 Newbury St",
-      "address": "279 Newbury Street, Boston, MA",
-      "price": "",
-      "description": "Surprise your significant other with an unusual and creative activity for your date! Create a pottery masterpiece together!",
-      "url": "https://www.eventbrite.com/e/love-and-clay-couples-pottery-class-back-bay-tickets-1981559721469",
-      "source": "Eventbrite",
-      "categories": [
-        "Arts & Crafts"
-      ],
-      "latitude": 42.3494005,
-      "longitude": -71.0840573
-    },
-    {
-      "id": "327d508d-cacd-81fc-ac3f-d7b3abef9c0a",
-      "name": "Random Acts of Kindness Spree in Boston",
-      "date": "2026-03-18",
-      "time": "",
-      "location": "Thinking Cup",
-      "address": "165 Tremont Street, Boston, MA",
-      "price": "",
-      "description": "Give back, spread kindness, and discover hidden gems of Boston with a live interactive host.",
-      "url": "https://www.eventbrite.com/e/random-acts-of-kindness-spree-in-boston-tickets-1762026822659",
-      "source": "Eventbrite",
-      "categories": [
-        "South Asian",
-        "Cultural Festival"
-      ],
-      "latitude": 42.3540564,
-      "longitude": -71.0637663
-    },
-    {
-      "id": "327d508d-cacd-81ff-a318-fc3f60053729",
-      "name": "THE FUTURE OF AI IN SPORTS, MEDIA AND ENTERTAINMENT",
-      "date": "2026-03-18",
-      "time": "",
-      "location": "Boston Convention and Exhibition Center",
-      "address": "415 Summer Street, Boston, MA",
-      "price": "",
-      "description": "2-DAY EXECUTIVE BRIEFING FOR INDUSTRY LEADERS",
-      "url": "https://www.eventbrite.com/e/the-future-of-ai-in-sports-media-and-entertainment-tickets-1983163397106",
-      "source": "Eventbrite",
-      "categories": [
-        "Middle Eastern",
-        "Sports & Outdoors",
-        "Career & Tech"
-      ],
-      "latitude": 42.3451493,
-      "longitude": -71.0475482
-    },
-    {
-      "id": "327d508d-cacd-8166-972b-c3b5171e4731",
-      "name": "Kids' Pottery Party - South Boston",
-      "date": "2026-03-18",
-      "time": "",
-      "location": "33 A St",
-      "address": "33 A Street, Boston, MA",
-      "price": "",
-      "description": "Your kids birthday party! Have an experience of pottery together!",
-      "url": "https://www.eventbrite.com/e/kids-pottery-party-south-boston-tickets-1983359267961",
-      "source": "Eventbrite",
-      "categories": [
-        "Arts & Crafts"
-      ],
-      "latitude": 42.3411481,
-      "longitude": -71.0560512
-    },
-    {
-      "id": "324d508d-cacd-81d3-91c6-df3398666ba1",
-      "name": "Money In Focus Global Roundtable \u2014 Boston | Capital & Opportunity",
-      "date": "2026-03-18",
-      "time": "",
-      "location": "1 Lincoln St",
-      "address": "1 Lincoln Street, Boston, MA",
-      "price": "",
-      "description": "Private roundtable connecting founders, investors, and strategic leaders for conversations on capital, growth, and global opportunities.",
-      "url": "https://www.eventbrite.com/e/money-in-focus-global-roundtable-boston-capital-opportunity-tickets-1984503634793",
-      "source": "Eventbrite",
-      "categories": [
-        "Career & Tech"
-      ],
-      "latitude": 42.3525753,
-      "longitude": -71.0581196
-    },
-    {
-      "id": "324d508d-cacd-813d-8e65-f1ebe4db6dec",
-      "name": "Alors... Conversation Club",
-      "date": "2026-03-18",
-      "time": "",
-      "location": "French Library / Alliance Fran\u00e7aise of Boston & Cambridge",
-      "address": "53 Marlborough Street, Boston, MA",
-      "price": "",
-      "description": "This event is a perfect opportunity for those who want to practice French in a casual, relaxed setting.",
-      "url": "https://www.eventbrite.com/e/alors-conversation-club-tickets-1980113970188",
-      "source": "Eventbrite",
-      "categories": [
-        "Talks & Lectures",
-        "Cultural Festival"
-      ],
-      "latitude": 42.3542157,
-      "longitude": -71.0748136
-    },
-    {
-      "id": "322d508d-cacd-8113-922b-c27fef047db3",
-      "name": "Open Meditation",
-      "date": "2026-03-18",
-      "time": "",
-      "location": "Advaita Meditation Center",
-      "address": "28 Worcester Lane, Waltham, MA",
-      "price": "",
-      "description": "This class takes place in-person and online every Wednesday night 7 - 8:15pm.",
-      "url": "https://www.eventbrite.com/e/open-meditation-registration-1976880944120",
-      "source": "Eventbrite",
-      "categories": [
-        "Religious"
-      ],
-      "latitude": 42.38916,
-      "longitude": -71.24051639999999
-    },
-    {
-      "id": "322d508d-cacd-81d4-b345-c758c309e7ce",
-      "name": "LGBTQ+ Meditation in Brighton | Rainbow Sangha (Boston)",
-      "date": "2026-03-18",
-      "time": "",
-      "location": "The Presentation School Foundation Community Center",
-      "address": "640 Washington Street, Boston, MA",
-      "price": "",
-      "description": "Weekly LGBTQ+ meditation in Brighton, MA. A beginner-friendly space to reduce stress, build mindfulness, and connect with queer community in",
-      "url": "https://www.eventbrite.com/e/lgbtq-meditation-in-brighton-rainbow-sangha-boston-tickets-1984699629017",
-      "source": "Eventbrite",
-      "categories": [
-        "Religious",
-        "Career & Tech"
-      ],
-      "latitude": 42.3506983,
-      "longitude": -71.169226
-    },
-    {
-      "id": "322d508d-cacd-814d-9789-e1f8a8f702ed",
-      "name": "Patience & Emotional Resilience -Wednesday 7pm meditation class",
-      "date": "2026-03-18",
-      "time": "",
-      "location": "Kadampa Meditation Center Boston",
-      "address": "2298 Massachusetts Avenue, Cambridge, MA",
-      "price": "",
-      "description": "A series of meditation classes in March.  Wednesdays at 7pm in Davis Square. Join any week.",
-      "url": "https://www.eventbrite.com/e/patience-emotional-resilience-wednesday-7pm-meditation-class-tickets-1983727598648",
-      "source": "Eventbrite",
-      "categories": [
-        "Religious"
-      ],
-      "latitude": 42.3950516,
-      "longitude": -71.12790150000001
-    },
-    {
-      "id": "322d508d-cacd-811d-aac1-f1cdb6dd821e",
-      "name": "Free Swing Dance and Lesson",
-      "date": "2026-03-18",
-      "time": "",
-      "location": "Odd Fellows Hall - Friendship Lodge #20 IOOF",
-      "address": "16 Maple Street, Belmont, MA",
-      "price": "",
-      "description": "8PM - Free beginner swing lesson\n9-11PM - Free social swing dancing",
-      "url": "https://www.eventbrite.com/e/free-swing-dance-and-lesson-tickets-1974525768727",
-      "source": "Eventbrite",
-      "categories": [
-        "Music & Dance"
-      ],
-      "latitude": 42.3855695,
-      "longitude": -71.18558809999999
-    },
-    {
-      "id": "322d508d-cacd-8130-9a3f-ed901580cca4",
-      "name": "On Tap at Aeronaut: The Berklee Music Series",
-      "date": "2026-03-18",
-      "time": "",
-      "location": "Aeronaut Brewing Company",
-      "address": "14 Tyler Street, Somerville, MA",
-      "price": "",
-      "description": "Aeronaut Brewing Company and the Berklee Management Club bring you live music from student artists every Wednesday",
-      "url": "https://www.eventbrite.com/e/on-tap-at-aeronaut-the-berklee-music-series-tickets-1980498408052",
-      "source": "Eventbrite",
-      "categories": [
-        "Middle Eastern",
-        "Music & Dance"
-      ],
-      "latitude": 42.38197820000001,
-      "longitude": -71.10625480000002
-    },
-    {
-      "id": "320d508d-cacd-81dc-a930-fd2b9a434799",
-      "name": "Vibrancy & Detail With Abstract Drawing",
-      "date": "2026-03-18",
-      "time": "",
-      "location": "Artisan's Asylum",
-      "address": "96 Holton Street, Boston, MA",
-      "price": "",
-      "description": "Create detailed shapes, prints and patterns while tapping into the flow of your own creative process!",
-      "url": "https://www.eventbrite.com/e/vibrancy-detail-with-abstract-drawing-tickets-1982914442476",
-      "source": "Eventbrite",
-      "categories": [
-        "Arts & Crafts",
-        "Career & Tech"
-      ],
-      "latitude": 42.3598794,
-      "longitude": -71.1379218
-    },
-    {
-      "id": "320d508d-cacd-81b7-8a60-d2ad9e341a57",
-      "name": "Entrepreneurship & Startup Launchpad 1 Day Workshop in Boston, MA",
-      "date": "2026-03-18",
-      "time": "",
-      "location": "For venue information, Please contact us: info@skelora.com",
-      "address": "Boston, MA, Boston, MA",
-      "price": "",
-      "description": "Get ready to kickstart your startup dreams with this one-day hands-on workshop full of tips and tricks to launch your biz!",
-      "url": "https://www.eventbrite.com/e/entrepreneurship-startup-launchpad-1-day-workshop-in-boston-ma-tickets-1984906956138",
-      "source": "Eventbrite",
-      "categories": [
-        "Middle Eastern",
-        "Arts & Crafts",
-        "Career & Tech"
-      ],
-      "latitude": 42.3548561,
-      "longitude": -71.0661193
-    },
-    {
-      "id": "31dd508d-cacd-8149-8baa-e7cb963f08c1",
-      "name": "Street Theory Sounds : A Sade Tribute by DJ Slick Vick",
-      "date": "2026-03-18",
-      "time": "",
-      "location": "Street Theory Collective",
-      "address": "541 Massachusetts Ave., Cambridge, MA",
-      "price": "",
-      "description": "Presented by Central on Air in collaboration with Street Theory Gallery & Collective we bring you Street Theory Sounds; A Sonic Experience.",
-      "url": "https://www.eventbrite.com/e/street-theory-sounds-a-sade-tribute-by-dj-slick-vick-tickets-1984336430681",
-      "source": "Eventbrite",
-      "categories": [
-        "South Asian",
-        "Music & Dance",
-        "Cultural Festival"
-      ],
-      "latitude": 42.3647724,
-      "longitude": -71.10210769999999
-    },
-    {
-      "id": "31dd508d-cacd-8103-987b-c88ba964a525",
-      "name": "The WBUR Breakfast Club: Where Leaders Gather",
-      "date": "2026-03-18",
-      "time": "",
-      "location": "WBUR CitySpace",
-      "address": "890 Commonwealth Avenue, Boston, MA",
-      "price": "",
-      "description": "Our next event features Bombas Co-Founders David Heath and Randy Goldberg in conversation with award-winning journalist Ari Shapiro.",
-      "url": "https://www.eventbrite.com/e/the-wbur-breakfast-club-where-leaders-gather-tickets-1983145361160",
-      "source": "Eventbrite",
-      "categories": [
-        "South Asian",
-        "Cultural Festival"
-      ],
-      "latitude": 42.3508575,
-      "longitude": -71.11565709999999
-    },
-    {
-      "id": "31bd508d-cacd-81d4-895e-cfed920eebca",
-      "name": "Paint & Sip: For the Love of the 99s & 2000s",
-      "date": "2026-03-18",
-      "time": "",
-      "location": "The MIX",
-      "address": "555 Talbot Avenue, Boston, MA",
-      "price": "",
-      "description": "Unwind with drinks and canvas, painting your fave 99s & 2000s vibes in a chill, fun hangout!",
-      "url": "https://www.eventbrite.com/e/paint-sip-for-the-love-of-the-99s-2000s-tickets-1983457197872",
-      "source": "Eventbrite",
-      "categories": [
-        "Arts & Crafts",
-        "Career & Tech"
-      ],
-      "latitude": 42.28607359999999,
-      "longitude": -71.0647498
-    },
-    {
-      "id": "31bd508d-cacd-81b4-9b85-c4c834d6d11f",
-      "name": "MXFITS DRAG AT DANIS 3.18",
-      "date": "2026-03-18",
-      "time": "",
-      "location": "Dani\u2019s Queer Bar",
-      "address": "909 Boylston Street, Boston, MA",
-      "price": "",
-      "description": "The queerdos are bringing their drag shenanigans back to Dani's Boston. Severity, Coleslaw, & Dykleangelo are the MXFITS. Come laugh w us!",
-      "url": "https://www.eventbrite.com/e/mxfits-drag-at-danis-318-tickets-1984565479773",
-      "source": "Eventbrite",
-      "categories": [
-        "Middle Eastern"
-      ],
-      "latitude": 42.3484849,
-      "longitude": -71.084338
-    },
-    {
-      "id": "31ad508d-cacd-813d-9f50-c14849e3eb5c",
-      "name": "East End House Senior Trip to the Harvard Art  Museums",
-      "date": "2026-03-18",
-      "time": "",
-      "location": "Harvard Art Museums",
-      "address": "32 Quincy Street, Cambridge, MA",
-      "price": "",
-      "description": "Come see an exhibit on Celtic art and metalworking at the Harvard Art Museums!",
-      "url": "https://www.eventbrite.com/e/east-end-house-senior-trip-to-the-harvard-art-museums-tickets-1983984961427",
-      "source": "Eventbrite",
-      "categories": [
-        "Arts & Crafts"
-      ],
-      "latitude": 42.3741304,
-      "longitude": -71.11465989999999
-    },
-    {
-      "id": "319d508d-cacd-816e-9f9f-e6edff9590ae",
-      "name": "Pirate Reset Night: themed mindfulness retreat",
-      "date": "2026-03-18",
-      "time": "",
-      "location": "Union Square",
-      "address": "Union Square, Somerville, MA",
-      "price": "",
-      "description": "A fun mindfulness night, with activities designed to use creativity to get you calmed up & closer to the life you want. Calm the f*ck up",
-      "url": "https://www.eventbrite.com/e/pirate-reset-night-themed-mindfulness-retreat-tickets-1984439899158",
-      "source": "Eventbrite",
-      "categories": [
-        "Community"
-      ],
-      "latitude": 42.3796453,
-      "longitude": -71.0956068
-    },
-    {
-      "id": "319d508d-cacd-8130-9d61-ec10396973ac",
-      "name": "Mindfulness & Resilience 1 Day Workshop in Boston, MA",
-      "date": "2026-03-18",
-      "time": "",
-      "location": "For venue information, Please contact us: info@skelora.com",
-      "address": "Boston, MA, Boston, MA, MA",
-      "price": "",
-      "description": "Join us for a day of self-care and empowerment at our Mindfulness & Resilience Workshop - get ready to boost your mental strength!",
-      "url": "https://www.eventbrite.com/e/mindfulness-resilience-1-day-workshop-in-boston-ma-tickets-1971287005499",
-      "source": "Eventbrite",
-      "categories": [
-        "Arts & Crafts"
-      ],
-      "latitude": 42.3548561,
-      "longitude": -71.0661193
-    },
-    {
-      "id": "319d508d-cacd-8175-89dd-f6ed068122f3",
-      "name": "EQ Advantage for Professionals Workshop in Boston, MA",
-      "date": "2026-03-18",
-      "time": "",
-      "location": "For venue information, Please contact us: info@skelora.com",
-      "address": "Boston, MA, Boston, MA",
-      "price": "",
-      "description": "Unleash your professional potential with practical tools and insights at our EQ Advantage Workshop - get ready to level up!",
-      "url": "https://www.eventbrite.com/e/eq-advantage-for-professionals-workshop-in-boston-ma-tickets-1965450603664",
-      "source": "Eventbrite",
-      "categories": [
-        "Middle Eastern",
-        "Arts & Crafts",
-        "Cultural Festival",
-        "Career & Tech"
-      ],
-      "latitude": 42.3548561,
-      "longitude": -71.0661193
-    },
-    {
-      "id": "316d508d-cacd-813f-8fd7-e38e56bd783b",
-      "name": "Yoga for Osteoporosis Series I & II with Masha Leuner",
-      "date": "2026-03-18",
-      "time": "12:30 PM",
-      "location": "Down Under School of Yoga - Wellesley",
-      "address": "",
-      "price": "$160",
-      "description": "Four WednesdaysMarch 18, March 25, April 1, April 812:30-1:45pm \u2022Wellesley& Livestream(159 Linden St. Wellesley, MA 02482)Join Masha Leuner for a transformative 4-week series based on Dr. Loren Fishman\u2019s groundbreakingYoga for Osteoporosismethod. This practice emphasizes strength, stability, and safe alignment, with particular focus on the spine and hips\u2014areas most vulnerable to fracture.Each session combines foundational and advanced postures, offering a comprehensive and adaptable experience. ",
-      "url": "https://downunderyoga.com/upcoming-events/yoga-for-osteoporosis-series-1-2",
-      "source": "Boston Calendar",
-      "categories": [
-        "Arts & Crafts",
-        "Sports & Outdoors"
-      ],
-      "latitude": null,
-      "longitude": null
-    },
-    {
-      "id": "316d508d-cacd-81d7-8d6a-c250476d00d8",
-      "name": "Taste & Learn: The Art of Italian Olive Oil",
-      "date": "2026-03-18",
-      "time": "",
-      "location": "Eataly Boston",
-      "address": "800 Boylston Street, Boston, MA",
-      "price": "",
-      "description": "Join Scuola Chef Tom Arabia for an in-depth tasting and pairing of some of the most delicious extra virgin olive oils Italy has to offer!",
-      "url": "https://www.eventbrite.com/e/taste-learn-the-art-of-italian-olive-oil-tickets-1983984814989",
-      "source": "Eventbrite",
-      "categories": [
-        "Arts & Crafts",
-        "Food & Markets"
-      ],
-      "latitude": 42.34764320000001,
-      "longitude": -71.0825231
-    },
-    {
-      "id": "30bd508d-cacd-8166-8186-da5c9a8544a2",
-      "name": "13th Anniversary Beer & Spirit Dinner",
-      "date": "2026-03-18",
-      "time": "",
-      "location": "Trillium Fort Point",
-      "address": "50 Thomson Place, Boston, MA",
-      "price": "",
-      "description": "Celebrate 13 years with an intimate beer and spirit dinner. Four courses, curated pairings, and exclusive Wake Robin Bourbon access.",
-      "url": "https://www.eventbrite.com/e/13th-anniversary-beer-spirit-dinner-tickets-1980114387436",
-      "source": "Eventbrite",
-      "categories": [
-        "Middle Eastern",
-        "Cultural Festival"
-      ],
-      "latitude": 42.3522002,
-      "longitude": -71.0474223
-    },
-    {
-      "id": "30bd508d-cacd-8159-a59e-f65cf4e6ed9c",
-      "name": "Writing Your Own Declaration: A Writing Workshop",
-      "date": "2026-03-18",
-      "time": "6:00 PM",
-      "location": "North End Branch of the Boston Public Library",
-      "address": "",
-      "price": "Free",
-      "description": "Join the Boston Public Library community to write your own declaration!This program will take place at four branches in Spring 2026.What is in a declaration? How do we declare our own values, thoughts, and ideas and share them with others? This workshop invites patrons into a deep dive of self-exploration and public writing. Join us for an active learning environment where we read, discuss, and draw inspiration from several pieces of declarative writing that emerged over the course of history. P",
-      "url": "https://bpl.bibliocommons.com/events/69790a8f1e64afd01e5716b8",
-      "source": "Boston Calendar",
-      "categories": [
-        "Arts & Crafts",
-        "Community"
-      ],
-      "latitude": null,
-      "longitude": null
-    },
-    {
-      "id": "30ad508d-cacd-817a-96c0-c9d50fb74a6b",
-      "name": "Leading with Conscious Awareness one day workshop in Boston, MA",
-      "date": "2026-03-18",
-      "time": "9:00 AM",
-      "location": "Regus - Boston - Federal Street",
-      "address": "101 Federal Street, Boston, MA",
-      "price": "",
-      "description": "Explore mindful, purpose-driven leadership in a 1-day workshop blending self-awareness, empathy, and holistic practices.",
-      "url": "https://www.eventbrite.com/e/leading-with-conscious-awareness-one-day-workshop-in-boston-ma-tickets-1750496284509",
-      "source": "Eventbrite",
-      "categories": [
-        "Arts & Crafts"
-      ],
-      "latitude": 42.3549614,
-      "longitude": -71.056741
-    },
-    {
-      "id": "30ad508d-cacd-81da-a9e5-c399b2f42166",
-      "name": "Applied Design Research Across Communication Contexts",
-      "date": "2026-03-18",
-      "time": "10:00 AM",
-      "location": "Egan Research Center",
-      "address": "120 Forsyth Street, Boston, MA",
-      "price": "",
-      "description": "This panel shares the work of faculty and graduate students in Journalism, Communication Studies and Media Studies.",
-      "url": "https://www.eventbrite.com/e/applied-design-research-across-communication-contexts-tickets-1982023307066",
-      "source": "Eventbrite",
-      "categories": [
-        "South Asian",
-        "Arts & Crafts"
-      ],
-      "latitude": 42.3376753,
-      "longitude": -71.0888734
-    },
-    {
-      "id": "30ad508d-cacd-8188-8931-c0482685eaa2",
-      "name": "Build-a-Boob Pot Pottery Workshop",
-      "date": "2026-03-18",
-      "time": "6:30 PM",
-      "location": "Short Path Distillery",
-      "address": "71 Kelvin Street, Everett, MA",
-      "price": "",
-      "description": "Craft your own boob pot in this beginner-friendly, body-positive pottery workshop \u2014 get muddy, have fun, and celebrate YOU!",
-      "url": "https://www.eventbrite.com/e/build-a-boob-pot-pottery-workshop-tickets-1979747752822",
-      "source": "Eventbrite",
-      "categories": [
-        "Arts & Crafts"
-      ],
-      "latitude": 42.4053374,
-      "longitude": -71.0665691
-    },
-    {
-      "id": "30ad508d-cacd-81b3-865e-c30c0cce7abd",
-      "name": "Unlock the skills to manage emotions with 1 day workshop in Boston, MA",
-      "date": "2026-03-18",
-      "time": "9:00 AM",
-      "location": "Regus - Boston - Federal Street",
-      "address": "101 Federal Street, Boston, MA",
-      "price": "",
-      "description": "This workshop will equip you with tools to understand, manage and apply emotional intelligence in personal and professional life.",
-      "url": "https://www.eventbrite.com/e/unlock-the-skills-to-manage-emotions-with-1-day-workshop-in-boston-ma-tickets-1745374525189",
-      "source": "Eventbrite",
-      "categories": [
-        "Middle Eastern",
-        "Arts & Crafts",
-        "Cultural Festival"
-      ],
-      "latitude": 42.354949,
-      "longitude": -71.056826
     },
     {
       "id": "327d508d-cacd-8159-8853-c3f29d70cdc7",
@@ -11981,5 +11430,5 @@
       "longitude": null
     }
   ],
-  "updated": "2026-03-18T03:52:09.420631"
+  "updated": "2026-03-19T03:50:23.048536"
 }
