@@ -1,9 +1,9 @@
 {
   "events": [
     {
-      "id": "38ed508d-cacd-81d9-a313-d1a8472caec5",
+      "id": "38fd508d-cacd-81b9-8ce9-d25d2277722b",
       "name": "Do Not Sell or Share My Personal Data",
-      "date": "2026-06-29",
+      "date": "2026-06-30",
       "time": "",
       "location": "Boston, MA",
       "address": "",
@@ -18,9 +18,9 @@
       "longitude": null
     },
     {
-      "id": "38ed508d-cacd-81e6-8fdc-c0c1882be351",
+      "id": "38fd508d-cacd-81e3-b0b4-d629133b9c23",
       "name": "Do Not Sell or Share My Personal Data",
-      "date": "2026-06-29",
+      "date": "2026-06-30",
       "time": "",
       "location": "Boston, MA",
       "address": "",
@@ -35,9 +35,9 @@
       "longitude": null
     },
     {
-      "id": "38ed508d-cacd-812d-baa0-ddefdaf51340",
+      "id": "38fd508d-cacd-81d7-9d4e-e2a4ce1a8df6",
       "name": "Do Not Sell or Share My Personal Data",
-      "date": "2026-06-29",
+      "date": "2026-06-30",
       "time": "",
       "location": "Boston, MA",
       "address": "",
@@ -53,9 +53,9 @@
       "longitude": null
     },
     {
-      "id": "38ed508d-cacd-8129-9a6f-ff3b6215db6c",
+      "id": "38fd508d-cacd-8131-876b-cb0884c7e02e",
       "name": "Do Not Sell or Share My Personal Data",
-      "date": "2026-06-29",
+      "date": "2026-06-30",
       "time": "",
       "location": "Boston, MA",
       "address": "",
@@ -70,9 +70,9 @@
       "longitude": null
     },
     {
-      "id": "38ed508d-cacd-81a1-80ce-f8fc507b18eb",
+      "id": "38fd508d-cacd-819b-bef2-f569e14e8750",
       "name": "Do Not Sell or Share My Personal Data",
-      "date": "2026-06-29",
+      "date": "2026-06-30",
       "time": "",
       "location": "Boston, MA",
       "address": "",
@@ -88,9 +88,9 @@
       "longitude": null
     },
     {
-      "id": "38ed508d-cacd-81c2-9588-df5c20afa4bd",
+      "id": "38fd508d-cacd-81ea-8b15-f91909898f44",
       "name": "Do Not Sell or Share My Personal Data",
-      "date": "2026-06-29",
+      "date": "2026-06-30",
       "time": "",
       "location": "Boston, MA",
       "address": "",
@@ -105,9 +105,9 @@
       "longitude": null
     },
     {
-      "id": "38ed508d-cacd-818b-91ce-c4031cf47593",
+      "id": "38fd508d-cacd-8127-a114-c364c5e31be5",
       "name": "Do Not Sell or Share My Personal Data",
-      "date": "2026-06-29",
+      "date": "2026-06-30",
       "time": "",
       "location": "Boston, MA",
       "address": "",
@@ -123,9 +123,9 @@
       "longitude": null
     },
     {
-      "id": "38ed508d-cacd-811e-968e-ca4409a5c1bc",
+      "id": "38fd508d-cacd-8138-8c82-dcde6e9b12ea",
       "name": "Do Not Sell or Share My Personal Data",
-      "date": "2026-06-29",
+      "date": "2026-06-30",
       "time": "",
       "location": "Boston, MA",
       "address": "",
@@ -141,9 +141,9 @@
       "longitude": null
     },
     {
-      "id": "38ed508d-cacd-81b5-9d2a-cdb87834876e",
+      "id": "38fd508d-cacd-8108-9aec-e3c2588974be",
       "name": "Do Not Sell or Share My Personal Data",
-      "date": "2026-06-29",
+      "date": "2026-06-30",
       "time": "",
       "location": "Boston, MA",
       "address": "",
@@ -159,9 +159,47 @@
       "longitude": null
     },
     {
-      "id": "38ed508d-cacd-814b-aeeb-efd120809e3a",
+      "id": "38fd508d-cacd-81d2-b7fb-d763d3a33569",
+      "name": "Board Game Night with Designers! @ Church on the HillTue, Jun 30 \u00b7 6:00 PM EDTby Game Makers Guild",
+      "date": "2026-06-30",
+      "time": "",
+      "location": "Boston, MA",
+      "address": "",
+      "price": "",
+      "description": "",
+      "url": "https://www.meetup.com/game-makers-guild/events/314470540/?eventOrigin=city_events_today",
+      "source": "Meetup",
+      "categories": [
+        "South Asian",
+        "Religious"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "38fd508d-cacd-8134-96db-fd2713f2911a",
+      "name": "Microsoft Scout, Meet Tula: Extending the Same Agent Runtime to Patient CareTue, Jun 30 \u00b7 5:00 PM EDTby Boston Healthcare Cloud & AI Community",
+      "date": "2026-06-30",
+      "time": "",
+      "location": "Boston, MA",
+      "address": "",
+      "price": "",
+      "description": "",
+      "url": "https://www.meetup.com/healthcare-tech-community/events/315200051/?eventOrigin=city_events_today",
+      "source": "Meetup",
+      "categories": [
+        "Middle Eastern",
+        "Sports & Outdoors",
+        "Career & Tech",
+        "Community"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "38fd508d-cacd-81f7-82f5-f69dc1be30e4",
       "name": "Chinese Calligraphy Workshop",
-      "date": "2026-06-29",
+      "date": "2026-06-30",
       "time": "",
       "location": "zhao art studio",
       "address": "",
@@ -176,26 +214,9 @@
       "longitude": null
     },
     {
-      "id": "38ed508d-cacd-816a-9ce8-c43cc5bee65e",
-      "name": "Pottery Wheel Class | One Time",
-      "date": "2026-06-29",
-      "time": "",
-      "location": "Clay Lounge",
-      "address": "",
-      "price": "",
-      "description": "",
-      "url": "https://www.thebostoncalendar.com/events/pottery-wheel-class-one-time",
-      "source": "Boston Calendar",
-      "categories": [
-        "Arts & Crafts"
-      ],
-      "latitude": null,
-      "longitude": null
-    },
-    {
-      "id": "38ed508d-cacd-816a-8987-e5d97af616b5",
+      "id": "38fd508d-cacd-8133-9afb-d4239b9101be",
       "name": "Patriots of Color Exhibition",
-      "date": "2026-06-29",
+      "date": "2026-06-30",
       "time": "",
       "location": "American Ancestors",
       "address": "",
@@ -210,9 +231,26 @@
       "longitude": null
     },
     {
-      "id": "38ed508d-cacd-813e-befa-f8cb90d98625",
+      "id": "38fd508d-cacd-818a-acaf-dde11dffb67d",
+      "name": "Pottery Wheel Class | One Time",
+      "date": "2026-06-30",
+      "time": "",
+      "location": "Clay Lounge",
+      "address": "",
+      "price": "",
+      "description": "",
+      "url": "https://www.thebostoncalendar.com/events/pottery-wheel-class-one-time",
+      "source": "Boston Calendar",
+      "categories": [
+        "Arts & Crafts"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "38fd508d-cacd-81f6-a6f5-f726874c2d15",
       "name": "Make Epic Sushi Rolls With Chef Harold in Roxbury - Cooking Class by Classpop!",
-      "date": "2026-06-29",
+      "date": "2026-06-30",
       "time": "",
       "location": "Long Live Beerworks",
       "address": "",
@@ -227,9 +265,9 @@
       "longitude": null
     },
     {
-      "id": "38ed508d-cacd-8158-9721-fceb4672addb",
+      "id": "38fd508d-cacd-812a-b896-eb79a72ffbec",
       "name": "2026 Handmade Photobook Exhibition",
-      "date": "2026-06-29",
+      "date": "2026-06-30",
       "time": "",
       "location": "Griffin Museum of Photography",
       "address": "",
@@ -244,9 +282,9 @@
       "longitude": null
     },
     {
-      "id": "38ed508d-cacd-81ff-8fe6-e0043196633e",
+      "id": "38fd508d-cacd-81d7-bef2-d3f5dbb25f85",
       "name": "New Exhibition + Artist Talk: Steve Imrich and Kathryn Geismar at Paul Dietrich Gallery",
-      "date": "2026-06-29",
+      "date": "2026-06-30",
       "time": "",
       "location": "Paul Dietrich Gallery at CambridgeSeven",
       "address": "",
@@ -262,9 +300,9 @@
       "longitude": null
     },
     {
-      "id": "38ed508d-cacd-818a-8fc0-d21a628fa45a",
+      "id": "38fd508d-cacd-81f3-b18b-cf0751051365",
       "name": "Learning with Trees Exhibition",
-      "date": "2026-06-29",
+      "date": "2026-06-30",
       "time": "",
       "location": "Boston City Hall",
       "address": "",
@@ -279,9 +317,9 @@
       "longitude": null
     },
     {
-      "id": "38ed508d-cacd-81ae-9950-f66358ac56a7",
+      "id": "38fd508d-cacd-812d-802e-e6ef2d36a113",
       "name": "Art for a Change Exhibition",
-      "date": "2026-06-29",
+      "date": "2026-06-30",
       "time": "",
       "location": "Boston City Hall",
       "address": "",
@@ -296,9 +334,9 @@
       "longitude": null
     },
     {
-      "id": "38ed508d-cacd-81f6-979e-fc507ab2b6cc",
+      "id": "38fd508d-cacd-8118-b7b3-c1d8613c8aa4",
       "name": "Community Yoga at Urban Park",
-      "date": "2026-06-29",
+      "date": "2026-06-30",
       "time": "",
       "location": "Urban Park Roof Garden",
       "address": "",
@@ -314,9 +352,9 @@
       "longitude": null
     },
     {
-      "id": "38ed508d-cacd-813f-ae85-d0d918bd709f",
+      "id": "38fd508d-cacd-819c-adf7-cd4bdca9de3b",
       "name": "Short Course in Sustainable Fashion: Design, Impact, and Practice",
-      "date": "2026-06-29",
+      "date": "2026-06-30",
       "time": "",
       "location": "The School of Fashion Design",
       "address": "",
@@ -332,9 +370,9 @@
       "longitude": null
     },
     {
-      "id": "38ed508d-cacd-8139-89bd-c0bd2a2cbd54",
+      "id": "38fd508d-cacd-8134-893c-ee3ab2dafad1",
       "name": "Sarma: Turkish & Mediterranean Small Plates | Somerville",
-      "date": "2026-06-29",
+      "date": "2026-06-30",
       "time": "",
       "location": "Sarma",
       "address": "",
@@ -349,9 +387,9 @@
       "longitude": null
     },
     {
-      "id": "38ed508d-cacd-81e7-affc-cefe2848ccca",
+      "id": "38fd508d-cacd-8163-b878-c083d26e12fd",
       "name": "The Paint Bar: Painting Classes for Work Events | Newton",
-      "date": "2026-06-29",
+      "date": "2026-06-30",
       "time": "",
       "location": "The Paint Bar",
       "address": "",
@@ -367,9 +405,9 @@
       "longitude": null
     },
     {
-      "id": "38ed508d-cacd-81e2-aa60-e21afd0c3437",
+      "id": "38fd508d-cacd-8145-9e3f-ca98a4fbb90c",
       "name": "Castanet Designer Consignment",
-      "date": "2026-06-29",
+      "date": "2026-06-30",
       "time": "",
       "location": "Castanet Designer Consignment",
       "address": "",
@@ -384,9 +422,9 @@
       "longitude": null
     },
     {
-      "id": "38ed508d-cacd-81db-bcec-f010f0f128fb",
+      "id": "38fd508d-cacd-81c7-b737-e879a92077b2",
       "name": "SWETSTUDIO | Aerial Yoga and Fitness in the South End",
-      "date": "2026-06-29",
+      "date": "2026-06-30",
       "time": "",
       "location": "SWETSTUDIO\u00ae",
       "address": "",
@@ -401,9 +439,9 @@
       "longitude": null
     },
     {
-      "id": "38ed508d-cacd-81e7-b374-ce34f4d817e3",
+      "id": "38fd508d-cacd-81c0-9b69-e85d1233f996",
       "name": "Make Epic Sushi Rolls With Chef Harold at a Local Distillery - Cooking Class by Classpop!",
-      "date": "2026-06-29",
+      "date": "2026-06-30",
       "time": "",
       "location": "Short Path Distillery",
       "address": "",
@@ -418,9 +456,9 @@
       "longitude": null
     },
     {
-      "id": "38ed508d-cacd-81a7-9195-fd31a36dc7e6",
+      "id": "38fd508d-cacd-8121-81ae-fe9949a86e03",
       "name": "Caleb Cain Marcus| A Thousand Rectangles: On Design and the Expression of Art",
-      "date": "2026-06-29",
+      "date": "2026-06-30",
       "time": "",
       "location": "Griffin Museum of Photography",
       "address": "",
@@ -437,9 +475,9 @@
       "longitude": null
     },
     {
-      "id": "38ed508d-cacd-81a1-8e0e-f4fbe5fb1255",
+      "id": "38fd508d-cacd-8128-90ec-dfe6b9bffe03",
       "name": "The American Revolution: A Story of the War in 28 Paintings",
-      "date": "2026-06-29",
+      "date": "2026-06-30",
       "time": "",
       "location": "Cabot House",
       "address": "",
@@ -455,9 +493,9 @@
       "longitude": null
     },
     {
-      "id": "38ed508d-cacd-81d1-abf8-de1c9beec5e0",
+      "id": "38fd508d-cacd-81db-a765-ea692b047564",
       "name": "Blue Cross Blue Shield of MA Celebrates Pride Month with Return of Proud Bikes to Bluebikes System",
-      "date": "2026-06-29",
+      "date": "2026-06-30",
       "time": "",
       "location": "Any Blue Bike Station",
       "address": "",
@@ -472,15 +510,33 @@
       "longitude": null
     },
     {
-      "id": "38ed508d-cacd-8178-8bab-c9ce32902960",
-      "name": "Figure Drawing",
-      "date": "2026-06-29",
-      "time": "6:30 PM",
-      "location": "Artisans Asylum",
+      "id": "38fd508d-cacd-81c6-89f7-d5da5b10ce78",
+      "name": "Full Moon Yoga @ The Museum Of Modern Renaissance Somerville MA!",
+      "date": "2026-06-30",
+      "time": "7:00 PM",
+      "location": "Museum of Modern Renaissance",
       "address": "",
       "price": "",
       "description": "",
-      "url": "https://www.thebostoncalendar.com/events/figure-drawing--14",
+      "url": "https://www.thebostoncalendar.com/events/sunday-morning-yoga-museum-of-modern-renaissance",
+      "source": "Boston Calendar",
+      "categories": [
+        "Sports & Outdoors",
+        "Career & Tech"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "38fd508d-cacd-8186-a9d2-f4cc9fa64a37",
+      "name": "(Online) Lightroom Basics 2: Basic Tools with Boston Photography Workshops",
+      "date": "2026-06-30",
+      "time": "7:00 PM",
+      "location": "Boston Photography Workshops",
+      "address": "",
+      "price": "",
+      "description": "",
+      "url": "https://www.thebostoncalendar.com/events/online-lightroom-basics-2-basic-tools-with-boston-photography-workshops--14",
       "source": "Boston Calendar",
       "categories": [
         "Arts & Crafts"
@@ -489,50 +545,32 @@
       "longitude": null
     },
     {
-      "id": "38ed508d-cacd-81c4-a66e-d8b86bb80fd1",
-      "name": "FREE Watercolor Workshop at Lyrik Back Bay",
-      "date": "2026-06-29",
-      "time": "4:00 PM",
-      "location": "Lyrik Back Bay",
+      "id": "38fd508d-cacd-812b-bb59-c7db6d4d9789",
+      "name": "Blue Line Flex @ Suffolk Downs - Vinyasa Yoga by The Point Barre & Yoga",
+      "date": "2026-06-30",
+      "time": "6:00 PM",
+      "location": "The Yard",
       "address": "",
       "price": "",
       "description": "",
-      "url": "https://www.thebostoncalendar.com/events/free-watercolor-workshop-at-lyrik-back-bay--3",
+      "url": "https://www.thebostoncalendar.com/events/blue-line-flex-suffolk-downs-vinyasa-yoga-by-the-point-barre-yoga--4",
       "source": "Boston Calendar",
       "categories": [
-        "Arts & Crafts"
+        "Sports & Outdoors"
       ],
       "latitude": null,
       "longitude": null
     },
     {
-      "id": "38ed508d-cacd-81d6-a9e9-d4f2b5299ef5",
+      "id": "38fd508d-cacd-81ef-9539-fe1ca62c5c27",
       "name": "Gallery Talk - Independence Forever",
-      "date": "2026-06-29",
-      "time": "2:00 PM",
-      "location": "Massachusetts Historical Society",
-      "address": "",
-      "price": "",
-      "description": "",
-      "url": "https://www.thebostoncalendar.com/events/gallery-talk-independence-forever",
-      "source": "Boston Calendar",
-      "categories": [
-        "Arts & Crafts",
-        "Talks & Lectures"
-      ],
-      "latitude": null,
-      "longitude": null
-    },
-    {
-      "id": "38ed508d-cacd-8127-931a-d91c60de7823",
-      "name": "Gallery Talk - 1776: Declaring Independence",
-      "date": "2026-06-29",
+      "date": "2026-06-30",
       "time": "10:00 AM",
       "location": "Massachusetts Historical Society",
       "address": "",
       "price": "",
       "description": "",
-      "url": "https://www.thebostoncalendar.com/events/gallery-talk-1776-declaring-independence--2",
+      "url": "https://www.thebostoncalendar.com/events/gallery-talk-independence-forever--2",
       "source": "Boston Calendar",
       "categories": [
         "Arts & Crafts",
@@ -540,179 +578,6 @@
       ],
       "latitude": null,
       "longitude": null
-    },
-    {
-      "id": "38cd508d-cacd-8133-b479-e28289928e77",
-      "name": "Evening Meditation",
-      "date": "2026-06-29",
-      "time": "",
-      "location": "Brahma Kumaris Learning Center for Peace",
-      "address": "75 Common St., Watertown, MA",
-      "price": "",
-      "description": "Unwind and find your calm with a evening Meditation session to clear your mind and relax.",
-      "url": "https://www.eventbrite.com/e/evening-meditation-tickets-1984719306874",
-      "source": "Eventbrite",
-      "categories": [
-        "South Asian",
-        "Music & Dance",
-        "Religious"
-      ],
-      "latitude": 42.370725,
-      "longitude": -71.17875600000002
-    },
-    {
-      "id": "38ad508d-cacd-81de-b468-e00d7a3e1618",
-      "name": "Dance Sassy with Chris \u2013 Unleash Your Diva! (M/W, Dance Complex)",
-      "date": "2026-06-29",
-      "time": "",
-      "location": "The Dance Complex",
-      "address": "536 Massachusetts Avenue, Cambridge, MA",
-      "price": "",
-      "description": "Own the floor with Dance Sassy! High-energy moves, fierce vibes, and pure confidence. Channel your inner diva. Dance, slay, repeat!",
-      "url": "https://www.eventbrite.com/e/dance-sassy-with-chris-unleash-your-diva-mw-dance-complex-tickets-1985083981626",
-      "source": "Eventbrite",
-      "categories": [
-        "Music & Dance"
-      ],
-      "latitude": 42.3642172,
-      "longitude": -71.1022944
-    },
-    {
-      "id": "388d508d-cacd-81ac-af31-c4690a43060d",
-      "name": "HWX Summer Series: Yoga by Republic Fitness on The Greenway",
-      "date": "2026-06-29",
-      "time": "",
-      "location": "Rowes Wharf Lawn",
-      "address": "10 Rowes Wharf, Boston, MA",
-      "price": "",
-      "description": "Wind down your Monday with a free Vinyasa Flow Yoga class on The Greenway",
-      "url": "https://www.eventbrite.com/e/hwx-summer-series-yoga-by-republic-fitness-on-the-greenway-tickets-1988571932180",
-      "source": "Eventbrite",
-      "categories": [
-        "Sports & Outdoors"
-      ],
-      "latitude": 42.3568748,
-      "longitude": -71.0503334
-    },
-    {
-      "id": "388d508d-cacd-81d9-8e8c-ca85f4f838ce",
-      "name": "Korean in Cambridge MA | Korean Classes for Beginners to Advanced",
-      "date": "2026-06-29",
-      "time": "",
-      "location": "The Foundry",
-      "address": "101 Rogers Street, Cambridge, MA",
-      "price": "",
-      "description": "Learn Korean in Boston, Cambridge MA. Korean classes and lessons for absolute beginners, intermediate, and advanced students.",
-      "url": "https://www.eventbrite.com/e/korean-in-cambridge-ma-korean-classes-for-beginners-to-advanced-tickets-1991389411336",
-      "source": "Eventbrite",
-      "categories": [
-        "Community"
-      ],
-      "latitude": 42.3666874,
-      "longitude": -71.0827391
-    },
-    {
-      "id": "388d508d-cacd-81ed-9459-f4acedbbc45c",
-      "name": "Figure Drawing",
-      "date": "2026-06-29",
-      "time": "",
-      "location": "Artisan's Asylum",
-      "address": "96 Holton Street, Boston, MA",
-      "price": "",
-      "description": "Join us for our weekly evening of figure drawing with a live nude model at Artisans Asylum.",
-      "url": "https://www.eventbrite.com/e/figure-drawing-tickets-1986998659479",
-      "source": "Eventbrite",
-      "categories": [
-        "Arts & Crafts"
-      ],
-      "latitude": 42.3598794,
-      "longitude": -71.1379218
-    },
-    {
-      "id": "37dd508d-cacd-81a6-8e4c-d7520414557b",
-      "name": "Full Moon Yoga & Soundscape @ Museum of Modern Renaissance Somerville MA!",
-      "date": "2026-06-29",
-      "time": "",
-      "location": "Museum of Modern Renaissance",
-      "address": "115 College Avenue, Somerville, MA",
-      "price": "",
-      "description": "Join us for this  Special Monday night Full \"Strawberry\" Moon Yoga & Soundscape @ The Museum Of Modern Renaissance Somerville MA!",
-      "url": "https://www.eventbrite.com/e/full-moon-yoga-soundscape-museum-of-modern-renaissance-somerville-ma-tickets-1990926110591",
-      "source": "Eventbrite",
-      "categories": [
-        "Sports & Outdoors",
-        "Career & Tech"
-      ],
-      "latitude": 42.39981239999999,
-      "longitude": -71.1179052
-    },
-    {
-      "id": "37dd508d-cacd-811e-8904-ccc7f504536d",
-      "name": "Vegan Spanish Paella Feast - Cooking Class in Boston | Cozymeal\u2122",
-      "date": "2026-06-29",
-      "time": "",
-      "location": "Location provided after booking",
-      "address": "Somerville, MA",
-      "price": "",
-      "description": "",
-      "url": "https://www.eventbrite.com/e/vegan-spanish-paella-feast-cooking-class-in-boston-cozymealtm-tickets-1988030387405",
-      "source": "Eventbrite",
-      "categories": [
-        "Food & Markets"
-      ],
-      "latitude": 42.3839227,
-      "longitude": -71.10868
-    },
-    {
-      "id": "353d508d-cacd-81fb-9542-c1841d0a490c",
-      "name": "CCC Summer Camp 2026",
-      "date": "2026-06-29",
-      "time": "",
-      "location": "Beebe School",
-      "address": "401 Pleasant Street, Malden, MA",
-      "price": "",
-      "description": "K\u20136 summer camp: explore Chinese language & culture through crafts, games & outdoor fun. Make friends, build confidence\u2014open to all levels!",
-      "url": "https://www.eventbrite.com/e/ccc-summer-camp-2026-tickets-1986083262502",
-      "source": "Eventbrite",
-      "categories": [
-        "Cultural Festival"
-      ],
-      "latitude": 42.4271129,
-      "longitude": -71.0795967
-    },
-    {
-      "id": "34ed508d-cacd-8170-b1f0-e7887d8f2e1a",
-      "name": "Curated Cuisine: Michelin comes to Boston",
-      "date": "2026-06-29",
-      "time": "",
-      "location": "WBUR CitySpace",
-      "address": "890 Commonwealth Avenue, Boston, MA",
-      "price": "",
-      "description": "Join us to discuss Boston\u2019s debut in the Michelin Guide and what it signals for the city\u2019s evolving dining scene.",
-      "url": "https://www.eventbrite.com/e/curated-cuisine-michelin-comes-to-boston-tickets-1988020566029",
-      "source": "Eventbrite",
-      "categories": [
-        "Food & Markets"
-      ],
-      "latitude": 42.3508575,
-      "longitude": -71.11565709999999
-    },
-    {
-      "id": "313d508d-cacd-81da-a5bc-f014ca0c4eb4",
-      "name": "Not Your Bubbe Book Club Discussion of  Rules for Ghosting",
-      "date": "2026-06-29",
-      "time": "",
-      "location": "The Boston Synagogue",
-      "address": "55 Martha Road, Boston, MA",
-      "price": "",
-      "description": "Join us for a wild night of intrigue At Not Your Bubbe's  Book Club - it's not your grandma's book club, that's for sure!",
-      "url": "https://www.eventbrite.com/e/not-your-bubbe-book-club-discussion-of-rules-for-ghosting-tickets-1983618915574",
-      "source": "Eventbrite",
-      "categories": [
-        "Talks & Lectures"
-      ],
-      "latitude": 42.3657844,
-      "longitude": -71.06589079999999
     },
     {
       "id": "38bd508d-cacd-81aa-bc08-ef31f53bd5de",
@@ -8849,5 +8714,5 @@
       "longitude": -71.0631568
     }
   ],
-  "updated": "2026-06-29T06:01:21.149303"
+  "updated": "2026-06-30T05:14:26.380490"
 }
