@@ -1,26 +1,9 @@
 {
   "events": [
     {
-      "id": "3abd508d-cacd-8145-bcf0-c23d48dd3864",
+      "id": "3acd508d-cacd-81ba-957e-e7043d940651",
       "name": "Your privacy choices",
-      "date": "2026-07-28",
-      "time": "",
-      "location": "Boston, MA",
-      "address": "",
-      "price": "",
-      "description": "",
-      "url": "https://www.meetup.com/boston-cultural-events/events/#",
-      "source": "Meetup",
-      "categories": [
-        "Cultural Festival"
-      ],
-      "latitude": null,
-      "longitude": null
-    },
-    {
-      "id": "3abd508d-cacd-81e2-bd5c-feca9c079631",
-      "name": "Your privacy choices",
-      "date": "2026-07-28",
+      "date": "2026-07-29",
       "time": "",
       "location": "Boston, MA",
       "address": "",
@@ -35,9 +18,9 @@
       "longitude": null
     },
     {
-      "id": "3abd508d-cacd-8114-8f10-f3b45b3f8776",
+      "id": "3acd508d-cacd-8104-9a10-f55dd7a5e662",
       "name": "Your privacy choices",
-      "date": "2026-07-28",
+      "date": "2026-07-29",
       "time": "",
       "location": "Boston, MA",
       "address": "",
@@ -53,9 +36,9 @@
       "longitude": null
     },
     {
-      "id": "3abd508d-cacd-81cd-a4eb-c0e9b2257226",
+      "id": "3acd508d-cacd-815f-a1ca-feb45bf81b3d",
       "name": "Your privacy choices",
-      "date": "2026-07-28",
+      "date": "2026-07-29",
       "time": "",
       "location": "Boston, MA",
       "address": "",
@@ -70,9 +53,9 @@
       "longitude": null
     },
     {
-      "id": "3abd508d-cacd-8116-bd64-f1c634dd9bb5",
+      "id": "3acd508d-cacd-81ec-919c-e8ea9ae47ba8",
       "name": "Your privacy choices",
-      "date": "2026-07-28",
+      "date": "2026-07-29",
       "time": "",
       "location": "Boston, MA",
       "address": "",
@@ -88,9 +71,9 @@
       "longitude": null
     },
     {
-      "id": "3abd508d-cacd-8125-8040-d7c7d81212d3",
+      "id": "3acd508d-cacd-81b8-9297-d708430c6eb6",
       "name": "Your privacy choices",
-      "date": "2026-07-28",
+      "date": "2026-07-29",
       "time": "",
       "location": "Boston, MA",
       "address": "",
@@ -105,9 +88,9 @@
       "longitude": null
     },
     {
-      "id": "3abd508d-cacd-810e-891f-c06451dc3edc",
+      "id": "3acd508d-cacd-81f7-9070-e43def2abba6",
       "name": "Your privacy choices",
-      "date": "2026-07-28",
+      "date": "2026-07-29",
       "time": "",
       "location": "Boston, MA",
       "address": "",
@@ -123,9 +106,9 @@
       "longitude": null
     },
     {
-      "id": "3abd508d-cacd-812a-940e-edc132486f63",
+      "id": "3acd508d-cacd-8143-8188-e41173420f3d",
       "name": "Your privacy choices",
-      "date": "2026-07-28",
+      "date": "2026-07-29",
       "time": "",
       "location": "Boston, MA",
       "address": "",
@@ -141,9 +124,9 @@
       "longitude": null
     },
     {
-      "id": "3abd508d-cacd-81fc-b8ca-e59c7b4ca226",
+      "id": "3acd508d-cacd-81ff-8dbc-d5acd833b0bc",
       "name": "Your privacy choices",
-      "date": "2026-07-28",
+      "date": "2026-07-29",
       "time": "",
       "location": "Boston, MA",
       "address": "",
@@ -159,65 +142,9 @@
       "longitude": null
     },
     {
-      "id": "3abd508d-cacd-81c4-9bfa-fb1a9b1ff4e6",
-      "name": "Agentic AI Coding with IBM Open Source DataTue, Jul 28 \u00b7 11:30 AM EDTby Data, Cloud and AI in Boston",
-      "date": "2026-07-28",
-      "time": "",
-      "location": "Boston, MA",
-      "address": "",
-      "price": "",
-      "description": "",
-      "url": "https://www.meetup.com/big-data-developers-in-boston/events/315629642/?eventOrigin=city_events_today",
-      "source": "Meetup",
-      "categories": [
-        "Middle Eastern",
-        "Career & Tech"
-      ],
-      "latitude": null,
-      "longitude": null
-    },
-    {
-      "id": "3abd508d-cacd-8104-97c2-d3b8c0e51ca6",
-      "name": "BOSHUG July MeetupTue, Jul 28 \u00b7 5:30 PM EDTby Boston Healthcare Cloud & AI Community",
-      "date": "2026-07-28",
-      "time": "",
-      "location": "Boston, MA",
-      "address": "",
-      "price": "",
-      "description": "",
-      "url": "https://www.meetup.com/healthcare-tech-community/events/315618313/?eventOrigin=city_events_today",
-      "source": "Meetup",
-      "categories": [
-        "Middle Eastern",
-        "Career & Tech",
-        "Community"
-      ],
-      "latitude": null,
-      "longitude": null
-    },
-    {
-      "id": "3abd508d-cacd-815a-877e-f8d2ec08938f",
-      "name": "Hacking Agents Meetup - CambridgeTue, Jul 28 \u00b7 5:30 PM EDTby Data, Cloud and AI in Boston",
-      "date": "2026-07-28",
-      "time": "",
-      "location": "Boston, MA",
-      "address": "",
-      "price": "",
-      "description": "",
-      "url": "https://www.meetup.com/big-data-developers-in-boston/events/315629014/?eventOrigin=city_events_today",
-      "source": "Meetup",
-      "categories": [
-        "Middle Eastern",
-        "Career & Tech",
-        "Community"
-      ],
-      "latitude": null,
-      "longitude": null
-    },
-    {
-      "id": "3abd508d-cacd-8161-92ba-d57dcc78ba19",
+      "id": "3acd508d-cacd-81eb-a031-e800858faded",
       "name": "Chinese Calligraphy Workshop",
-      "date": "2026-07-28",
+      "date": "2026-07-29",
       "time": "",
       "location": "zhao art studio",
       "address": "",
@@ -232,9 +159,9 @@
       "longitude": null
     },
     {
-      "id": "3abd508d-cacd-8186-86e1-ce93fad06768",
+      "id": "3acd508d-cacd-812c-8f88-dbb2e497f036",
       "name": "\u201cComposing Color: Paintings by Alma Thomas from the Smithsonian American Art Museum\u201d at SCMA",
-      "date": "2026-07-28",
+      "date": "2026-07-29",
       "time": "",
       "location": "Smith College Museum of Art",
       "address": "",
@@ -250,9 +177,9 @@
       "longitude": null
     },
     {
-      "id": "3abd508d-cacd-817c-ad61-ece8ea144329",
+      "id": "3acd508d-cacd-819c-9b76-f81bdf9568c5",
       "name": "Patriots of Color Exhibition",
-      "date": "2026-07-28",
+      "date": "2026-07-29",
       "time": "",
       "location": "American Ancestors",
       "address": "",
@@ -267,9 +194,9 @@
       "longitude": null
     },
     {
-      "id": "3abd508d-cacd-813c-9fac-cd71cfbb1a4a",
+      "id": "3acd508d-cacd-8133-9045-eb61785b30ec",
       "name": "Pottery Wheel Class | One Time",
-      "date": "2026-07-28",
+      "date": "2026-07-29",
       "time": "",
       "location": "Clay Lounge",
       "address": "",
@@ -284,9 +211,9 @@
       "longitude": null
     },
     {
-      "id": "3abd508d-cacd-816a-962d-fc053fc14fb2",
+      "id": "3acd508d-cacd-818f-b6a2-f494190218c1",
       "name": "Cooking Class: Sushi Making 101",
-      "date": "2026-07-28",
+      "date": "2026-07-29",
       "time": "",
       "location": "Trillium - Fort Point",
       "address": "",
@@ -301,9 +228,9 @@
       "longitude": null
     },
     {
-      "id": "3abd508d-cacd-81be-97f2-d8ee22722fbe",
+      "id": "3acd508d-cacd-8184-8b36-dbcc85d95a77",
       "name": "Make Epic Sushi Rolls With Chef Harold in Roxbury - Cooking Class by Classpop!",
-      "date": "2026-07-28",
+      "date": "2026-07-29",
       "time": "",
       "location": "Long Live Beerworks",
       "address": "",
@@ -318,9 +245,9 @@
       "longitude": null
     },
     {
-      "id": "3abd508d-cacd-8196-a07e-cd400eaeea59",
+      "id": "3acd508d-cacd-8103-8383-ffeaa7bc370e",
       "name": "2026 Handmade Photobook Exhibition",
-      "date": "2026-07-28",
+      "date": "2026-07-29",
       "time": "",
       "location": "Griffin Museum of Photography",
       "address": "",
@@ -335,9 +262,9 @@
       "longitude": null
     },
     {
-      "id": "3abd508d-cacd-81f5-9036-cd5df030c6a7",
+      "id": "3acd508d-cacd-81a6-9ab0-dba68d8393f4",
       "name": "W.I.T. @ Work: The Art of Industrial Design",
-      "date": "2026-07-28",
+      "date": "2026-07-29",
       "time": "",
       "location": "Boston Sculptors Gallery",
       "address": "",
@@ -353,9 +280,9 @@
       "longitude": null
     },
     {
-      "id": "3abd508d-cacd-81bb-9f0e-d45175d78c04",
+      "id": "3acd508d-cacd-81c1-b435-c798cfc8bf24",
       "name": "New Exhibition + Artist Talk: Steve Imrich and Kathryn Geismar at Paul Dietrich Gallery",
-      "date": "2026-07-28",
+      "date": "2026-07-29",
       "time": "",
       "location": "Paul Dietrich Gallery at CambridgeSeven",
       "address": "",
@@ -371,9 +298,9 @@
       "longitude": null
     },
     {
-      "id": "3abd508d-cacd-81fa-9226-d54dd72b375a",
+      "id": "3acd508d-cacd-814d-914d-f863be401f64",
       "name": "Learning with Trees Exhibition",
-      "date": "2026-07-28",
+      "date": "2026-07-29",
       "time": "",
       "location": "Boston City Hall",
       "address": "",
@@ -388,9 +315,9 @@
       "longitude": null
     },
     {
-      "id": "3abd508d-cacd-812a-acd4-d4f559761e0d",
+      "id": "3acd508d-cacd-819f-807d-e4c5fdcce09d",
       "name": "Art for a Change Exhibition",
-      "date": "2026-07-28",
+      "date": "2026-07-29",
       "time": "",
       "location": "Boston City Hall",
       "address": "",
@@ -405,9 +332,9 @@
       "longitude": null
     },
     {
-      "id": "3abd508d-cacd-814e-a252-e117201b06d3",
+      "id": "3acd508d-cacd-818c-a253-d362fe0d0c67",
       "name": "Short Course in Sustainable Fashion: Design, Impact, and Practice",
-      "date": "2026-07-28",
+      "date": "2026-07-29",
       "time": "",
       "location": "The School of Fashion Design",
       "address": "",
@@ -423,9 +350,9 @@
       "longitude": null
     },
     {
-      "id": "3abd508d-cacd-8106-b341-e1b01aa52fda",
+      "id": "3acd508d-cacd-814b-8303-d9d414565726",
       "name": "Community Yoga at Urban Park",
-      "date": "2026-07-28",
+      "date": "2026-07-29",
       "time": "",
       "location": "Urban Park Roof Garden",
       "address": "",
@@ -441,9 +368,9 @@
       "longitude": null
     },
     {
-      "id": "3abd508d-cacd-8110-a3e1-d4e884cabf0a",
+      "id": "3acd508d-cacd-81d7-9c82-f6ae952b817b",
       "name": "Sarma: Turkish & Mediterranean Small Plates | Somerville",
-      "date": "2026-07-28",
+      "date": "2026-07-29",
       "time": "",
       "location": "Sarma",
       "address": "",
@@ -458,9 +385,9 @@
       "longitude": null
     },
     {
-      "id": "3abd508d-cacd-819f-be7e-cdce3ee41581",
+      "id": "3acd508d-cacd-81f4-89eb-f75e7fb32592",
       "name": "The Paint Bar: Painting Classes for Work Events | Newton",
-      "date": "2026-07-28",
+      "date": "2026-07-29",
       "time": "",
       "location": "The Paint Bar",
       "address": "",
@@ -476,9 +403,9 @@
       "longitude": null
     },
     {
-      "id": "3abd508d-cacd-8109-b96f-da2c26702c6e",
+      "id": "3acd508d-cacd-81c9-a3d5-d2122c7c4684",
       "name": "Castanet Designer Consignment",
-      "date": "2026-07-28",
+      "date": "2026-07-29",
       "time": "",
       "location": "Castanet Designer Consignment",
       "address": "",
@@ -493,9 +420,9 @@
       "longitude": null
     },
     {
-      "id": "3abd508d-cacd-8192-a92a-e9f0c5359f87",
+      "id": "3acd508d-cacd-8119-a421-dc4c77e6c0e7",
       "name": "SWETSTUDIO | Aerial Yoga and Fitness in the South End",
-      "date": "2026-07-28",
+      "date": "2026-07-29",
       "time": "",
       "location": "SWETSTUDIO\u00ae",
       "address": "",
@@ -510,32 +437,33 @@
       "longitude": null
     },
     {
-      "id": "3abd508d-cacd-8176-89d3-e907d57e3206",
-      "name": "Make Epic Sushi Rolls With Chef Harold at a Local Distillery - Cooking Class by Classpop!",
-      "date": "2026-07-28",
-      "time": "",
-      "location": "Short Path Distillery",
+      "id": "3acd508d-cacd-816a-b3be-eb25bd064fbc",
+      "name": "Full Moon Yoga @ The Museum Of Modern Renaissance Somerville MA!",
+      "date": "2026-07-29",
+      "time": "7:00 PM",
+      "location": "Museum of Modern Renaissance",
       "address": "",
       "price": "",
       "description": "",
-      "url": "https://www.thebostoncalendar.com/events/make-epic-sushi-rolls-with-chef-harold-at-a-local-distillery-cooking-class-by-classpop",
+      "url": "https://www.thebostoncalendar.com/events/sunday-morning-yoga-museum-of-modern-renaissance",
       "source": "Boston Calendar",
       "categories": [
-        "Food & Markets"
+        "Sports & Outdoors",
+        "Career & Tech"
       ],
       "latitude": null,
       "longitude": null
     },
     {
-      "id": "3abd508d-cacd-8183-82e3-d788c5676045",
-      "name": "Lunar Photography: Moonrise over Boston Carson Beach with Boston Photography Workshops",
-      "date": "2026-07-28",
-      "time": "7:30 PM",
-      "location": "Boston Carson Beach",
+      "id": "3acd508d-cacd-8176-b478-f98d01773e56",
+      "name": "Cape Ann Jazz Workshop Faculty & Jazz Messengers",
+      "date": "2026-07-29",
+      "time": "7:00 PM",
+      "location": "Shalin Liu Performance Center",
       "address": "",
       "price": "",
       "description": "",
-      "url": "https://www.thebostoncalendar.com/events/lunar-photography-moonrise-over-boston-carson-beach-with-boston-photography-workshops",
+      "url": "https://www.thebostoncalendar.com/events/cape-ann-jazz-workshop-faculty-jazz-messengers--2",
       "source": "Boston Calendar",
       "categories": [
         "Arts & Crafts"
@@ -544,15 +472,32 @@
       "longitude": null
     },
     {
-      "id": "3abd508d-cacd-8140-b016-de52f73a7722",
-      "name": "Blue Line Flex @ Suffolk Downs - Vinyasa Yoga by The Point Barre & Yoga",
-      "date": "2026-07-28",
+      "id": "3acd508d-cacd-817f-ab2f-e3d39a5268c8",
+      "name": "Essential Arab Mezze: Summer Edition",
+      "date": "2026-07-29",
       "time": "6:00 PM",
-      "location": "The Yard @ Beachmont Square",
+      "location": "The Foundry",
       "address": "",
       "price": "",
       "description": "",
-      "url": "https://www.thebostoncalendar.com/events/blue-line-flex-suffolk-downs-vinyasa-yoga-by-the-point-barre-yoga--8",
+      "url": "https://www.thebostoncalendar.com/events/essential-arab-mezze-summer-edition",
+      "source": "Boston Calendar",
+      "categories": [
+        "Middle Eastern"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "3acd508d-cacd-8195-924a-d78258bc7a4f",
+      "name": "Free Outdoor Yoga with NB Fitness Club",
+      "date": "2026-07-29",
+      "time": "5:30 PM",
+      "location": "Athletes Park at Boston Landing",
+      "address": "",
+      "price": "",
+      "description": "",
+      "url": "https://www.thebostoncalendar.com/events/free-outdoor-yoga-with-nb-fitness-club--8",
       "source": "Boston Calendar",
       "categories": [
         "Sports & Outdoors"
@@ -561,15 +506,15 @@
       "longitude": null
     },
     {
-      "id": "3abd508d-cacd-8148-9d83-e86db9b40f82",
-      "name": "Live Figure Drawing Rapid Pose",
-      "date": "2026-07-28",
-      "time": "12:30 PM",
-      "location": "Kathryn Schultz Gallery",
+      "id": "3acd508d-cacd-8177-8cea-d95828596f26",
+      "name": "Gelli Printing Workshop",
+      "date": "2026-07-29",
+      "time": "5:00 PM",
+      "location": "Cambridge KiOSK",
       "address": "",
       "price": "",
       "description": "",
-      "url": "https://www.thebostoncalendar.com/events/live-figure-drawing-rapid-pose",
+      "url": "https://www.thebostoncalendar.com/events/gelli-printing-workshop--2",
       "source": "Boston Calendar",
       "categories": [
         "Arts & Crafts"
@@ -578,133 +523,39 @@
       "longitude": null
     },
     {
-      "id": "39cd508d-cacd-81ed-9f98-cc32af719e49",
-      "name": "Blue Line Flex @ Suffolk Downs - Vinyasa Yoga by The Point Barre & Yoga",
-      "date": "2026-07-28",
-      "time": "6:00 PM",
-      "location": "The Yard @ Beachmont Square",
+      "id": "3acd508d-cacd-8183-909a-d32b7dc9d19e",
+      "name": "Retreat on Your Holiday",
+      "date": "2026-07-29",
+      "time": "4:00 PM",
+      "location": "A La Carte Massage",
       "address": "",
-      "price": "Free",
-      "description": "Join us for free, outdoor fitness classes every Tuesday at 6PM and Saturday at 10AM at The Yard @ Beachmont Square at Suffolk Downs.BLUE LINE FLEX @ Suffolk DownsJoin us for free, outdoor fitness classes with rotating instructors every Tuesday at 6PM and Saturday at 10AM right here at The Yard @ Beachmont Square at Suffolk Downs.Our schedule is packed with new classes as well as old favorites that are designed for all levels of experience. Please note, by entering this event, attendees consent t",
-      "url": "https://www.eventbrite.com/e/blue-line-flex-suffolk-downs-vinyasa-yoga-by-the-point-barre-yoga-tickets-1987447863059?aff=ebdsoporgprofile",
+      "price": "",
+      "description": "",
+      "url": "https://www.thebostoncalendar.com/events/retreat-on-your-holiday--8",
       "source": "Boston Calendar",
-      "categories": [
-        "South Asian",
-        "Sports & Outdoors"
-      ],
-      "latitude": null,
-      "longitude": null
-    },
-    {
-      "id": "39cd508d-cacd-814a-983e-cd0fac66922f",
-      "name": "Lunar Photography: Moonrise over Boston Carson Beach with Boston Photography Workshops",
-      "date": "2026-07-28",
-      "time": "7:30 PM",
-      "location": "Boston Carson Beach",
-      "address": "",
-      "price": "$89",
-      "description": "What to expect:Photograph the rising full moon over the open water of the Boston Harbor. In this outdoor meet-up, we\u2019ll cover the basic settings you\u2019ll need to capture the full moon rising before setting up the perfect shot. The moon rises quickly but with your instructor by your side, you\u2019ll grab the perfect shot. Night PhotographyWho Should Attend:This workshop is ideal for beginner to intermediate photographers who have a good understanding of their camera and have an interest in landscape an",
-      "url": "https://www.bostonphotographyworkshops.com/calendar/2024/5/6/moon-photography-m4lwy-h4eam-e4jlx-3egdd",
-      "source": "Boston Calendar",
-      "categories": [
-        "Arts & Crafts",
-        "Sports & Outdoors"
-      ],
-      "latitude": null,
-      "longitude": null
-    },
-    {
-      "id": "398d508d-cacd-81c8-8c1b-ddff08a700fe",
-      "name": "\ufeffHealthTech Meetup & Mixer: Agentic AI & FHIR for Startups and Developers",
-      "date": "2026-07-28",
-      "time": "",
-      "location": "Venture Caf\u00e9 Cambridge",
-      "address": "Broadway, Cambridge, MA",
-      "price": "",
-      "description": "Explore Agentic AI and FHIR, hear from a HealthTech startup, and connect with fellow founders, developers, and builders.",
-      "url": "https://www.eventbrite.co.uk/e/healthtech-meetup-mixer-agentic-ai-fhir-for-startups-and-developers-tickets-1993329297588",
-      "source": "Eventbrite",
-      "categories": [
-        "Middle Eastern",
-        "Arts & Crafts",
-        "Career & Tech",
-        "Community"
-      ],
-      "latitude": 42.36283,
-      "longitude": -71.083918
-    },
-    {
-      "id": "398d508d-cacd-818c-a0fb-c5c05dad057f",
-      "name": "Startup Tech & AI Networking in Boston",
-      "date": "2026-07-28",
-      "time": "",
-      "location": "Bar Moxy",
-      "address": "240 Tremont Street, Boston, MA",
-      "price": "",
-      "description": "Dive into tech with other professionals! Network and build strong relationships with investors, tech experts, and entrepreneurs in Boston.",
-      "url": "https://www.eventbrite.com/e/startup-tech-ai-networking-in-boston-tickets-1992586899054",
-      "source": "Eventbrite",
-      "categories": [
-        "Middle Eastern",
-        "Arts & Crafts",
-        "Career & Tech",
-        "Community"
-      ],
-      "latitude": 42.3509108,
-      "longitude": -71.06468370000002
-    },
-    {
-      "id": "391d508d-cacd-8109-b2a5-c4fceae15aec",
-      "name": "POP the Balloon Live Boston",
-      "date": "2026-07-28",
-      "time": "",
-      "location": "555 Talbot Ave",
-      "address": "555 Talbot Avenue, Boston, MA",
-      "price": "",
-      "description": "Pop the Balloon LIVE is back BOSTON! \nJuly 28 - Live at the Mix Boston \nThe trendiest dating game for  singles looking for a connection.",
-      "url": "https://www.eventbrite.com/e/pop-the-balloon-live-boston-tickets-1992927495788",
-      "source": "Eventbrite",
       "categories": [
         "South Asian",
         "Cultural Festival"
       ],
-      "latitude": 42.2860677,
-      "longitude": -71.0647501
+      "latitude": null,
+      "longitude": null
     },
     {
-      "id": "388d508d-cacd-817d-8386-dea4411fe3e9",
-      "name": "Paint Nite Brand Creative Events",
-      "date": "2026-07-28",
-      "time": "",
-      "location": "Faces Brewing",
-      "address": "50 Pleasant St, Malden, MA",
+      "id": "3acd508d-cacd-8127-a6f9-de648ccffd4e",
+      "name": "32nd Annual Members Juried Exhibition",
+      "date": "2026-07-29",
+      "time": "12:00 PM",
+      "location": "Griffin Museum of Photography",
+      "address": "",
       "price": "",
-      "description": "Paint Nite Brand Creative Events (10365351)",
-      "url": "https://www.eventbrite.com/e/paint-nite-brand-creative-events-tickets-1982588649019",
-      "source": "Eventbrite",
+      "description": "",
+      "url": "https://www.thebostoncalendar.com/events/32nd-annual-members-juried-exhibition",
+      "source": "Boston Calendar",
       "categories": [
-        "Arts & Crafts",
-        "Career & Tech"
+        "Arts & Crafts"
       ],
-      "latitude": 42.42648,
-      "longitude": -71.068703
-    },
-    {
-      "id": "37dd508d-cacd-8123-bca0-da1131bad58b",
-      "name": "Get Konnected! 12th Annual A Taste of Ethnic Boston",
-      "date": "2026-07-28",
-      "time": "",
-      "location": "Big Night Live",
-      "address": "110 Causeway Street, Boston, MA",
-      "price": "",
-      "description": "Dive into a flavorful journey celebrating Boston\u2019s diverse cultures with great eats and good vibes all night long!",
-      "url": "https://www.eventbrite.com/e/get-konnected-12th-annual-a-taste-of-ethnic-boston-tickets-1990898447851",
-      "source": "Eventbrite",
-      "categories": [
-        "Food & Markets"
-      ],
-      "latitude": 42.3658448,
-      "longitude": -71.0613008
+      "latitude": null,
+      "longitude": null
     },
     {
       "id": "39cd508d-cacd-8146-891d-c73d4e67f4e7",
@@ -5559,5 +5410,5 @@
       "longitude": -71.0631568
     }
   ],
-  "updated": "2026-07-28T04:20:18.381231"
+  "updated": "2026-07-29T04:20:51.421611"
 }
