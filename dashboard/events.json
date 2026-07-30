@@ -1,9 +1,26 @@
 {
   "events": [
     {
-      "id": "3acd508d-cacd-81ba-957e-e7043d940651",
+      "id": "3add508d-cacd-819e-b49a-e0cf6623a2f0",
       "name": "Your privacy choices",
-      "date": "2026-07-29",
+      "date": "2026-07-30",
+      "time": "",
+      "location": "Boston, MA",
+      "address": "",
+      "price": "",
+      "description": "",
+      "url": "https://www.meetup.com/boston-cultural-events/events/#",
+      "source": "Meetup",
+      "categories": [
+        "Cultural Festival"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "3add508d-cacd-81ac-a6f8-cf78864e6962",
+      "name": "Your privacy choices",
+      "date": "2026-07-30",
       "time": "",
       "location": "Boston, MA",
       "address": "",
@@ -18,9 +35,9 @@
       "longitude": null
     },
     {
-      "id": "3acd508d-cacd-8104-9a10-f55dd7a5e662",
+      "id": "3add508d-cacd-8196-b612-f6a20912900b",
       "name": "Your privacy choices",
-      "date": "2026-07-29",
+      "date": "2026-07-30",
       "time": "",
       "location": "Boston, MA",
       "address": "",
@@ -36,9 +53,9 @@
       "longitude": null
     },
     {
-      "id": "3acd508d-cacd-815f-a1ca-feb45bf81b3d",
+      "id": "3add508d-cacd-8114-89e8-c4e8f9ba8605",
       "name": "Your privacy choices",
-      "date": "2026-07-29",
+      "date": "2026-07-30",
       "time": "",
       "location": "Boston, MA",
       "address": "",
@@ -53,9 +70,9 @@
       "longitude": null
     },
     {
-      "id": "3acd508d-cacd-81ec-919c-e8ea9ae47ba8",
+      "id": "3add508d-cacd-8128-a8a9-d8370416b39a",
       "name": "Your privacy choices",
-      "date": "2026-07-29",
+      "date": "2026-07-30",
       "time": "",
       "location": "Boston, MA",
       "address": "",
@@ -71,9 +88,9 @@
       "longitude": null
     },
     {
-      "id": "3acd508d-cacd-81b8-9297-d708430c6eb6",
+      "id": "3add508d-cacd-810f-be89-d868bd8d993a",
       "name": "Your privacy choices",
-      "date": "2026-07-29",
+      "date": "2026-07-30",
       "time": "",
       "location": "Boston, MA",
       "address": "",
@@ -88,9 +105,9 @@
       "longitude": null
     },
     {
-      "id": "3acd508d-cacd-81f7-9070-e43def2abba6",
+      "id": "3add508d-cacd-81b4-a715-e6848c0a998f",
       "name": "Your privacy choices",
-      "date": "2026-07-29",
+      "date": "2026-07-30",
       "time": "",
       "location": "Boston, MA",
       "address": "",
@@ -106,9 +123,9 @@
       "longitude": null
     },
     {
-      "id": "3acd508d-cacd-8143-8188-e41173420f3d",
+      "id": "3add508d-cacd-81f1-be1e-d66741f7c1b3",
       "name": "Your privacy choices",
-      "date": "2026-07-29",
+      "date": "2026-07-30",
       "time": "",
       "location": "Boston, MA",
       "address": "",
@@ -124,9 +141,9 @@
       "longitude": null
     },
     {
-      "id": "3acd508d-cacd-81ff-8dbc-d5acd833b0bc",
+      "id": "3add508d-cacd-81b7-bb75-c8c67acb8a43",
       "name": "Your privacy choices",
-      "date": "2026-07-29",
+      "date": "2026-07-30",
       "time": "",
       "location": "Boston, MA",
       "address": "",
@@ -142,9 +159,9 @@
       "longitude": null
     },
     {
-      "id": "3acd508d-cacd-81eb-a031-e800858faded",
+      "id": "3add508d-cacd-8182-b451-ec11905fd2ba",
       "name": "Chinese Calligraphy Workshop",
-      "date": "2026-07-29",
+      "date": "2026-07-30",
       "time": "",
       "location": "zhao art studio",
       "address": "",
@@ -159,9 +176,9 @@
       "longitude": null
     },
     {
-      "id": "3acd508d-cacd-812c-8f88-dbb2e497f036",
+      "id": "3add508d-cacd-81b6-91e3-d90f0f0fb5cf",
       "name": "\u201cComposing Color: Paintings by Alma Thomas from the Smithsonian American Art Museum\u201d at SCMA",
-      "date": "2026-07-29",
+      "date": "2026-07-30",
       "time": "",
       "location": "Smith College Museum of Art",
       "address": "",
@@ -177,9 +194,9 @@
       "longitude": null
     },
     {
-      "id": "3acd508d-cacd-819c-9b76-f81bdf9568c5",
+      "id": "3add508d-cacd-8188-904f-ec8e956c2574",
       "name": "Patriots of Color Exhibition",
-      "date": "2026-07-29",
+      "date": "2026-07-30",
       "time": "",
       "location": "American Ancestors",
       "address": "",
@@ -194,9 +211,9 @@
       "longitude": null
     },
     {
-      "id": "3acd508d-cacd-8133-9045-eb61785b30ec",
+      "id": "3add508d-cacd-813d-b205-e6b5677d9f0c",
       "name": "Pottery Wheel Class | One Time",
-      "date": "2026-07-29",
+      "date": "2026-07-30",
       "time": "",
       "location": "Clay Lounge",
       "address": "",
@@ -211,9 +228,9 @@
       "longitude": null
     },
     {
-      "id": "3acd508d-cacd-818f-b6a2-f494190218c1",
+      "id": "3add508d-cacd-81a1-892b-ef06cd08c993",
       "name": "Cooking Class: Sushi Making 101",
-      "date": "2026-07-29",
+      "date": "2026-07-30",
       "time": "",
       "location": "Trillium - Fort Point",
       "address": "",
@@ -228,9 +245,9 @@
       "longitude": null
     },
     {
-      "id": "3acd508d-cacd-8184-8b36-dbcc85d95a77",
+      "id": "3add508d-cacd-81d7-8db6-c98444fd5724",
       "name": "Make Epic Sushi Rolls With Chef Harold in Roxbury - Cooking Class by Classpop!",
-      "date": "2026-07-29",
+      "date": "2026-07-30",
       "time": "",
       "location": "Long Live Beerworks",
       "address": "",
@@ -245,9 +262,9 @@
       "longitude": null
     },
     {
-      "id": "3acd508d-cacd-8103-8383-ffeaa7bc370e",
+      "id": "3add508d-cacd-8177-80de-fc6af87cede3",
       "name": "2026 Handmade Photobook Exhibition",
-      "date": "2026-07-29",
+      "date": "2026-07-30",
       "time": "",
       "location": "Griffin Museum of Photography",
       "address": "",
@@ -262,9 +279,9 @@
       "longitude": null
     },
     {
-      "id": "3acd508d-cacd-81a6-9ab0-dba68d8393f4",
+      "id": "3add508d-cacd-8165-aaf6-c00d6de0f9ad",
       "name": "W.I.T. @ Work: The Art of Industrial Design",
-      "date": "2026-07-29",
+      "date": "2026-07-30",
       "time": "",
       "location": "Boston Sculptors Gallery",
       "address": "",
@@ -280,9 +297,9 @@
       "longitude": null
     },
     {
-      "id": "3acd508d-cacd-81c1-b435-c798cfc8bf24",
+      "id": "3add508d-cacd-81fe-b0f9-cbc62f8a3ee0",
       "name": "New Exhibition + Artist Talk: Steve Imrich and Kathryn Geismar at Paul Dietrich Gallery",
-      "date": "2026-07-29",
+      "date": "2026-07-30",
       "time": "",
       "location": "Paul Dietrich Gallery at CambridgeSeven",
       "address": "",
@@ -298,9 +315,9 @@
       "longitude": null
     },
     {
-      "id": "3acd508d-cacd-814d-914d-f863be401f64",
+      "id": "3add508d-cacd-8151-a7ef-c319da89fc70",
       "name": "Learning with Trees Exhibition",
-      "date": "2026-07-29",
+      "date": "2026-07-30",
       "time": "",
       "location": "Boston City Hall",
       "address": "",
@@ -315,9 +332,9 @@
       "longitude": null
     },
     {
-      "id": "3acd508d-cacd-819f-807d-e4c5fdcce09d",
+      "id": "3add508d-cacd-813d-b244-e9b9f2267a49",
       "name": "Art for a Change Exhibition",
-      "date": "2026-07-29",
+      "date": "2026-07-30",
       "time": "",
       "location": "Boston City Hall",
       "address": "",
@@ -332,9 +349,9 @@
       "longitude": null
     },
     {
-      "id": "3acd508d-cacd-818c-a253-d362fe0d0c67",
+      "id": "3add508d-cacd-8124-a880-cb11e5ac4550",
       "name": "Short Course in Sustainable Fashion: Design, Impact, and Practice",
-      "date": "2026-07-29",
+      "date": "2026-07-30",
       "time": "",
       "location": "The School of Fashion Design",
       "address": "",
@@ -350,9 +367,9 @@
       "longitude": null
     },
     {
-      "id": "3acd508d-cacd-814b-8303-d9d414565726",
+      "id": "3add508d-cacd-815a-aa3e-df04cf8f704e",
       "name": "Community Yoga at Urban Park",
-      "date": "2026-07-29",
+      "date": "2026-07-30",
       "time": "",
       "location": "Urban Park Roof Garden",
       "address": "",
@@ -368,9 +385,9 @@
       "longitude": null
     },
     {
-      "id": "3acd508d-cacd-81d7-9c82-f6ae952b817b",
+      "id": "3add508d-cacd-8152-819f-d9737529b474",
       "name": "Sarma: Turkish & Mediterranean Small Plates | Somerville",
-      "date": "2026-07-29",
+      "date": "2026-07-30",
       "time": "",
       "location": "Sarma",
       "address": "",
@@ -385,9 +402,9 @@
       "longitude": null
     },
     {
-      "id": "3acd508d-cacd-81f4-89eb-f75e7fb32592",
+      "id": "3add508d-cacd-8122-a685-e61373320e6e",
       "name": "The Paint Bar: Painting Classes for Work Events | Newton",
-      "date": "2026-07-29",
+      "date": "2026-07-30",
       "time": "",
       "location": "The Paint Bar",
       "address": "",
@@ -403,9 +420,9 @@
       "longitude": null
     },
     {
-      "id": "3acd508d-cacd-81c9-a3d5-d2122c7c4684",
+      "id": "3add508d-cacd-8190-af63-e62d89b0ab0c",
       "name": "Castanet Designer Consignment",
-      "date": "2026-07-29",
+      "date": "2026-07-30",
       "time": "",
       "location": "Castanet Designer Consignment",
       "address": "",
@@ -420,9 +437,9 @@
       "longitude": null
     },
     {
-      "id": "3acd508d-cacd-8119-a421-dc4c77e6c0e7",
+      "id": "3add508d-cacd-818b-946c-d1cfdf7974de",
       "name": "SWETSTUDIO | Aerial Yoga and Fitness in the South End",
-      "date": "2026-07-29",
+      "date": "2026-07-30",
       "time": "",
       "location": "SWETSTUDIO\u00ae",
       "address": "",
@@ -435,290 +452,6 @@
       ],
       "latitude": null,
       "longitude": null
-    },
-    {
-      "id": "3acd508d-cacd-816a-b3be-eb25bd064fbc",
-      "name": "Full Moon Yoga @ The Museum Of Modern Renaissance Somerville MA!",
-      "date": "2026-07-29",
-      "time": "7:00 PM",
-      "location": "Museum of Modern Renaissance",
-      "address": "",
-      "price": "",
-      "description": "",
-      "url": "https://www.thebostoncalendar.com/events/sunday-morning-yoga-museum-of-modern-renaissance",
-      "source": "Boston Calendar",
-      "categories": [
-        "Sports & Outdoors",
-        "Career & Tech"
-      ],
-      "latitude": null,
-      "longitude": null
-    },
-    {
-      "id": "3acd508d-cacd-8176-b478-f98d01773e56",
-      "name": "Cape Ann Jazz Workshop Faculty & Jazz Messengers",
-      "date": "2026-07-29",
-      "time": "7:00 PM",
-      "location": "Shalin Liu Performance Center",
-      "address": "",
-      "price": "",
-      "description": "",
-      "url": "https://www.thebostoncalendar.com/events/cape-ann-jazz-workshop-faculty-jazz-messengers--2",
-      "source": "Boston Calendar",
-      "categories": [
-        "Arts & Crafts"
-      ],
-      "latitude": null,
-      "longitude": null
-    },
-    {
-      "id": "3acd508d-cacd-817f-ab2f-e3d39a5268c8",
-      "name": "Essential Arab Mezze: Summer Edition",
-      "date": "2026-07-29",
-      "time": "6:00 PM",
-      "location": "The Foundry",
-      "address": "",
-      "price": "",
-      "description": "",
-      "url": "https://www.thebostoncalendar.com/events/essential-arab-mezze-summer-edition",
-      "source": "Boston Calendar",
-      "categories": [
-        "Middle Eastern"
-      ],
-      "latitude": null,
-      "longitude": null
-    },
-    {
-      "id": "3acd508d-cacd-8195-924a-d78258bc7a4f",
-      "name": "Free Outdoor Yoga with NB Fitness Club",
-      "date": "2026-07-29",
-      "time": "5:30 PM",
-      "location": "Athletes Park at Boston Landing",
-      "address": "",
-      "price": "",
-      "description": "",
-      "url": "https://www.thebostoncalendar.com/events/free-outdoor-yoga-with-nb-fitness-club--8",
-      "source": "Boston Calendar",
-      "categories": [
-        "Sports & Outdoors"
-      ],
-      "latitude": null,
-      "longitude": null
-    },
-    {
-      "id": "3acd508d-cacd-8177-8cea-d95828596f26",
-      "name": "Gelli Printing Workshop",
-      "date": "2026-07-29",
-      "time": "5:00 PM",
-      "location": "Cambridge KiOSK",
-      "address": "",
-      "price": "",
-      "description": "",
-      "url": "https://www.thebostoncalendar.com/events/gelli-printing-workshop--2",
-      "source": "Boston Calendar",
-      "categories": [
-        "Arts & Crafts"
-      ],
-      "latitude": null,
-      "longitude": null
-    },
-    {
-      "id": "3acd508d-cacd-8183-909a-d32b7dc9d19e",
-      "name": "Retreat on Your Holiday",
-      "date": "2026-07-29",
-      "time": "4:00 PM",
-      "location": "A La Carte Massage",
-      "address": "",
-      "price": "",
-      "description": "",
-      "url": "https://www.thebostoncalendar.com/events/retreat-on-your-holiday--8",
-      "source": "Boston Calendar",
-      "categories": [
-        "South Asian",
-        "Cultural Festival"
-      ],
-      "latitude": null,
-      "longitude": null
-    },
-    {
-      "id": "3acd508d-cacd-8127-a6f9-de648ccffd4e",
-      "name": "32nd Annual Members Juried Exhibition",
-      "date": "2026-07-29",
-      "time": "12:00 PM",
-      "location": "Griffin Museum of Photography",
-      "address": "",
-      "price": "",
-      "description": "",
-      "url": "https://www.thebostoncalendar.com/events/32nd-annual-members-juried-exhibition",
-      "source": "Boston Calendar",
-      "categories": [
-        "Arts & Crafts"
-      ],
-      "latitude": null,
-      "longitude": null
-    },
-    {
-      "id": "39cd508d-cacd-8146-891d-c73d4e67f4e7",
-      "name": "Full Moon Yoga @ The Museum Of Modern Renaissance Somerville MA!",
-      "date": "2026-07-29",
-      "time": "7:00 PM",
-      "location": "Museum of Modern Renaissance",
-      "address": "",
-      "price": "$35",
-      "description": "Join us for this Special Wednesday night Full \"Buck\" Moon Yoga & Soundscape @ The Museum Of Modern Renaissance Somerville MA!\ud83e\udd8c\ud83c\udf15 Buck Full Moon Yoga & Soundscape Experience\ud83d\udcc5 Wednesday, July 29, 2026 \u2022 7:00 PM\ud83d\udccd Museum of Modern Renaissance \u2022 Somerville, MAJoin us for a magical evening of movement, music, and mindfulness beneath the energy of the Buck Full Moon inside the breathtaking Museum of Modern Renaissance.Named by Native American tribes for the time of year when male deer (bucks) begin grow",
-      "url": "https://www.eventbrite.com/o/pete-sacco-81308330903",
-      "source": "Boston Calendar",
-      "categories": [
-        "Sports & Outdoors",
-        "Music & Dance",
-        "Career & Tech"
-      ],
-      "latitude": null,
-      "longitude": null
-    },
-    {
-      "id": "39cd508d-cacd-81e2-879b-dd0c096ccc0d",
-      "name": "Cape Ann Jazz Workshop Faculty & Jazz Messengers",
-      "date": "2026-07-29",
-      "time": "7:00 PM",
-      "location": "Shalin Liu Performance Center",
-      "address": "",
-      "price": "Free",
-      "description": "The Cape Ann Jazz Workshop Concert features performances by the workshop\u2019s acclaimed faculty alongside its advanced student ensemble, the Jazz Messengers. These talented young musicians\u2014who perform throughout Cape Ann during the workshop\u2014bring energy, creativity, and impressive artistry to the stage.ABOUT THE WORKSHOPCAJW is a vibrant musical community where students grow through hands-on ensemble work, creative exploration, and inspiring mentorship. Each morning blends warm-ups, small-group com",
-      "url": "https://eventvesta.com/events/141890/t/tickets",
-      "source": "Boston Calendar",
-      "categories": [
-        "Arts & Crafts",
-        "Music & Dance",
-        "Career & Tech",
-        "Community"
-      ],
-      "latitude": null,
-      "longitude": null
-    },
-    {
-      "id": "39cd508d-cacd-819a-b7e9-cd7ed81af7f9",
-      "name": "Gelli Printing Workshop",
-      "date": "2026-07-29",
-      "time": "5:00 PM",
-      "location": "Cambridge KiOSK",
-      "address": "",
-      "price": "Free",
-      "description": "Come learn the basics of gelli printing with frequent Kiosk collaborator and artist Marina Strauss. Leave with one of a kind prints that you can transformed into cards and collages! Free and open to all!",
-      "url": "https://cambridgekiosk.org/events/gelli-printing-workshop/",
-      "source": "Boston Calendar",
-      "categories": [
-        "Arts & Crafts"
-      ],
-      "latitude": null,
-      "longitude": null
-    },
-    {
-      "id": "39cd508d-cacd-814e-b0d2-d82c629abb8a",
-      "name": "Full Moon Yoga & Soundscape @ Museum of Modern Renaissance Somerville MA!",
-      "date": "2026-07-29",
-      "time": "",
-      "location": "Museum of Modern Renaissance",
-      "address": "115 College Avenue, Somerville, MA",
-      "price": "",
-      "description": "Join us for this  Special Wednesday night Full \"Buck\" Moon Yoga & Soundscape @ The Museum Of Modern Renaissance Somerville MA!",
-      "url": "https://www.eventbrite.com/e/full-moon-yoga-soundscape-museum-of-modern-renaissance-somerville-ma-tickets-1992975826346",
-      "source": "Eventbrite",
-      "categories": [
-        "Sports & Outdoors",
-        "Career & Tech"
-      ],
-      "latitude": 42.39981239999999,
-      "longitude": -71.1179052
-    },
-    {
-      "id": "390d508d-cacd-81b6-b02a-c8700062a74e",
-      "name": "Esaie Menou Trio (Monkfish Concert Series)",
-      "date": "2026-07-29",
-      "time": "",
-      "location": "The Mad Monkfish",
-      "address": "524 Massachusetts Avenue, Cambridge, MA",
-      "price": "",
-      "description": "Guitarist Esaie Hounmenou brings soulful jazz, Beninese grooves, and West African storytelling to Monkfish.",
-      "url": "https://www.eventbrite.com/e/esaie-menou-trio-monkfish-concert-series-tickets-1992179600814",
-      "source": "Eventbrite",
-      "categories": [
-        "Music & Dance",
-        "Cultural Festival",
-        "Career & Tech"
-      ],
-      "latitude": 42.3641279,
-      "longitude": -71.1021334
-    },
-    {
-      "id": "390d508d-cacd-81ec-8a1e-d17ed4edfed2",
-      "name": "Regime Change: Maggie Haberman on Trump\u2019s unchecked second term",
-      "date": "2026-07-29",
-      "time": "",
-      "location": "WBUR CitySpace",
-      "address": "890 Commonwealth Avenue, Boston, MA",
-      "price": "",
-      "description": "Join Maggie Haberman to explore how Trump\u2019s second term is testing the limits of presidential power.",
-      "url": "https://www.eventbrite.com/e/regime-change-maggie-haberman-on-trumps-unchecked-second-term-tickets-1991810656291",
-      "source": "Eventbrite",
-      "categories": [
-        "South Asian",
-        "Cultural Festival"
-      ],
-      "latitude": 42.3508575,
-      "longitude": -71.11565709999999
-    },
-    {
-      "id": "388d508d-cacd-81e0-b201-e9792983bef8",
-      "name": "KABAKA PYRAMID : Reggae superstar live at BIll's Bar Boston",
-      "date": "2026-07-29",
-      "time": "",
-      "location": "Bill's Bar & Lounge",
-      "address": "5 Lansdowne Street, Boston, MA",
-      "price": "",
-      "description": "Reggae Grammy winner KABAKA PYRAMID returns to Boston alongside the BEBBLE ROCK BAND and selectors JUNIOR RODIGAN and VOYAGER1",
-      "url": "https://www.eventbrite.com/e/kabaka-pyramid-reggae-superstar-live-at-bills-bar-boston-tickets-1992049181727",
-      "source": "Eventbrite",
-      "categories": [
-        "Career & Tech"
-      ],
-      "latitude": 42.34730649999999,
-      "longitude": -71.0949833
-    },
-    {
-      "id": "37dd508d-cacd-81f5-8386-da7e538796ad",
-      "name": "Work-Life Balance & Wellness for Women \u2013 1 Day Training in Boston, MA",
-      "date": "2026-07-29",
-      "time": "",
-      "location": "regus MA, Boston - Federal Street",
-      "address": "101 Federal Street  #Suite 1900, Boston, MA",
-      "price": "",
-      "description": "Empower women with practical tools for time management, stress relief, healthy boundaries & sustainable work-life balance in one focused day",
-      "url": "https://www.eventbrite.sg/e/work-life-balance-wellness-for-women-1-day-training-in-boston-ma-tickets-1983520368818",
-      "source": "Eventbrite",
-      "categories": [
-        "Career & Tech"
-      ],
-      "latitude": 42.354927,
-      "longitude": -71.0565872
-    },
-    {
-      "id": "371d508d-cacd-816e-bde4-fee31c33879b",
-      "name": "Midday Music: Angel Subero & Latin Logic",
-      "date": "2026-07-29",
-      "time": "",
-      "location": "Kendall/MIT Open Space",
-      "address": "292 Main Street, Cambridge, MA",
-      "price": "",
-      "description": "Registration recommended! You\u2019ll be the first to learn of event details or if the location or date changes due to inclement weather.",
-      "url": "https://www.eventbrite.com/e/midday-music-angel-subero-latin-logic-tickets-1989852508418",
-      "source": "Eventbrite",
-      "categories": [
-        "South Asian",
-        "Music & Dance"
-      ],
-      "latitude": 42.3623869,
-      "longitude": -71.08557210000001
     },
     {
       "id": "39dd508d-cacd-810f-9a18-ffe6921a13ab",
@@ -5410,5 +5143,5 @@
       "longitude": -71.0631568
     }
   ],
-  "updated": "2026-07-29T04:20:51.421611"
+  "updated": "2026-07-30T04:14:53.516840"
 }
