@@ -1,9 +1,9 @@
 {
   "events": [
     {
-      "id": "3c0d508d-cacd-8190-8ed5-ed1984acf7fd",
+      "id": "3c1d508d-cacd-8166-bb7b-c5bb2443535a",
       "name": "Your privacy choices",
-      "date": "2026-08-18",
+      "date": "2026-08-19",
       "time": "",
       "location": "Boston, MA",
       "address": "",
@@ -18,9 +18,9 @@
       "longitude": null
     },
     {
-      "id": "3c0d508d-cacd-8177-ac1c-fe4964807e77",
+      "id": "3c1d508d-cacd-81a6-a053-ed4239c9a206",
       "name": "Your privacy choices",
-      "date": "2026-08-18",
+      "date": "2026-08-19",
       "time": "",
       "location": "Boston, MA",
       "address": "",
@@ -35,9 +35,9 @@
       "longitude": null
     },
     {
-      "id": "3c0d508d-cacd-8178-8e45-c38de68fd2d4",
+      "id": "3c1d508d-cacd-811e-a853-ca635b8e0047",
       "name": "Your privacy choices",
-      "date": "2026-08-18",
+      "date": "2026-08-19",
       "time": "",
       "location": "Boston, MA",
       "address": "",
@@ -53,9 +53,9 @@
       "longitude": null
     },
     {
-      "id": "3c0d508d-cacd-81c5-a4bc-ee7eec1744d8",
+      "id": "3c1d508d-cacd-8111-9cdc-dbee875d4c0e",
       "name": "Your privacy choices",
-      "date": "2026-08-18",
+      "date": "2026-08-19",
       "time": "",
       "location": "Boston, MA",
       "address": "",
@@ -70,9 +70,9 @@
       "longitude": null
     },
     {
-      "id": "3c0d508d-cacd-8169-871b-ebc9029a5bc0",
+      "id": "3c1d508d-cacd-8111-8791-dd710e9b3f48",
       "name": "Your privacy choices",
-      "date": "2026-08-18",
+      "date": "2026-08-19",
       "time": "",
       "location": "Boston, MA",
       "address": "",
@@ -88,9 +88,9 @@
       "longitude": null
     },
     {
-      "id": "3c0d508d-cacd-81cb-93ae-f079bc00999a",
+      "id": "3c1d508d-cacd-81a5-85fc-e8f25ded9a2c",
       "name": "Your privacy choices",
-      "date": "2026-08-18",
+      "date": "2026-08-19",
       "time": "",
       "location": "Boston, MA",
       "address": "",
@@ -105,9 +105,9 @@
       "longitude": null
     },
     {
-      "id": "3c0d508d-cacd-8175-bdf5-c129906223c5",
+      "id": "3c1d508d-cacd-819e-b51d-e0e39e5bf642",
       "name": "Your privacy choices",
-      "date": "2026-08-18",
+      "date": "2026-08-19",
       "time": "",
       "location": "Boston, MA",
       "address": "",
@@ -123,9 +123,9 @@
       "longitude": null
     },
     {
-      "id": "3c0d508d-cacd-81bd-a7dd-d2392f94ccbd",
+      "id": "3c1d508d-cacd-813a-8042-cd636af752a0",
       "name": "Your privacy choices",
-      "date": "2026-08-18",
+      "date": "2026-08-19",
       "time": "",
       "location": "Boston, MA",
       "address": "",
@@ -141,9 +141,9 @@
       "longitude": null
     },
     {
-      "id": "3c0d508d-cacd-8115-b8ee-d191628bbad2",
+      "id": "3c1d508d-cacd-816a-98d9-c78ad4a956b7",
       "name": "Your privacy choices",
-      "date": "2026-08-18",
+      "date": "2026-08-19",
       "time": "",
       "location": "Boston, MA",
       "address": "",
@@ -159,9 +159,9 @@
       "longitude": null
     },
     {
-      "id": "3c0d508d-cacd-8183-9228-f0bdd4eafba1",
+      "id": "3c1d508d-cacd-819c-87aa-e2b1991240ea",
       "name": "Chinese Calligraphy Workshop",
-      "date": "2026-08-18",
+      "date": "2026-08-19",
       "time": "",
       "location": "zhao art studio",
       "address": "",
@@ -176,9 +176,9 @@
       "longitude": null
     },
     {
-      "id": "3c0d508d-cacd-814d-8f5f-cef63139c719",
+      "id": "3c1d508d-cacd-815c-8629-ec6278f48e82",
       "name": "\u201cComposing Color: Paintings by Alma Thomas from the Smithsonian American Art Museum\u201d at SCMA",
-      "date": "2026-08-18",
+      "date": "2026-08-19",
       "time": "",
       "location": "Smith College Museum of Art",
       "address": "",
@@ -194,9 +194,9 @@
       "longitude": null
     },
     {
-      "id": "3c0d508d-cacd-8106-806c-c7bafb1364e4",
+      "id": "3c1d508d-cacd-81c9-b111-f95f443f02ed",
       "name": "Patriots of Color Exhibition",
-      "date": "2026-08-18",
+      "date": "2026-08-19",
       "time": "",
       "location": "American Ancestors",
       "address": "",
@@ -211,26 +211,9 @@
       "longitude": null
     },
     {
-      "id": "3c0d508d-cacd-8147-80cd-e50b1d393656",
-      "name": "Sarma: Turkish & Mediterranean Small Plates | Somerville",
-      "date": "2026-08-18",
-      "time": "",
-      "location": "Sarma",
-      "address": "",
-      "price": "",
-      "description": "",
-      "url": "https://www.thebostoncalendar.com/events/sarma-turkish-mediterranean-small-plates-somerville",
-      "source": "Boston Calendar",
-      "categories": [
-        "Middle Eastern"
-      ],
-      "latitude": null,
-      "longitude": null
-    },
-    {
-      "id": "3c0d508d-cacd-81b3-a8cb-fca32abdc62d",
+      "id": "3c1d508d-cacd-8186-aa30-c86ffcbff579",
       "name": "Pottery Wheel Class | One Time",
-      "date": "2026-08-18",
+      "date": "2026-08-19",
       "time": "",
       "location": "Clay Lounge",
       "address": "",
@@ -245,9 +228,9 @@
       "longitude": null
     },
     {
-      "id": "3c0d508d-cacd-8145-913f-f79fb77238ed",
+      "id": "3c1d508d-cacd-81a6-ad1a-f8924072acef",
       "name": "The Paint Bar: Painting Classes for Work Events | Newton",
-      "date": "2026-08-18",
+      "date": "2026-08-19",
       "time": "",
       "location": "The Paint Bar",
       "address": "",
@@ -263,9 +246,26 @@
       "longitude": null
     },
     {
-      "id": "3c0d508d-cacd-81db-aa1d-f8870fd81291",
+      "id": "3c1d508d-cacd-810f-8d91-c325ff90e0a1",
+      "name": "Sarma: Turkish & Mediterranean Small Plates | Somerville",
+      "date": "2026-08-19",
+      "time": "",
+      "location": "Sarma",
+      "address": "",
+      "price": "",
+      "description": "",
+      "url": "https://www.thebostoncalendar.com/events/sarma-turkish-mediterranean-small-plates-somerville",
+      "source": "Boston Calendar",
+      "categories": [
+        "Middle Eastern"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "3c1d508d-cacd-810c-b70e-e8f0e7d5b461",
       "name": "Castanet Designer Consignment",
-      "date": "2026-08-18",
+      "date": "2026-08-19",
       "time": "",
       "location": "Castanet Designer Consignment",
       "address": "",
@@ -280,9 +280,9 @@
       "longitude": null
     },
     {
-      "id": "3c0d508d-cacd-81b7-a5f0-e632f00ee06d",
+      "id": "3c1d508d-cacd-8163-875a-c840c321a4ad",
       "name": "SWETSTUDIO | Aerial Yoga and Fitness in the South End",
-      "date": "2026-08-18",
+      "date": "2026-08-19",
       "time": "",
       "location": "SWETSTUDIO\u00ae",
       "address": "",
@@ -297,9 +297,9 @@
       "longitude": null
     },
     {
-      "id": "3c0d508d-cacd-81c0-a7ee-eb373fd5d770",
+      "id": "3c1d508d-cacd-814a-8082-c44aaa766c3a",
       "name": "Cooking Class: Sushi Making 101",
-      "date": "2026-08-18",
+      "date": "2026-08-19",
       "time": "",
       "location": "Trillium - Fort Point",
       "address": "",
@@ -314,26 +314,9 @@
       "longitude": null
     },
     {
-      "id": "3c0d508d-cacd-8118-a87a-f4ab62127d8d",
-      "name": "Make Epic Sushi Rolls With Chef Harold in Roxbury - Cooking Class by Classpop!",
-      "date": "2026-08-18",
-      "time": "",
-      "location": "Long Live Beerworks",
-      "address": "",
-      "price": "",
-      "description": "",
-      "url": "https://www.thebostoncalendar.com/events/make-epic-sushi-rolls-with-chef-harold-in-roxbury-cooking-class-by-classpop",
-      "source": "Boston Calendar",
-      "categories": [
-        "Food & Markets"
-      ],
-      "latitude": null,
-      "longitude": null
-    },
-    {
-      "id": "3c0d508d-cacd-81e7-b4bd-fb8747b67060",
+      "id": "3c1d508d-cacd-81f8-8255-edc8834247c1",
       "name": "Lonnie Ash: AMERICAN PLACES: Watercolor paintings of American buildings, coastlines, and open landscapes",
-      "date": "2026-08-18",
+      "date": "2026-08-19",
       "time": "",
       "location": "Midway Gallery at Midway Artist Studios",
       "address": "",
@@ -349,9 +332,26 @@
       "longitude": null
     },
     {
-      "id": "3c0d508d-cacd-8146-9bca-e1e20862c0a4",
+      "id": "3c1d508d-cacd-81e0-8687-e58dbc98c2c3",
+      "name": "Make Epic Sushi Rolls With Chef Harold in Roxbury - Cooking Class by Classpop!",
+      "date": "2026-08-19",
+      "time": "",
+      "location": "Long Live Beerworks",
+      "address": "",
+      "price": "",
+      "description": "",
+      "url": "https://www.thebostoncalendar.com/events/make-epic-sushi-rolls-with-chef-harold-in-roxbury-cooking-class-by-classpop",
+      "source": "Boston Calendar",
+      "categories": [
+        "Food & Markets"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "3c1d508d-cacd-819f-820d-fb34133955dc",
       "name": "Griffin Museum of Photography Exhibition: Rotan Switch",
-      "date": "2026-08-18",
+      "date": "2026-08-19",
       "time": "",
       "location": "Griffin Museum of Photography",
       "address": "",
@@ -366,9 +366,9 @@
       "longitude": null
     },
     {
-      "id": "3c0d508d-cacd-813a-9752-fe9beff2dd4c",
+      "id": "3c1d508d-cacd-816b-adaa-f66c483d069e",
       "name": "2026 Handmade Photobook Exhibition",
-      "date": "2026-08-18",
+      "date": "2026-08-19",
       "time": "",
       "location": "Griffin Museum of Photography",
       "address": "",
@@ -383,9 +383,9 @@
       "longitude": null
     },
     {
-      "id": "3c0d508d-cacd-8192-84af-e88dbd4ad232",
+      "id": "3c1d508d-cacd-8178-a782-f08c88c62bf3",
       "name": "32nd Annual Members Juried Exhibition",
-      "date": "2026-08-18",
+      "date": "2026-08-19",
       "time": "",
       "location": "Griffin Museum of Photography",
       "address": "",
@@ -400,32 +400,15 @@
       "longitude": null
     },
     {
-      "id": "390d508d-cacd-816b-8c4a-f7fd96e3c997",
-      "name": "Video Editing Basics in Davinci Resolve, all ages, FREE for members!",
-      "date": "2026-08-18",
+      "id": "3c1d508d-cacd-8126-a0ef-e3cafff4df2c",
+      "name": "Figure Drawing Basics",
+      "date": "2026-08-19",
       "time": "",
-      "location": "Brookline Interactive Group",
-      "address": "46 Tappan St, Brookline, MA",
-      "price": "",
-      "description": "Learn the ins and outs of video editing in Davinci Resolve",
-      "url": "https://www.eventbrite.com/e/video-editing-basics-in-davinci-resolve-all-ages-free-for-members-tickets-1992856522505",
-      "source": "Eventbrite",
-      "categories": [
-        "South Asian"
-      ],
-      "latitude": 42.331697,
-      "longitude": -71.127881
-    },
-    {
-      "id": "30bd508d-cacd-813a-9652-d225163d7d7d",
-      "name": "Art Class Hosted by All Ways Arts",
-      "date": "2026-08-18",
-      "time": "7:00 PM",
-      "location": "Lord Hobo Brewing Company",
+      "location": "The Boston Figure",
       "address": "",
-      "price": "$35-85",
-      "description": "Join us for an Art Class hosted by All Ways Arts! They haven't posted the exact class for this date yet but they host a variety of Art Workshops such as Paint your Pet Nite (my personal favorite), Chunky Blanket Nite, a Seaglass Tree Workshop, Classic Paint Nite & many more!We'll post the link to sign up when its ready!",
-      "url": "https://www.thebostoncalendar.com/events/art-class-hosted-by-all-ways-arts--44",
+      "price": "",
+      "description": "",
+      "url": "https://www.thebostoncalendar.com/events/figure-drawing-basics--14",
       "source": "Boston Calendar",
       "categories": [
         "Arts & Crafts"
@@ -2728,5 +2711,5 @@
       "longitude": -71.0631568
     }
   ],
-  "updated": "2026-08-18T02:22:42.889793"
+  "updated": "2026-08-19T02:25:36.723561"
 }
