@@ -1,9 +1,9 @@
 {
   "events": [
     {
-      "id": "3c2d508d-cacd-818b-b8ee-fc60583e692f",
+      "id": "3c3d508d-cacd-812b-90af-cefde7ef42ba",
       "name": "Your privacy choices",
-      "date": "2026-08-20",
+      "date": "2026-08-21",
       "time": "",
       "location": "Boston, MA",
       "address": "",
@@ -18,9 +18,9 @@
       "longitude": null
     },
     {
-      "id": "3c2d508d-cacd-8179-a5bd-efab8c86c4cb",
+      "id": "3c3d508d-cacd-8146-9ee9-ea992aeffc38",
       "name": "Your privacy choices",
-      "date": "2026-08-20",
+      "date": "2026-08-21",
       "time": "",
       "location": "Boston, MA",
       "address": "",
@@ -35,9 +35,9 @@
       "longitude": null
     },
     {
-      "id": "3c2d508d-cacd-8191-ad2c-fdad1af31af9",
+      "id": "3c3d508d-cacd-8156-b9e9-fe4548a3e755",
       "name": "Your privacy choices",
-      "date": "2026-08-20",
+      "date": "2026-08-21",
       "time": "",
       "location": "Boston, MA",
       "address": "",
@@ -53,9 +53,9 @@
       "longitude": null
     },
     {
-      "id": "3c2d508d-cacd-81eb-a257-f523d69a758f",
+      "id": "3c3d508d-cacd-8196-8ee6-c502876c90f6",
       "name": "Your privacy choices",
-      "date": "2026-08-20",
+      "date": "2026-08-21",
       "time": "",
       "location": "Boston, MA",
       "address": "",
@@ -70,9 +70,9 @@
       "longitude": null
     },
     {
-      "id": "3c2d508d-cacd-8111-96a8-f27b2ce1fb6e",
+      "id": "3c3d508d-cacd-81b7-9e74-d6cf30d5e809",
       "name": "Your privacy choices",
-      "date": "2026-08-20",
+      "date": "2026-08-21",
       "time": "",
       "location": "Boston, MA",
       "address": "",
@@ -88,9 +88,9 @@
       "longitude": null
     },
     {
-      "id": "3c2d508d-cacd-812c-b200-fafa1f379a6c",
+      "id": "3c3d508d-cacd-81fe-8ace-c3634cdc55d7",
       "name": "Your privacy choices",
-      "date": "2026-08-20",
+      "date": "2026-08-21",
       "time": "",
       "location": "Boston, MA",
       "address": "",
@@ -105,9 +105,9 @@
       "longitude": null
     },
     {
-      "id": "3c2d508d-cacd-819e-aa98-f70758c2b1b4",
+      "id": "3c3d508d-cacd-8170-a5ff-d3a396c9c09b",
       "name": "Your privacy choices",
-      "date": "2026-08-20",
+      "date": "2026-08-21",
       "time": "",
       "location": "Boston, MA",
       "address": "",
@@ -123,9 +123,9 @@
       "longitude": null
     },
     {
-      "id": "3c2d508d-cacd-81de-b4f7-cc1d2bf783c7",
+      "id": "3c3d508d-cacd-8161-8557-e10a44ff6810",
       "name": "Your privacy choices",
-      "date": "2026-08-20",
+      "date": "2026-08-21",
       "time": "",
       "location": "Boston, MA",
       "address": "",
@@ -141,9 +141,9 @@
       "longitude": null
     },
     {
-      "id": "3c2d508d-cacd-8158-a295-c98517bf11dc",
+      "id": "3c3d508d-cacd-8141-9967-eba0f0ed6b11",
       "name": "Your privacy choices",
-      "date": "2026-08-20",
+      "date": "2026-08-21",
       "time": "",
       "location": "Boston, MA",
       "address": "",
@@ -159,9 +159,9 @@
       "longitude": null
     },
     {
-      "id": "3c2d508d-cacd-81db-8f9b-cd51f7da6680",
+      "id": "3c3d508d-cacd-816a-be90-fd47df55d26c",
       "name": "Chinese Calligraphy Workshop",
-      "date": "2026-08-20",
+      "date": "2026-08-21",
       "time": "",
       "location": "zhao art studio",
       "address": "",
@@ -176,9 +176,9 @@
       "longitude": null
     },
     {
-      "id": "3c2d508d-cacd-81a2-8528-d321d2bc7b77",
+      "id": "3c3d508d-cacd-8154-8b74-ec2401d488c7",
       "name": "\u201cComposing Color: Paintings by Alma Thomas from the Smithsonian American Art Museum\u201d at SCMA",
-      "date": "2026-08-20",
+      "date": "2026-08-21",
       "time": "",
       "location": "Smith College Museum of Art",
       "address": "",
@@ -194,26 +194,9 @@
       "longitude": null
     },
     {
-      "id": "3c2d508d-cacd-8191-9d7a-f60c6c484ad4",
-      "name": "Sarma: Turkish & Mediterranean Small Plates | Somerville",
-      "date": "2026-08-20",
-      "time": "",
-      "location": "Sarma",
-      "address": "",
-      "price": "",
-      "description": "",
-      "url": "https://www.thebostoncalendar.com/events/sarma-turkish-mediterranean-small-plates-somerville",
-      "source": "Boston Calendar",
-      "categories": [
-        "Middle Eastern"
-      ],
-      "latitude": null,
-      "longitude": null
-    },
-    {
-      "id": "3c2d508d-cacd-818d-9d8b-c9b71299da22",
+      "id": "3c3d508d-cacd-811d-8503-ea09ce6c4d58",
       "name": "Patriots of Color Exhibition",
-      "date": "2026-08-20",
+      "date": "2026-08-21",
       "time": "",
       "location": "American Ancestors",
       "address": "",
@@ -228,9 +211,9 @@
       "longitude": null
     },
     {
-      "id": "3c2d508d-cacd-8155-b570-c1be8fecc71a",
+      "id": "3c3d508d-cacd-81ec-b798-cdff8373c41a",
       "name": "Pottery Wheel Class | One Time",
-      "date": "2026-08-20",
+      "date": "2026-08-21",
       "time": "",
       "location": "Clay Lounge",
       "address": "",
@@ -245,9 +228,9 @@
       "longitude": null
     },
     {
-      "id": "3c2d508d-cacd-8161-86bb-f32d85902540",
+      "id": "3c3d508d-cacd-81f6-9698-ee88bb7887d8",
       "name": "The Paint Bar: Painting Classes for Work Events | Newton",
-      "date": "2026-08-20",
+      "date": "2026-08-21",
       "time": "",
       "location": "The Paint Bar",
       "address": "",
@@ -263,9 +246,9 @@
       "longitude": null
     },
     {
-      "id": "3c2d508d-cacd-817c-998c-c7ceabcd637a",
+      "id": "3c3d508d-cacd-816b-b581-ce338b9f3610",
       "name": "Castanet Designer Consignment",
-      "date": "2026-08-20",
+      "date": "2026-08-21",
       "time": "",
       "location": "Castanet Designer Consignment",
       "address": "",
@@ -280,9 +263,26 @@
       "longitude": null
     },
     {
-      "id": "3c2d508d-cacd-81ec-a0d5-da8cf04dfe48",
+      "id": "3c3d508d-cacd-817d-bb72-e3d08ff49b5f",
+      "name": "Sarma: Turkish & Mediterranean Small Plates | Somerville",
+      "date": "2026-08-21",
+      "time": "",
+      "location": "Sarma",
+      "address": "",
+      "price": "",
+      "description": "",
+      "url": "https://www.thebostoncalendar.com/events/sarma-turkish-mediterranean-small-plates-somerville",
+      "source": "Boston Calendar",
+      "categories": [
+        "Middle Eastern"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "3c3d508d-cacd-8150-9b84-dad9df0ebbcd",
       "name": "SWETSTUDIO | Aerial Yoga and Fitness in the South End",
-      "date": "2026-08-20",
+      "date": "2026-08-21",
       "time": "",
       "location": "SWETSTUDIO\u00ae",
       "address": "",
@@ -297,9 +297,9 @@
       "longitude": null
     },
     {
-      "id": "3c2d508d-cacd-8131-8897-c135717346ac",
+      "id": "3c3d508d-cacd-81ac-ade5-cf63bb8fe7bc",
       "name": "Cooking Class: Sushi Making 101",
-      "date": "2026-08-20",
+      "date": "2026-08-21",
       "time": "",
       "location": "Trillium - Fort Point",
       "address": "",
@@ -314,9 +314,26 @@
       "longitude": null
     },
     {
-      "id": "3c2d508d-cacd-8168-99d0-cd525c41b3bb",
+      "id": "3c3d508d-cacd-816e-8291-d611138e6bd7",
+      "name": "Make Epic Sushi Rolls With Chef Harold in Roxbury - Cooking Class by Classpop!",
+      "date": "2026-08-21",
+      "time": "",
+      "location": "Long Live Beerworks",
+      "address": "",
+      "price": "",
+      "description": "",
+      "url": "https://www.thebostoncalendar.com/events/make-epic-sushi-rolls-with-chef-harold-in-roxbury-cooking-class-by-classpop",
+      "source": "Boston Calendar",
+      "categories": [
+        "Food & Markets"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "3c3d508d-cacd-8130-bfc6-fd2968a833b9",
       "name": "Lonnie Ash: AMERICAN PLACES: Watercolor paintings of American buildings, coastlines, and open landscapes",
-      "date": "2026-08-20",
+      "date": "2026-08-21",
       "time": "",
       "location": "Midway Gallery at Midway Artist Studios",
       "address": "",
@@ -332,26 +349,9 @@
       "longitude": null
     },
     {
-      "id": "3c2d508d-cacd-817e-9d8c-f9a6e52bb426",
-      "name": "Make Epic Sushi Rolls With Chef Harold in Roxbury - Cooking Class by Classpop!",
-      "date": "2026-08-20",
-      "time": "",
-      "location": "Long Live Beerworks",
-      "address": "",
-      "price": "",
-      "description": "",
-      "url": "https://www.thebostoncalendar.com/events/make-epic-sushi-rolls-with-chef-harold-in-roxbury-cooking-class-by-classpop",
-      "source": "Boston Calendar",
-      "categories": [
-        "Food & Markets"
-      ],
-      "latitude": null,
-      "longitude": null
-    },
-    {
-      "id": "3c2d508d-cacd-81a3-9079-f7cca48c9ec7",
+      "id": "3c3d508d-cacd-81d1-b798-c19e96c3a964",
       "name": "Griffin Museum of Photography Exhibition: Rotan Switch",
-      "date": "2026-08-20",
+      "date": "2026-08-21",
       "time": "",
       "location": "Griffin Museum of Photography",
       "address": "",
@@ -366,9 +366,9 @@
       "longitude": null
     },
     {
-      "id": "3c2d508d-cacd-81c3-812c-e8b52bc63275",
+      "id": "3c3d508d-cacd-810e-b4f1-e17226fc08da",
       "name": "2026 Handmade Photobook Exhibition",
-      "date": "2026-08-20",
+      "date": "2026-08-21",
       "time": "",
       "location": "Griffin Museum of Photography",
       "address": "",
@@ -383,9 +383,9 @@
       "longitude": null
     },
     {
-      "id": "3c2d508d-cacd-8146-9e51-cc6348668c5f",
+      "id": "3c3d508d-cacd-814c-bfba-c516ce80c33d",
       "name": "32nd Annual Members Juried Exhibition",
-      "date": "2026-08-20",
+      "date": "2026-08-21",
       "time": "",
       "location": "Griffin Museum of Photography",
       "address": "",
@@ -400,9 +400,9 @@
       "longitude": null
     },
     {
-      "id": "3c2d508d-cacd-81ad-bfea-e1ccf955a19f",
+      "id": "3c3d508d-cacd-81bc-8e2c-d5d96a259767",
       "name": "Figure Drawing Basics",
-      "date": "2026-08-20",
+      "date": "2026-08-21",
       "time": "",
       "location": "The Boston Figure",
       "address": "",
@@ -415,110 +415,6 @@
       ],
       "latitude": null,
       "longitude": null
-    },
-    {
-      "id": "39cd508d-cacd-81f3-a7ed-f2196ccb1d43",
-      "name": "BOSTON Naked! Yoga",
-      "date": "2026-08-20",
-      "time": "7:00 PM",
-      "location": "Address to be provided upon ticket purchase",
-      "address": "",
-      "price": "$30, financial assistance available",
-      "description": "All levels and genders welcome. Join us for a 75-minute Yoga class taught by our instructor, Calvin.Everyone MUST be an active, willing participant and at least 18 years old.Please bring a valid photo ID for age verification. You will be required to enter an accurate date of birth upon registration.All events have a 24-hour cancellation policy, so if you cancel less than 24 hours before the event, you forfeit your payment. Unless the event is canceled, ALL EVENTBRITE FEES ARE NON-REFUNDABLE (eve",
-      "url": "https://www.eventbrite.com/e/boston-naked-yoga-tickets-1990003185096?aff=TheBostonCalendar",
-      "source": "Boston Calendar",
-      "categories": [
-        "Arts & Crafts",
-        "Sports & Outdoors"
-      ],
-      "latitude": null,
-      "longitude": null
-    },
-    {
-      "id": "38ad508d-cacd-8177-a9da-d6475a95a494",
-      "name": "South Shore Comedy Clash FINALS",
-      "date": "2026-08-20",
-      "time": "",
-      "location": "Fox and Hound Wood Grille and Tavern",
-      "address": "123 Sea Street, Quincy, MA",
-      "price": "",
-      "description": "Join our 6 finalists as they battle for the title!!",
-      "url": "https://www.eventbrite.com/e/south-shore-comedy-clash-finals-tickets-1991601174726",
-      "source": "Eventbrite",
-      "categories": [
-        "Comedy"
-      ],
-      "latitude": 42.259581,
-      "longitude": -70.994917
-    },
-    {
-      "id": "388d508d-cacd-8183-a9a8-e3bbd0d8c361",
-      "name": "Global Musician Workshop Participant Concerts | August 20-22",
-      "date": "2026-08-20",
-      "time": "",
-      "location": "Plimpton Shattuck Black Box Theatre",
-      "address": "255 Saint Botolph Street, Boston, MA",
-      "price": "",
-      "description": "Silkroad\u2019s GMW participant concerts feature 80+ musicians from 22 countries, showcasing global sounds from banjo to tanbour, live on stage!",
-      "url": "https://www.eventbrite.com/e/global-musician-workshop-participant-concerts-august-20-22-tickets-1990897604328",
-      "source": "Eventbrite",
-      "categories": [
-        "Arts & Crafts",
-        "Music & Dance"
-      ],
-      "latitude": 42.3410471,
-      "longitude": -71.0863873
-    },
-    {
-      "id": "384d508d-cacd-8138-bb0d-c2413838ff9b",
-      "name": "Field Trip: Country line dancing with Line Dancing Queens",
-      "date": "2026-08-20",
-      "time": "",
-      "location": "WBUR CitySpace",
-      "address": "890 Commonwealth Avenue, Boston, MA",
-      "price": "",
-      "description": "Learn beginner-friendly country line dances, meet new people, and dance the night away!",
-      "url": "https://www.eventbrite.com/e/field-trip-country-line-dancing-with-line-dancing-queens-tickets-1991591807709",
-      "source": "Eventbrite",
-      "categories": [
-        "Music & Dance"
-      ],
-      "latitude": 42.3508575,
-      "longitude": -71.11565709999999
-    },
-    {
-      "id": "37ed508d-cacd-81dd-8890-cfda529407c3",
-      "name": "Field Trip: Line Dancing",
-      "date": "2026-08-20",
-      "time": "",
-      "location": "WBUR CitySpace",
-      "address": "890 Commonwealth Avenue, Boston, MA",
-      "price": "",
-      "description": "Learn beginner-friendly country line dances, meet new people, and dance the night away!",
-      "url": "https://www.eventbrite.com/e/field-trip-line-dancing-tickets-1991591807709",
-      "source": "Eventbrite",
-      "categories": [
-        "Music & Dance"
-      ],
-      "latitude": 42.3508575,
-      "longitude": -71.11565709999999
-    },
-    {
-      "id": "37dd508d-cacd-812e-b0cb-fa6d4af7cbcc",
-      "name": "Foundations First: A Launchpad for Classroom Success",
-      "date": "2026-08-20",
-      "time": "",
-      "location": "The Rashi School",
-      "address": "8000 Great Meadow Road, Dedham, MA",
-      "price": "",
-      "description": "Get ready to kickstart your classroom success at Foundations First - the ultimate launchpad for all your academic goals!",
-      "url": "https://www.eventbrite.com/e/foundations-first-a-launchpad-for-classroom-success-tickets-1991709101538",
-      "source": "Eventbrite",
-      "categories": [
-        "Middle Eastern"
-      ],
-      "latitude": 42.26753799999999,
-      "longitude": -71.1972409
     },
     {
       "id": "39dd508d-cacd-81fc-8de7-dba58406ca6b",
@@ -2657,5 +2553,5 @@
       "longitude": -71.0631568
     }
   ],
-  "updated": "2026-08-20T02:24:30.262521"
+  "updated": "2026-08-21T02:30:25.899530"
 }
