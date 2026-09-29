@@ -1,27 +1,43 @@
 {
   "events": [
     {
-      "id": "3e9d508d-cacd-81d4-bc6e-d30c4cb5b4be",
-      "name": "Global France Seminar presents, Doyle Calhoun \u201cThe Suicide Archive: Reading for resistance from the time of slavery to the \u2018Arab Spring'\u201d",
-      "date": "2026-09-28",
+      "id": "3ead508d-cacd-81d9-8c3a-d3b0d100ee31",
+      "name": "Session 2: Reading Israeli and Palestinian News with Israelis and Palestinians",
+      "date": "2026-09-29",
       "time": "",
       "location": "MIT Campus, Cambridge, MA",
       "address": "",
       "price": "",
       "description": "",
-      "url": "https://calendar.mit.edu/event/global-france-seminar-presents-doyle-calhoun-the-suicide-archive-reading-for-resistance-from-the-time-of-slavery-to-the-arab-spring",
+      "url": "https://calendar.mit.edu/event/reading-israel-palestine-news",
       "source": "MIT Events",
       "categories": [
-        "Middle Eastern",
-        "Talks & Lectures"
+        "Middle Eastern"
       ],
       "latitude": 42.3601,
       "longitude": -71.0942
     },
     {
-      "id": "3e9d508d-cacd-817c-8cbb-c7bd4e0a4829",
+      "id": "3ead508d-cacd-8138-88a6-efe2216b1e76",
+      "name": "Logics of Dispossession: Governing by Eviction in Indian Cities",
+      "date": "2026-09-29",
+      "time": "",
+      "location": "MIT Campus, Cambridge, MA",
+      "address": "",
+      "price": "",
+      "description": "",
+      "url": "https://calendar.mit.edu/event/logics-of-dispossession-governing-by-eviction-in-indian-cities",
+      "source": "MIT Events",
+      "categories": [
+        "South Asian"
+      ],
+      "latitude": 42.3601,
+      "longitude": -71.0942
+    },
+    {
+      "id": "3ead508d-cacd-8132-8453-e0d07a471937",
       "name": "Your privacy choices",
-      "date": "2026-09-28",
+      "date": "2026-09-29",
       "time": "",
       "location": "Boston, MA",
       "address": "",
@@ -36,9 +52,9 @@
       "longitude": null
     },
     {
-      "id": "3e9d508d-cacd-8190-8994-f765c165c103",
+      "id": "3ead508d-cacd-8121-b03c-e1288d6a2cbd",
       "name": "Your privacy choices",
-      "date": "2026-09-28",
+      "date": "2026-09-29",
       "time": "",
       "location": "Boston, MA",
       "address": "",
@@ -53,9 +69,9 @@
       "longitude": null
     },
     {
-      "id": "3e9d508d-cacd-815a-9369-c73a8268874f",
+      "id": "3ead508d-cacd-81e5-95bd-f843d05068b2",
       "name": "Your privacy choices",
-      "date": "2026-09-28",
+      "date": "2026-09-29",
       "time": "",
       "location": "Boston, MA",
       "address": "",
@@ -71,9 +87,9 @@
       "longitude": null
     },
     {
-      "id": "3e9d508d-cacd-81c9-a1f1-d11017ffc05a",
+      "id": "3ead508d-cacd-811b-b982-d8e07c822483",
       "name": "Your privacy choices",
-      "date": "2026-09-28",
+      "date": "2026-09-29",
       "time": "",
       "location": "Boston, MA",
       "address": "",
@@ -88,9 +104,9 @@
       "longitude": null
     },
     {
-      "id": "3e9d508d-cacd-8180-b9b3-e75cd6ddca37",
+      "id": "3ead508d-cacd-810a-a96e-c0ffcbe60f9c",
       "name": "Your privacy choices",
-      "date": "2026-09-28",
+      "date": "2026-09-29",
       "time": "",
       "location": "Boston, MA",
       "address": "",
@@ -106,9 +122,9 @@
       "longitude": null
     },
     {
-      "id": "3e9d508d-cacd-813d-9e33-fc7acb5393fe",
+      "id": "3ead508d-cacd-8132-9139-c319e4f677bc",
       "name": "Your privacy choices",
-      "date": "2026-09-28",
+      "date": "2026-09-29",
       "time": "",
       "location": "Boston, MA",
       "address": "",
@@ -123,9 +139,9 @@
       "longitude": null
     },
     {
-      "id": "3e9d508d-cacd-812e-80a7-c339631dec2e",
+      "id": "3ead508d-cacd-8103-b60d-e0728c91d1cc",
       "name": "Your privacy choices",
-      "date": "2026-09-28",
+      "date": "2026-09-29",
       "time": "",
       "location": "Boston, MA",
       "address": "",
@@ -141,9 +157,9 @@
       "longitude": null
     },
     {
-      "id": "3e9d508d-cacd-81fc-8dc5-fc2677c9b70b",
+      "id": "3ead508d-cacd-81ee-bfa7-fafc5c12c2d3",
       "name": "Your privacy choices",
-      "date": "2026-09-28",
+      "date": "2026-09-29",
       "time": "",
       "location": "Boston, MA",
       "address": "",
@@ -159,9 +175,9 @@
       "longitude": null
     },
     {
-      "id": "3e9d508d-cacd-81ec-9446-d75282a69aba",
+      "id": "3ead508d-cacd-8135-8b20-fc3085bc5b77",
       "name": "Your privacy choices",
-      "date": "2026-09-28",
+      "date": "2026-09-29",
       "time": "",
       "location": "Boston, MA",
       "address": "",
@@ -177,9 +193,27 @@
       "longitude": null
     },
     {
-      "id": "3e9d508d-cacd-81fd-bfe1-dc5652645f76",
+      "id": "3ead508d-cacd-8178-bc89-ce66ef59953e",
+      "name": "Board Game Night with Designers! @ Church on the HillTue, Sep 29 \u00b7 6:00 PM EDTby Game Makers Guild",
+      "date": "2026-09-29",
+      "time": "",
+      "location": "Boston, MA",
+      "address": "",
+      "price": "",
+      "description": "",
+      "url": "https://www.meetup.com/game-makers-guild/events/315945024/?eventOrigin=city_events_today",
+      "source": "Meetup",
+      "categories": [
+        "South Asian",
+        "Religious"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "3ead508d-cacd-81f3-9f15-edd1a5b599eb",
       "name": "Davis Museum at Wellesley College reunites century-old Antioch mosaics and artifacts from four U.S. museums",
-      "date": "2026-09-28",
+      "date": "2026-09-29",
       "time": "",
       "location": "Davis Museum at Wellesley College",
       "address": "",
@@ -195,9 +229,9 @@
       "longitude": null
     },
     {
-      "id": "3e9d508d-cacd-815c-ae73-e88f152775b6",
+      "id": "3ead508d-cacd-814f-8e6e-fa28aefc7094",
       "name": "Chinese Calligraphy Workshop",
-      "date": "2026-09-28",
+      "date": "2026-09-29",
       "time": "",
       "location": "zhao art studio",
       "address": "",
@@ -212,9 +246,9 @@
       "longitude": null
     },
     {
-      "id": "3e9d508d-cacd-814b-861f-d88f5fe6ca64",
+      "id": "3ead508d-cacd-81c0-84af-cded05f9f7e4",
       "name": "Whorl: Vertical Gallery Activation by Debra Fleury",
-      "date": "2026-09-28",
+      "date": "2026-09-29",
       "time": "",
       "location": "Umbrella Arts",
       "address": "",
@@ -229,9 +263,9 @@
       "longitude": null
     },
     {
-      "id": "3e9d508d-cacd-817d-9a10-e4cd334439e0",
+      "id": "3ead508d-cacd-81ba-bfa3-fefdaabaf546",
       "name": "Yoga Teacher Training 200 Hours (in-person) in Dorchester, MA",
-      "date": "2026-09-28",
+      "date": "2026-09-29",
       "time": "",
       "location": "Connected Through Strength",
       "address": "",
@@ -248,9 +282,9 @@
       "longitude": null
     },
     {
-      "id": "3e9d508d-cacd-81ca-bb4a-cdf421b2e0c4",
+      "id": "3ead508d-cacd-8112-a496-e318818d3114",
       "name": "On Location: Drawing the Outdoors",
-      "date": "2026-09-28",
+      "date": "2026-09-29",
       "time": "",
       "location": "Harvard Art Museums",
       "address": "",
@@ -266,9 +300,9 @@
       "longitude": null
     },
     {
-      "id": "3e9d508d-cacd-81bc-893a-e4e8af5c6321",
+      "id": "3ead508d-cacd-81fe-ab00-e073859973f4",
       "name": "\u201cComposing Color: Paintings by Alma Thomas from the Smithsonian American Art Museum\u201d at SCMA",
-      "date": "2026-09-28",
+      "date": "2026-09-29",
       "time": "",
       "location": "Smith College Museum of Art",
       "address": "",
@@ -284,9 +318,9 @@
       "longitude": null
     },
     {
-      "id": "3e9d508d-cacd-8195-9b70-d90b00bcfe4d",
+      "id": "3ead508d-cacd-8190-90a4-c2555907e668",
       "name": "Patriots of Color Exhibition",
-      "date": "2026-09-28",
+      "date": "2026-09-29",
       "time": "",
       "location": "American Ancestors",
       "address": "",
@@ -301,9 +335,9 @@
       "longitude": null
     },
     {
-      "id": "3e9d508d-cacd-81a1-be3b-d163f5e3ab86",
+      "id": "3ead508d-cacd-810b-a881-cf92efce5df2",
       "name": "Pottery Wheel Class | One Time",
-      "date": "2026-09-28",
+      "date": "2026-09-29",
       "time": "",
       "location": "Clay Lounge",
       "address": "",
@@ -318,9 +352,9 @@
       "longitude": null
     },
     {
-      "id": "3e9d508d-cacd-8160-be02-e28cabcf898e",
+      "id": "3ead508d-cacd-815b-a153-d2dec55405a9",
       "name": "SWETSTUDIO | Aerial Yoga and Fitness in the South End",
-      "date": "2026-09-28",
+      "date": "2026-09-29",
       "time": "",
       "location": "SWETSTUDIO\u00ae",
       "address": "",
@@ -335,9 +369,9 @@
       "longitude": null
     },
     {
-      "id": "3e9d508d-cacd-81c8-891c-f86b9d85fe2a",
+      "id": "3ead508d-cacd-81a3-b6ea-d93f90c9725f",
       "name": "Castanet Designer Consignment",
-      "date": "2026-09-28",
+      "date": "2026-09-29",
       "time": "",
       "location": "Castanet Designer Consignment",
       "address": "",
@@ -352,9 +386,9 @@
       "longitude": null
     },
     {
-      "id": "3e9d508d-cacd-8166-bf45-d5119ba16be6",
+      "id": "3ead508d-cacd-8139-a4b9-e51475138876",
       "name": "Sarma: Turkish & Mediterranean Small Plates | Somerville",
-      "date": "2026-09-28",
+      "date": "2026-09-29",
       "time": "",
       "location": "Sarma",
       "address": "",
@@ -369,9 +403,9 @@
       "longitude": null
     },
     {
-      "id": "3e9d508d-cacd-81fa-982f-f7a8207b3ce5",
+      "id": "3ead508d-cacd-81a8-ae0c-ec8a1f47d51c",
       "name": "The Paint Bar: Painting Classes for Work Events | Newton",
-      "date": "2026-09-28",
+      "date": "2026-09-29",
       "time": "",
       "location": "The Paint Bar",
       "address": "",
@@ -387,9 +421,9 @@
       "longitude": null
     },
     {
-      "id": "3e9d508d-cacd-81cb-9725-e75d5d870dc3",
+      "id": "3ead508d-cacd-81f7-bfe7-e425fadc1567",
       "name": "On Being Human: Mosaic Meditations by Cynthia Fisher",
-      "date": "2026-09-28",
+      "date": "2026-09-29",
       "time": "",
       "location": "Umbrella Arts",
       "address": "",
@@ -405,9 +439,9 @@
       "longitude": null
     },
     {
-      "id": "3e9d508d-cacd-8129-b555-eb6c29026c0c",
+      "id": "3ead508d-cacd-817e-95f1-dc8b4d2ff750",
       "name": "Cooking Class: Sushi Making 101",
-      "date": "2026-09-28",
+      "date": "2026-09-29",
       "time": "",
       "location": "Trillium - Fort Point",
       "address": "",
@@ -422,9 +456,9 @@
       "longitude": null
     },
     {
-      "id": "3e9d508d-cacd-8105-a7ac-c6e2edda4631",
+      "id": "3ead508d-cacd-819b-9193-fffa2f7eb621",
       "name": "Make a Mosaic Frame or a Piece of Jewelry",
-      "date": "2026-09-28",
+      "date": "2026-09-29",
       "time": "",
       "location": "Amy Marks' Mosaic Studio",
       "address": "",
@@ -439,9 +473,26 @@
       "longitude": null
     },
     {
-      "id": "3e9d508d-cacd-81fb-9dbc-c76d9829baca",
+      "id": "3ead508d-cacd-816f-b7b9-d5dca68e355b",
+      "name": "EXPERIMENTAL: Exhibition by Courtney Fern",
+      "date": "2026-09-29",
+      "time": "",
+      "location": "Hopkinton Center for the Arts",
+      "address": "",
+      "price": "",
+      "description": "",
+      "url": "https://www.thebostoncalendar.com/events/experimental-exhibition-by-courtney-fern",
+      "source": "Boston Calendar",
+      "categories": [
+        "Arts & Crafts"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "3ead508d-cacd-8170-af61-ec2908f4e0b2",
       "name": "STEVE ROSENTHAL RETURNS TO PAUL DIETRICH GALLERY WITH NEW PHOTOGRAPHY EXHIBIT: A SYMPHONY IN BRICK",
-      "date": "2026-09-28",
+      "date": "2026-09-29",
       "time": "",
       "location": "Paul Dietrich Gallery at CambridgeSeven",
       "address": "",
@@ -456,9 +507,9 @@
       "longitude": null
     },
     {
-      "id": "3e9d508d-cacd-8130-ab1c-d5aaae36440d",
+      "id": "3ead508d-cacd-81ee-a08d-dad0aef1a55e",
       "name": "Exhibition: Life, Liberty, and the Pursuit of Happiness",
-      "date": "2026-09-28",
+      "date": "2026-09-29",
       "time": "",
       "location": "Central Library at Copley Square",
       "address": "",
@@ -473,9 +524,9 @@
       "longitude": null
     },
     {
-      "id": "3e9d508d-cacd-8160-9e42-eece8e757d2c",
+      "id": "3ead508d-cacd-81c5-a6aa-d4dc6620d111",
       "name": "Taproom Yoga at Long Live Roxbury",
-      "date": "2026-09-28",
+      "date": "2026-09-29",
       "time": "",
       "location": "Long Live Roxbury",
       "address": "",
@@ -490,9 +541,9 @@
       "longitude": null
     },
     {
-      "id": "3e9d508d-cacd-81ef-a93d-ca0820d2bdc6",
+      "id": "3ead508d-cacd-815a-a9a6-c6e82fa02b6e",
       "name": "'If you can see me, hold me close' Exhibition",
-      "date": "2026-09-28",
+      "date": "2026-09-29",
       "time": "",
       "location": "Multicultural Arts Center",
       "address": "",
@@ -507,9 +558,9 @@
       "longitude": null
     },
     {
-      "id": "3e9d508d-cacd-810f-b857-ce8b88f2ac8f",
+      "id": "3ead508d-cacd-81db-8043-c73b4858cc50",
       "name": "They Say // 2026 Graduate Alumni Exhibition",
-      "date": "2026-09-28",
+      "date": "2026-09-29",
       "time": "",
       "location": "MassArt x SoWa",
       "address": "",
@@ -524,32 +575,68 @@
       "longitude": null
     },
     {
-      "id": "3e9d508d-cacd-81c6-a1ae-e094993b9728",
-      "name": "Figure Drawing Basics ( 3 Week Class)",
-      "date": "2026-09-28",
+      "id": "3ead508d-cacd-81f0-acf0-dbfb1aa6e837",
+      "name": "Tea Blending Workshop for Nervous System Support - The Ludo x UrbanRootsBotanica",
+      "date": "2026-09-29",
       "time": "7:00 PM",
-      "location": "The Boston Figure",
+      "location": "First Street Market",
       "address": "",
       "price": "",
       "description": "",
-      "url": "https://www.thebostoncalendar.com/events/figure-drawing-basics-3-week-class--17",
+      "url": "https://www.thebostoncalendar.com/events/tea-blending-workshop-for-nervous-system-support-the-ludo-x-urbanrootsbotanica",
       "source": "Boston Calendar",
       "categories": [
-        "Arts & Crafts"
+        "Arts & Crafts",
+        "Coffee & Chai"
       ],
       "latitude": null,
       "longitude": null
     },
     {
-      "id": "3e9d508d-cacd-81da-a0ab-c4f6f11a7264",
+      "id": "3ead508d-cacd-81a1-a1ae-d7108b146b15",
+      "name": "Tea Blending Workshop for Nervous System Support w/ UrbanRootsBotanica",
+      "date": "2026-09-29",
+      "time": "7:00 PM",
+      "location": "First Street Market",
+      "address": "",
+      "price": "",
+      "description": "",
+      "url": "https://www.thebostoncalendar.com/events/tea-blending-workshop-for-nervous-system-support-w-urbanrootsbotanica",
+      "source": "Boston Calendar",
+      "categories": [
+        "Arts & Crafts",
+        "Coffee & Chai"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "3ead508d-cacd-81d4-bfb2-cf4dc3de3100",
+      "name": "Meditations for a Calm Mind in Natick",
+      "date": "2026-09-29",
+      "time": "7:00 PM",
+      "location": "Natick Community Center",
+      "address": "",
+      "price": "",
+      "description": "",
+      "url": "https://www.thebostoncalendar.com/events/meditations-for-a-calm-mind-in-natick--2",
+      "source": "Boston Calendar",
+      "categories": [
+        "Religious"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "3ead508d-cacd-8134-ad42-c28edf08513a",
       "name": "Figure Drawing",
-      "date": "2026-09-28",
+      "date": "2026-09-29",
       "time": "6:30 PM",
-      "location": "Artisans Asylum",
+      "location": "Kathryn Schultz Gallery",
       "address": "",
       "price": "",
       "description": "",
-      "url": "https://www.thebostoncalendar.com/events/figure-drawing--27",
+      "url": "https://www.thebostoncalendar.com/events/figure-drawing--47",
       "source": "Boston Calendar",
       "categories": [
         "Arts & Crafts"
@@ -558,15 +645,15 @@
       "longitude": null
     },
     {
-      "id": "3e9d508d-cacd-8148-a405-d0520300f5aa",
-      "name": "Beginner/Intermediate Adult Hip Hop Dance Class at Urbanity Dance!",
-      "date": "2026-09-28",
-      "time": "6:10 PM",
-      "location": "Urbanity Dance Headquarters",
+      "id": "3ead508d-cacd-81fb-950e-eb9833827eab",
+      "name": "Beginner Jazz Dance Class",
+      "date": "2026-09-29",
+      "time": "6:30 PM",
+      "location": "North Reading School of Ballet",
       "address": "",
       "price": "",
       "description": "",
-      "url": "https://www.thebostoncalendar.com/events/beginner-intermediate-adult-hip-hop-dance-class-at-urbanity-dance--3",
+      "url": "https://www.thebostoncalendar.com/events/beginner-jazz-dance-class--4",
       "source": "Boston Calendar",
       "categories": [
         "Music & Dance"
@@ -575,35 +662,37 @@
       "longitude": null
     },
     {
-      "id": "3e9d508d-cacd-819b-abe9-f6c8d907e88b",
-      "name": "FREE Watercolor Workshop at Lyrik Back Bay",
-      "date": "2026-09-28",
-      "time": "4:00 PM",
-      "location": "Lyrik Back Bay",
+      "id": "3ead508d-cacd-8126-8fc8-f4f089fd3841",
+      "name": "Yoga for Awakening with Artemis Yoga",
+      "date": "2026-09-29",
+      "time": "5:30 PM",
+      "location": "Mount Auburn Cemetery",
       "address": "",
       "price": "",
       "description": "",
-      "url": "https://www.thebostoncalendar.com/events/free-watercolor-workshop-at-lyrik-back-bay--16",
+      "url": "https://www.thebostoncalendar.com/events/yoga-for-awakening-with-artemis-yoga--3",
       "source": "Boston Calendar",
       "categories": [
-        "Arts & Crafts"
+        "Arts & Crafts",
+        "Sports & Outdoors"
       ],
       "latitude": null,
       "longitude": null
     },
     {
-      "id": "3e9d508d-cacd-812d-8c50-db81b51b1887",
-      "name": "EXPERIMENTAL: Exhibition by Courtney Fern",
-      "date": "2026-09-28",
-      "time": "9:00 AM",
-      "location": "Hopkinton Center for the Arts",
+      "id": "3ead508d-cacd-811b-afdb-d9bf953bc8d3",
+      "name": "Yoga at the JAE Dance Center",
+      "date": "2026-09-29",
+      "time": "8:00 AM",
+      "location": "Jean Appolon Expressions Dance Center",
       "address": "",
       "price": "",
       "description": "",
-      "url": "https://www.thebostoncalendar.com/events/experimental-exhibition-by-courtney-fern",
+      "url": "https://www.thebostoncalendar.com/events/yoga-at-the-jae-dance-center--2",
       "source": "Boston Calendar",
       "categories": [
-        "Arts & Crafts"
+        "Sports & Outdoors",
+        "Music & Dance"
       ],
       "latitude": null,
       "longitude": null
@@ -1507,5 +1596,5 @@
       "longitude": -71.0631568
     }
   ],
-  "updated": "2026-09-28T06:35:06.664485"
+  "updated": "2026-09-29T06:47:26.657351"
 }
