@@ -1,9 +1,63 @@
 {
   "events": [
     {
-      "id": "401d508d-cacd-81dd-a48b-d5f885c84a5a",
+      "id": "402d508d-cacd-812e-b90c-dd17ca08bd25",
+      "name": "Cities of Islamic Art: From Historical Visual Systems to the Formation of Contemporary Islamic Art in North America",
+      "date": "2026-10-23",
+      "time": "",
+      "location": "MIT Campus, Cambridge, MA",
+      "address": "",
+      "price": "",
+      "description": "",
+      "url": "https://calendar.mit.edu/event/cities-of-islamic-art",
+      "source": "MIT Events",
+      "categories": [
+        "Middle Eastern",
+        "Arts & Crafts"
+      ],
+      "latitude": 42.3601,
+      "longitude": -71.0942
+    },
+    {
+      "id": "402d508d-cacd-81e1-a4ea-d8a1e3073517",
+      "name": "Share \u201cCities of Islamic Art: From Historical Visual Systems to the Formation of Contemporary Islamic Art in North America.\u201d on Facebook",
+      "date": "2026-10-23",
+      "time": "",
+      "location": "MIT Campus, Cambridge, MA",
+      "address": "",
+      "price": "",
+      "description": "",
+      "url": "https://www.facebook.com/sharer/sharer.php?u=https://calendar.mit.edu/event/cities-of-islamic-art-from-historical-visual-systems-to-the-formation-of-contemporary-islamic-art-in-north-america",
+      "source": "MIT Events",
+      "categories": [
+        "Middle Eastern",
+        "Arts & Crafts"
+      ],
+      "latitude": 42.3601,
+      "longitude": -71.0942
+    },
+    {
+      "id": "402d508d-cacd-81be-93d8-ee2dffc3a6b2",
+      "name": "\u201cCities of Islamic Art: From Historical Visual Systems to the Formation of Contemporary Islamic Art in North America.\u201d",
+      "date": "2026-10-23",
+      "time": "",
+      "location": "MIT Campus, Cambridge, MA",
+      "address": "",
+      "price": "",
+      "description": "",
+      "url": "https://calendar.mit.edu/event/cities-of-islamic-art-from-historical-visual-systems-to-the-formation-of-contemporary-islamic-art-in-north-america",
+      "source": "MIT Events",
+      "categories": [
+        "Middle Eastern",
+        "Arts & Crafts"
+      ],
+      "latitude": 42.3601,
+      "longitude": -71.0942
+    },
+    {
+      "id": "402d508d-cacd-8174-be6c-e82c74e1395d",
       "name": "Your privacy choices",
-      "date": "2026-10-22",
+      "date": "2026-10-23",
       "time": "",
       "location": "Boston, MA",
       "address": "",
@@ -18,9 +72,9 @@
       "longitude": null
     },
     {
-      "id": "401d508d-cacd-816b-8227-e77495cf072f",
+      "id": "402d508d-cacd-8120-928c-c124a9ff10f4",
       "name": "Your privacy choices",
-      "date": "2026-10-22",
+      "date": "2026-10-23",
       "time": "",
       "location": "Boston, MA",
       "address": "",
@@ -35,9 +89,9 @@
       "longitude": null
     },
     {
-      "id": "401d508d-cacd-8148-bdf2-f88c51685802",
+      "id": "402d508d-cacd-8151-8cac-fdd1e316e623",
       "name": "Your privacy choices",
-      "date": "2026-10-22",
+      "date": "2026-10-23",
       "time": "",
       "location": "Boston, MA",
       "address": "",
@@ -53,9 +107,9 @@
       "longitude": null
     },
     {
-      "id": "401d508d-cacd-810d-bd25-f22b97863210",
+      "id": "402d508d-cacd-81a5-8cdd-ca0799100fc5",
       "name": "Your privacy choices",
-      "date": "2026-10-22",
+      "date": "2026-10-23",
       "time": "",
       "location": "Boston, MA",
       "address": "",
@@ -70,9 +124,9 @@
       "longitude": null
     },
     {
-      "id": "401d508d-cacd-811c-ac6b-f6fa6fd4c621",
+      "id": "402d508d-cacd-81d1-87b9-fd0c853ba9e4",
       "name": "Your privacy choices",
-      "date": "2026-10-22",
+      "date": "2026-10-23",
       "time": "",
       "location": "Boston, MA",
       "address": "",
@@ -88,9 +142,9 @@
       "longitude": null
     },
     {
-      "id": "401d508d-cacd-81d3-a61c-f8d439755519",
+      "id": "402d508d-cacd-818c-9e2c-d9b15df383da",
       "name": "Your privacy choices",
-      "date": "2026-10-22",
+      "date": "2026-10-23",
       "time": "",
       "location": "Boston, MA",
       "address": "",
@@ -105,9 +159,9 @@
       "longitude": null
     },
     {
-      "id": "401d508d-cacd-81b0-8de6-c768705ab10d",
+      "id": "402d508d-cacd-81b5-b305-d47279359dbd",
       "name": "Your privacy choices",
-      "date": "2026-10-22",
+      "date": "2026-10-23",
       "time": "",
       "location": "Boston, MA",
       "address": "",
@@ -123,9 +177,9 @@
       "longitude": null
     },
     {
-      "id": "401d508d-cacd-814e-86d6-ddbd00610905",
+      "id": "402d508d-cacd-81ef-a715-cd796dcc90f4",
       "name": "Your privacy choices",
-      "date": "2026-10-22",
+      "date": "2026-10-23",
       "time": "",
       "location": "Boston, MA",
       "address": "",
@@ -141,9 +195,9 @@
       "longitude": null
     },
     {
-      "id": "401d508d-cacd-81ec-a069-d872b1090291",
+      "id": "402d508d-cacd-811b-95c7-d4971aac7a55",
       "name": "Your privacy choices",
-      "date": "2026-10-22",
+      "date": "2026-10-23",
       "time": "",
       "location": "Boston, MA",
       "address": "",
@@ -159,9 +213,9 @@
       "longitude": null
     },
     {
-      "id": "401d508d-cacd-81e3-80b7-cca39d4d22a6",
+      "id": "402d508d-cacd-81b9-98d9-ff84abf79d47",
       "name": "Oct: cloud-native testing + platform agents + K8s updatesThu, Oct 29 \u00b7 6:00 PM EDTby Boston Kubernetes Meetup",
-      "date": "2026-10-22",
+      "date": "2026-10-23",
       "time": "",
       "location": "Boston, MA",
       "address": "",
@@ -178,9 +232,9 @@
       "longitude": null
     },
     {
-      "id": "401d508d-cacd-81df-b424-d5a7ba355d13",
+      "id": "402d508d-cacd-8110-ba73-fa8589f8a0dd",
       "name": "Davis Museum at Wellesley College reunites century-old Antioch mosaics and artifacts from four U.S. museums",
-      "date": "2026-10-22",
+      "date": "2026-10-23",
       "time": "",
       "location": "Davis Museum at Wellesley College",
       "address": "",
@@ -196,9 +250,9 @@
       "longitude": null
     },
     {
-      "id": "401d508d-cacd-8189-8224-fc2046ad696c",
+      "id": "402d508d-cacd-81b3-b49f-d0b07b760e39",
       "name": "Chinese Calligraphy Workshop",
-      "date": "2026-10-22",
+      "date": "2026-10-23",
       "time": "",
       "location": "zhao art studio",
       "address": "",
@@ -213,9 +267,9 @@
       "longitude": null
     },
     {
-      "id": "401d508d-cacd-8169-be59-dcf8b1a63329",
+      "id": "402d508d-cacd-81ac-8670-f87edb609a8d",
       "name": "Whorl: Vertical Gallery Activation by Debra Fleury",
-      "date": "2026-10-22",
+      "date": "2026-10-23",
       "time": "",
       "location": "Umbrella Arts",
       "address": "",
@@ -230,9 +284,9 @@
       "longitude": null
     },
     {
-      "id": "401d508d-cacd-8130-9749-e0927d882281",
+      "id": "402d508d-cacd-8179-8bce-f01b46ef3be5",
       "name": "Yoga Teacher Training 200 Hours (in-person) in Dorchester, MA",
-      "date": "2026-10-22",
+      "date": "2026-10-23",
       "time": "",
       "location": "Connected Through Strength",
       "address": "",
@@ -249,9 +303,9 @@
       "longitude": null
     },
     {
-      "id": "401d508d-cacd-81d8-8069-f3397dfd2cc6",
+      "id": "402d508d-cacd-81d4-b860-c27bd1167e43",
       "name": "On Location: Drawing the Outdoors",
-      "date": "2026-10-22",
+      "date": "2026-10-23",
       "time": "",
       "location": "Harvard Art Museums",
       "address": "",
@@ -267,9 +321,9 @@
       "longitude": null
     },
     {
-      "id": "401d508d-cacd-81ae-bcec-ecdcf9b268a4",
+      "id": "402d508d-cacd-813f-9e2f-c03e54988d8f",
       "name": "\u201cComposing Color: Paintings by Alma Thomas from the Smithsonian American Art Museum\u201d at SCMA",
-      "date": "2026-10-22",
+      "date": "2026-10-23",
       "time": "",
       "location": "Smith College Museum of Art",
       "address": "",
@@ -285,9 +339,9 @@
       "longitude": null
     },
     {
-      "id": "401d508d-cacd-819b-8fe0-db810eeff0b7",
+      "id": "402d508d-cacd-8124-9e18-efb6febd5ca9",
       "name": "Patriots of Color Exhibition",
-      "date": "2026-10-22",
+      "date": "2026-10-23",
       "time": "",
       "location": "American Ancestors",
       "address": "",
@@ -302,9 +356,9 @@
       "longitude": null
     },
     {
-      "id": "401d508d-cacd-8137-8184-e290f8e91091",
+      "id": "402d508d-cacd-8176-be58-dbe4778f1cfc",
       "name": "Sarma: Turkish & Mediterranean Small Plates | Somerville",
-      "date": "2026-10-22",
+      "date": "2026-10-23",
       "time": "",
       "location": "Sarma",
       "address": "",
@@ -319,9 +373,9 @@
       "longitude": null
     },
     {
-      "id": "401d508d-cacd-813d-b85c-c23e25ba03ff",
+      "id": "402d508d-cacd-8106-b472-dc94cd7cf34d",
       "name": "Pottery Wheel Class | One Time",
-      "date": "2026-10-22",
+      "date": "2026-10-23",
       "time": "",
       "location": "Clay Lounge",
       "address": "",
@@ -336,9 +390,9 @@
       "longitude": null
     },
     {
-      "id": "401d508d-cacd-8165-8dbb-e9f54323e121",
+      "id": "402d508d-cacd-817b-9516-fab816057dee",
       "name": "The Paint Bar: Painting Classes for Work Events | Newton",
-      "date": "2026-10-22",
+      "date": "2026-10-23",
       "time": "",
       "location": "The Paint Bar",
       "address": "",
@@ -354,9 +408,9 @@
       "longitude": null
     },
     {
-      "id": "401d508d-cacd-8123-8f18-d63871a0f778",
+      "id": "402d508d-cacd-8164-ac67-fc4dc10a6c69",
       "name": "Castanet Designer Consignment",
-      "date": "2026-10-22",
+      "date": "2026-10-23",
       "time": "",
       "location": "Castanet Designer Consignment",
       "address": "",
@@ -371,9 +425,9 @@
       "longitude": null
     },
     {
-      "id": "401d508d-cacd-81d4-925b-eacccfc3e5fb",
+      "id": "402d508d-cacd-8168-8704-ead14610ec44",
       "name": "SWETSTUDIO | Aerial Yoga and Fitness in the South End",
-      "date": "2026-10-22",
+      "date": "2026-10-23",
       "time": "",
       "location": "SWETSTUDIO\u00ae",
       "address": "",
@@ -388,9 +442,9 @@
       "longitude": null
     },
     {
-      "id": "401d508d-cacd-8173-800d-e32b3ed4f3fc",
+      "id": "402d508d-cacd-8160-898f-f529bce076e9",
       "name": "Count Orlok's Nightmare Gallery 2026",
-      "date": "2026-10-22",
+      "date": "2026-10-23",
       "time": "",
       "location": "Count Orlok's Nightmare Gallery",
       "address": "",
@@ -405,9 +459,9 @@
       "longitude": null
     },
     {
-      "id": "401d508d-cacd-81a8-bc2e-eec0c99eb01a",
+      "id": "402d508d-cacd-816a-95e5-d7d3f1b5f46a",
       "name": "On Being Human: Mosaic Meditations by Cynthia Fisher",
-      "date": "2026-10-22",
+      "date": "2026-10-23",
       "time": "",
       "location": "Umbrella Arts",
       "address": "",
@@ -423,9 +477,9 @@
       "longitude": null
     },
     {
-      "id": "401d508d-cacd-8120-8779-f1a5d4298f0e",
+      "id": "402d508d-cacd-8182-ae29-fe66cc813b6c",
       "name": "Cooking Class: Sushi Making 101",
-      "date": "2026-10-22",
+      "date": "2026-10-23",
       "time": "",
       "location": "Trillium - Fort Point",
       "address": "",
@@ -440,9 +494,9 @@
       "longitude": null
     },
     {
-      "id": "401d508d-cacd-8155-911f-fdb6aea69a48",
+      "id": "402d508d-cacd-8133-a4e8-cccee727cc08",
       "name": "Make a Mosaic Frame or a Piece of Jewelry",
-      "date": "2026-10-22",
+      "date": "2026-10-23",
       "time": "",
       "location": "Amy Marks' Mosaic Studio",
       "address": "",
@@ -457,9 +511,9 @@
       "longitude": null
     },
     {
-      "id": "401d508d-cacd-81a4-ab82-cb169b288ccd",
+      "id": "402d508d-cacd-818f-a539-f94ca4154c6d",
       "name": "EXPERIMENTAL: Exhibition by Courtney Fern",
-      "date": "2026-10-22",
+      "date": "2026-10-23",
       "time": "",
       "location": "Hopkinton Center for the Arts",
       "address": "",
@@ -474,9 +528,9 @@
       "longitude": null
     },
     {
-      "id": "401d508d-cacd-8181-b504-f45c605d8918",
+      "id": "402d508d-cacd-81dd-9e3c-d65403b2640b",
       "name": "STEVE ROSENTHAL RETURNS TO PAUL DIETRICH GALLERY WITH NEW PHOTOGRAPHY EXHIBIT: A SYMPHONY IN BRICK",
-      "date": "2026-10-22",
+      "date": "2026-10-23",
       "time": "",
       "location": "Paul Dietrich Gallery at CambridgeSeven",
       "address": "",
@@ -491,9 +545,9 @@
       "longitude": null
     },
     {
-      "id": "401d508d-cacd-8121-9196-f6ee2c21aeb1",
+      "id": "402d508d-cacd-8158-be2e-c92867ff68f9",
       "name": "Exhibition: Life, Liberty, and the Pursuit of Happiness",
-      "date": "2026-10-22",
+      "date": "2026-10-23",
       "time": "",
       "location": "Central Library at Copley Square",
       "address": "",
@@ -508,9 +562,9 @@
       "longitude": null
     },
     {
-      "id": "401d508d-cacd-8188-8a78-cd47ed8d6795",
+      "id": "402d508d-cacd-8122-9bab-d8b0eb0d3257",
       "name": "Monadnock Art Gallery Exhibition",
-      "date": "2026-10-22",
+      "date": "2026-10-23",
       "time": "",
       "location": "Monadnock Center For History and Culture",
       "address": "",
@@ -525,9 +579,9 @@
       "longitude": null
     },
     {
-      "id": "401d508d-cacd-8157-830f-e749d70aada3",
+      "id": "402d508d-cacd-8104-bd48-c6f8d85cfe15",
       "name": "Exhibition Viewing: Cemetery of the Nameless",
-      "date": "2026-10-22",
+      "date": "2026-10-23",
       "time": "",
       "location": "Goethe-Institut",
       "address": "",
@@ -542,9 +596,9 @@
       "longitude": null
     },
     {
-      "id": "401d508d-cacd-819e-a862-e472adb5f986",
+      "id": "402d508d-cacd-811f-bb41-d485212b64ba",
       "name": "\"Painting the Profound\" - Landscapes by Erik Koeppel",
-      "date": "2026-10-22",
+      "date": "2026-10-23",
       "time": "",
       "location": "The Guild of Boston Artists",
       "address": "",
@@ -560,15 +614,33 @@
       "longitude": null
     },
     {
-      "id": "401d508d-cacd-81ce-8b5c-e7914634612d",
-      "name": "Watercolor Workshop: Chicken Soup Fixings",
-      "date": "2026-10-22",
-      "time": "7:00 PM",
-      "location": "The Shared Palette @ Bow Market",
+      "id": "402d508d-cacd-815b-b058-cae3d785ee20",
+      "name": "COSTUME PARTY @ SCORPION BAR w/ Desibabes & Amigas! FREE!",
+      "date": "2026-10-23",
+      "time": "8:30 PM",
+      "location": "Scorpion Bar",
       "address": "",
       "price": "",
       "description": "",
-      "url": "https://www.thebostoncalendar.com/events/watercolor-workshop-chicken-soup-fixings",
+      "url": "https://www.thebostoncalendar.com/events/costume-party-scorpion-bar-w-desibabes-amigas-free",
+      "source": "Boston Calendar",
+      "categories": [
+        "South Asian",
+        "Arts & Crafts"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "402d508d-cacd-8159-a20f-f1d5ab345a8a",
+      "name": "BFAC x LDB: A Queer Halloween Figure Drawing Night",
+      "date": "2026-10-23",
+      "time": "7:00 PM",
+      "location": "The Loov",
+      "address": "",
+      "price": "",
+      "description": "",
+      "url": "https://www.thebostoncalendar.com/events/bfac-x-ldb-a-queer-halloween-figure-drawing-night",
       "source": "Boston Calendar",
       "categories": [
         "Arts & Crafts"
@@ -577,84 +649,50 @@
       "longitude": null
     },
     {
-      "id": "401d508d-cacd-810d-aaca-f6179b288b82",
-      "name": "VINYL & VINO @ Impeccable Art Gallery",
-      "date": "2026-10-22",
-      "time": "7:00 PM",
-      "location": "Impeccable Art Gallery",
-      "address": "",
-      "price": "",
-      "description": "",
-      "url": "https://www.thebostoncalendar.com/events/vinyl-vino-impeccable-art-gallery--90",
-      "source": "Boston Calendar",
-      "categories": [
-        "Arts & Crafts"
-      ],
-      "latitude": null,
-      "longitude": null
-    },
-    {
-      "id": "401d508d-cacd-81d7-83d8-e0a03ee95773",
-      "name": "Evening Guided Meditation",
-      "date": "2026-10-22",
-      "time": "7:00 PM",
-      "location": "Online",
-      "address": "",
-      "price": "",
-      "description": "",
-      "url": "https://www.thebostoncalendar.com/events/evening-guided-meditation--474",
-      "source": "Boston Calendar",
-      "categories": [
-        "Religious"
-      ],
-      "latitude": null,
-      "longitude": null
-    },
-    {
-      "id": "401d508d-cacd-815b-af77-c6b4b5a4f212",
-      "name": "Climbing Recovery Yoga",
-      "date": "2026-10-22",
-      "time": "7:00 PM",
-      "location": "Patagonia Cambridge",
-      "address": "",
-      "price": "",
-      "description": "",
-      "url": "https://www.thebostoncalendar.com/events/climbing-recovery-yoga",
-      "source": "Boston Calendar",
-      "categories": [
-        "Sports & Outdoors"
-      ],
-      "latitude": null,
-      "longitude": null
-    },
-    {
-      "id": "401d508d-cacd-815d-9f50-ffb1ad4bc189",
-      "name": "Persian Networking (Shabeh Jomeh)",
-      "date": "2026-10-22",
-      "time": "6:30 PM",
-      "location": "Lolita Fort Point",
-      "address": "",
-      "price": "",
-      "description": "",
-      "url": "https://www.thebostoncalendar.com/events/persian-networking-shabeh-jomeh--13",
-      "source": "Boston Calendar",
-      "categories": [
-        "Middle Eastern",
-        "Community"
-      ],
-      "latitude": null,
-      "longitude": null
-    },
-    {
-      "id": "401d508d-cacd-815b-a317-c86d30b0781e",
-      "name": "Texture Painting Thursday Night Out",
-      "date": "2026-10-22",
+      "id": "402d508d-cacd-8113-b2a9-ca7bfc1f4ace",
+      "name": "Date Night: Harvest Feast on the Farm \u2013 Adult Cooking Class",
+      "date": "2026-10-23",
       "time": "6:00 PM",
-      "location": "Crafts Zone Brookline",
+      "location": "Powisset Farm",
       "address": "",
       "price": "",
       "description": "",
-      "url": "https://www.thebostoncalendar.com/events/texture-painting-thursday-night-out--56",
+      "url": "https://www.thebostoncalendar.com/events/date-night-harvest-feast-on-the-farm-adult-cooking-class",
+      "source": "Boston Calendar",
+      "categories": [
+        "Food & Markets"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "402d508d-cacd-81ca-a334-e899e767600c",
+      "name": "Andover's Diwali Festival",
+      "date": "2026-10-23",
+      "time": "6:00 PM",
+      "location": "Andover Youth Services",
+      "address": "",
+      "price": "",
+      "description": "",
+      "url": "https://www.thebostoncalendar.com/events/andover-s-diwali-festival",
+      "source": "Boston Calendar",
+      "categories": [
+        "South Asian",
+        "Cultural Festival"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "402d508d-cacd-81b6-9232-f4c7d26ceb9a",
+      "name": "Pumpkin Painting Party",
+      "date": "2026-10-23",
+      "time": "5:00 PM",
+      "location": "The Anchor",
+      "address": "",
+      "price": "",
+      "description": "",
+      "url": "https://www.thebostoncalendar.com/events/pumpkin-painting-party--2",
       "source": "Boston Calendar",
       "categories": [
         "Arts & Crafts",
@@ -664,18 +702,18 @@
       "longitude": null
     },
     {
-      "id": "401d508d-cacd-810b-8330-f984bc481689",
-      "name": "Remarkable Roast Chicken: Adult Cooking Class",
-      "date": "2026-10-22",
-      "time": "6:00 PM",
-      "location": "Powisset Farm",
+      "id": "402d508d-cacd-817f-9f1b-f19700bb4bee",
+      "name": "Backyard and Beyond: Treehouse Yoga",
+      "date": "2026-10-23",
+      "time": "1:30 PM",
+      "location": "Discovery Museum",
       "address": "",
       "price": "",
       "description": "",
-      "url": "https://www.thebostoncalendar.com/events/remarkable-roast-chicken-adult-cooking-class",
+      "url": "https://www.thebostoncalendar.com/events/backyard-and-beyond-treehouse-yoga--4",
       "source": "Boston Calendar",
       "categories": [
-        "Food & Markets"
+        "Sports & Outdoors"
       ],
       "latitude": null,
       "longitude": null
@@ -1301,5 +1339,5 @@
       "longitude": -71.0631568
     }
   ],
-  "updated": "2026-10-22T05:58:31.964499"
+  "updated": "2026-10-23T05:57:25.826889"
 }
