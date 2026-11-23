@@ -1,26 +1,9 @@
 {
   "events": [
     {
-      "id": "420d508d-cacd-810e-8a1e-e07ed346630d",
-      "name": "Understanding Islam and Muslims",
-      "date": "2026-11-22",
-      "time": "",
-      "location": "MIT Campus, Cambridge, MA",
-      "address": "",
-      "price": "",
-      "description": "",
-      "url": "https://calendar.mit.edu/event/copy-of-understanding-islam-and-muslims-8924",
-      "source": "MIT Events",
-      "categories": [
-        "Middle Eastern"
-      ],
-      "latitude": 42.3601,
-      "longitude": -71.0942
-    },
-    {
-      "id": "420d508d-cacd-817b-b2c1-d53682986644",
+      "id": "421d508d-cacd-8103-9771-f6ae4839c3be",
       "name": "Your privacy choices",
-      "date": "2026-11-22",
+      "date": "2026-11-23",
       "time": "",
       "location": "Boston, MA",
       "address": "",
@@ -35,9 +18,9 @@
       "longitude": null
     },
     {
-      "id": "420d508d-cacd-8111-9037-fa97b568ddf5",
+      "id": "421d508d-cacd-81f9-b418-cc72d5fada1b",
       "name": "Your privacy choices",
-      "date": "2026-11-22",
+      "date": "2026-11-23",
       "time": "",
       "location": "Boston, MA",
       "address": "",
@@ -52,9 +35,9 @@
       "longitude": null
     },
     {
-      "id": "420d508d-cacd-810e-a1a6-d27db6a38f15",
+      "id": "421d508d-cacd-8175-9bfd-e96dbc981f5f",
       "name": "Your privacy choices",
-      "date": "2026-11-22",
+      "date": "2026-11-23",
       "time": "",
       "location": "Boston, MA",
       "address": "",
@@ -70,9 +53,9 @@
       "longitude": null
     },
     {
-      "id": "420d508d-cacd-81ef-9b21-c0135ca0a2bb",
+      "id": "421d508d-cacd-8130-905c-f456223f7479",
       "name": "Your privacy choices",
-      "date": "2026-11-22",
+      "date": "2026-11-23",
       "time": "",
       "location": "Boston, MA",
       "address": "",
@@ -87,9 +70,9 @@
       "longitude": null
     },
     {
-      "id": "420d508d-cacd-81c9-9894-ec74fb5b51ed",
+      "id": "421d508d-cacd-8196-9e2a-f3ab1fb5c8df",
       "name": "Your privacy choices",
-      "date": "2026-11-22",
+      "date": "2026-11-23",
       "time": "",
       "location": "Boston, MA",
       "address": "",
@@ -105,9 +88,9 @@
       "longitude": null
     },
     {
-      "id": "420d508d-cacd-81e8-9256-c394e35a77fa",
+      "id": "421d508d-cacd-8157-9dff-db97c235d6a2",
       "name": "Your privacy choices",
-      "date": "2026-11-22",
+      "date": "2026-11-23",
       "time": "",
       "location": "Boston, MA",
       "address": "",
@@ -122,9 +105,9 @@
       "longitude": null
     },
     {
-      "id": "420d508d-cacd-81cc-8a7f-d2887cbd1398",
+      "id": "421d508d-cacd-810b-8f10-c27c33e8e8e3",
       "name": "Your privacy choices",
-      "date": "2026-11-22",
+      "date": "2026-11-23",
       "time": "",
       "location": "Boston, MA",
       "address": "",
@@ -140,9 +123,9 @@
       "longitude": null
     },
     {
-      "id": "420d508d-cacd-81c8-8616-f149b751774b",
+      "id": "421d508d-cacd-8137-91b9-e62af329b7d7",
       "name": "Your privacy choices",
-      "date": "2026-11-22",
+      "date": "2026-11-23",
       "time": "",
       "location": "Boston, MA",
       "address": "",
@@ -158,9 +141,9 @@
       "longitude": null
     },
     {
-      "id": "420d508d-cacd-8116-b4c9-df241d819d15",
+      "id": "421d508d-cacd-81db-8b04-d33a3095d02b",
       "name": "Your privacy choices",
-      "date": "2026-11-22",
+      "date": "2026-11-23",
       "time": "",
       "location": "Boston, MA",
       "address": "",
@@ -176,9 +159,27 @@
       "longitude": null
     },
     {
-      "id": "420d508d-cacd-81a9-8827-c8852afac94d",
+      "id": "421d508d-cacd-8115-9311-c39ff1d28d5b",
+      "name": "Boston Holiday Lights StrollFri, Dec 4 \u00b7 6:30 PM ESTby Boston Random Acts of Connection",
+      "date": "2026-11-23",
+      "time": "",
+      "location": "Boston, MA",
+      "address": "",
+      "price": "",
+      "description": "",
+      "url": "https://www.meetup.com/boston-random-acts-of-connection/events/317506548/?eventOrigin=city_meet_new_people_events",
+      "source": "Meetup",
+      "categories": [
+        "South Asian",
+        "Cultural Festival"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "421d508d-cacd-81a8-80c5-c6a50acd9279",
       "name": "SoWa Holiday MarketSun, Dec 6 \u00b7 9:45 AM ESTby Sober & Curious Boston",
-      "date": "2026-11-22",
+      "date": "2026-11-23",
       "time": "",
       "location": "Boston, MA",
       "address": "",
@@ -195,9 +196,9 @@
       "longitude": null
     },
     {
-      "id": "420d508d-cacd-81d7-b3d7-e3070f803d7d",
+      "id": "421d508d-cacd-810f-a53a-d93247a4690a",
       "name": "Boston Holiday Lights WalkWed, Dec 9 \u00b7 5:30 PM ESTby Sober & Curious Boston",
-      "date": "2026-11-22",
+      "date": "2026-11-23",
       "time": "",
       "location": "Boston, MA",
       "address": "",
@@ -213,9 +214,9 @@
       "longitude": null
     },
     {
-      "id": "420d508d-cacd-81bd-baed-c06ae5e8d7b7",
+      "id": "421d508d-cacd-8158-94ab-e1875c322815",
       "name": "Davis Museum at Wellesley College reunites century-old Antioch mosaics and artifacts from four U.S. museums",
-      "date": "2026-11-22",
+      "date": "2026-11-23",
       "time": "",
       "location": "Davis Museum at Wellesley College",
       "address": "",
@@ -231,9 +232,9 @@
       "longitude": null
     },
     {
-      "id": "420d508d-cacd-8134-924c-d31bf451932e",
+      "id": "421d508d-cacd-81a6-a673-cb57619a6307",
       "name": "Chinese Calligraphy Workshop",
-      "date": "2026-11-22",
+      "date": "2026-11-23",
       "time": "",
       "location": "zhao art studio",
       "address": "",
@@ -248,9 +249,9 @@
       "longitude": null
     },
     {
-      "id": "420d508d-cacd-8114-a9e0-e3bf900147b8",
+      "id": "421d508d-cacd-8171-83a0-eb65b3aef7c3",
       "name": "Whorl: Vertical Gallery Activation by Debra Fleury",
-      "date": "2026-11-22",
+      "date": "2026-11-23",
       "time": "",
       "location": "Umbrella Arts",
       "address": "",
@@ -265,9 +266,9 @@
       "longitude": null
     },
     {
-      "id": "420d508d-cacd-81bc-b4b4-ce736f393c55",
+      "id": "421d508d-cacd-8175-9cc6-f86f8c995765",
       "name": "Yoga Teacher Training 200 Hours (in-person) in Dorchester, MA",
-      "date": "2026-11-22",
+      "date": "2026-11-23",
       "time": "",
       "location": "Connected Through Strength",
       "address": "",
@@ -284,9 +285,9 @@
       "longitude": null
     },
     {
-      "id": "420d508d-cacd-8120-8a08-f7846d5c5291",
+      "id": "421d508d-cacd-81f6-ba4c-fb96329cfe9d",
       "name": "The Holiday Popup at The Venetian Weymouth",
-      "date": "2026-11-22",
+      "date": "2026-11-23",
       "time": "",
       "location": "The Venetian Weymouth",
       "address": "",
@@ -302,9 +303,9 @@
       "longitude": null
     },
     {
-      "id": "420d508d-cacd-8177-a9cd-f05b76ccb7d3",
+      "id": "421d508d-cacd-81af-84bc-e4d776993a7b",
       "name": "20 Festive Pop-up Bars & Restaurants in Boston to Visit During the 2026 Holiday Season",
-      "date": "2026-11-22",
+      "date": "2026-11-23",
       "time": "",
       "location": "Boston",
       "address": "",
@@ -321,9 +322,9 @@
       "longitude": null
     },
     {
-      "id": "420d508d-cacd-81b5-9fff-c4f982b7f24a",
+      "id": "421d508d-cacd-8109-a124-d81e44c08200",
       "name": "On Location: Drawing the Outdoors",
-      "date": "2026-11-22",
+      "date": "2026-11-23",
       "time": "",
       "location": "Harvard Art Museums",
       "address": "",
@@ -339,9 +340,9 @@
       "longitude": null
     },
     {
-      "id": "420d508d-cacd-8195-a21e-f7235ce90766",
+      "id": "421d508d-cacd-8179-9898-e892f90703a0",
       "name": "Naughty List Lounge: Holiday Pop-up Experience at The 88 Club | Back Bay",
-      "date": "2026-11-22",
+      "date": "2026-11-23",
       "time": "",
       "location": "The 88 Club",
       "address": "",
@@ -357,9 +358,9 @@
       "longitude": null
     },
     {
-      "id": "420d508d-cacd-81bf-8a9d-dbf910e974b1",
+      "id": "421d508d-cacd-814a-b8a3-df3f9b4e2eeb",
       "name": "\u201cComposing Color: Paintings by Alma Thomas from the Smithsonian American Art Museum\u201d at SCMA",
-      "date": "2026-11-22",
+      "date": "2026-11-23",
       "time": "",
       "location": "Smith College Museum of Art",
       "address": "",
@@ -375,9 +376,9 @@
       "longitude": null
     },
     {
-      "id": "420d508d-cacd-8197-8666-e7a8f429e24f",
+      "id": "421d508d-cacd-81ca-b76d-fec69683258d",
       "name": "Holiday ZooLights at Stone Zoo",
-      "date": "2026-11-22",
+      "date": "2026-11-23",
       "time": "",
       "location": "Stone Zoo",
       "address": "",
@@ -393,9 +394,9 @@
       "longitude": null
     },
     {
-      "id": "420d508d-cacd-81a0-949a-cfca2d32c0aa",
+      "id": "421d508d-cacd-818f-87f6-ebfcd96de362",
       "name": "Miracle at Kimpton Marlowe Hotel returns this Holiday Season",
-      "date": "2026-11-22",
+      "date": "2026-11-23",
       "time": "",
       "location": "Kimpton Marlowe Hotel",
       "address": "",
@@ -411,9 +412,9 @@
       "longitude": null
     },
     {
-      "id": "420d508d-cacd-8144-b195-f10272f1b4cd",
+      "id": "421d508d-cacd-8157-84ff-e7ca5a63362d",
       "name": "Upside Down Holiday Trees at the Liberty Hotel Lobby Bar",
-      "date": "2026-11-22",
+      "date": "2026-11-23",
       "time": "",
       "location": "Liberty Hotel",
       "address": "",
@@ -429,9 +430,9 @@
       "longitude": null
     },
     {
-      "id": "420d508d-cacd-81fe-b7ac-e71c43da6b7c",
+      "id": "421d508d-cacd-81a0-a371-cf7b1a1dbd4f",
       "name": "Patriots of Color Exhibition",
-      "date": "2026-11-22",
+      "date": "2026-11-23",
       "time": "",
       "location": "American Ancestors",
       "address": "",
@@ -446,9 +447,9 @@
       "longitude": null
     },
     {
-      "id": "420d508d-cacd-815b-a8bf-e226e46e8564",
+      "id": "421d508d-cacd-8138-a290-f73b02f806d9",
       "name": "Pottery Wheel Class | One Time",
-      "date": "2026-11-22",
+      "date": "2026-11-23",
       "time": "",
       "location": "Clay Lounge",
       "address": "",
@@ -463,9 +464,9 @@
       "longitude": null
     },
     {
-      "id": "420d508d-cacd-8124-9155-df89d6975e6e",
+      "id": "421d508d-cacd-8157-96e8-e31673b65ecb",
       "name": "SWETSTUDIO | Aerial Yoga and Fitness in the South End",
-      "date": "2026-11-22",
+      "date": "2026-11-23",
       "time": "",
       "location": "SWETSTUDIO\u00ae",
       "address": "",
@@ -480,9 +481,9 @@
       "longitude": null
     },
     {
-      "id": "420d508d-cacd-8118-a679-de3898acd9e0",
+      "id": "421d508d-cacd-81cb-90dd-d7382ebee6f2",
       "name": "Castanet Designer Consignment",
-      "date": "2026-11-22",
+      "date": "2026-11-23",
       "time": "",
       "location": "Castanet Designer Consignment",
       "address": "",
@@ -497,9 +498,9 @@
       "longitude": null
     },
     {
-      "id": "420d508d-cacd-8196-90fb-e7536e2b373e",
+      "id": "421d508d-cacd-8133-a3b6-ce10730dfc70",
       "name": "Sarma: Turkish & Mediterranean Small Plates | Somerville",
-      "date": "2026-11-22",
+      "date": "2026-11-23",
       "time": "",
       "location": "Sarma",
       "address": "",
@@ -514,9 +515,9 @@
       "longitude": null
     },
     {
-      "id": "420d508d-cacd-814d-a238-cb2589ff3990",
+      "id": "421d508d-cacd-8131-9dac-d773dc737577",
       "name": "The Paint Bar: Painting Classes for Work Events | Newton",
-      "date": "2026-11-22",
+      "date": "2026-11-23",
       "time": "",
       "location": "The Paint Bar",
       "address": "",
@@ -532,9 +533,9 @@
       "longitude": null
     },
     {
-      "id": "420d508d-cacd-8156-a56c-c4109f228d5e",
+      "id": "421d508d-cacd-8184-ad53-ebf10a4e67c6",
       "name": "Dog-Friendly Holiday Pop-up Bar",
-      "date": "2026-11-22",
+      "date": "2026-11-23",
       "time": "",
       "location": "Park-9 Dog Bar",
       "address": "",
@@ -550,9 +551,9 @@
       "longitude": null
     },
     {
-      "id": "420d508d-cacd-81aa-98a5-c8fdbbf280d5",
+      "id": "421d508d-cacd-8120-9bd3-d1b39284a06c",
       "name": "Whoville Holiday Pop-Up at Park-9",
-      "date": "2026-11-22",
+      "date": "2026-11-23",
       "time": "",
       "location": "Park-9",
       "address": "",
@@ -568,9 +569,9 @@
       "longitude": null
     },
     {
-      "id": "420d508d-cacd-81ae-b669-fb29bb40ff7a",
+      "id": "421d508d-cacd-81f3-ab08-fd38de62ad6e",
       "name": "The Holiday Market at Snowport 2026",
-      "date": "2026-11-22",
+      "date": "2026-11-23",
       "time": "",
       "location": "Seaport Common",
       "address": "",
@@ -587,9 +588,9 @@
       "longitude": null
     },
     {
-      "id": "420d508d-cacd-81f8-94b5-cadeddf4a174",
+      "id": "421d508d-cacd-81fd-8704-f87ff31648d0",
       "name": "Count Orlok's Nightmare Gallery 2026",
-      "date": "2026-11-22",
+      "date": "2026-11-23",
       "time": "",
       "location": "Count Orlok's Nightmare Gallery",
       "address": "",
@@ -604,9 +605,9 @@
       "longitude": null
     },
     {
-      "id": "420d508d-cacd-811a-bcc0-d222642c9253",
+      "id": "421d508d-cacd-81eb-a854-e7946814caa8",
       "name": "The Holiday Shoppes at Tuscan Village: Winter Wonderland & Outdoor Holiday Marketplace",
-      "date": "2026-11-22",
+      "date": "2026-11-23",
       "time": "",
       "location": "Tuscan Village",
       "address": "",
@@ -624,9 +625,9 @@
       "longitude": null
     },
     {
-      "id": "420d508d-cacd-8163-b77d-c49aa5f012a3",
+      "id": "421d508d-cacd-8126-aeb6-c614e8d0d85c",
       "name": "BOSTON UGG POP-UP | UGG Brings Holiday Cheer with Special Holiday Experiences",
-      "date": "2026-11-22",
+      "date": "2026-11-23",
       "time": "",
       "location": "UGG",
       "address": "",
@@ -642,9 +643,9 @@
       "longitude": null
     },
     {
-      "id": "420d508d-cacd-8166-a621-fbefe320f8c9",
+      "id": "421d508d-cacd-81ee-835d-d826cd84cd11",
       "name": "On Being Human: Mosaic Meditations by Cynthia Fisher",
-      "date": "2026-11-22",
+      "date": "2026-11-23",
       "time": "",
       "location": "Umbrella Arts",
       "address": "",
@@ -660,9 +661,9 @@
       "longitude": null
     },
     {
-      "id": "420d508d-cacd-8166-95c0-c2fbebb32332",
+      "id": "421d508d-cacd-81c1-9d6b-e49defadfcc0",
       "name": "Cooking Class: Sushi Making 101",
-      "date": "2026-11-22",
+      "date": "2026-11-23",
       "time": "",
       "location": "Trillium - Fort Point",
       "address": "",
@@ -677,9 +678,9 @@
       "longitude": null
     },
     {
-      "id": "420d508d-cacd-8127-914d-ff39e9ba9b53",
+      "id": "421d508d-cacd-8132-9cae-eb61ddb196e3",
       "name": "Scenic RailRiders & Holiday Lights Tour | Concord, NH",
-      "date": "2026-11-22",
+      "date": "2026-11-23",
       "time": "",
       "location": "Scenic RailRiders",
       "address": "",
@@ -696,9 +697,9 @@
       "longitude": null
     },
     {
-      "id": "420d508d-cacd-81fd-9a7e-e4895ca75c8a",
+      "id": "421d508d-cacd-8168-a6fa-c6d2b9a39603",
       "name": "10+ Holiday Lighting Celebrations Coming to Boston in 2026",
-      "date": "2026-11-22",
+      "date": "2026-11-23",
       "time": "",
       "location": "Boston",
       "address": "",
@@ -714,9 +715,9 @@
       "longitude": null
     },
     {
-      "id": "420d508d-cacd-81ab-b3c5-ee0d3306e286",
+      "id": "421d508d-cacd-8149-a7ef-f036067e21a7",
       "name": "Holiday Food Drive for the Salem Pantry",
-      "date": "2026-11-22",
+      "date": "2026-11-23",
       "time": "",
       "location": "Peabody Essex Museum",
       "address": "",
@@ -733,9 +734,9 @@
       "longitude": null
     },
     {
-      "id": "420d508d-cacd-8180-ba48-da8e0234fe75",
+      "id": "421d508d-cacd-8198-b9b8-c389bed384f1",
       "name": "Make a Mosaic Frame or a Piece of Jewelry",
-      "date": "2026-11-22",
+      "date": "2026-11-23",
       "time": "",
       "location": "Amy Marks' Mosaic Studio",
       "address": "",
@@ -750,9 +751,9 @@
       "longitude": null
     },
     {
-      "id": "420d508d-cacd-818c-bf2e-e344f406d2ff",
+      "id": "421d508d-cacd-8134-825f-ea7b72d55404",
       "name": "EXPERIMENTAL: Exhibition by Courtney Fern",
-      "date": "2026-11-22",
+      "date": "2026-11-23",
       "time": "",
       "location": "Hopkinton Center for the Arts",
       "address": "",
@@ -767,9 +768,9 @@
       "longitude": null
     },
     {
-      "id": "420d508d-cacd-8172-a137-c84ad03ac352",
+      "id": "421d508d-cacd-81fa-b09a-f93b2bf497c1",
       "name": "STEVE ROSENTHAL RETURNS TO PAUL DIETRICH GALLERY WITH NEW PHOTOGRAPHY EXHIBIT: A SYMPHONY IN BRICK",
-      "date": "2026-11-22",
+      "date": "2026-11-23",
       "time": "",
       "location": "Paul Dietrich Gallery at CambridgeSeven",
       "address": "",
@@ -784,9 +785,9 @@
       "longitude": null
     },
     {
-      "id": "420d508d-cacd-8138-8661-d19890cf6234",
+      "id": "421d508d-cacd-81f2-90c5-ff26a7a95948",
       "name": "Exhibition: Life, Liberty, and the Pursuit of Happiness",
-      "date": "2026-11-22",
+      "date": "2026-11-23",
       "time": "",
       "location": "Central Library at Copley Square",
       "address": "",
@@ -801,9 +802,9 @@
       "longitude": null
     },
     {
-      "id": "420d508d-cacd-81c6-ba18-c6b45c90f712",
+      "id": "421d508d-cacd-815f-9dc8-eff1fb075413",
       "name": "LOCAL PLANET FITNESS CLUBS HOST HOLIDAY GIVING TREES",
-      "date": "2026-11-22",
+      "date": "2026-11-23",
       "time": "",
       "location": "Planet Fitness \u2013 Easton",
       "address": "",
@@ -820,9 +821,9 @@
       "longitude": null
     },
     {
-      "id": "420d508d-cacd-816d-9351-ce6e6a3e5327",
+      "id": "421d508d-cacd-81e8-9cca-ef90ba0875ea",
       "name": "\"Lighting the Landscape\" - Paintings by Harley Bartlett",
-      "date": "2026-11-22",
+      "date": "2026-11-23",
       "time": "",
       "location": "The Guild of Boston Artists",
       "address": "",
@@ -838,91 +839,83 @@
       "longitude": null
     },
     {
-      "id": "420d508d-cacd-8181-bd52-d545cab3ad42",
-      "name": "Holiday Pottery Sale & Fundraiser",
-      "date": "2026-11-22",
-      "time": "",
-      "location": "Potters Place",
+      "id": "421d508d-cacd-81cb-a3eb-fbf229259895",
+      "name": "Figure Drawing Basics ( 3 Week Class)",
+      "date": "2026-11-23",
+      "time": "7:00 PM",
+      "location": "The Boston Figure",
       "address": "",
       "price": "",
       "description": "",
-      "url": "https://www.thebostoncalendar.com/events/holiday-pottery-sale-fundraiser",
+      "url": "https://www.thebostoncalendar.com/events/figure-drawing-basics-3-week-class--23",
       "source": "Boston Calendar",
       "categories": [
-        "South Asian",
-        "Arts & Crafts",
-        "Cultural Festival",
-        "Career & Tech"
+        "Arts & Crafts"
       ],
       "latitude": null,
       "longitude": null
     },
     {
-      "id": "420d508d-cacd-812a-89cd-e795a3af33de",
-      "name": "$10 Commuter Rail Weekends and Holidays",
-      "date": "2026-11-22",
-      "time": "",
-      "location": "Boston",
+      "id": "421d508d-cacd-81a5-9be8-ff75ea1e0679",
+      "name": "Figure Drawing",
+      "date": "2026-11-23",
+      "time": "6:30 PM",
+      "location": "Artisans Asylum",
       "address": "",
       "price": "",
       "description": "",
-      "url": "https://www.thebostoncalendar.com/events/10-commuter-rail-weekends-and-holidays--99",
+      "url": "https://www.thebostoncalendar.com/events/figure-drawing--59",
       "source": "Boston Calendar",
       "categories": [
-        "South Asian",
-        "Cultural Festival",
-        "Career & Tech"
+        "Arts & Crafts"
       ],
       "latitude": null,
       "longitude": null
     },
     {
-      "id": "420d508d-cacd-8198-a42e-ebeda64a52b7",
-      "name": "Women in Film Workshop Series",
-      "date": "2026-11-22",
-      "time": "4:00 PM",
-      "location": "Somerville Media Center",
+      "id": "421d508d-cacd-81a1-a9a8-c27353165ed8",
+      "name": "Beginner/Intermediate Adult Hip Hop Dance Class at Urbanity Dance!",
+      "date": "2026-11-23",
+      "time": "6:10 PM",
+      "location": "Urbanity Dance Headquarters",
       "address": "",
       "price": "",
       "description": "",
-      "url": "https://www.thebostoncalendar.com/events/women-in-film-workshop-series--3",
+      "url": "https://www.thebostoncalendar.com/events/beginner-intermediate-adult-hip-hop-dance-class-at-urbanity-dance--11",
       "source": "Boston Calendar",
       "categories": [
-        "Arts & Crafts",
-        "Theater & Film"
+        "Music & Dance"
       ],
       "latitude": null,
       "longitude": null
     },
     {
-      "id": "420d508d-cacd-8186-96ad-c9177b46287f",
-      "name": "Holiday Maker Market",
-      "date": "2026-11-22",
-      "time": "2:00 PM",
-      "location": "Marzae Cellar + Provisions",
+      "id": "421d508d-cacd-8117-bd4e-d182b7650db1",
+      "name": "Yoga for Creativity",
+      "date": "2026-11-23",
+      "time": "6:00 PM",
+      "location": "The Foundry",
       "address": "",
       "price": "",
       "description": "",
-      "url": "https://www.thebostoncalendar.com/events/holiday-maker-market",
+      "url": "https://www.thebostoncalendar.com/events/yoga-for-creativity--4",
       "source": "Boston Calendar",
       "categories": [
-        "South Asian",
-        "Food & Markets",
-        "Cultural Festival"
+        "Sports & Outdoors"
       ],
       "latitude": null,
       "longitude": null
     },
     {
-      "id": "420d508d-cacd-8135-aba2-e2a8bd6bae40",
+      "id": "421d508d-cacd-81d0-9ba0-f7ab5a80f00b",
       "name": "PrANA, Pens n\u2019 Paint Art Workshop: An Intuitive Mindfulness Art-Making Experience",
-      "date": "2026-11-22",
-      "time": "2:00 PM",
+      "date": "2026-11-23",
+      "time": "11:00 AM",
       "location": "Boston Figure Art Center",
       "address": "",
       "price": "",
       "description": "",
-      "url": "https://www.thebostoncalendar.com/events/prana-pens-n-paint-art-workshop-an-intuitive-mindfulness-art-making-experience--53",
+      "url": "https://www.thebostoncalendar.com/events/prana-pens-n-paint-art-workshop-an-intuitive-mindfulness-art-making-experience",
       "source": "Boston Calendar",
       "categories": [
         "Arts & Crafts",
@@ -930,613 +923,6 @@
       ],
       "latitude": null,
       "longitude": null
-    },
-    {
-      "id": "420d508d-cacd-8160-9761-c206d25fca9e",
-      "name": "Coffee+Crafts",
-      "date": "2026-11-22",
-      "time": "1:00 PM",
-      "location": "Boston Fiber Company",
-      "address": "",
-      "price": "",
-      "description": "",
-      "url": "https://www.thebostoncalendar.com/events/coffee-crafts--114",
-      "source": "Boston Calendar",
-      "categories": [
-        "Arts & Crafts",
-        "Coffee & Chai"
-      ],
-      "latitude": null,
-      "longitude": null
-    },
-    {
-      "id": "420d508d-cacd-81b4-9fc7-f493a9034dc0",
-      "name": "Thanksgiving Centerpiece Floral Design Class",
-      "date": "2026-11-22",
-      "time": "1:00 PM",
-      "location": "CASS SCHOOL OF FLORAL DESIGN",
-      "address": "",
-      "price": "",
-      "description": "",
-      "url": "https://www.thebostoncalendar.com/events/thanksgiving-centerpiece-floral-design-class",
-      "source": "Boston Calendar",
-      "categories": [
-        "South Asian"
-      ],
-      "latitude": null,
-      "longitude": null
-    },
-    {
-      "id": "420d508d-cacd-81f3-bbf1-d2b18f117bdc",
-      "name": "BHANG YOGA @ The Joint",
-      "date": "2026-11-22",
-      "time": "11:00 AM",
-      "location": "The Joint",
-      "address": "",
-      "price": "",
-      "description": "",
-      "url": "https://www.thebostoncalendar.com/events/bhang-yoga-the-joint--2",
-      "source": "Boston Calendar",
-      "categories": [
-        "Sports & Outdoors"
-      ],
-      "latitude": null,
-      "longitude": null
-    },
-    {
-      "id": "420d508d-cacd-8197-80a4-d85e7db98dec",
-      "name": "Growing in Compassion, Courage & Resilience: Sunday 11am meditation class",
-      "date": "2026-11-22",
-      "time": "11:00 AM",
-      "location": "Kadampa Meditation Center Boston",
-      "address": "",
-      "price": "",
-      "description": "",
-      "url": "https://www.thebostoncalendar.com/events/growing-in-compassion-courage-resilience-sunday-11am-meditation-class--3",
-      "source": "Boston Calendar",
-      "categories": [
-        "Religious"
-      ],
-      "latitude": null,
-      "longitude": null
-    },
-    {
-      "id": "420d508d-cacd-8126-b62d-c5eaa4b5fe66",
-      "name": "Pottery Workshop: Ornament Painting",
-      "date": "2026-11-22",
-      "time": "11:00 AM",
-      "location": "The Shared Palette @ Bow Market",
-      "address": "",
-      "price": "",
-      "description": "",
-      "url": "https://www.thebostoncalendar.com/events/pottery-workshop-ornament-painting--2",
-      "source": "Boston Calendar",
-      "categories": [
-        "Arts & Crafts",
-        "Career & Tech"
-      ],
-      "latitude": null,
-      "longitude": null
-    },
-    {
-      "id": "420d508d-cacd-81d6-84f5-fef3a9574cc7",
-      "name": "Boston Women\u2019s Holiday Market at Warehouse XI",
-      "date": "2026-11-22",
-      "time": "11:00 AM",
-      "location": "Warehouse XI",
-      "address": "",
-      "price": "",
-      "description": "",
-      "url": "https://www.thebostoncalendar.com/events/boston-women-s-holiday-market-at-warehouse-xi",
-      "source": "Boston Calendar",
-      "categories": [
-        "South Asian",
-        "Food & Markets",
-        "Cultural Festival"
-      ],
-      "latitude": null,
-      "longitude": null
-    },
-    {
-      "id": "420d508d-cacd-81d7-b05a-e33397771d2c",
-      "name": "Mistletoe Market - Holiday Shopping in Falmouth, MA - November 22",
-      "date": "2026-11-22",
-      "time": "11:00 AM",
-      "location": "Sea Crest Hotel Falmouth",
-      "address": "",
-      "price": "",
-      "description": "",
-      "url": "https://www.thebostoncalendar.com/events/mistletoe-market-holiday-shopping-in-falmouth-ma-november-22",
-      "source": "Boston Calendar",
-      "categories": [
-        "South Asian",
-        "Food & Markets",
-        "Cultural Festival"
-      ],
-      "latitude": null,
-      "longitude": null
-    },
-    {
-      "id": "420d508d-cacd-8153-84a1-c1354efcaeb8",
-      "name": "DIY Terrarium Workshop",
-      "date": "2026-11-22",
-      "time": "11:00 AM",
-      "location": "Bow Market",
-      "address": "",
-      "price": "",
-      "description": "",
-      "url": "https://www.thebostoncalendar.com/events/diy-terrarium-workshop",
-      "source": "Boston Calendar",
-      "categories": [
-        "Arts & Crafts"
-      ],
-      "latitude": null,
-      "longitude": null
-    },
-    {
-      "id": "420d508d-cacd-81b6-bc72-f4a35b0894bf",
-      "name": "4goodvibes 8th annual holiday market",
-      "date": "2026-11-22",
-      "time": "11:00 AM",
-      "location": "American legion",
-      "address": "",
-      "price": "",
-      "description": "",
-      "url": "https://www.thebostoncalendar.com/events/4goodvibes-8th-annual-holiday-market",
-      "source": "Boston Calendar",
-      "categories": [
-        "South Asian",
-        "Food & Markets",
-        "Cultural Festival"
-      ],
-      "latitude": null,
-      "longitude": null
-    },
-    {
-      "id": "420d508d-cacd-8119-9825-ebb7ae0e28ae",
-      "name": "The Winthrop Holiday Markets",
-      "date": "2026-11-22",
-      "time": "10:00 AM",
-      "location": "WCAT Building",
-      "address": "",
-      "price": "",
-      "description": "",
-      "url": "https://www.thebostoncalendar.com/events/holiday-markets",
-      "source": "Boston Calendar",
-      "categories": [
-        "South Asian",
-        "Food & Markets",
-        "Cultural Festival"
-      ],
-      "latitude": null,
-      "longitude": null
-    },
-    {
-      "id": "41cd508d-cacd-811d-8162-d86cdf3a8f20",
-      "name": "TIMBA CHALLENGE & REPARTO WORKSHOP - NOV. 22",
-      "date": "2026-11-22",
-      "time": "",
-      "location": "620 Massachusetts Ave",
-      "address": "620 Massachusetts Avenue, Cambridge, MA",
-      "price": "",
-      "description": "Two hours of Timba and Reparto with Fer & Guille! Challenge yourself, build your skills, and dance with El Bonche.",
-      "url": "https://www.eventbrite.com/e/timba-challenge-reparto-workshop-nov-22-tickets-2004743275102",
-      "source": "Eventbrite",
-      "categories": [
-        "Arts & Crafts",
-        "Music & Dance"
-      ],
-      "latitude": 42.3649942,
-      "longitude": -71.1034845
-    },
-    {
-      "id": "41cd508d-cacd-81d7-bdcd-ed5e1d3795a6",
-      "name": "Farm Fresh Christmas - Paint and Sip in Boston | Classpop!\u2122",
-      "date": "2026-11-22",
-      "time": "",
-      "location": "Long Live Beerworks",
-      "address": "152 Hampden Street, Boston, MA",
-      "price": "",
-      "description": "",
-      "url": "https://www.eventbrite.com/e/farm-fresh-christmas-paint-and-sip-in-boston-classpoptm-tickets-1998798957488",
-      "source": "Eventbrite",
-      "categories": [
-        "Arts & Crafts",
-        "Career & Tech"
-      ],
-      "latitude": 42.3277516,
-      "longitude": -71.07482019999999
-    },
-    {
-      "id": "41cd508d-cacd-81a1-9a74-eea30e36a673",
-      "name": "Paint Night Done Right - Boston - Paint and Sip in Boston | Classpop!\u2122",
-      "date": "2026-11-22",
-      "time": "",
-      "location": "Location provided after booking",
-      "address": "Boston, MA",
-      "price": "",
-      "description": "",
-      "url": "https://www.eventbrite.com/e/paint-night-done-right-boston-paint-and-sip-in-boston-classpoptm-tickets-1998798955482",
-      "source": "Eventbrite",
-      "categories": [
-        "Arts & Crafts",
-        "Career & Tech"
-      ],
-      "latitude": 42.3555076,
-      "longitude": -71.0565364
-    },
-    {
-      "id": "41cd508d-cacd-810e-b93b-d8da829c1eba",
-      "name": "Mini Paintings Workshop with Meg Gawlik",
-      "date": "2026-11-22",
-      "time": "",
-      "location": "The School of Painting",
-      "address": "62B Summer Street, Somerville, MA",
-      "price": "",
-      "description": "Settle into an engaging hands-on workshop as Meg Gawlik shares her process and guides you in painting micro landscapes.",
-      "url": "https://www.eventbrite.com/e/mini-paintings-workshop-with-meg-gawlik-tickets-2004198465562",
-      "source": "Eventbrite",
-      "categories": [
-        "Arts & Crafts",
-        "Career & Tech"
-      ],
-      "latitude": 42.3834769,
-      "longitude": -71.1003593
-    },
-    {
-      "id": "41cd508d-cacd-8168-9900-dad698d2e4c5",
-      "name": "Entrepreneurship Conference 2026 at Harvard Business School",
-      "date": "2026-11-22",
-      "time": "",
-      "location": "Klarman Hall",
-      "address": "Soldiers Field Road, Boston, MA",
-      "price": "",
-      "description": "Join us at the Entrepreneurship Conference on 22nd November!",
-      "url": "https://www.eventbrite.com/e/entrepreneurship-conference-2026-at-harvard-business-school-tickets-1994640530521",
-      "source": "Eventbrite",
-      "categories": [
-        "South Asian",
-        "Talks & Lectures",
-        "Cultural Festival",
-        "Career & Tech"
-      ],
-      "latitude": 42.3650166,
-      "longitude": -71.1209976
-    },
-    {
-      "id": "41ad508d-cacd-813e-a784-d9ac69de2c64",
-      "name": "Golden Hour Yoga with Shireen Damghani",
-      "date": "2026-11-22",
-      "time": "",
-      "location": "Dear Annie",
-      "address": "1741 Massachusetts Avenue, Cambridge, MA",
-      "price": "",
-      "description": "Half-day yoga retreat, a practice centered around gratitude and preparing the body and mind for the holiday season!",
-      "url": "https://www.eventbrite.com/e/golden-hour-yoga-with-shireen-damghani-tickets-2002841418598",
-      "source": "Eventbrite",
-      "categories": [
-        "Sports & Outdoors"
-      ],
-      "latitude": 42.3846289,
-      "longitude": -71.1191585
-    },
-    {
-      "id": "41ad508d-cacd-81e2-9d6c-c5236c3c2f0a",
-      "name": "Developing Connection and Compassion - Sunday 11am meditation class",
-      "date": "2026-11-22",
-      "time": "",
-      "location": "Kadampa Meditation Center Boston",
-      "address": "2298 Massachusetts Avenue, Cambridge, MA",
-      "price": "",
-      "description": "This world needs more peace. We can all be a part of bringing this about by becoming a more peaceful person.  Relax, recharge and connect.",
-      "url": "https://www.eventbrite.com/e/developing-connection-and-compassion-sunday-11am-meditation-class-tickets-2003012228495",
-      "source": "Eventbrite",
-      "categories": [
-        "Religious"
-      ],
-      "latitude": 42.3950516,
-      "longitude": -71.12790150000001
-    },
-    {
-      "id": "41ad508d-cacd-8176-af82-c4e4a9681da6",
-      "name": "Growing in Compassion, Courage & Resilience - Sunday 11am meditation class",
-      "date": "2026-11-22",
-      "time": "",
-      "location": "Kadampa Meditation Center Boston",
-      "address": "2298 Massachusetts Avenue, Cambridge, MA",
-      "price": "",
-      "description": "This world needs more peace. We can all be a part of bringing this about by becoming a more peaceful person.  Relax, recharge and connect.",
-      "url": "https://www.eventbrite.com/e/growing-in-compassion-courage-resilience-sunday-11am-meditation-class-tickets-2004379731734",
-      "source": "Eventbrite",
-      "categories": [
-        "Religious"
-      ],
-      "latitude": 42.3950516,
-      "longitude": -71.12790150000001
-    },
-    {
-      "id": "41ad508d-cacd-811f-80fd-d69232b4eb04",
-      "name": "In-person class: Handmade Pizza Party (Boston)",
-      "date": "2026-11-22",
-      "time": "",
-      "location": "Foundation Kitchen",
-      "address": "32 Cambridge Street, Boston, MA",
-      "price": "",
-      "description": "Handmade Pizza Party",
-      "url": "https://www.eventbrite.com/e/in-person-class-handmade-pizza-party-boston-tickets-1997514277977",
-      "source": "Eventbrite",
-      "categories": [
-        "Arts & Crafts",
-        "Food & Markets"
-      ],
-      "latitude": 42.3835512,
-      "longitude": -71.0744297
-    },
-    {
-      "id": "41ad508d-cacd-8127-b7ff-d70ca570c9ae",
-      "name": "Boston UNICEF Gala",
-      "date": "2026-11-22",
-      "time": "",
-      "location": "225 Bay State Rd",
-      "address": "225 Bay State Road, Boston, MA",
-      "price": "",
-      "description": "Join BU UNICEF for an evening of inspiring speakers, community, and giving back. All proceeds support UNICEF\u2019s work for children worldwide!",
-      "url": "https://www.eventbrite.com/e/boston-unicef-gala-tickets-2004554745204",
-      "source": "Eventbrite",
-      "categories": [
-        "Career & Tech"
-      ],
-      "latitude": 42.3508125,
-      "longitude": -71.1035022
-    },
-    {
-      "id": "41ad508d-cacd-8174-a8cc-eff1ef08ff06",
-      "name": "Pressed Flower Frame (Cambridge)",
-      "date": "2026-11-22",
-      "time": "",
-      "location": "Craft Loft (Cambridge Store)",
-      "address": "100 Cambridgeside Place, Cambridge, MA",
-      "price": "",
-      "description": "Make a lovely framed art using fresh pressed real flowers and foliage!",
-      "url": "https://www.eventbrite.com/e/pressed-flower-frame-cambridge-tickets-2003019053910",
-      "source": "Eventbrite",
-      "categories": [
-        "Arts & Crafts"
-      ],
-      "latitude": 42.3674404,
-      "longitude": -71.0765653
-    },
-    {
-      "id": "41ad508d-cacd-81eb-9eb0-caa83bb2b383",
-      "name": "DIY Terrarium Workshop",
-      "date": "2026-11-22",
-      "time": "",
-      "location": "Bow Market",
-      "address": "1 Bow Market Way, Somerville, MA",
-      "price": "",
-      "description": "Create your own miniature world and bring home a living piece of nature.",
-      "url": "https://www.eventbrite.com/e/diy-terrarium-workshop-tickets-2003514078542",
-      "source": "Eventbrite",
-      "categories": [
-        "Arts & Crafts",
-        "Career & Tech"
-      ],
-      "latitude": 42.3809484,
-      "longitude": -71.0983239
-    },
-    {
-      "id": "41ad508d-cacd-8109-bcc8-f80f18363022",
-      "name": "Holiday Mosaics Workshop with Judy Vazquez",
-      "date": "2026-11-22",
-      "time": "",
-      "location": "Mill District Local Art Gallery",
-      "address": "91 Cowls Road, Amherst, MA",
-      "price": "",
-      "description": "Make a few mosaic treasures, perfect for gift giving!",
-      "url": "https://www.eventbrite.com/e/holiday-mosaics-workshop-with-judy-vazquez-tickets-2003621657313",
-      "source": "Eventbrite",
-      "categories": [
-        "South Asian",
-        "Arts & Crafts",
-        "Cultural Festival",
-        "Career & Tech"
-      ],
-      "latitude": 42.4143945,
-      "longitude": -72.5285336
-    },
-    {
-      "id": "41ad508d-cacd-8192-b783-e18caf8ad841",
-      "name": "Intro Fiber Art: Art on Hoops",
-      "date": "2026-11-22",
-      "time": "",
-      "location": "Artisan's Asylum",
-      "address": "96 Holton Street, Boston, MA",
-      "price": "",
-      "description": "This series of arts-and-crafts projects is centered on using wooden hoops for multiple fiber arts techniques.",
-      "url": "https://www.eventbrite.com/e/intro-fiber-art-art-on-hoops-tickets-2003161025551",
-      "source": "Eventbrite",
-      "categories": [
-        "Arts & Crafts"
-      ],
-      "latitude": 42.3598794,
-      "longitude": -71.1379218
-    },
-    {
-      "id": "41ad508d-cacd-817f-ac08-ed16728e48f7",
-      "name": "Back Sacadas \u2013 8-Week Pre-Advanced Argentine Tango Course! | Sundays 11am",
-      "date": "2026-11-22",
-      "time": "",
-      "location": "Ultimate Tango New Location",
-      "address": "349 Washington St, Malden, MA",
-      "price": "",
-      "description": "Sacada means displacement. Back sacada means mastering it in reverse.",
-      "url": "https://www.eventbrite.com/e/back-sacadas-8-week-pre-advanced-argentine-tango-course-sundays-11am-tickets-2003543337055",
-      "source": "Eventbrite",
-      "categories": [
-        "Music & Dance"
-      ],
-      "latitude": 42.439466,
-      "longitude": -71.071432
-    },
-    {
-      "id": "41ad508d-cacd-8167-bf47-c4a028147334",
-      "name": "Afro Dance Class W/ Young Burna",
-      "date": "2026-11-22",
-      "time": "",
-      "location": "4 Star Dance Studio",
-      "address": "614 Blue Hill Avenue, Boston, MA",
-      "price": "",
-      "description": "Join Young Burna for a beginner-friendly Afro-fusion dance class\u2014bring a friend for two spots at $30 with RSVP.",
-      "url": "https://www.eventbrite.com/e/afro-dance-class-w-young-burna-tickets-2004547481478",
-      "source": "Eventbrite",
-      "categories": [
-        "Music & Dance"
-      ],
-      "latitude": 42.3030737,
-      "longitude": -71.08486239999999
-    },
-    {
-      "id": "41ad508d-cacd-813f-93b5-d36342405bbd",
-      "name": "Introduction to Pottery for All Ages - Back Bay - Pottery Class in Boston | Classpop!\u2122",
-      "date": "2026-11-22",
-      "time": "",
-      "location": "Pottery Studio 1 Boston",
-      "address": "279 Newbury St, Boston, MA",
-      "price": "",
-      "description": "",
-      "url": "https://www.eventbrite.com/e/introduction-to-pottery-for-all-ages-back-bay-pottery-class-in-boston-classpoptm-tickets-2004214125401",
-      "source": "Eventbrite",
-      "categories": [
-        "Arts & Crafts"
-      ],
-      "latitude": 42.3493929,
-      "longitude": -71.0839819
-    },
-    {
-      "id": "41ad508d-cacd-81e9-851e-dea13e25bbe3",
-      "name": "Tango Class all levels with Practica",
-      "date": "2026-11-22",
-      "time": "",
-      "location": "Dance Union Studio",
-      "address": "16 Bow Street, Somerville, MA",
-      "price": "",
-      "description": "CAMINITO is a welcoming place which gathers us together to step along playfully...",
-      "url": "https://www.eventbrite.com/e/tango-class-all-levels-with-practica-tickets-1992647757082",
-      "source": "Eventbrite",
-      "categories": [
-        "Middle Eastern",
-        "Cultural Festival"
-      ],
-      "latitude": 42.3807113,
-      "longitude": -71.09720879999999
-    },
-    {
-      "id": "41ad508d-cacd-8197-892d-db2ebc48336d",
-      "name": "Morningstar Singers and the Nugumij Drum",
-      "date": "2026-11-22",
-      "time": "",
-      "location": "Somerville Museum",
-      "address": "1 Westwood Road, Somerville, MA",
-      "price": "",
-      "description": "Join the Morningstar Singers and the Nugumij Drum from UNACC for an afternoon of Indigenous song and stories",
-      "url": "https://www.eventbrite.com/e/morningstar-singers-and-the-nugumij-drum-tickets-2004461656774",
-      "source": "Eventbrite",
-      "categories": [
-        "Middle Eastern"
-      ],
-      "latitude": 42.386978,
-      "longitude": -71.10475459999999
-    },
-    {
-      "id": "41ad508d-cacd-8179-91b7-d1ade66f826f",
-      "name": "Intro to Tango (Dance classes for beginners)",
-      "date": "2026-11-22",
-      "time": "",
-      "location": "Dance Union Studio",
-      "address": "16 Bow Street, Somerville, MA",
-      "price": "",
-      "description": "For Total Beginners, or beginners who wants to LEVEL UP their Tango, and everyone who wants to learn fundamentals in a course of 4 classes",
-      "url": "https://www.eventbrite.com/e/intro-to-tango-dance-classes-for-beginners-tickets-1983638680692",
-      "source": "Eventbrite",
-      "categories": [
-        "Middle Eastern",
-        "Music & Dance"
-      ],
-      "latitude": 42.3807113,
-      "longitude": -71.09720879999999
-    },
-    {
-      "id": "41ad508d-cacd-81e0-8acb-d160c6cfa438",
-      "name": "Mosaic Art Classes Newport: Turkish Lamp Workshop",
-      "date": "2026-11-22",
-      "time": "",
-      "location": "Newport Marriott Hotel & Spa",
-      "address": "25 America's Cup Avenue, Newport, RI",
-      "price": "",
-      "description": "Learn how to make a Turkish mosaic lamp in this Newport workshop! Book Now on Eventbrite!",
-      "url": "https://www.eventbrite.com/e/mosaic-art-classes-newport-turkish-lamp-workshop-tickets-2004095881731",
-      "source": "Eventbrite",
-      "categories": [
-        "Middle Eastern",
-        "Arts & Crafts",
-        "Career & Tech"
-      ],
-      "latitude": 41.49016950000001,
-      "longitude": -71.3181762
-    },
-    {
-      "id": "41ad508d-cacd-81ca-a0d7-f6f70ba6888f",
-      "name": "A Musical Journey Around the World: From Ukraine, to Israel and Beyond",
-      "date": "2026-11-22",
-      "time": "",
-      "location": "Museum of Modern Renaissance",
-      "address": "115 College Avenue, Somerville, MA",
-      "price": "",
-      "description": "Internationally acclaimed artists Konstantin Rittel-Kobyliansky, Ella Pasik, & Olga Lisovska perform vocal music spanning cultures & genres",
-      "url": "https://www.eventbrite.com/e/a-musical-journey-around-the-world-from-ukraine-to-israel-and-beyond-tickets-1997951691292",
-      "source": "Eventbrite",
-      "categories": [
-        "South Asian",
-        "Music & Dance",
-        "Career & Tech"
-      ],
-      "latitude": 42.39980490000001,
-      "longitude": -71.1179138
-    },
-    {
-      "id": "41ad508d-cacd-8170-be46-cd307eb37b98",
-      "name": "Kid's Pizza Making Class At Posto - South End!",
-      "date": "2026-11-22",
-      "time": "",
-      "location": "Posto South End",
-      "address": "1357 Washington Street, Boston, MA",
-      "price": "",
-      "description": "Grab your little pizza chef's and join us at Posto for a pizza + cannoli making class!",
-      "url": "https://www.eventbrite.com/e/kids-pizza-making-class-at-posto-south-end-tickets-2004439311940",
-      "source": "Eventbrite",
-      "categories": [
-        "Community"
-      ],
-      "latitude": 42.3415894,
-      "longitude": -71.0693163
-    },
-    {
-      "id": "41ad508d-cacd-81a1-a65c-dadfe1326e47",
-      "name": "Sushi Making 101 - Sushi Making Cooking Class in Boston | Classpop!\u2122",
-      "date": "2026-11-22",
-      "time": "",
-      "location": "Trillium Brewing Company - Fort Point",
-      "address": "50 Thomson Pl, Boston, MA",
-      "price": "",
-      "description": "",
-      "url": "https://www.eventbrite.com/e/sushi-making-101-sushi-making-cooking-class-in-boston-classpoptm-tickets-2003393929172",
-      "source": "Eventbrite",
-      "categories": [
-        "South Asian",
-        "Food & Markets"
-      ],
-      "latitude": 42.35192199999999,
-      "longitude": -71.04705539999999
     },
     {
       "id": "41cd508d-cacd-81ef-ac9b-d89d0a1ba99f",
@@ -6111,5 +5497,5 @@
       "longitude": -71.05251179999999
     }
   ],
-  "updated": "2026-11-22T07:59:38.496574"
+  "updated": "2026-11-23T08:51:53.816527"
 }
